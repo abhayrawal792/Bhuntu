@@ -12,3 +12,5 @@ The video route visibly rendered as a dark cinema-style page with a large “Pre
 The final build also shuffles the real `ALL_MEDIA_PHOTOS` catalog once per full browser load. This means indexed hero images and gallery ordering change on refresh, while the shared gift layer keeps its own per-route visit rotation. The filename-keyed metadata map remains stable, so each new image receives its own vision-reviewed caption, memory, and Abu comment.
 
 The post-shuffle production sweep visited all 263 sequential routes with 0 blank roots and 0 uncaught runtime or console errors.
+
+The public deployment at `f6fa879` rendered `/gallery` with stage `ink-noir` and identity `002-lavender-diary-build-a-small-constellation`. Its lead photo was `IMG20260115095622.jpg`, and the displayed caption was “Another shot of our family gathered on that misty morning, smiles all around.” The accompanying comment referenced the visible family faces and heavy fog, with a root text length of 2,825 characters.
