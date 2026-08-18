@@ -318,7 +318,7 @@ virtual-cat-cafe,Virtual Cat Cafe,template_page-local,message-sequence,none,M-GO
 voice-soundboard,Voice Soundboard,template_page-local,message-sequence,none,M-NIGHT
 wax-sealer,Wax Sealer,template_page-local,letter-or-paper,none,M-BLUSH
 whats-app10k-love,Whats App10k Love,template_WhatsApp10kLove,message-sequence,none,M-MONO
-wish-dandelion,Wish Dandelion,template_WishDandelion,guided-interaction,none,M-SEPIA
+wish-dandelion,Wish Dandelion,template_page-local,grow-or-assemble,none,M-SEPIA
 wish-wheel,Wish Wheel,template_page-local,randomized-choice,none,M-ELECT
 wishing-well,Wishing Well,template_WishingWell,guided-interaction,none,M-WINE
 word-search,Word Search,template_LoveWordSearch,game-or-puzzle,none,M-PAPER
