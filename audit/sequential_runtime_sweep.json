@@ -13,7 +13,7 @@
     "route": "/gallery",
     "url": "http://127.0.0.1:4173/Bhuntu/#/gallery",
     "blank": false,
-    "textLength": 2751,
+    "textLength": 2754,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Faces Abu Keeps Close\nBirthday gift 2 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -22,7 +22,7 @@
     "route": "/video",
     "url": "http://127.0.0.1:4173/Bhuntu/#/video",
     "blank": false,
-    "textLength": 1368,
+    "textLength": 1428,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSamjhana in Motion\nBirthday gift 3 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -31,7 +31,7 @@
     "route": "/letter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/letter",
     "blank": false,
-    "textLength": 969,
+    "textLength": 1099,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Letter from Abu\nBirthday gift 4 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -40,7 +40,7 @@
     "route": "/bouquet",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bouquet",
     "blank": false,
-    "textLength": 2102,
+    "textLength": 2089,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Bouquet of Words for Bhuntu\nBirthday gift 5 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -49,7 +49,7 @@
     "route": "/distance",
     "url": "http://127.0.0.1:4173/Bhuntu/#/distance",
     "blank": false,
-    "textLength": 1493,
+    "textLength": 1444,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nNepalgunj to Sakai, Osaka\nBirthday gift 6 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -58,7 +58,7 @@
     "route": "/surprise",
     "url": "http://127.0.0.1:4173/Bhuntu/#/surprise",
     "blank": false,
-    "textLength": 1220,
+    "textLength": 1222,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Surprise Abu Hid for You\nBirthday gift 7 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -67,7 +67,7 @@
     "route": "/quiz",
     "url": "http://127.0.0.1:4173/Bhuntu/#/quiz",
     "blank": false,
-    "textLength": 912,
+    "textLength": 939,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe One Game Abu Made for Samjhana\nBirthday gift 8 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants"
   },
@@ -76,7 +76,7 @@
     "route": "/stars",
     "url": "http://127.0.0.1:4173/Bhuntu/#/stars",
     "blank": false,
-    "textLength": 1660,
+    "textLength": 1595,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Sky Map Abu Keeps for You\nBirthday gift 9 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -85,7 +85,7 @@
     "route": "/time-capsule",
     "url": "http://127.0.0.1:4173/Bhuntu/#/time-capsule",
     "blank": false,
-    "textLength": 1610,
+    "textLength": 1609,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOpen When You Miss Abu\nBirthday gift 10 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -103,7 +103,7 @@
     "route": "/quote-generator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/quote-generator",
     "blank": false,
-    "textLength": 1251,
+    "textLength": 1206,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWords Abu Wants You to Hear\nBirthday gift 12 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -112,7 +112,7 @@
     "route": "/mystery-gifts",
     "url": "http://127.0.0.1:4173/Bhuntu/#/mystery-gifts",
     "blank": false,
-    "textLength": 1337,
+    "textLength": 1357,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFour Gifts for Samjhana\nBirthday gift 13 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -121,7 +121,7 @@
     "route": "/passport",
     "url": "http://127.0.0.1:4173/Bhuntu/#/passport",
     "blank": false,
-    "textLength": 1220,
+    "textLength": 1238,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOur Nepalgunj-to-Sakai Ticket\nBirthday gift 14 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -130,7 +130,7 @@
     "route": "/message-bottle",
     "url": "http://127.0.0.1:4173/Bhuntu/#/message-bottle",
     "blank": false,
-    "textLength": 1263,
+    "textLength": 1243,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Message Abu Sent Across the Water\nBirthday gift 15 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wan"
   },
@@ -139,7 +139,7 @@
     "route": "/music-box",
     "url": "http://127.0.0.1:4173/Bhuntu/#/music-box",
     "blank": false,
-    "textLength": 1688,
+    "textLength": 1671,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Song Abu Hears in Your Name\nBirthday gift 16 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants y"
   },
@@ -148,7 +148,7 @@
     "route": "/lanterns",
     "url": "http://127.0.0.1:4173/Bhuntu/#/lanterns",
     "blank": false,
-    "textLength": 1031,
+    "textLength": 1056,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWishes Abu Sends Up for You\nBirthday gift 17 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -157,7 +157,7 @@
     "route": "/photo-booth",
     "url": "http://127.0.0.1:4173/Bhuntu/#/photo-booth",
     "blank": false,
-    "textLength": 1237,
+    "textLength": 1258,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Photo Room for Sanzu\nBirthday gift 18 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -166,7 +166,7 @@
     "route": "/promise-tree",
     "url": "http://127.0.0.1:4173/Bhuntu/#/promise-tree",
     "blank": false,
-    "textLength": 1264,
+    "textLength": 1100,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Promises Abu Planted\nBirthday gift 19 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -175,7 +175,7 @@
     "route": "/treasure-chest",
     "url": "http://127.0.0.1:4173/Bhuntu/#/treasure-chest",
     "blank": false,
-    "textLength": 1078,
+    "textLength": 1149,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Keepsake Abu Locked Away\nBirthday gift 20 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -184,7 +184,7 @@
     "route": "/horoscope",
     "url": "http://127.0.0.1:4173/Bhuntu/#/horoscope",
     "blank": false,
-    "textLength": 1168,
+    "textLength": 1110,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSamjhana Written in the Stars\nBirthday gift 21 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -193,7 +193,7 @@
     "route": "/love-calculator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-calculator",
     "blank": false,
-    "textLength": 1403,
+    "textLength": 1284,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Measureless Love Abu Feels\nBirthday gift 22 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants yo"
   },
@@ -202,7 +202,7 @@
     "route": "/cooking-game",
     "url": "http://127.0.0.1:4173/Bhuntu/#/cooking-game",
     "blank": false,
-    "textLength": 1193,
+    "textLength": 1242,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Birthday Table for Sanu\nBirthday gift 23 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -211,7 +211,7 @@
     "route": "/love-pet",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-pet",
     "blank": false,
-    "textLength": 1128,
+    "textLength": 1108,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Soft Companion for Lonely Days\nBirthday gift 24 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants "
   },
@@ -220,7 +220,7 @@
     "route": "/wishing-well",
     "url": "http://127.0.0.1:4173/Bhuntu/#/wishing-well",
     "blank": false,
-    "textLength": 1521,
+    "textLength": 1520,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Wish Abu Dropped for You\nBirthday gift 25 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -229,7 +229,7 @@
     "route": "/voice-soundboard",
     "url": "http://127.0.0.1:4173/Bhuntu/#/voice-soundboard",
     "blank": false,
-    "textLength": 1164,
+    "textLength": 1135,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Things Abu Wants to Say Out Loud\nBirthday gift 26 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wa"
   },
@@ -238,7 +238,7 @@
     "route": "/fireworks",
     "url": "http://127.0.0.1:4173/Bhuntu/#/fireworks",
     "blank": false,
-    "textLength": 942,
+    "textLength": 974,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Sky Full of Abu’s Wishes\nBirthday gift 27 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -247,7 +247,7 @@
     "route": "/bucket-list",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bucket-list",
     "blank": false,
-    "textLength": 1277,
+    "textLength": 1240,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPlaces Abu Still Wants to Take You\nBirthday gift 28 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu want"
   },
@@ -256,7 +256,7 @@
     "route": "/origami",
     "url": "http://127.0.0.1:4173/Bhuntu/#/origami",
     "blank": false,
-    "textLength": 1521,
+    "textLength": 1438,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Paper Heart for Samjhana\nBirthday gift 29 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -265,7 +265,7 @@
     "route": "/affirmations",
     "url": "http://127.0.0.1:4173/Bhuntu/#/affirmations",
     "blank": false,
-    "textLength": 1391,
+    "textLength": 1372,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWords for Your Difficult Days\nBirthday gift 30 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -274,7 +274,7 @@
     "route": "/love-piano",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-piano",
     "blank": false,
-    "textLength": 1297,
+    "textLength": 1308,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Birthday Song for Bhuntu\nBirthday gift 31 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -283,7 +283,7 @@
     "route": "/wax-sealer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/wax-sealer",
     "blank": false,
-    "textLength": 1385,
+    "textLength": 1425,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Letter Abu Sealed for You\nBirthday gift 32 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -292,7 +292,7 @@
     "route": "/love-maze",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-maze",
     "blank": false,
-    "textLength": 1203,
+    "textLength": 1133,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFinding the Way Back to You\nBirthday gift 33 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -301,7 +301,7 @@
     "route": "/fortune-cookie",
     "url": "http://127.0.0.1:4173/Bhuntu/#/fortune-cookie",
     "blank": false,
-    "textLength": 1261,
+    "textLength": 1193,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFortunes Abu Wishes for Sanzu\nBirthday gift 34 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -310,7 +310,7 @@
     "route": "/love-potion",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-potion",
     "blank": false,
-    "textLength": 1252,
+    "textLength": 1265,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Little Bottle of Abu’s Feelings\nBirthday gift 35 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants"
   },
@@ -319,7 +319,7 @@
     "route": "/emoji-story",
     "url": "http://127.0.0.1:4173/Bhuntu/#/emoji-story",
     "blank": false,
-    "textLength": 1216,
+    "textLength": 1209,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOur Story in Small Symbols\nBirthday gift 36 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -328,7 +328,7 @@
     "route": "/love-dice",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-dice",
     "blank": false,
-    "textLength": 1215,
+    "textLength": 1261,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Tiny Chance to Smile\nBirthday gift 37 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -337,7 +337,7 @@
     "route": "/balloon-pop",
     "url": "http://127.0.0.1:4173/Bhuntu/#/balloon-pop",
     "blank": false,
-    "textLength": 1309,
+    "textLength": 1285,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Sky of Notes for Babe\nBirthday gift 38 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -346,7 +346,7 @@
     "route": "/couple-bingo",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-bingo",
     "blank": false,
-    "textLength": 1194,
+    "textLength": 1155,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Little Things We Notice\nBirthday gift 39 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -355,7 +355,7 @@
     "route": "/love-review",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-review",
     "blank": false,
-    "textLength": 1779,
+    "textLength": 1808,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nAbu’s Review of Samjhana\nBirthday gift 40 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -364,7 +364,7 @@
     "route": "/love-diary",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-diary",
     "blank": false,
-    "textLength": 1346,
+    "textLength": 1392,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPages Abu Writes About You\nBirthday gift 41 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -373,7 +373,7 @@
     "route": "/love-scrabble",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-scrabble",
     "blank": false,
-    "textLength": 1361,
+    "textLength": 1305,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Words Abu Keeps\nBirthday gift 42 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -382,7 +382,7 @@
     "route": "/love-lottery",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-lottery",
     "blank": false,
-    "textLength": 984,
+    "textLength": 942,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Lucky Number Is You\nBirthday gift 43 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -391,7 +391,7 @@
     "route": "/love-tamagotchi",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-tamagotchi",
     "blank": false,
-    "textLength": 1166,
+    "textLength": 1100,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Tiny Heart to Look After\nBirthday gift 44 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -400,7 +400,7 @@
     "route": "/secret-vault",
     "url": "http://127.0.0.1:4173/Bhuntu/#/secret-vault",
     "blank": false,
-    "textLength": 980,
+    "textLength": 1013,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Secret Abu Saved\nBirthday gift 45 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -409,7 +409,7 @@
     "route": "/love-tarot",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-tarot",
     "blank": false,
-    "textLength": 1384,
+    "textLength": 1385,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Reading for Abu and Sanzu\nBirthday gift 46 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -418,7 +418,7 @@
     "route": "/memory-lane",
     "url": "http://127.0.0.1:4173/Bhuntu/#/memory-lane",
     "blank": false,
-    "textLength": 1704,
+    "textLength": 1783,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Lane of Our First Memories\nBirthday gift 47 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants yo"
   },
@@ -427,7 +427,7 @@
     "route": "/hug-counter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/hug-counter",
     "blank": false,
-    "textLength": 1392,
+    "textLength": 1357,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nHugs Abu Owes You\nBirthday gift 48 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -436,7 +436,7 @@
     "route": "/love-crossword",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-crossword",
     "blank": false,
-    "textLength": 1195,
+    "textLength": 1178,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Crossword Made of Our Clues\nBirthday gift 49 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -445,7 +445,7 @@
     "route": "/love-radio",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-radio",
     "blank": false,
-    "textLength": 1226,
+    "textLength": 1193,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nAbu’s Late-Night Radio for You\nBirthday gift 50 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants yo"
   },
@@ -454,7 +454,7 @@
     "route": "/blessing-tree",
     "url": "http://127.0.0.1:4173/Bhuntu/#/blessing-tree",
     "blank": false,
-    "textLength": 1053,
+    "textLength": 1122,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Tree of Abu’s Blessings\nBirthday gift 51 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -463,7 +463,7 @@
     "route": "/love-vibe",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-vibe",
     "blank": false,
-    "textLength": 1223,
+    "textLength": 1239,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Feeling You Leave in Every Room\nBirthday gift 52 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wan"
   },
@@ -472,7 +472,7 @@
     "route": "/bento-box",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bento-box",
     "blank": false,
-    "textLength": 1293,
+    "textLength": 1261,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Bento Box of Small Memories\nBirthday gift 53 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -481,7 +481,7 @@
     "route": "/love-coupon-generator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-coupon-generator",
     "blank": false,
-    "textLength": 3226,
+    "textLength": 3158,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCoupons Abu Would Give You\nBirthday gift 54 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -490,7 +490,7 @@
     "route": "/star-namer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/star-namer",
     "blank": false,
-    "textLength": 1351,
+    "textLength": 1387,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Star Abu Named for Samjhana\nBirthday gift 55 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants y"
   },
@@ -499,7 +499,7 @@
     "route": "/love-jar-notes",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-jar-notes",
     "blank": false,
-    "textLength": 1608,
+    "textLength": 1579,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nNotes Abu Put in the Jar\nBirthday gift 56 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -517,7 +517,7 @@
     "route": "/kiss-collector",
     "url": "http://127.0.0.1:4173/Bhuntu/#/kiss-collector",
     "blank": false,
-    "textLength": 1444,
+    "textLength": 1481,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nKisses Saved for the Day We Meet\nBirthday gift 58 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants "
   },
@@ -526,7 +526,7 @@
     "route": "/love-memory-flip",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-memory-flip",
     "blank": false,
-    "textLength": 1563,
+    "textLength": 1584,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nTurn Over an Abu Memory\nBirthday gift 59 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -535,7 +535,7 @@
     "route": "/sound-wave",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sound-wave",
     "blank": false,
-    "textLength": 1341,
+    "textLength": 1292,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Sound of Your Name\nBirthday gift 60 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -544,7 +544,7 @@
     "route": "/love-passport-stamps",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-passport-stamps",
     "blank": false,
-    "textLength": 1466,
+    "textLength": 1410,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nStamps from Our Story\nBirthday gift 61 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -553,7 +553,7 @@
     "route": "/mood-ring",
     "url": "http://127.0.0.1:4173/Bhuntu/#/mood-ring",
     "blank": false,
-    "textLength": 1121,
+    "textLength": 1161,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Mood Abu Notices First\nBirthday gift 62 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -562,7 +562,7 @@
     "route": "/cupid-archery",
     "url": "http://127.0.0.1:4173/Bhuntu/#/cupid-archery",
     "blank": false,
-    "textLength": 1338,
+    "textLength": 1373,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nAiming Abu’s Good Wishes Your Way\nBirthday gift 63 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants"
   },
@@ -571,7 +571,7 @@
     "route": "/love-alarm",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-alarm",
     "blank": false,
-    "textLength": 1356,
+    "textLength": 1378,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Wake-Up Note from Abu\nBirthday gift 64 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -580,7 +580,7 @@
     "route": "/couple-bucket-list-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-bucket-list-2",
     "blank": false,
-    "textLength": 1556,
+    "textLength": 1573,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOur Next Places Together\nBirthday gift 65 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -589,7 +589,7 @@
     "route": "/love-meter-deluxe",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-meter-deluxe",
     "blank": false,
-    "textLength": 1221,
+    "textLength": 1188,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nAbu’s Measureless Love Meter\nBirthday gift 66 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -598,7 +598,7 @@
     "route": "/love-envelope",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-envelope",
     "blank": false,
-    "textLength": 1370,
+    "textLength": 1407,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nAn Envelope from Abu\nBirthday gift 67 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -607,7 +607,7 @@
     "route": "/love-constellation-connect",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-constellation-connect",
     "blank": false,
-    "textLength": 1370,
+    "textLength": 1301,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nConnect the Names Abu Loves\nBirthday gift 68 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -616,7 +616,7 @@
     "route": "/love-journal-prompt",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-journal-prompt",
     "blank": false,
-    "textLength": 1517,
+    "textLength": 1495,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Journal Prompt from Abu\nBirthday gift 69 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -625,7 +625,7 @@
     "route": "/love-chimes",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-chimes",
     "blank": false,
-    "textLength": 1353,
+    "textLength": 1359,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nChimes for Your Quiet Days\nBirthday gift 70 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -634,7 +634,7 @@
     "route": "/love-horoscope-daily",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-horoscope-daily",
     "blank": false,
-    "textLength": 1454,
+    "textLength": 1383,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nToday’s Note from the Stars\nBirthday gift 71 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -652,7 +652,7 @@
     "route": "/love-fireflies",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-fireflies",
     "blank": false,
-    "textLength": 1235,
+    "textLength": 1247,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFireflies for Sanzu\nBirthday gift 73 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -661,7 +661,7 @@
     "route": "/love-tree-growth",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-tree-growth",
     "blank": false,
-    "textLength": 1146,
+    "textLength": 1143,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nHow Abu’s Love Keeps Growing\nBirthday gift 74 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -670,7 +670,7 @@
     "route": "/love-wishes-sky",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-wishes-sky",
     "blank": false,
-    "textLength": 1559,
+    "textLength": 1586,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWishes Written Above Us\nBirthday gift 75 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -679,7 +679,7 @@
     "route": "/love-time-machine",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-time-machine",
     "blank": false,
-    "textLength": 1246,
+    "textLength": 1239,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Trip Back to Our First Days\nBirthday gift 76 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -688,7 +688,7 @@
     "route": "/love-origami-heart",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-origami-heart",
     "blank": false,
-    "textLength": 1435,
+    "textLength": 1407,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Folded Heart for Bhuntu\nBirthday gift 77 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -697,7 +697,7 @@
     "route": "/love-fortune-cookie",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-fortune-cookie",
     "blank": false,
-    "textLength": 1342,
+    "textLength": 1298,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Fortune Abu Left Inside\nBirthday gift 78 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -706,7 +706,7 @@
     "route": "/love-scratch-card",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-scratch-card",
     "blank": false,
-    "textLength": 1095,
+    "textLength": 1107,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Scratch Card\nBirthday gift 79 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -715,7 +715,7 @@
     "route": "/love-audio-visualizer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-audio-visualizer",
     "blank": false,
-    "textLength": 1780,
+    "textLength": 1807,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWhat Abu Hears in Your Voice\nBirthday gift 80 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -724,7 +724,7 @@
     "route": "/love-photo-booth",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-photo-booth",
     "blank": false,
-    "textLength": 1450,
+    "textLength": 1437,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Photo Booth for Sanzu\nBirthday gift 81 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -733,7 +733,7 @@
     "route": "/love-wish-well",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-wish-well",
     "blank": false,
-    "textLength": 1106,
+    "textLength": 1136,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Well of Abu’s Wishes\nBirthday gift 82 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -742,7 +742,7 @@
     "route": "/love-grand-finale",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-grand-finale",
     "blank": false,
-    "textLength": 1652,
+    "textLength": 1676,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Last Gift from Abu\nBirthday gift 83 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -751,7 +751,7 @@
     "route": "/paper-airplane-messenger",
     "url": "http://127.0.0.1:4173/Bhuntu/#/paper-airplane-messenger",
     "blank": false,
-    "textLength": 1564,
+    "textLength": 1531,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPaper Airplane Messenger\nBirthday gift 84 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -760,7 +760,7 @@
     "route": "/magic-8-ball-love",
     "url": "http://127.0.0.1:4173/Bhuntu/#/magic-8-ball-love",
     "blank": false,
-    "textLength": 1507,
+    "textLength": 1479,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nMagic 8 Ball Love\nBirthday gift 85 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -769,7 +769,7 @@
     "route": "/love-lock-bridge",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-lock-bridge",
     "blank": false,
-    "textLength": 1457,
+    "textLength": 1446,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Lock Bridge\nBirthday gift 86 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -778,7 +778,7 @@
     "route": "/cloud-skywriter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/cloud-skywriter",
     "blank": false,
-    "textLength": 1552,
+    "textLength": 1452,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCloud Skywriter\nBirthday gift 87 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -787,7 +787,7 @@
     "route": "/love-thermometer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-thermometer",
     "blank": false,
-    "textLength": 1338,
+    "textLength": 1379,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Thermometer\nBirthday gift 88 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -796,7 +796,7 @@
     "route": "/movie-ticket-creator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/movie-ticket-creator",
     "blank": false,
-    "textLength": 1597,
+    "textLength": 1609,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nMovie Ticket Creator\nBirthday gift 89 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -805,7 +805,7 @@
     "route": "/snow-globe-shaker",
     "url": "http://127.0.0.1:4173/Bhuntu/#/snow-globe-shaker",
     "blank": false,
-    "textLength": 1201,
+    "textLength": 1170,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSnow Globe Shaker\nBirthday gift 90 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -814,7 +814,7 @@
     "route": "/wish-dandelion",
     "url": "http://127.0.0.1:4173/Bhuntu/#/wish-dandelion",
     "blank": false,
-    "textLength": 1220,
+    "textLength": 1206,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWish Dandelion\nBirthday gift 91 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM"
   },
@@ -832,7 +832,7 @@
     "route": "/love-achievement-badges",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-achievement-badges",
     "blank": false,
-    "textLength": 1731,
+    "textLength": 1710,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Achievement Badges\nBirthday gift 93 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -841,7 +841,7 @@
     "route": "/enchanted-rose-garden",
     "url": "http://127.0.0.1:4173/Bhuntu/#/enchanted-rose-garden",
     "blank": false,
-    "textLength": 1375,
+    "textLength": 1404,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nEnchanted Rose Garden\nBirthday gift 94 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -850,7 +850,7 @@
     "route": "/love-mad-libs",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-mad-libs",
     "blank": false,
-    "textLength": 1298,
+    "textLength": 1294,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Mad Libs\nBirthday gift 95 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM "
   },
@@ -859,7 +859,7 @@
     "route": "/love-butterfly-catcher",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-butterfly-catcher",
     "blank": false,
-    "textLength": 1330,
+    "textLength": 1344,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Butterfly Catcher\nBirthday gift 96 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -868,7 +868,7 @@
     "route": "/romantic-karaoke",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-karaoke",
     "blank": false,
-    "textLength": 1186,
+    "textLength": 1206,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRomantic Karaoke\nBirthday gift 97 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -877,7 +877,7 @@
     "route": "/love-mirror-oracle",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-mirror-oracle",
     "blank": false,
-    "textLength": 1276,
+    "textLength": 1216,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Mirror Oracle\nBirthday gift 98 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -886,7 +886,7 @@
     "route": "/origami-crane",
     "url": "http://127.0.0.1:4173/Bhuntu/#/origami-crane",
     "blank": false,
-    "textLength": 1292,
+    "textLength": 1277,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOrigami Crane\nBirthday gift 99 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM "
   },
@@ -895,7 +895,7 @@
     "route": "/star-drawer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/star-drawer",
     "blank": false,
-    "textLength": 1260,
+    "textLength": 1118,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nStar Drawer\nBirthday gift 100 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM 1"
   },
@@ -904,7 +904,7 @@
     "route": "/birthday-wish-letter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/birthday-wish-letter",
     "blank": false,
-    "textLength": 1293,
+    "textLength": 1386,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Sealed Birthday Letter from Abu\nBirthday gift 101 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu want"
   },
@@ -913,7 +913,7 @@
     "route": "/bubble-wrap",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bubble-wrap",
     "blank": false,
-    "textLength": 1331,
+    "textLength": 1344,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nBubble Wrap\nBirthday gift 102 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM 1"
   },
@@ -922,7 +922,7 @@
     "route": "/love-aquarium",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-aquarium",
     "blank": false,
-    "textLength": 1315,
+    "textLength": 1282,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Aquarium\nBirthday gift 103 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM"
   },
@@ -931,7 +931,7 @@
     "route": "/photo-puzzle-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/photo-puzzle-3d",
     "blank": false,
-    "textLength": 1088,
+    "textLength": 1024,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPhoto Puzzle 3d\nBirthday gift 104 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -940,7 +940,7 @@
     "route": "/coupon-vault",
     "url": "http://127.0.0.1:4173/Bhuntu/#/coupon-vault",
     "blank": false,
-    "textLength": 1269,
+    "textLength": 1230,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCoupon Vault\nBirthday gift 105 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM "
   },
@@ -949,7 +949,7 @@
     "route": "/heart-mailbox",
     "url": "http://127.0.0.1:4173/Bhuntu/#/heart-mailbox",
     "blank": false,
-    "textLength": 1209,
+    "textLength": 1185,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nHeart Mailbox\nBirthday gift 106 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM"
   },
@@ -958,7 +958,7 @@
     "route": "/star-projector",
     "url": "http://127.0.0.1:4173/Bhuntu/#/star-projector",
     "blank": false,
-    "textLength": 1066,
+    "textLength": 1081,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nStar Projector\nBirthday gift 107 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -967,7 +967,7 @@
     "route": "/cupcake-decorator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/cupcake-decorator",
     "blank": false,
-    "textLength": 1258,
+    "textLength": 1185,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCupcake Decorator\nBirthday gift 108 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -976,7 +976,7 @@
     "route": "/magnetic-poetry",
     "url": "http://127.0.0.1:4173/Bhuntu/#/magnetic-poetry",
     "blank": false,
-    "textLength": 1467,
+    "textLength": 1461,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nMagnetic Poetry\nBirthday gift 109 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -985,7 +985,7 @@
     "route": "/firework-maker",
     "url": "http://127.0.0.1:4173/Bhuntu/#/firework-maker",
     "blank": false,
-    "textLength": 1194,
+    "textLength": 1247,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFirework Maker\nBirthday gift 110 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -994,7 +994,7 @@
     "route": "/love-clock",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-clock",
     "blank": false,
-    "textLength": 1216,
+    "textLength": 1252,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Clock\nBirthday gift 111 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM 11"
   },
@@ -1003,7 +1003,7 @@
     "route": "/polaroid-designer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/polaroid-designer",
     "blank": false,
-    "textLength": 1352,
+    "textLength": 1313,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPolaroid Designer\nBirthday gift 112 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1012,7 +1012,7 @@
     "route": "/origami-boat",
     "url": "http://127.0.0.1:4173/Bhuntu/#/origami-boat",
     "blank": false,
-    "textLength": 1165,
+    "textLength": 1223,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOrigami Boat\nBirthday gift 113 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM "
   },
@@ -1021,7 +1021,7 @@
     "route": "/candle-blower",
     "url": "http://127.0.0.1:4173/Bhuntu/#/candle-blower",
     "blank": false,
-    "textLength": 1240,
+    "textLength": 1246,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCandle Blower\nBirthday gift 114 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM"
   },
@@ -1030,7 +1030,7 @@
     "route": "/royal-crown",
     "url": "http://127.0.0.1:4173/Bhuntu/#/royal-crown",
     "blank": false,
-    "textLength": 1345,
+    "textLength": 1268,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoyal Crown\nBirthday gift 115 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM 1"
   },
@@ -1039,7 +1039,7 @@
     "route": "/potion-brewery",
     "url": "http://127.0.0.1:4173/Bhuntu/#/potion-brewery",
     "blank": false,
-    "textLength": 1305,
+    "textLength": 1295,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPotion Brewery\nBirthday gift 116 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -1048,7 +1048,7 @@
     "route": "/love-compass",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-compass",
     "blank": false,
-    "textLength": 1322,
+    "textLength": 1309,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Compass\nBirthday gift 117 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM "
   },
@@ -1057,7 +1057,7 @@
     "route": "/time-capsule-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/time-capsule-2",
     "blank": false,
-    "textLength": 1246,
+    "textLength": 1240,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nTime Capsule 2\nBirthday gift 118 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -1066,7 +1066,7 @@
     "route": "/love-compatibility-matrix",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-compatibility-matrix",
     "blank": false,
-    "textLength": 1461,
+    "textLength": 1348,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Compatibility Matrix\nBirthday gift 119 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1075,7 +1075,7 @@
     "route": "/future-house-builder",
     "url": "http://127.0.0.1:4173/Bhuntu/#/future-house-builder",
     "blank": false,
-    "textLength": 1461,
+    "textLength": 1432,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFuture House Builder\nBirthday gift 120 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -1084,7 +1084,7 @@
     "route": "/romantic-playlist-mixer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-playlist-mixer",
     "blank": false,
-    "textLength": 1331,
+    "textLength": 1343,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRomantic Playlist Mixer\nBirthday gift 121 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -1093,7 +1093,7 @@
     "route": "/sweet-promises-jar",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-promises-jar",
     "blank": false,
-    "textLength": 1295,
+    "textLength": 1269,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Promises Jar\nBirthday gift 122 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1102,7 +1102,7 @@
     "route": "/love-languages-quiz",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-languages-quiz",
     "blank": false,
-    "textLength": 979,
+    "textLength": 1015,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Languages Quiz\nBirthday gift 123 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1111,7 +1111,7 @@
     "route": "/emoji-art-canvas",
     "url": "http://127.0.0.1:4173/Bhuntu/#/emoji-art-canvas",
     "blank": false,
-    "textLength": 951,
+    "textLength": 988,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOur Story in Small Symbols\nBirthday gift 124 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -1120,7 +1120,7 @@
     "route": "/love-constellation-painter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-constellation-painter",
     "blank": false,
-    "textLength": 1262,
+    "textLength": 1198,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Constellation Painter\nBirthday gift 125 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -1129,7 +1129,7 @@
     "route": "/love-letter-generator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-letter-generator",
     "blank": false,
-    "textLength": 1352,
+    "textLength": 1390,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Letter Generator\nBirthday gift 126 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -1138,7 +1138,7 @@
     "route": "/anniversary-countdown-clock",
     "url": "http://127.0.0.1:4173/Bhuntu/#/anniversary-countdown-clock",
     "blank": false,
-    "textLength": 1423,
+    "textLength": 1444,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nAnniversary Countdown Clock\nBirthday gift 127 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1147,7 +1147,7 @@
     "route": "/heart-bubble-tea-maker",
     "url": "http://127.0.0.1:4173/Bhuntu/#/heart-bubble-tea-maker",
     "blank": false,
-    "textLength": 1331,
+    "textLength": 1367,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nHeart Bubble Tea Maker\nBirthday gift 128 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1156,7 +1156,7 @@
     "route": "/love-notes-wall",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-notes-wall",
     "blank": false,
-    "textLength": 1201,
+    "textLength": 1256,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Notes Wall\nBirthday gift 129 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -1165,7 +1165,7 @@
     "route": "/virtual-cat-cafe",
     "url": "http://127.0.0.1:4173/Bhuntu/#/virtual-cat-cafe",
     "blank": false,
-    "textLength": 1236,
+    "textLength": 1298,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nVirtual Cat Cafe\nBirthday gift 130 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -1174,7 +1174,7 @@
     "route": "/sweet-proposal-simulator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-proposal-simulator",
     "blank": false,
-    "textLength": 1033,
+    "textLength": 1107,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Proposal Simulator\nBirthday gift 131 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -1183,7 +1183,7 @@
     "route": "/love-frequency-tuner",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-frequency-tuner",
     "blank": false,
-    "textLength": 1214,
+    "textLength": 1173,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Frequency Tuner\nBirthday gift 132 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -1192,7 +1192,7 @@
     "route": "/couples-secret-handshake",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couples-secret-handshake",
     "blank": false,
-    "textLength": 1363,
+    "textLength": 1302,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouples Secret Handshake\nBirthday gift 133 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -1201,7 +1201,7 @@
     "route": "/starry-night-skywriter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/starry-night-skywriter",
     "blank": false,
-    "textLength": 1306,
+    "textLength": 1303,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nStarry Night Skywriter\nBirthday gift 134 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1210,7 +1210,7 @@
     "route": "/romantic-cooking-recipe",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-cooking-recipe",
     "blank": false,
-    "textLength": 1340,
+    "textLength": 1302,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRomantic Cooking Recipe\nBirthday gift 135 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -1228,7 +1228,7 @@
     "route": "/sweet-voicemail-inbox",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-voicemail-inbox",
     "blank": false,
-    "textLength": 1337,
+    "textLength": 1341,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Voicemail Inbox\nBirthday gift 137 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -1237,7 +1237,7 @@
     "route": "/couple-daily-horoscope",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-daily-horoscope",
     "blank": false,
-    "textLength": 1148,
+    "textLength": 1141,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Daily Horoscope\nBirthday gift 138 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1246,7 +1246,7 @@
     "route": "/love-meteor-shower",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-meteor-shower",
     "blank": false,
-    "textLength": 1068,
+    "textLength": 1058,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Meteor Shower\nBirthday gift 139 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1255,7 +1255,7 @@
     "route": "/sweet-tea-ceremony",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-tea-ceremony",
     "blank": false,
-    "textLength": 1203,
+    "textLength": 1158,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Tea Ceremony\nBirthday gift 140 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1264,7 +1264,7 @@
     "route": "/couple-nickname-generator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-nickname-generator",
     "blank": false,
-    "textLength": 1156,
+    "textLength": 1211,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Nickname Generator\nBirthday gift 141 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1273,7 +1273,7 @@
     "route": "/love-rhythm-game",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-rhythm-game",
     "blank": false,
-    "textLength": 1063,
+    "textLength": 973,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Rhythm Game\nBirthday gift 142 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -1282,7 +1282,7 @@
     "route": "/sweet-dessert-tower",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-dessert-tower",
     "blank": false,
-    "textLength": 1208,
+    "textLength": 1247,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Dessert Tower\nBirthday gift 143 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1291,7 +1291,7 @@
     "route": "/love-poetry-fridge",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-poetry-fridge",
     "blank": false,
-    "textLength": 1322,
+    "textLength": 1363,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Poetry Fridge\nBirthday gift 144 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1300,7 +1300,7 @@
     "route": "/couple-travel-passport-stamps",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-travel-passport-stamps",
     "blank": false,
-    "textLength": 1549,
+    "textLength": 1557,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Travel Passport Stamps\nBirthday gift 145 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants yo"
   },
@@ -1309,7 +1309,7 @@
     "route": "/love-firework-painter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-firework-painter",
     "blank": false,
-    "textLength": 1094,
+    "textLength": 1130,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Firework Painter\nBirthday gift 146 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -1318,7 +1318,7 @@
     "route": "/couple-questions-deep",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-questions-deep",
     "blank": false,
-    "textLength": 1273,
+    "textLength": 1375,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Questions Deep\nBirthday gift 147 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -1327,7 +1327,7 @@
     "route": "/love-music-box-carousel",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-music-box-carousel",
     "blank": false,
-    "textLength": 1276,
+    "textLength": 1299,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Music Box Carousel\nBirthday gift 148 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -1336,7 +1336,7 @@
     "route": "/sweet-compliments-fountain",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-compliments-fountain",
     "blank": false,
-    "textLength": 1324,
+    "textLength": 1346,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Compliments Fountain\nBirthday gift 149 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -1345,7 +1345,7 @@
     "route": "/couple-movie-night",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-movie-night",
     "blank": false,
-    "textLength": 1360,
+    "textLength": 1335,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Movie Night\nBirthday gift 150 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1354,7 +1354,7 @@
     "route": "/love-keychain-customizer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-keychain-customizer",
     "blank": false,
-    "textLength": 1299,
+    "textLength": 1337,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Keychain Customizer\nBirthday gift 151 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -1363,7 +1363,7 @@
     "route": "/sweet-garden-blooms",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-garden-blooms",
     "blank": false,
-    "textLength": 1104,
+    "textLength": 1106,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Garden Blooms\nBirthday gift 152 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1372,7 +1372,7 @@
     "route": "/couple-anniversary-timeline",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-anniversary-timeline",
     "blank": false,
-    "textLength": 1308,
+    "textLength": 1337,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Anniversary Timeline\nBirthday gift 153 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1381,7 +1381,7 @@
     "route": "/love-fortune-teller-origami",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-fortune-teller-origami",
     "blank": false,
-    "textLength": 1360,
+    "textLength": 1382,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Fortune Teller Origami\nBirthday gift 154 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1390,7 +1390,7 @@
     "route": "/sweet-heart-balloon-ascent",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-heart-balloon-ascent",
     "blank": false,
-    "textLength": 1151,
+    "textLength": 1110,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Heart Balloon Ascent\nBirthday gift 155 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -1399,7 +1399,7 @@
     "route": "/couple-starry-planetarium",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-starry-planetarium",
     "blank": false,
-    "textLength": 1280,
+    "textLength": 1305,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Starry Planetarium\nBirthday gift 156 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1408,7 +1408,7 @@
     "route": "/love-letter-in-balloon",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-letter-in-balloon",
     "blank": false,
-    "textLength": 1234,
+    "textLength": 1238,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Letter In Balloon\nBirthday gift 157 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1417,7 +1417,7 @@
     "route": "/sweet-memory-scrapbook",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-memory-scrapbook",
     "blank": false,
-    "textLength": 1404,
+    "textLength": 1350,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Memory Scrapbook\nBirthday gift 158 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1426,7 +1426,7 @@
     "route": "/love-coronation-ceremony",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-coronation-ceremony",
     "blank": false,
-    "textLength": 1256,
+    "textLength": 1236,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Coronation Ceremony\nBirthday gift 159 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -1435,7 +1435,7 @@
     "route": "/whatsapp-10k-love",
     "url": "http://127.0.0.1:4173/Bhuntu/#/whatsapp-10k-love",
     "blank": false,
-    "textLength": 9440,
+    "textLength": 9363,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWhatsapp 10k Love\nBirthday gift 160 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1444,7 +1444,7 @@
     "route": "/cupid-radio-dj",
     "url": "http://127.0.0.1:4173/Bhuntu/#/cupid-radio-dj",
     "blank": false,
-    "textLength": 1441,
+    "textLength": 1477,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCupid Radio Dj\nBirthday gift 161 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -1453,7 +1453,7 @@
     "route": "/constellation-stargazer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/constellation-stargazer",
     "blank": false,
-    "textLength": 1388,
+    "textLength": 1456,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nConstellation Stargazer\nBirthday gift 162 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -1462,7 +1462,7 @@
     "route": "/heart-nebula-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/heart-nebula-3d",
     "blank": false,
-    "textLength": 1205,
+    "textLength": 1230,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nHeart Nebula 3d\nBirthday gift 163 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -1471,7 +1471,7 @@
     "route": "/sweet-confectionery-bakery",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-confectionery-bakery",
     "blank": false,
-    "textLength": 1263,
+    "textLength": 1243,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Confectionery Bakery\nBirthday gift 164 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -1480,7 +1480,7 @@
     "route": "/love-story-comic-strip",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-story-comic-strip",
     "blank": false,
-    "textLength": 1278,
+    "textLength": 1287,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Story Comic Strip\nBirthday gift 165 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1489,7 +1489,7 @@
     "route": "/enchanted-glass-terrarium",
     "url": "http://127.0.0.1:4173/Bhuntu/#/enchanted-glass-terrarium",
     "blank": false,
-    "textLength": 1355,
+    "textLength": 1279,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nEnchanted Glass Terrarium\nBirthday gift 166 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1498,7 +1498,7 @@
     "route": "/bottle-ocean-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bottle-ocean-3d",
     "blank": false,
-    "textLength": 1408,
+    "textLength": 1377,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nBottle Ocean 3d\nBirthday gift 167 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -1507,7 +1507,7 @@
     "route": "/couple-time-capsule-lockbox",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-time-capsule-lockbox",
     "blank": false,
-    "textLength": 1191,
+    "textLength": 1198,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Time Capsule Lockbox\nBirthday gift 168 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1516,7 +1516,7 @@
     "route": "/sweet-heart-paper-craft",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sweet-heart-paper-craft",
     "blank": false,
-    "textLength": 1409,
+    "textLength": 1350,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSweet Heart Paper Craft\nBirthday gift 169 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -1525,7 +1525,7 @@
     "route": "/love-wordle",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-wordle",
     "blank": false,
-    "textLength": 1078,
+    "textLength": 1042,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Wordle\nBirthday gift 170 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROOM 1"
   },
@@ -1534,7 +1534,7 @@
     "route": "/couple-escape-room",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-escape-room",
     "blank": false,
-    "textLength": 1269,
+    "textLength": 1187,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Escape Room\nBirthday gift 171 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1543,7 +1543,7 @@
     "route": "/heartbeat-drum-pad",
     "url": "http://127.0.0.1:4173/Bhuntu/#/heartbeat-drum-pad",
     "blank": false,
-    "textLength": 964,
+    "textLength": 958,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nHeartbeat Drum Pad\nBirthday gift 172 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1552,7 +1552,7 @@
     "route": "/love-pixel-art",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-pixel-art",
     "blank": false,
-    "textLength": 1434,
+    "textLength": 1325,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Pixel Art\nBirthday gift 173 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -1561,7 +1561,7 @@
     "route": "/love-anagram-solver",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-anagram-solver",
     "blank": false,
-    "textLength": 1152,
+    "textLength": 1186,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Anagram Solver\nBirthday gift 174 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1570,7 +1570,7 @@
     "route": "/love-photo-mosaic",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-photo-mosaic",
     "blank": false,
-    "textLength": 1321,
+    "textLength": 1363,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Photo Mosaic\nBirthday gift 175 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1579,7 +1579,7 @@
     "route": "/first-moments-timeline",
     "url": "http://127.0.0.1:4173/Bhuntu/#/first-moments-timeline",
     "blank": false,
-    "textLength": 1426,
+    "textLength": 1498,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFirst Moments Timeline\nBirthday gift 176 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1588,7 +1588,7 @@
     "route": "/memory-constellation",
     "url": "http://127.0.0.1:4173/Bhuntu/#/memory-constellation",
     "blank": false,
-    "textLength": 1216,
+    "textLength": 1179,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nMemory Constellation\nBirthday gift 177 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -1597,7 +1597,7 @@
     "route": "/couple-yearbook",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-yearbook",
     "blank": false,
-    "textLength": 1312,
+    "textLength": 1292,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Yearbook\nBirthday gift 178 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -1606,7 +1606,7 @@
     "route": "/love-letter-archive",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-letter-archive",
     "blank": false,
-    "textLength": 1302,
+    "textLength": 1328,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Letter Archive\nBirthday gift 179 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1615,7 +1615,7 @@
     "route": "/couple-soundtrack",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-soundtrack",
     "blank": false,
-    "textLength": 1349,
+    "textLength": 1344,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Soundtrack\nBirthday gift 180 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1624,7 +1624,7 @@
     "route": "/love-spell-caster",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-spell-caster",
     "blank": false,
-    "textLength": 1389,
+    "textLength": 1403,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Spell Caster\nBirthday gift 181 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1633,7 +1633,7 @@
     "route": "/love-potion-lab",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-potion-lab",
     "blank": false,
-    "textLength": 1265,
+    "textLength": 1244,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Potion Lab\nBirthday gift 182 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -1642,7 +1642,7 @@
     "route": "/fairy-tale-generator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/fairy-tale-generator",
     "blank": false,
-    "textLength": 1423,
+    "textLength": 1410,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFairy Tale Generator\nBirthday gift 183 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -1651,7 +1651,7 @@
     "route": "/enchanted-crystal-ball",
     "url": "http://127.0.0.1:4173/Bhuntu/#/enchanted-crystal-ball",
     "blank": false,
-    "textLength": 1135,
+    "textLength": 1165,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nEnchanted Crystal Ball\nBirthday gift 184 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1660,7 +1660,7 @@
     "route": "/dragon-princess-adventure",
     "url": "http://127.0.0.1:4173/Bhuntu/#/dragon-princess-adventure",
     "blank": false,
-    "textLength": 1409,
+    "textLength": 1320,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nDragon Princess Adventure\nBirthday gift 185 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1669,7 +1669,7 @@
     "route": "/love-wizard-tower",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-wizard-tower",
     "blank": false,
-    "textLength": 1152,
+    "textLength": 1138,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Wizard Tower\nBirthday gift 186 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1678,7 +1678,7 @@
     "route": "/love-graffiti-wall",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-graffiti-wall",
     "blank": false,
-    "textLength": 1176,
+    "textLength": 1095,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Graffiti Wall\nBirthday gift 187 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1687,7 +1687,7 @@
     "route": "/love-neon-sign",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-neon-sign",
     "blank": false,
-    "textLength": 884,
+    "textLength": 853,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Neon Sign\nBirthday gift 188 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -1696,7 +1696,7 @@
     "route": "/bhuntu-emoji-comic",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bhuntu-emoji-comic",
     "blank": false,
-    "textLength": 936,
+    "textLength": 931,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nBhuntu Emoji Comic\nBirthday gift 189 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1705,7 +1705,7 @@
     "route": "/love-kaleidoscope",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-kaleidoscope",
     "blank": false,
-    "textLength": 1019,
+    "textLength": 1054,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Kaleidoscope\nBirthday gift 190 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1714,7 +1714,7 @@
     "route": "/cherry-blossom-wish-tree",
     "url": "http://127.0.0.1:4173/Bhuntu/#/cherry-blossom-wish-tree",
     "blank": false,
-    "textLength": 1377,
+    "textLength": 1334,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCherry Blossom Wish Tree\nBirthday gift 191 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -1723,7 +1723,7 @@
     "route": "/love-advent-calendar",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-advent-calendar",
     "blank": false,
-    "textLength": 1413,
+    "textLength": 1394,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Advent Calendar\nBirthday gift 192 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -1732,7 +1732,7 @@
     "route": "/new-year-fireworks",
     "url": "http://127.0.0.1:4173/Bhuntu/#/new-year-fireworks",
     "blank": false,
-    "textLength": 1191,
+    "textLength": 1200,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nNew Year Fireworks\nBirthday gift 193 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1741,7 +1741,7 @@
     "route": "/valentine-card-creator",
     "url": "http://127.0.0.1:4173/Bhuntu/#/valentine-card-creator",
     "blank": false,
-    "textLength": 1417,
+    "textLength": 1326,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nValentine Card Creator\nBirthday gift 194 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1750,7 +1750,7 @@
     "route": "/love-dated-calendar",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-dated-calendar",
     "blank": false,
-    "textLength": 1243,
+    "textLength": 1189,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Dated Calendar\nBirthday gift 195 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1759,7 +1759,7 @@
     "route": "/fortune-cookie-love",
     "url": "http://127.0.0.1:4173/Bhuntu/#/fortune-cookie-love",
     "blank": false,
-    "textLength": 1126,
+    "textLength": 1114,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFortune Cookie Love\nBirthday gift 196 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1768,7 +1768,7 @@
     "route": "/infinite-reasons",
     "url": "http://127.0.0.1:4173/Bhuntu/#/infinite-reasons",
     "blank": false,
-    "textLength": 1316,
+    "textLength": 1340,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nInfinite Reasons\nBirthday gift 197 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nR"
   },
@@ -1777,7 +1777,7 @@
     "route": "/love-awards-night",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-awards-night",
     "blank": false,
-    "textLength": 1433,
+    "textLength": 1395,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Awards Night\nBirthday gift 198 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1786,7 +1786,7 @@
     "route": "/four-seasons-of-love",
     "url": "http://127.0.0.1:4173/Bhuntu/#/four-seasons-of-love",
     "blank": false,
-    "textLength": 1482,
+    "textLength": 1456,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFour Seasons Of Love\nBirthday gift 199 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep"
   },
@@ -1795,7 +1795,7 @@
     "route": "/couple-cookbook",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-cookbook",
     "blank": false,
-    "textLength": 1137,
+    "textLength": 1183,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Cookbook\nBirthday gift 200 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nRO"
   },
@@ -1804,7 +1804,7 @@
     "route": "/couple-bucket-list",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-bucket-list",
     "blank": false,
-    "textLength": 1340,
+    "textLength": 1303,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nCouple Bucket List\nBirthday gift 201 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -1813,7 +1813,7 @@
     "route": "/grand-love-universe",
     "url": "http://127.0.0.1:4173/Bhuntu/#/grand-love-universe",
     "blank": false,
-    "textLength": 1402,
+    "textLength": 1414,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nGrand Love Universe\nBirthday gift 202 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1822,7 +1822,7 @@
     "route": "/sanzu-photo-gallery",
     "url": "http://127.0.0.1:4173/Bhuntu/#/sanzu-photo-gallery",
     "blank": false,
-    "textLength": 1039,
+    "textLength": 1085,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSamjhana Through Abu’s Eyes\nBirthday gift 203 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1831,7 +1831,7 @@
     "route": "/romantic-audio-player",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-audio-player",
     "blank": false,
-    "textLength": 1220,
+    "textLength": 1158,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Voice Abu Keeps Close\nBirthday gift 204 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1840,7 +1840,7 @@
     "route": "/love-memory-tree-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-memory-tree-3d",
     "blank": false,
-    "textLength": 1298,
+    "textLength": 1323,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Memory Tree We Keep Growing\nBirthday gift 205 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants "
   },
@@ -1849,7 +1849,7 @@
     "route": "/nepalgunj-osaka-flight",
     "url": "http://127.0.0.1:4173/Bhuntu/#/nepalgunj-osaka-flight",
     "blank": false,
-    "textLength": 1318,
+    "textLength": 1312,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Flight Between Abu and Sanzu\nBirthday gift 206 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants"
   },
@@ -1858,7 +1858,7 @@
     "route": "/bhuntu-voice-note-archive",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bhuntu-voice-note-archive",
     "blank": false,
-    "textLength": 1353,
+    "textLength": 1344,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nVoice Notes Abu Saves\nBirthday gift 207 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -1867,7 +1867,7 @@
     "route": "/couple-milestone-map",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-milestone-map",
     "blank": false,
-    "textLength": 1366,
+    "textLength": 1388,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Milestones We Keep\nBirthday gift 208 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -1876,7 +1876,7 @@
     "route": "/romantic-petal-rain",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-petal-rain",
     "blank": false,
-    "textLength": 1272,
+    "textLength": 1278,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPetals for Samjhana\nBirthday gift 209 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -1885,7 +1885,7 @@
     "route": "/love-letter-popup-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-letter-popup-3d",
     "blank": false,
-    "textLength": 1206,
+    "textLength": 1166,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Letter That Opens for You\nBirthday gift 210 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1894,7 +1894,7 @@
     "route": "/love-memory-film-strip",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-memory-film-strip",
     "blank": false,
-    "textLength": 1440,
+    "textLength": 1342,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOur Story on Film\nBirthday gift 211 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -1903,7 +1903,7 @@
     "route": "/love-candlelight-dinner",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-candlelight-dinner",
     "blank": false,
-    "textLength": 1242,
+    "textLength": 1261,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Table for Abu and Sanzu\nBirthday gift 212 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1912,7 +1912,7 @@
     "route": "/bhuntu-nicknames-galaxy",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bhuntu-nicknames-galaxy",
     "blank": false,
-    "textLength": 1446,
+    "textLength": 1463,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Galaxy of Names Abu Calls You\nBirthday gift 213 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu want"
   },
@@ -1921,7 +1921,7 @@
     "route": "/love-fortune-cookie-jar",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-fortune-cookie-jar",
     "blank": false,
-    "textLength": 1246,
+    "textLength": 1257,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nFortunes Abu Writes for You\nBirthday gift 214 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1930,7 +1930,7 @@
     "route": "/couple-bucket-list-globe",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-bucket-list-globe",
     "blank": false,
-    "textLength": 1552,
+    "textLength": 1636,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nOur Future Places on a Globe\nBirthday gift 215 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -1939,7 +1939,7 @@
     "route": "/love-audio-visualizer-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-audio-visualizer-2",
     "blank": false,
-    "textLength": 1284,
+    "textLength": 1233,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Shape of Your Voice\nBirthday gift 216 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to k"
   },
@@ -1948,7 +1948,7 @@
     "route": "/romantic-photo-slider-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-photo-slider-3d",
     "blank": false,
-    "textLength": 1282,
+    "textLength": 1304,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Slow Gallery of Samjhana\nBirthday gift 217 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -1957,7 +1957,7 @@
     "route": "/love-stamp-collection",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-stamp-collection",
     "blank": false,
-    "textLength": 1374,
+    "textLength": 1483,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nStamps Abu Collected for You\nBirthday gift 218 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -1966,7 +1966,7 @@
     "route": "/romantic-night-skywriter",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-night-skywriter",
     "blank": false,
-    "textLength": 1185,
+    "textLength": 1215,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Message Abu Wrote in the Night\nBirthday gift 219 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants"
   },
@@ -1975,7 +1975,7 @@
     "route": "/couple-recipe-book",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-recipe-book",
     "blank": false,
-    "textLength": 1164,
+    "textLength": 1202,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRecipes for Our Future Days\nBirthday gift 220 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -1984,7 +1984,7 @@
     "route": "/love-constellation-maker",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-constellation-maker",
     "blank": false,
-    "textLength": 1348,
+    "textLength": 1305,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Constellation for Sanzu\nBirthday gift 221 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -1993,7 +1993,7 @@
     "route": "/bhuntu-love-polaroids",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bhuntu-love-polaroids",
     "blank": false,
-    "textLength": 1217,
+    "textLength": 1203,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nBhuntu Love Polaroids\nBirthday gift 222 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -2002,7 +2002,7 @@
     "route": "/love-tarot-oracle-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-tarot-oracle-2",
     "blank": false,
-    "textLength": 1475,
+    "textLength": 1390,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Future Abu Wishes You\nBirthday gift 223 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -2011,7 +2011,7 @@
     "route": "/romantic-locket-changer",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-locket-changer",
     "blank": false,
-    "textLength": 1393,
+    "textLength": 1396,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Locket for the Person Abu Loves\nBirthday gift 224 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu want"
   },
@@ -2020,7 +2020,7 @@
     "route": "/couple-movie-marathon",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-movie-marathon",
     "blank": false,
-    "textLength": 1477,
+    "textLength": 1459,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nMovies Abu Wants to Watch with You\nBirthday gift 225 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wan"
   },
@@ -2029,7 +2029,7 @@
     "route": "/love-language-test",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-language-test",
     "blank": false,
-    "textLength": 1365,
+    "textLength": 1400,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Language of Your “Huss”\nBirthday gift 226 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -2038,7 +2038,7 @@
     "route": "/love-potion-brewery-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-potion-brewery-2",
     "blank": false,
-    "textLength": 1410,
+    "textLength": 1350,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Second Bottle of Abu’s Feelings\nBirthday gift 227 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu want"
   },
@@ -2047,7 +2047,7 @@
     "route": "/romantic-message-grid",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-message-grid",
     "blank": false,
-    "textLength": 1312,
+    "textLength": 1304,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nMessages Abu Arranged for You\nBirthday gift 228 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants yo"
   },
@@ -2056,7 +2056,7 @@
     "route": "/couple-anniversary-clock",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-anniversary-clock",
     "blank": false,
-    "textLength": 1398,
+    "textLength": 1407,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Time We Keep Together\nBirthday gift 229 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -2065,7 +2065,7 @@
     "route": "/love-doodle-canvas",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-doodle-canvas",
     "blank": false,
-    "textLength": 1227,
+    "textLength": 1166,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Doodle from Abu\nBirthday gift 230 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\n"
   },
@@ -2074,7 +2074,7 @@
     "route": "/bhuntu-comic-strip-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bhuntu-comic-strip-2",
     "blank": false,
-    "textLength": 1457,
+    "textLength": 1496,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Comic Abu Would Draw for You\nBirthday gift 231 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants"
   },
@@ -2083,7 +2083,7 @@
     "route": "/romantic-flower-garden",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-flower-garden",
     "blank": false,
-    "textLength": 1186,
+    "textLength": 1197,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Garden for Sanzu\nBirthday gift 232 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n"
   },
@@ -2092,7 +2092,7 @@
     "route": "/love-wish-bottle-ocean",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-wish-bottle-ocean",
     "blank": false,
-    "textLength": 1330,
+    "textLength": 1307,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Wish Bottle from Abu\nBirthday gift 233 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to ke"
   },
@@ -2101,7 +2101,7 @@
     "route": "/couple-superlatives",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-superlatives",
     "blank": false,
-    "textLength": 1285,
+    "textLength": 1281,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Things You Are Best At\nBirthday gift 234 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -2110,7 +2110,7 @@
     "route": "/love-memory-cube-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-memory-cube-3d",
     "blank": false,
-    "textLength": 1384,
+    "textLength": 1372,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Cube of Our Favorite Moments\nBirthday gift 235 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants y"
   },
@@ -2119,7 +2119,7 @@
     "route": "/love-envelope-collection",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-envelope-collection",
     "blank": false,
-    "textLength": 1351,
+    "textLength": 1356,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLetters Abu Has Been Saving\nBirthday gift 236 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -2128,7 +2128,7 @@
     "route": "/romantic-music-box-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/romantic-music-box-2",
     "blank": false,
-    "textLength": 1407,
+    "textLength": 1351,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Second Song for Bhuntu\nBirthday gift 237 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -2137,7 +2137,7 @@
     "route": "/couple-future-home-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-future-home-3d",
     "blank": false,
-    "textLength": 1393,
+    "textLength": 1388,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Home Abu Imagines\nBirthday gift 238 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to kee"
   },
@@ -2146,7 +2146,7 @@
     "route": "/love-neon-sign-gallery",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-neon-sign-gallery",
     "blank": false,
-    "textLength": 1396,
+    "textLength": 1413,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Sign with Your Name on It\nBirthday gift 239 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you "
   },
@@ -2155,7 +2155,7 @@
     "route": "/bhuntu-photo-mosaic-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/bhuntu-photo-mosaic-2",
     "blank": false,
-    "textLength": 1494,
+    "textLength": 1430,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nPieces of Samjhana in One Picture\nBirthday gift 240 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu want"
   },
@@ -2173,7 +2173,7 @@
     "route": "/grand-love-galaxy-3d",
     "url": "http://127.0.0.1:4173/Bhuntu/#/grand-love-galaxy-3d",
     "blank": false,
-    "textLength": 1404,
+    "textLength": 1473,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Big Sky Abu Made for You\nBirthday gift 242 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -2182,7 +2182,7 @@
     "route": "/love-tetris",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-tetris",
     "blank": false,
-    "textLength": 1119,
+    "textLength": 1229,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Tower of Tiny Memories\nBirthday gift 243 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   },
@@ -2191,7 +2191,7 @@
     "route": "/love-tetris-block-puzzle",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-tetris-block-puzzle",
     "blank": false,
-    "textLength": 1141,
+    "textLength": 1110,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nBuilding a Future from Little Pieces\nBirthday gift 244 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu w"
   },
@@ -2200,7 +2200,7 @@
     "route": "/love-letter-archive-vault",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-letter-archive-vault",
     "blank": false,
-    "textLength": 1682,
+    "textLength": 1706,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Archive Abu Locked for You\nBirthday gift 245 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants y"
   },
@@ -2209,7 +2209,7 @@
     "route": "/love-spell-caster-studio",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-spell-caster-studio",
     "blank": false,
-    "textLength": 1508,
+    "textLength": 1485,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nWords That Make a Day Softer\nBirthday gift 246 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -2218,7 +2218,7 @@
     "route": "/love-potion-lab-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-potion-lab-2",
     "blank": false,
-    "textLength": 1640,
+    "textLength": 1632,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Lab of Abu’s Feelings\nBirthday gift 247 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -2227,7 +2227,7 @@
     "route": "/couple-milestone-map-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/couple-milestone-map-2",
     "blank": false,
-    "textLength": 1511,
+    "textLength": 1539,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nA Second Map of Our Story\nBirthday gift 248 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to"
   },
@@ -2236,7 +2236,7 @@
     "route": "/secret-vault-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/secret-vault-2",
     "blank": false,
-    "textLength": 1106,
+    "textLength": 1093,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSecret Vault 2\nBirthday gift 249 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep.\n\nROO"
   },
@@ -2245,7 +2245,7 @@
     "route": "/love-grand-finale-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/love-grand-finale-2",
     "blank": false,
-    "textLength": 1209,
+    "textLength": 1152,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nLove Grand Finale 2\nBirthday gift 250 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to keep."
   },
@@ -2254,7 +2254,7 @@
     "route": "/future-house-builder-2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/future-house-builder-2",
     "blank": false,
-    "textLength": 1393,
+    "textLength": 1414,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nAnother Window into Our Future\nBirthday gift 251 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants y"
   },
@@ -2263,7 +2263,7 @@
     "route": "/ultimate-300th-love-coronation",
     "url": "http://127.0.0.1:4173/Bhuntu/#/ultimate-300th-love-coronation",
     "blank": false,
-    "textLength": 1207,
+    "textLength": 1171,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nThe Grand Birthday Gift for Samjhana\nBirthday gift 252 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu w"
   },
@@ -2272,7 +2272,7 @@
     "route": "/hall-of-fame",
     "url": "http://127.0.0.1:4173/Bhuntu/#/hall-of-fame",
     "blank": false,
-    "textLength": 2194,
+    "textLength": 2198,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nSamjhana’s Hall of Abu’s Favourite Things\nBirthday gift 253 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake "
   },
@@ -2281,7 +2281,7 @@
     "route": "/room/2",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/2",
     "blank": false,
-    "textLength": 1159,
+    "textLength": 1186,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 2 — The Distance Between Us\nBirthday gift 254 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants"
   },
@@ -2290,7 +2290,7 @@
     "route": "/room/3",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/3",
     "blank": false,
-    "textLength": 1108,
+    "textLength": 1107,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 3 — The Photo Abu Keeps\nBirthday gift 255 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you"
   },
@@ -2299,7 +2299,7 @@
     "route": "/room/5",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/5",
     "blank": false,
-    "textLength": 1145,
+    "textLength": 1138,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 5 — The Story We Tell\nBirthday gift 256 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -2308,7 +2308,7 @@
     "route": "/room/6",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/6",
     "blank": false,
-    "textLength": 1069,
+    "textLength": 1132,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 6 — The Things Abu Loves\nBirthday gift 257 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants yo"
   },
@@ -2317,7 +2317,7 @@
     "route": "/room/7",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/7",
     "blank": false,
-    "textLength": 1090,
+    "textLength": 1137,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 7 — An Envelope for Sanzu\nBirthday gift 258 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants y"
   },
@@ -2326,7 +2326,7 @@
     "route": "/room/8",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/8",
     "blank": false,
-    "textLength": 1049,
+    "textLength": 1033,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 8 — The Places We Still Want\nBirthday gift 259 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu want"
   },
@@ -2335,7 +2335,7 @@
     "route": "/room/9",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/9",
     "blank": false,
-    "textLength": 1005,
+    "textLength": 958,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 9 — A Wish for Bhuntu\nBirthday gift 260 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -2344,7 +2344,7 @@
     "route": "/room/10",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/10",
     "blank": false,
-    "textLength": 1066,
+    "textLength": 1022,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 10 — A Voice from Abu\nBirthday gift 261 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -2353,7 +2353,7 @@
     "route": "/room/11",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/11",
     "blank": false,
-    "textLength": 1102,
+    "textLength": 1147,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 11 — The Promise Room\nBirthday gift 262 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you t"
   },
@@ -2362,7 +2362,7 @@
     "route": "/room/12",
     "url": "http://127.0.0.1:4173/Bhuntu/#/room/12",
     "blank": false,
-    "textLength": 1116,
+    "textLength": 1104,
     "errors": [],
     "sample": "Abu &\nBhuntu & Abu • 1 Year Together 💕\nRoom 12 — The Final Gift\nBirthday gift 263 of 263 💕\n\nTHE FINAL ROOM KEY\n\nThe last room is not an ending. It is the keepsake Abu wants you to "
   }

@@ -179,7 +179,7 @@ love-photo-booth,Love Photo Booth,template_LovePhotoBooth,visual-collection,none
 love-photo-mosaic-builder,Love Photo Mosaic Builder,template_LovePhotoMosaicBuilder,visual-collection,none,M-FIELD
 love-piano,Love Piano,template_LovePiano,audio,none,M-FROST
 love-pixel-art-creator,Love Pixel Art Creator,template_page-local,visual-collection,none,M-AMBER
-love-poetry-fridge,Love Poetry Fridge,template_LovePoetryFridge,guided-interaction,none,M-GOLD
+love-poetry-fridge,Love Poetry Fridge,template_page-local,guided-interaction,none,M-GOLD
 love-potion-brewery2,Love Potion Brewery2,template_page-local,reveal,none,M-NIGHT
 love-potion-brewery,Love Potion Brewery,template_page-local,grow-or-assemble,none,M-BLUSH
 love-potion-lab2,Love Potion Lab2,template_page-local,message-sequence,none,M-MONO

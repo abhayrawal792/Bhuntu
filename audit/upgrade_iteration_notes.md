@@ -46,3 +46,7 @@ Disallow: /
 ```
 
 A cache-busting query-string request briefly returned a GitHub Pages 404, but the canonical no-query endpoint verified correctly. The source HTML also carries `noindex, nofollow`, so the personal gift has both document-level and robots-level privacy protections.
+
+## Regression recovery
+
+The first resumed regression run briefly reported `/love-thermometer` blank while the local preview was being rebuilt. The generated runtime record and an immediate rerun both confirmed the route is healthy: 263 routes, 0 blank pages, 0 errors, and the mobile smoke remains clean with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes. This was a transient preview timing race, not a source defect.
