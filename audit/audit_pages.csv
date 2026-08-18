@@ -108,17 +108,17 @@ love-audio-visualizer,Love Audio Visualizer,template_LoveAudioVisualizer,audio,n
 love-awards-night,Love Awards Night,template_page-local,audio,none,M-NIGHT
 love-butterfly-catcher,Love Butterfly Catcher,template_page-local,guided-interaction,none,M-BLUSH
 love-calculator,Love Calculator,template_LoveCalculator,guided-interaction,none,M-MONO
-love-candle-light-dinner,Love Candle Light Dinner,template_LoveCandleLightDinner,grow-or-assemble,none,M-SEPIA
+love-candle-light-dinner,Love Candle Light Dinner,template_page-local,grow-or-assemble,none,M-SEPIA
 love-chimes,Love Chimes,template_page-local,message-sequence,none,M-ELECT
-love-clock,Love Clock,template_LoveClock,guided-interaction,none,M-WINE
+love-clock,Love Clock,template_page-local,spatial-exploration,none,M-WINE
 love-compass,Love Compass,template_page-local,audio,none,M-PAPER
 love-compatibility-matrix,Love Compatibility Matrix,template_page-local,grow-or-assemble,none,M-DAWN
 love-constellation-connect,Love Constellation Connect,template_LoveConstellationConnect,spatial-exploration,none,M-GREY
-love-constellation-maker,Love Constellation Maker,template_LoveConstellationMaker,spatial-exploration,none,M-FOREST
+love-constellation-maker,Love Constellation Maker,template_page-local,visual-collection,none,M-FOREST
 love-constellation-painter,Love Constellation Painter,template_page-local,reveal,none,M-DUSK
-love-constellation-stargazer,Love Constellation Stargazer,template_LoveConstellationStargazer,spatial-exploration,none,M-FIELD
+love-constellation-stargazer,Love Constellation Stargazer,template_page-local,visual-collection,none,M-FIELD
 love-coronation-ceremony,Love Coronation Ceremony,template_LoveCoronationCeremony,guided-interaction,none,M-FROST
-love-couple-time-capsule-lock-box,Love Couple Time Capsule Lock Box,template_LoveCoupleTimeCapsuleLockBox,time-reveal,none,M-AMBER
+love-couple-time-capsule-lock-box,Love Couple Time Capsule Lock Box,template_page-local,time-reveal,none,M-AMBER
 love-coupon-generator,Love Coupon Generator,template_LoveCouponGenerator,guided-interaction,none,M-GOLD
 love-crossword,Love Crossword,template_page-local,game-or-puzzle,none,M-NIGHT
 love-crossword-puzzle,Love Crossword Puzzle,template_LoveCrosswordPuzzle,game-or-puzzle,none,M-BLUSH
