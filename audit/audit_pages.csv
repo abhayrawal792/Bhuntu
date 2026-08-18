@@ -75,29 +75,29 @@ fireworks,Fireworks,template_page-local,reveal,none,M-FIELD
 first-moments-timeline,First Moments Timeline,template_FirstMomentsTimeline,time-reveal,none,M-FROST
 fortune-cookie-love,Fortune Cookie Love,template_page-local,randomized-choice,none,M-AMBER
 fortune-cookie,Fortune Cookie,template_FortuneCookie,randomized-choice,none,M-GOLD
-four-seasons-of-love,Four Seasons Of Love,template_FourSeasonsOfLove,guided-interaction,none,M-NIGHT
+four-seasons-of-love,Four Seasons Of Love,template_page-local,audio,none,M-NIGHT
 future-house-builder,Future House Builder,template_page-local,visual-collection,none,M-BLUSH
 future-house-builder-second,Future House Builder Second,template_page-local,message-sequence,none,M-MONO
 future-night-ride,Future Night Ride,template_page-local,message-sequence,none,M-SEPIA
 gallery,Gallery,template_GallerySection,visual-collection,none,M-ELECT
 grand-love-galaxy3-d,Grand Love Galaxy3 D,template_page-local,spatial-exploration,none,M-WINE
-grand-love-universe,Grand Love Universe,template_GrandLoveUniverse,guided-interaction,none,M-PAPER
+grand-love-universe,Grand Love Universe,template_page-local,spatial-exploration,none,M-PAPER
 hall-of-fame,Hall Of Fame,template_HallOfFame,guided-interaction,none,M-DAWN
 heart-bubble-tea-maker,Heart Bubble Tea Maker,template_page-local,audio,none,M-GREY
 heart-mailbox,Heart Mailbox,template_page-local,message-sequence,none,M-FOREST
-heart-shape-tangram,Heart Shape Tangram,template_HeartShapeTangram,guided-interaction,none,M-DUSK
+heart-shape-tangram,Heart Shape Tangram,template_page-local,visual-collection,none,M-DUSK
 heartbeat-drum-pad,Heartbeat Drum Pad,template_page-local,audio,none,M-FIELD
 home,Home,template_page-local,audio,none,M-FROST
 horoscope,Horoscope,template_page-local,randomized-choice,none,M-AMBER
 hug-counter,Hug Counter,template_HugCounter,guided-interaction,none,M-GOLD
-infinite-reasons-machine,Infinite Reasons Machine,template_InfiniteReasonsMachine,guided-interaction,none,M-NIGHT
+infinite-reasons-machine,Infinite Reasons Machine,template_page-local,message-sequence,none,M-NIGHT
 jigsaw,Jigsaw,template_JigsawPuzzle,guided-interaction,none,M-BLUSH
 kiss-collector,Kiss Collector,template_page-local,message-sequence,none,M-MONO
 lanterns,Lanterns,template_page-local,letter-or-paper,none,M-SEPIA
 letter,Letter,template_LetterSection,letter-or-paper,none,M-ELECT
 letter-tonight,Letter Tonight,template_page-local,message-sequence,none,M-WINE
 little-things,Little Things,template_page-local,message-sequence,none,M-PAPER
-love-achievement-badges,Love Achievement Badges,template_LoveAchievementBadges,guided-interaction,none,M-DAWN
+love-achievement-badges,Love Achievement Badges,template_page-local,guided-interaction,none,M-DAWN
 love-advent-calendar,Love Advent Calendar,template_LoveAdventCalendar,time-reveal,none,M-GREY
 love-alarm,Love Alarm,template_page-local,message-sequence,none,M-FOREST
 love-anagram-solver,Love Anagram Solver,template_page-local,message-sequence,none,M-DUSK

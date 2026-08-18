@@ -75,22 +75,22 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 074,first-moments-timeline,LETTER,, ,Unique page idea: First Moments Timeline,time-reveal,typography-first,M-FROST,distinct,TYPE-A
 075,fortune-cookie-love,CHAT,, ,Unique page idea: Fortune Cookie Love,randomized-choice,ui-simulation,M-AMBER,distinct,TYPE-A
 076,fortune-cookie,WHY_I_LOVE,, ,Unique page idea: Fortune Cookie,randomized-choice,immersive-scroll,M-GOLD,distinct,TYPE-A
-077,four-seasons-of-love,FUTURE,, ,Unique page idea: Four Seasons Of Love,guided-interaction,interactive-canvas,M-NIGHT,distinct,TYPE-A
+077,four-seasons-of-love,FUTURE,, ,Unique page idea: Four Seasons Of Love,audio,interactive-canvas,M-NIGHT,distinct,TYPE-A
 078,future-house-builder,SURPRISE,, ,Unique page idea: Future House Builder,visual-collection,masonry-grid,M-BLUSH,distinct,TYPE-A
 079,future-house-builder-second,MILESTONE,, ,Unique page idea: Future House Builder Second,message-sequence,editorial-two-column,M-MONO,distinct,TYPE-A
 080,future-night-ride,SENSORY,, ,Unique page idea: Future Night Ride,message-sequence,horizontal-scroll,M-SEPIA,distinct,TYPE-A
 081,gallery,MEMORY,, ,Unique page idea: Gallery,visual-collection,full-bleed-hero,M-ELECT,distinct,TYPE-A
 082,grand-love-galaxy3-d,LETTER,, ,Unique page idea: Grand Love Galaxy3 D,spatial-exploration,single-column,M-WINE,distinct,TYPE-A
-083,grand-love-universe,CHAT,, ,Unique page idea: Grand Love Universe,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
+083,grand-love-universe,CHAT,, ,Unique page idea: Grand Love Universe,spatial-exploration,split-screen,M-PAPER,distinct,TYPE-A
 084,hall-of-fame,WHY_I_LOVE,, ,Unique page idea: Hall Of Fame,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
 085,heart-bubble-tea-maker,FUTURE,, ,Unique page idea: Heart Bubble Tea Maker,audio,ui-simulation,M-GREY,distinct,TYPE-A
 086,heart-mailbox,SURPRISE,, ,Unique page idea: Heart Mailbox,message-sequence,immersive-scroll,M-FOREST,distinct,TYPE-A
-087,heart-shape-tangram,MILESTONE,, ,Unique page idea: Heart Shape Tangram,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
+087,heart-shape-tangram,MILESTONE,, ,Unique page idea: Heart Shape Tangram,visual-collection,interactive-canvas,M-DUSK,distinct,TYPE-A
 088,heartbeat-drum-pad,SENSORY,, ,Unique page idea: Heartbeat Drum Pad,audio,masonry-grid,M-FIELD,distinct,TYPE-A
 089,home,MEMORY,, ,Unique page idea: Home,audio,editorial-two-column,M-FROST,distinct,TYPE-A
 090,horoscope,LETTER,, ,Unique page idea: Horoscope,randomized-choice,horizontal-scroll,M-AMBER,distinct,TYPE-A
 091,hug-counter,CHAT,, ,Unique page idea: Hug Counter,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
-092,infinite-reasons-machine,WHY_I_LOVE,, ,Unique page idea: Infinite Reasons Machine,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
+092,infinite-reasons-machine,WHY_I_LOVE,, ,Unique page idea: Infinite Reasons Machine,message-sequence,single-column,M-NIGHT,distinct,TYPE-A
 093,jigsaw,FUTURE,, ,Unique page idea: Jigsaw,guided-interaction,split-screen,M-BLUSH,distinct,TYPE-A
 094,kiss-collector,SURPRISE,, ,Unique page idea: Kiss Collector,message-sequence,typography-first,M-MONO,distinct,TYPE-A
 095,lanterns,MILESTONE,, ,Unique page idea: Lanterns,letter-or-paper,ui-simulation,M-SEPIA,distinct,TYPE-A
