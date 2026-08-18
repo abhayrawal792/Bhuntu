@@ -50,7 +50,7 @@ couple-questions-deep,Couple Questions Deep,template_CoupleQuestionsDeep,guided-
 couple-quiz2,Couple Quiz2,template_page-local,game-or-puzzle,none,M-MONO
 couple-quiz-master,Couple Quiz Master,template_CoupleQuizMaster,game-or-puzzle,none,M-SEPIA
 couple-recipe-book,Couple Recipe Book,template_CoupleRecipeBook,guided-interaction,none,M-ELECT
-couple-relationship-cert,Couple Relationship Cert,template_CoupleRelationshipCert,guided-interaction,none,M-WINE
+couple-relationship-cert,Couple Relationship Cert,template_page-local,guided-interaction,none,M-WINE
 couple-soundtrack,Couple Soundtrack,template_page-local,audio,none,M-PAPER
 couple-starry-planetarium,Couple Starry Planetarium,template_CoupleStarryPlanetarium,spatial-exploration,none,M-DAWN
 couple-superlatives,Couple Superlatives,template_CoupleSuperlatives,guided-interaction,none,M-GREY
@@ -80,7 +80,7 @@ future-house-builder,Future House Builder,template_FutureHouseBuilder,guided-int
 future-house-builder-second,Future House Builder Second,template_page-local,message-sequence,none,M-MONO
 future-night-ride,Future Night Ride,template_page-local,message-sequence,none,M-SEPIA
 gallery,Gallery,template_GallerySection,visual-collection,none,M-ELECT
-grand-love-galaxy3-d,Grand Love Galaxy3 D,template_GrandLoveGalaxy3D,spatial-exploration,none,M-WINE
+grand-love-galaxy3-d,Grand Love Galaxy3 D,template_page-local,spatial-exploration,none,M-WINE
 grand-love-universe,Grand Love Universe,template_GrandLoveUniverse,guided-interaction,none,M-PAPER
 hall-of-fame,Hall Of Fame,template_HallOfFame,guided-interaction,none,M-DAWN
 heart-bubble-tea-maker,Heart Bubble Tea Maker,template_HeartBubbleTeaMaker,guided-interaction,none,M-GREY
@@ -203,7 +203,7 @@ love-spell-caster,Love Spell Caster,template_LoveSpellCaster,guided-interaction,
 love-spell-caster-studio,Love Spell Caster Studio,template_page-local,message-sequence,none,M-WINE
 love-spin-bottle,Love Spin Bottle,template_LoveSpinBottle,guided-interaction,none,M-PAPER
 love-spinner3-d,Love Spinner3 D,template_page-local,randomized-choice,none,M-DAWN
-love-stamp-collection,Love Stamp Collection,template_LoveStampCollection,guided-interaction,none,M-GREY
+love-stamp-collection,Love Stamp Collection,template_page-local,audio,none,M-GREY
 love-sweet-confectionery-bakery,Love Sweet Confectionery Bakery,template_LoveSweetConfectioneryBakery,guided-interaction,none,M-FOREST
 love-sweet-heart-paper-craft,Love Sweet Heart Paper Craft,template_page-local,message-sequence,none,M-DUSK
 love-tamagotchi,Love Tamagotchi,template_LoveTamagotchi,guided-interaction,none,M-FIELD

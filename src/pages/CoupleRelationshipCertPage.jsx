@@ -1,6 +1,10 @@
-import React from 'react';
-import CoupleRelationshipCert from '../components/CoupleRelationshipCert';
+import React, { useState } from 'react';
+import { BadgeCheck, Heart, MapPin, PenLine } from 'lucide-react';
 
-export default function CoupleRelationshipCertPage() {
-  return <CoupleRelationshipCert />;
-}
+const clauses = [
+  { label: 'Clause 01', title: 'Origin verified', copy: 'This certificate recognizes 28 October 2025 as the day a yes gave the story its first official line.' },
+  { label: 'Clause 02', title: 'Distance witnessed', copy: 'Nepalgunj and Sakai are recorded as two places that kept choosing conversation over silence.' },
+  { label: 'Clause 03', title: 'Future protected', copy: 'Bardiya, Pokhara, Manang, Mustang, and the light-blue scooter remain listed as plans worth reaching.' },
+];
+
+export default function CoupleRelationshipCertPage() { const [selected, setSelected] = useState(0); const clause = clauses[selected]; return <main className="min-h-dvh bg-[#e8e2d5] px-5 py-12 text-[#302d28] sm:px-10 sm:py-16"><div className="mx-auto max-w-6xl"><header className="border-b-4 border-double border-[#8a6b3e]/30 pb-8 text-center"><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#9b7137]"><BadgeCheck className="h-4 w-4" /> Abu’s archive of official feelings</p><h1 className="mt-5 text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">A certificate for the relationship no template could write.</h1><p className="mx-auto mt-6 max-w-xl text-sm leading-7 text-[#756750]">Issued to Samjhana, also known as Bhuntu, because the evidence is everywhere in the details.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="space-y-3" aria-label="Certificate clauses">{clauses.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-[#9b7137] bg-white shadow-xl' : 'border-[#8a6b3e]/10 bg-white/45 hover:bg-white/80'}`}><span className="block text-[10px] font-black uppercase tracking-[0.18em] text-[#9b7137]">{item.label}</span><span className="mt-3 block text-xl font-black">{item.title}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#fffaf0] p-8 shadow-[15px_18px_0_rgba(48,45,40,.12)] sm:p-14"><div className="absolute right-8 top-8 rounded-full border border-[#9b7137]/30 p-4"><PenLine className="h-7 w-7 text-[#9b7137]" /></div><p className="text-[10px] font-black uppercase tracking-[0.22em] text-[#9b7137]">{clause.label} · certified by Abu</p><h2 className="mt-16 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{clause.title}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#756750]">{clause.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-[#8a6b3e]/15 pt-6 text-sm font-black text-[#9b7137]"><Heart className="h-4 w-4 fill-current text-rose-400" /><MapPin className="h-4 w-4" /> Filed under: Samjhana & Abu</div></section></div></div></main>; }

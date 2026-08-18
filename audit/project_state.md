@@ -6,7 +6,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Current batch status
 
-- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, thirty-five first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
+- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, thirty-eight first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
 - **Source build:** passed with `npm run build`
 - **Experience-system audit:** passed
 - **Game policy:** passed — exactly 20 approved games, 20 detected in sequence, 0 errors
@@ -15,10 +15,10 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 - **Middle visual check:** passed — `/bento-box` rendered bespoke Bento content plus editorial keepsake variant
 - **Final visual check:** passed — `/room/12` rendered the three-chapter final keepsake and suppressed the global gift layer
 - **Interactive visual check:** passed on a museum-placard route; strict guard correctly rejected invalid local frontier tests
-- **Latest focused page batch:** the prior thirty bespoke compositions plus Romantic Locket, Couple Movie Marathon, Love Language Test, Love Potion Brewery 2, Romantic Message Grid, Couple Anniversary Clock, Love Envelope Collection, Romantic Music Box 2, Couple Future Home 3D, and Love Neon Sign Gallery now use distinct post-sequence structures and personal content
+- **Latest focused page batch:** the prior thirty-five bespoke compositions plus Couple Relationship Certificate, Grand Love Galaxy 3D, and Love Stamp Collection now use distinct archival, orbit, and postage structures with personal content
 - **Privacy surface:** passed — source HTML has `noindex, nofollow`; generated and public `robots.txt` both contain `Disallow: /`
-- **Deployment:** passed — GitHub Pages workflow `32119384185` completed successfully for the latest pushed commit
-- **Latest regression:** passed after recovering the local preview/CDP service — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
+- **Deployment:** latest source changes are ready for the next Pages workflow after commit
+- **Latest regression:** passed — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
 - **Whole-site game-signal audit:** unapproved game-like routes remain excluded from the canonical navigation; the bonus arcade hub itself has been replaced by a non-game scrapbook index
 - **Latest resolved polish:** mobile smoke passed on 5 representative routes with 0 horizontal overflow, 0 missing alt attributes, 0 empty interactive controls, and 0 blank routes after adding explicit aria-labels to the global audio controls
 - **Latest unresolved polish:** measured bundle warning remains (main chunk above 500 kB); continue with safe loading/performance checks and queue the next high-impact page batch
@@ -51,4 +51,4 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Last saved status log
 
-The first upgraded batch, accessibility/mobile batch, seven successive five-page replacement batches, the bonus-arcade replacement, privacy/indexing protection, and public deployment verification are complete. The next action is the next unsequenced thin-page batch; do not wait for approval.
+The first upgraded batch, accessibility/mobile batch, seven successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, and public deployment verification are complete. The next action is the next unsequenced thin-page batch; do not wait for approval.
