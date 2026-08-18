@@ -21,20 +21,44 @@ const families = {
   'single-quiz': { label: 'The one game’s prize room', place: 'Play once, then keep the feeling', icon: '🏆', cta: 'Open your personal prize', shell: 'from-cyan-50 via-white to-rose-50', badge: 'text-cyan-700', button: 'bg-cyan-700', composition: 'ticket' },
 };
 
-const hash = (text) => [...text].reduce((value, char) => (value * 31 + char.charCodeAt(0)) >>> 0, 17);
+const pickVisitPhotoIndexes = (pathname) => {
+  const total = ALL_MEDIA_PHOTOS.length;
+  let previous = [];
+  try {
+    previous = JSON.parse(window.localStorage.getItem(`bhuntu-photo-visit:${pathname}`) || '[]');
+  } catch (_) {
+    previous = [];
+  }
+  let first = Math.floor(Math.random() * total);
+  if (total > 1 && first === previous[0]) first = (first + 1 + Math.floor(Math.random() * (total - 1))) % total;
+  const indexes = [first];
+  while (indexes.length < 3) {
+    const candidate = Math.floor(Math.random() * total);
+    if (!indexes.includes(candidate)) indexes.push(candidate);
+  }
+  try { window.localStorage.setItem(`bhuntu-photo-visit:${pathname}`, JSON.stringify(indexes)); } catch (_) {}
+  return indexes;
+};
 
 export default function PersonalGiftLayer() {
   const { pathname } = useLocation();
+  const firstPath = React.useRef(pathname);
   const [revealed, setRevealed] = useState(false);
-  useEffect(() => setRevealed(false), [pathname]);
+  const [photoIndexes, setPhotoIndexes] = useState(() => pickVisitPhotoIndexes(pathname));
+  useEffect(() => {
+    setRevealed(false);
+    if (firstPath.current !== pathname) {
+      firstPath.current = pathname;
+      setPhotoIndexes(pickVisitPhotoIndexes(pathname));
+    }
+  }, [pathname]);
   if (pathname === '/' || pathname === '/home') return null;
 
   const item = pageGiftByRoute[pathname] || pageGiftByRoute['/'];
   if (!item) return null;
   const page = pageNameByRoute[pathname] || { title: item.title };
   const family = families[item.kind] || families.keepsake;
-  const seed = hash(`${pathname}:${item.nickname}`);
-  const photos = [0, 1, 2].map((offset) => getAssetUrl(ALL_MEDIA_PHOTOS[(seed + offset * 7) % ALL_MEDIA_PHOTOS.length]));
+  const photos = photoIndexes.map((index) => getAssetUrl(ALL_MEDIA_PHOTOS[index % ALL_MEDIA_PHOTOS.length]));
 
   return (
     <section id="page-gift" className={`relative mx-auto my-12 w-[calc(100%-1rem)] max-w-6xl overflow-hidden rounded-[2.5rem] border border-white/80 bg-gradient-to-br ${family.shell} p-3 shadow-[0_24px_80px_rgba(91,33,67,.16)] sm:my-16 sm:p-5`} aria-label={`${page.title} — personal birthday gift from Abu`}>
