@@ -5,6 +5,7 @@ import RouteGuard from './components/RouteGuard';
 import Navbar from './components/Navbar';
 import PageFooter from './components/PageFooter';
 import EasterEggModal from './components/EasterEggModal';
+import PersonalGiftLayer from './components/PersonalGiftLayer';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const CuratedJourneyPage = lazy(() => import('./pages/CuratedJourneyPage'));
@@ -707,7 +708,8 @@ function MainAppContent() {
               <Route path="/room/10"  element={<Room10Page />} />
               <Route path="/room/11"  element={<Room11Page />} />
               <Route path="/room/12"  element={<Room12Page />} />
-            </Routes>
+              </Routes>
+              <PersonalGiftLayer />
               </Suspense>
           </main>
 

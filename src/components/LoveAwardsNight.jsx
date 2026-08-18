@@ -12,7 +12,7 @@ const TROPHIES = [
   { id: 1, title: "World's Most Beautiful Girl 👑", winner: "Queen Sanzu", citation: "Unanimously awarded by Abu & all 8 billion people on Earth!" },
   { id: 2, title: "Best Smile of the Century 🌸", winner: "Queen Sanzu", citation: "Illuminating Nepalgunj, Osaka, & Abu's entire world daily!" },
   { id: 3, title: "Everlasting Soulmate Award 💖", winner: "Queen Sanzu", citation: "Bound together forever across 4,500 miles!" },
-  { id: 4, title: "Golden Future Wifey Trophy 💍", creator: "Abu & Sanzu", citation: "Sealed on October 28, 2025 to build our dream home!" }
+  { id: 4, title: "Golden Future We Keep Dreaming Trophy 💍", creator: "Abu & Sanzu", citation: "Sealed on October 28, 2025 for the home and life we keep imagining!" }
 ];
 
 export default function LoveAwardsNight() {

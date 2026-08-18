@@ -9,11 +9,11 @@ export const complimentsList = [
   { nepali: "Temro yo style ra look le mero mutu chyo, Sanzu Rawal! 🔥", english: "Effortlessly graceful, radiant, and gorgeous." },
   { nepali: "Temi sanga video call ma kura garda mero sabai bhanda thulo khusi milxa! 🎵", english: "Your laugh is my favorite sound in the world." },
   { nepali: "Ma temlai sadhai usto dherai maya gariraxu ra sadhai garirahansuk, mero Bebo! 💍", english: "Loved you yesterday, love you today, love you forever." },
-  { nepali: "Temi nai mero vartaman ra bhavishya hou, mero wifey Bebo! 🎂", english: "You are my past, my present, and all of my futures." },
+  { nepali: "Temi nai mero vartaman ra bhavishya hou, mero Bebo! 🎂", english: "You are the person Abu keeps choosing in every future he imagines." },
   { nepali: "Every morning 'Good morning babe' vanera waking up is the greatest feeling ever! ☀️", english: "You bring endless warmth and joy into my life." },
   { nepali: "'Ramrari padhnu ani sangai basne' — yo hamro promise forever ho! 🥂", english: "Every promise we made in chat will come true." },
   { nepali: "Paxi hjur le tya sabai ko agadi maya ra kissi garnu hunxa... Haan ji! 💋", english: "Forever and always together in front of the whole world." },
-  { nepali: "Temro 'Huss', 'Umms', ra 'Mero Buda' vanne meetho bani le mero heart melt gardinxa! 🌸", english: "Your sweet texting style melts my heart every single day." }
+  { nepali: "Temro 'Huss', 'Umms', ra malai 'Abu' vanne meetho bani le mero heart melt gardinxa! 🌸", english: "Your sweet texting style — especially when you call me Abu — melts my heart every single day." }
 ];
 
 export function getComplimentForMedia(index, filename = "") {

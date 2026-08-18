@@ -57,7 +57,7 @@ coupon-vault,Coupon Vault,template_CouponVault,guided-interaction,none,M-GREY
 cupcake-decorator,Cupcake Decorator,template_CupcakeDecorator,guided-interaction,none,M-FOREST
 cupid-archery,Cupid Archery,template_CupidArchery,guided-interaction,none,M-DUSK
 cupid-radio-djstation,Cupid Radio DJStation,template_CupidRadioDJStation,audio,none,M-FIELD
-curated-journey,Curated Journey,template_page-local,visual-collection,none,M-FROST
+curated-journey,Curated Journey,template_page-local,audio,none,M-FROST
 distance,Distance,template_NepalgunjToOsakaFlightSim,guided-interaction,none,M-AMBER
 dragon-princess-adventure,Dragon Princess Adventure,template_DragonPrincessAdventure,guided-interaction,none,M-GOLD
 emoji-art-canvas,Emoji Art Canvas,template_EmojiArtCanvas,guided-interaction,none,M-NIGHT
@@ -81,7 +81,7 @@ heart-bubble-tea-maker,Heart Bubble Tea Maker,template_HeartBubbleTeaMaker,guide
 heart-mailbox,Heart Mailbox,template_HeartMailbox,guided-interaction,none,M-SEPIA
 heart-shape-tangram,Heart Shape Tangram,template_HeartShapeTangram,guided-interaction,none,M-ELECT
 heartbeat-drum-pad,Heartbeat Drum Pad,template_HeartbeatDrumPad,guided-interaction,none,M-WINE
-home,Home,template_page-local,grow-or-assemble,none,M-PAPER
+home,Home,template_page-local,audio,none,M-PAPER
 horoscope,Horoscope,template_LoveHoroscope,randomized-choice,none,M-DAWN
 hug-counter,Hug Counter,template_HugCounter,guided-interaction,none,M-GREY
 infinite-reasons-machine,Infinite Reasons Machine,template_InfiniteReasonsMachine,guided-interaction,none,M-FOREST
@@ -274,7 +274,7 @@ star-namer,Star Namer,template_StarNamer,spatial-exploration,none,M-NIGHT
 star-projector,Star Projector,template_StarProjector,spatial-exploration,none,M-BLUSH
 starry-night-skywriter,Starry Night Skywriter,template_StarryNightSkywriter,spatial-exploration,none,M-MONO
 stars,Stars,template_page-local,spatial-exploration,none,M-SEPIA
-story,Story,template_page-local,letter-or-paper,none,M-ELECT
+story,Story,template_page-local,game-or-puzzle,none,M-ELECT
 surprise,Surprise,template_FinaleSection,guided-interaction,none,M-WINE
 sweet-compliments-fountain,Sweet Compliments Fountain,template_SweetComplimentsFountain,guided-interaction,none,M-PAPER
 sweet-compliments,Sweet Compliments,template_SweetCompliments,guided-interaction,none,M-DAWN

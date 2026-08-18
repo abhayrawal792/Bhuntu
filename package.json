@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run audit:uniqueness && vite build",
+    "build": "npm run audit:uniqueness && npm run audit:experiences && npm run audit:gift-system && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "audit:uniqueness": "node scripts/validate-uniqueness.mjs",
-    "audit:fresh": "node scripts/fresh-audit.mjs"
+    "audit:fresh": "node scripts/fresh-audit.mjs",
+    "audit:experiences": "node scripts/audit-page-experiences.mjs",
+    "audit:gift-system": "node scripts/validate-experience-system.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",

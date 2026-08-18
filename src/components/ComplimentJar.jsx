@@ -15,9 +15,9 @@ const WHEEL_SECTORS = [
   { id: 3, title: 'Chiya Date ☕', color: 'from-orange-400 to-amber-500', nepali: "Panipuri, momo ra current noodles khana man lagda temi kasto pyari baby lagchau! 🥟🍜", english: "Your cute food cravings make me love you even more!", photoIdx: 21 },
   { id: 4, title: 'Scooter Ride 🛵', color: 'from-sky-400 to-blue-600', nepali: "Light blue scooter ma Bardiya jada ra 30 to 40 kiddos huda sammi sadhai temrai hu! 🛵💙", english: "Riding to Bardiya together on our light blue scooter forever!", photoIdx: 88 },
   { id: 5, title: 'Natural Beauty 🌸', color: 'from-pink-400 to-rose-500', nepali: "Sanu, jab temi le 'Sanzu..!!👀🤍✨' vanera meetho message garchau, mero heart full smile huncha! ❤️", english: "The prettiest smile in the universe, my Bebo!", photoIdx: 0 },
-  { id: 6, title: 'Future Wifey 💍', color: 'from-purple-500 to-indigo-600', nepali: "Ma temlai sadhai usto dherai maya gariraxu ra sadhai garirahansuk, mero Bebo! 💍", english: "Loved you yesterday, love you today, love you forever.", photoIdx: 49 },
+  { id: 6, title: 'The Future Abu Imagines 💍', color: 'from-purple-500 to-indigo-600', nepali: "Ma temlai sadhai usto dherai maya gariraxu ra sadhai garirahansuk, mero Bebo! 💍", english: "I love you today, I will keep choosing you tomorrow, and I will keep saving our future in my heart.", photoIdx: 49 },
   { id: 7, title: 'Distance Defier ✈️', color: 'from-teal-400 to-emerald-600', nepali: "Nepalgunj bata Osaka (Sakai) hazaarau miles bhaye pani temro 'Call garne 🥺' message le duri birsaidinx! ✈️", english: "Distance disappears the moment I hear your voice.", photoIdx: 15 },
-  { id: 8, title: 'Sweetest Voice 🎵', color: 'from-fuchsia-500 to-pink-600', nepali: "Temro 'Huss', 'Umms', ra 'Mero Buda' vanne meetho bani le mero heart melt gardinxa! 🌸", english: "Your sweet texting style melts my heart every single day.", photoIdx: 79 }
+  { id: 8, title: 'Sweetest Voice 🎵', color: 'from-fuchsia-500 to-pink-600', nepali: "Temro 'Huss', 'Umms', ra malai 'Abu' vanne meetho bani le mero heart melt gardinxa! 🌸", english: "Your sweet texting style — especially when you call me Abu — melts my heart every single day.", photoIdx: 79 }
 ];
 
 export default function ComplimentJar() {

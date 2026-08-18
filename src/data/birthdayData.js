@@ -14,7 +14,7 @@ export const birthdayData = {
   },
 
   partner: {
-    name: "Abu (Mero Buda / Sana)",
+    name: "Abu",
     locationName: "Nepalgunj, Nepal 🇳🇵",
     coords: [28.0500, 81.6167],
     whatsappPhone: "9779708349123",
@@ -98,7 +98,7 @@ export const birthdayData = {
       nepaliTitle: "Hamro Bihe Ra Sangai Hune Sapana",
       description: "Holding onto our dream of getting married and building our happy family together. You are my everything, my Bebo, my Bhuntu.",
       nepaliDescription: "Aalikaati time deu, yo duri hami sangai jitnxam ra paxi sangai kusi bhayera bihe garera basnexam. Temi nai mero sabai thok hou!",
-      tag: "Forever Wifey",
+      tag: "Forever Promise",
     },
   ],
 
@@ -214,7 +214,7 @@ export const birthdayData = {
       "Mero sana anai temi socha ni ki ma temi sanga bolnai khojdoina testo hainsa snu bas setuation nai testo hunxa kya aani saniut temlai thaxa ta ani maero bani kasto xa kei kura nig are rakhna sakdoina kasto aalxi xu k k huna thalx 1 ta thauma akxin tikdoina so aaaru kei haina I love you sooo muh beboo..!! ani ma temlai yati dherai maya garxu ni ki ma aafu le aafu lai yati dhetai change garna khojerako xu temlia thax ki nai lai lastai dheraii ris uuththiyo ra kasto naramro ris aauxa tara ma aila control garna khojerako xu cuz I fear to loose you bebo..!! ma temlai gumauna channa ra dar lagxa mero ris le garda ya mero harkat le garda ma temlai kaila gumaune ta haina ne bhanera soo plese be ma aakaix ixn resaya nia aakxin paxi fare maya lagxa anii fare temi nai chiyenxa soo Kailai xadera najnu huss beboo I love you sanaaa..!!"
     ],
     closing: "I loveeeeeeeeeeeeeee you sooooooooooo much",
-    signature: "Mero kanxu, bebo, budi, wifeyy, bhuntu, fuchhu, beb, mayaluu darling mero sab thok temi ho bebo I love you…!!! ❤️",
+    signature: "Mero kanxu, Bebo, Bhuntu, Fuchhee, Sanu, Babe, Runchi, mayaluu darling — mero sab thok temi ho. I love you…!!! ❤️",
   },
 
   bouquet: [
@@ -270,8 +270,8 @@ export const birthdayData = {
     nepaliTitle: "Shubha Janmotsav Ko Dherai Dherai Maya Mero Bhuntu, Sanuu! ❤️",
     subtitle: "Tap the 3D Gift Box below to unwrap your final surprise!",
     nepaliSubtitle: "Tala ko gift box thichera surprise hernu hoss!",
-    giftBoxMessage: "You are my past, my present, and all of my futures. Happy Birthday, my Bebo, Sanuu, Fuchhee!",
-    nepaliGiftBoxMessage: "Temi nai mero vartaman ra bhavishya hou. Janmadin ko dherai dherai shubhakamana mero bhuntu, sanuu!",
+    giftBoxMessage: "You are my past, my present, and all of my futures. Happy Birthday, my Bebo, Bhuntu, Sanuu, Fuchhee!",
+    nepaliGiftBoxMessage: "Temi nai mero vartaman ra bhavishya hou. Janmadin ko dherai dherai shubhakamana mero Bhuntu, Sanuu, Runchi!",
   },
 
   quiz: {
@@ -333,7 +333,7 @@ export const birthdayData = {
       { id: 2, name: "Star of Distance", x: 45, y: 25, note: "From Nepalgunj to Osaka, no distance can diminish my love for you. ✈️", nepaliNote: "Nepalgunj (Dhamboji) bata Osaka samma ko duri le pani hamro maya ghatauna sakdain." },
       { id: 3, name: "Star of Late Night Calls", x: 75, y: 35, note: "Falling asleep listening to your voice is my favorite comfort in the world. 🌙", nepaliNote: "Raat bhar video call ma temro anuhar herda sab thakai harauxa, sanuu." },
       { id: 4, name: "Star of Pure Smiles", x: 30, y: 70, note: "Your innocent smile cures my worst days instantly. 😊", nepaliNote: "Temro nirdosh muskan dekhda mero din nai ujyalo hunxa, Bebo." },
-      { id: 5, name: "Star of Forever Marriage", x: 65, y: 75, note: "Holding your hand at the mandap and calling you my wifey is my lifetime goal. 💍", nepaliNote: "Temlai aafno budi/wifey banayera sangai basne dream mero sabai bhanda thulo sapana ho." }
+      { id: 5, name: "Star of the Future We Imagine", x: 65, y: 75, note: "Holding your hand in the future we keep imagining is one of Abu’s biggest dreams. 💍", nepaliNote: "Temro haath samatera sangai basne dream mero sabai bhanda thulo sapana ho." }
     ]
   },
 

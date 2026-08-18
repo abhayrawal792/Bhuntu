@@ -12,7 +12,7 @@ const NICKNAME_STARS = [
   { id: 1, name: "Queen Sanzu 👑", x: 50, y: 18, meaning: "The irreplaceable queen who rules Abu's universe and entire heart!" },
   { id: 2, name: "Bhuntu 💕", x: 22, y: 35, meaning: "The original sacred nickname — cute, precious, and eternal!" },
   { id: 3, name: "Bebo 🍯", x: 78, y: 35, meaning: "Abu's sweet Bebo who brings sweetness to every single day!" },
-  { id: 4, name: "Forever Wifey 💍", x: 18, y: 65, meaning: "Abu's soulmate and life partner for our dream home!" },
+  { id: 4, name: "Abu's Safe Place 🏠", x: 18, y: 65, meaning: "The person Abu imagines coming home to, wherever the future takes us." },
   { id: 5, name: "Fuchee 🌸", x: 82, y: 65, meaning: "Endearing cute nickname reserved exclusively for Sanzu!" },
   { id: 6, name: "Mayalu 💖", x: 50, y: 82, meaning: "Deeply beloved one — beloved beyond all measure!" },
   { id: 7, name: "Sano Kanchhi ✨", x: 35, y: 48, meaning: "Precious little star who lights up Abu's world!" },

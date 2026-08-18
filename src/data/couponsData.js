@@ -37,9 +37,9 @@ export const couponsData = [
   },
   {
     id: 6,
-    title: "Forever Wifey & Bihe Promise 💍",
+    title: "Forever Choosing You & Future Promise 💍",
     nepaliTitle: "'Ramrari Padhnu Ani Sangai Basne' बाचा",
-    description: "Our eternal promise from chat: 'Ramrari padhnu ani sangai basne!' Guaranteed lifetime of love, care, and marriage.",
-    code: "SANZU-FOREVER-WIFEY",
+    description: "Our eternal promise from chat: 'Ramrari padhnu ani sangai basne!' A forever promise of love, care, and the future we keep imagining.",
+    code: "SANZU-ABU-FOREVER",
   },
 ];

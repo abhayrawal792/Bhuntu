@@ -15,7 +15,7 @@ const MEMORY_THEMES = [
   { id: 2, title: 'Osaka ↔ Nepalgunj Video Call ✈️', nepali: 'Dherai duri bhaye pani aakash ko sanzu!', photoIdx: 25 },
   { id: 3, title: 'Panipuri & Current Noodles 🍜', nepali: 'Pyari baby ko khana cravings!', photoIdx: 38 },
   { id: 4, title: 'Natural Smile & Beauty 🌸', nepali: 'Without makeup pani sabai bhanda pyari!', photoIdx: 52 },
-  { id: 5, title: 'Sanzu Rawal Queen Worship 👑', nepali: 'Mero wifey Bebo ko rajkumari look!', photoIdx: 64 },
+  { id: 5, title: 'Sanzu Rawal Queen Worship 👑', nepali: 'Mero Bebo, Bhuntu, Sanu ko rajkumari look!', photoIdx: 64 },
   { id: 6, title: '30-40 Kiddos Future Dream 💒', nepali: 'Paxi haami sangai hune pyaro sapana!', photoIdx: 78 },
   { id: 7, title: 'First Birthday Cake Wish 🎂', nepali: 'Sanzu ko birthday special celebration!', photoIdx: 90 }
 ];

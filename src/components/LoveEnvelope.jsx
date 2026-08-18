@@ -32,8 +32,8 @@ const LETTER_PRESETS = [
   },
   {
     id: 3,
-    title: "Forever Wifey & Marriage Promise 💍",
-    nepali: "Sanzu Rawal, ma temlai sadhai usto dherai maya gariraxu ra sadhai garirahansuk. Temi nai mero vartaman ra bhavishya hou, mero wifey Bebo!",
+    title: "Forever Choosing You Promise 💍",
+    nepali: "Sanzu Rawal, ma temlai sadhai usto dherai maya gariraxu ra sadhai garirahansuk. Temi nai mero vartaman ra bhavishya hou, mero Bebo!",
     english: "I loved you yesterday, I love you today, and I will love you for all of my futures.",
     photoIdx: 64
   }

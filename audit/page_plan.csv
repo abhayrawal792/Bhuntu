@@ -57,7 +57,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 056,cupcake-decorator,SENSORY,, ,Unique page idea: Cupcake Decorator,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
 057,cupid-archery,MEMORY,, ,Unique page idea: Cupid Archery,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
 058,cupid-radio-djstation,LETTER,, ,Unique page idea: Cupid Radio DJStation,audio,masonry-grid,M-FIELD,distinct,TYPE-A
-059,curated-journey,CHAT,, ,Unique page idea: Curated Journey,visual-collection,editorial-two-column,M-FROST,distinct,TYPE-A
+059,curated-journey,CHAT,, ,Unique page idea: Curated Journey,audio,editorial-two-column,M-FROST,distinct,TYPE-A
 060,distance,WHY_I_LOVE,, ,Unique page idea: Distance,guided-interaction,horizontal-scroll,M-AMBER,distinct,TYPE-A
 061,dragon-princess-adventure,FUTURE,, ,Unique page idea: Dragon Princess Adventure,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
 062,emoji-art-canvas,SURPRISE,, ,Unique page idea: Emoji Art Canvas,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
@@ -81,7 +81,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 080,heart-mailbox,SENSORY,, ,Unique page idea: Heart Mailbox,guided-interaction,horizontal-scroll,M-SEPIA,distinct,TYPE-A
 081,heart-shape-tangram,MEMORY,, ,Unique page idea: Heart Shape Tangram,guided-interaction,full-bleed-hero,M-ELECT,distinct,TYPE-A
 082,heartbeat-drum-pad,LETTER,, ,Unique page idea: Heartbeat Drum Pad,guided-interaction,single-column,M-WINE,distinct,TYPE-A
-083,home,CHAT,, ,Unique page idea: Home,grow-or-assemble,split-screen,M-PAPER,distinct,TYPE-A
+083,home,CHAT,, ,Unique page idea: Home,audio,split-screen,M-PAPER,distinct,TYPE-A
 084,horoscope,WHY_I_LOVE,, ,Unique page idea: Horoscope,randomized-choice,typography-first,M-DAWN,distinct,TYPE-A
 085,hug-counter,FUTURE,, ,Unique page idea: Hug Counter,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
 086,infinite-reasons-machine,SURPRISE,, ,Unique page idea: Infinite Reasons Machine,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
@@ -274,7 +274,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 273,star-projector,MEMORY,, ,Unique page idea: Star Projector,spatial-exploration,split-screen,M-BLUSH,distinct,TYPE-A
 274,starry-night-skywriter,LETTER,, ,Unique page idea: Starry Night Skywriter,spatial-exploration,typography-first,M-MONO,distinct,TYPE-A
 275,stars,CHAT,, ,Unique page idea: Stars,spatial-exploration,ui-simulation,M-SEPIA,distinct,TYPE-A
-276,story,WHY_I_LOVE,, ,Unique page idea: Story,letter-or-paper,immersive-scroll,M-ELECT,distinct,TYPE-A
+276,story,WHY_I_LOVE,, ,Unique page idea: Story,game-or-puzzle,immersive-scroll,M-ELECT,distinct,TYPE-A
 277,surprise,FUTURE,, ,Unique page idea: Surprise,guided-interaction,interactive-canvas,M-WINE,distinct,TYPE-A
 278,sweet-compliments-fountain,SURPRISE,, ,Unique page idea: Sweet Compliments Fountain,guided-interaction,masonry-grid,M-PAPER,distinct,TYPE-A
 279,sweet-compliments,MILESTONE,, ,Unique page idea: Sweet Compliments,guided-interaction,editorial-two-column,M-DAWN,distinct,TYPE-A

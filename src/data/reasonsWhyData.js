@@ -65,9 +65,9 @@ export const reasonsWhyData = [
   },
   {
     id: 10,
-    title: "10. You Are My Wifey & Forever Bebo",
+    title: "10. You Are Abu’s Forever Bebo",
     nepaliTitle: "मेरो कान्छु, बेबो, संजु (Sanzu..!!👀🤍✨)",
-    reason: "Mero kanxu, bebo, budi, wifeyy, Sanzu..!!👀🤍✨, fuchhu, panipuri & momo lover, mero sab thok temi nai ho bebo! Love you so much!",
+    reason: "Mero kanxu, Bebo, Bhuntu, Sanu, Babe, Runchi, Sanzu..!!👀🤍✨, panipuri & momo lover — mero sab thok temi nai ho! Love you so much!",
     english: "You are my past, my present, and all of my futures. Happy Birthday, my Sanzu..!!👀🤍✨!",
   },
 ];
