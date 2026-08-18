@@ -1,6 +1,11 @@
-import React from 'react';
-import LoveEnvelopeCollection from '../components/LoveEnvelopeCollection';
+import React, { useState } from 'react';
+import { Heart, Mail, Paperclip, Sparkles } from 'lucide-react';
 
-export default function LoveEnvelopeCollectionPage() {
-  return <LoveEnvelopeCollection />;
-}
+const letters = [
+  { label: 'Open when you need softness', copy: 'You do not have to be strong for Abu every day. Come exactly as you are; that is the version he wants closest.' },
+  { label: 'Open when you feel far away', copy: 'Distance can change the clock, but it cannot change the care inside every call, every remembered detail, and every “call garne.”' },
+  { label: 'Open when you want to laugh', copy: 'Remember the food, the nicknames, the tiny misunderstandings, and the way ordinary days become our favourite stories.' },
+  { label: 'Open when the future arrives', copy: 'Leave this one for the light-blue scooter, the mountain roads, and the morning when Abu is beside you instead of on a screen.' },
+];
+
+export default function LoveEnvelopeCollectionPage() { const [selected, setSelected] = useState(0); const letter = letters[selected]; return <main className="min-h-dvh bg-[#e7edf1] px-5 py-12 text-[#27343b] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-slate-700/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-slate-600"><Mail className="h-4 w-4" /> Abu’s letter collection</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Four letters for the days a message cannot cover.</h1></div><p className="max-w-xs text-sm leading-7 text-[#61717a]">Each envelope is a different kind of care, written for a different version of Samjhana’s day.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="grid gap-3 sm:grid-cols-2" aria-label="Open-when letter collection">{letters.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`relative rounded-2xl border p-5 text-left transition ${selected === index ? 'border-slate-700 bg-white shadow-xl' : 'border-slate-700/10 bg-white/45 hover:bg-white/80'}`}><Paperclip className="absolute right-4 top-4 h-4 w-4 rotate-12 text-slate-500" /><span className="block pr-6 text-[10px] font-black uppercase tracking-[0.18em] text-slate-500">Envelope 0{index + 1}</span><span className="mt-4 block text-lg font-black">{item.label}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#fffaf0] p-8 shadow-[15px_18px_0_rgba(39,52,59,.12)] sm:p-14"><Heart className="h-10 w-10 fill-rose-300 text-rose-500" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-slate-600">Letter 0{selected + 1} · for Samjhana</p><h2 className="mt-5 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{letter.label}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#61717a]">{letter.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-slate-700/15 pt-6 text-sm font-black text-slate-700"><Sparkles className="h-4 w-4" /> Folded by Abu, kept for his Bhuntu.</div></section></div></div></main>; }

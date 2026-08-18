@@ -30,7 +30,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 029,cloud-skywriter,FUTURE,, ,Unique page idea: Cloud Skywriter,spatial-exploration,editorial-two-column,M-FROST,distinct,TYPE-A
 030,compliment-jar,SURPRISE,, ,Unique page idea: Compliment Jar,audio,horizontal-scroll,M-AMBER,distinct,TYPE-A
 031,cooking-game,MILESTONE,, ,Unique page idea: Cooking Game,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
-032,couple-anniversary-clock,SENSORY,, ,Unique page idea: Couple Anniversary Clock,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
+032,couple-anniversary-clock,SENSORY,, ,Unique page idea: Couple Anniversary Clock,spatial-exploration,single-column,M-NIGHT,distinct,TYPE-A
 033,couple-anniversary-timeline,MEMORY,, ,Unique page idea: Couple Anniversary Timeline,time-reveal,split-screen,M-BLUSH,distinct,TYPE-A
 034,couple-bingo,LETTER,, ,Unique page idea: Couple Bingo,game-or-puzzle,typography-first,M-MONO,distinct,TYPE-A
 035,couple-bucket-list2,CHAT,, ,Unique page idea: Couple Bucket List2,message-sequence,ui-simulation,M-SEPIA,distinct,TYPE-A
@@ -127,7 +127,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 126,love-dice,SURPRISE,, ,Unique page idea: Love Dice,randomized-choice,immersive-scroll,M-ELECT,distinct,TYPE-A
 127,love-doodle-canvas,MILESTONE,, ,Unique page idea: Love Doodle Canvas,letter-or-paper,interactive-canvas,M-WINE,distinct,TYPE-A
 128,love-enchanted-glass-terrarium,SENSORY,, ,Unique page idea: Love Enchanted Glass Terrarium,guided-interaction,masonry-grid,M-PAPER,distinct,TYPE-A
-129,love-envelope-collection,MEMORY,, ,Unique page idea: Love Envelope Collection,letter-or-paper,editorial-two-column,M-DAWN,distinct,TYPE-A
+129,love-envelope-collection,MEMORY,, ,Unique page idea: Love Envelope Collection,message-sequence,editorial-two-column,M-DAWN,distinct,TYPE-A
 130,love-envelope,LETTER,, ,Unique page idea: Love Envelope,message-sequence,horizontal-scroll,M-GREY,distinct,TYPE-A
 131,love-fireflies,CHAT,, ,Unique page idea: Love Fireflies,guided-interaction,full-bleed-hero,M-FOREST,distinct,TYPE-A
 132,love-firework-painter,WHY_I_LOVE,, ,Unique page idea: Love Firework Painter,reveal,single-column,M-DUSK,distinct,TYPE-A

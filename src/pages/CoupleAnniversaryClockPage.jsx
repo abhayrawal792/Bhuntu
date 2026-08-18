@@ -1,6 +1,11 @@
-import React from 'react';
-import CoupleAnniversaryClock from '../components/CoupleAnniversaryClock';
+import React, { useState } from 'react';
+import { CalendarClock, Heart, Hourglass, Sparkles } from 'lucide-react';
 
-export default function CoupleAnniversaryClockPage() {
-  return <CoupleAnniversaryClock />;
-}
+const dates = [
+  { label: 'The beginning', date: '28 October 2025', copy: 'The day a proposal became a yes, and Abu’s calendar quietly started making room for Samjhana.' },
+  { label: 'Her birthday', date: '20 August', copy: 'The date this entire birthday world was built around: a first birthday gift from Abu to his Bhuntu.' },
+  { label: 'The calls between', date: 'Nepalgunj ↔ Sakai', copy: 'Not one date, but many evenings where two cities learned how to share time.' },
+  { label: 'The next chapter', date: 'Not scheduled yet', copy: 'Bardiya, Pokhara, Manang, Mustang, and the ordinary days we have not put on the calendar.' },
+];
+
+export default function CoupleAnniversaryClockPage() { const [selected, setSelected] = useState(0); const date = dates[selected]; return <main className="min-h-dvh bg-[#eef1ed] px-5 py-12 text-[#28342c] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-emerald-900/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-emerald-700"><CalendarClock className="h-4 w-4" /> Abu’s date ledger</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The important dates do not stay still.</h1></div><p className="max-w-xs text-sm leading-7 text-[#627265]">Some are already memories. Some are birthday dates. Some are waiting for us to live them.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="space-y-3" aria-label="Relationship dates">{dates.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-emerald-700 bg-white shadow-xl' : 'border-emerald-900/10 bg-white/45 hover:bg-white/80'}`}><span className="block text-[10px] font-black uppercase tracking-[0.18em] text-emerald-700">Ledger entry 0{index + 1}</span><span className="mt-3 block text-xl font-black">{item.label}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#28342c] p-8 text-[#f4f4e8] shadow-2xl sm:p-14"><div className="absolute right-10 top-10 grid h-24 w-24 place-items-center rounded-full border border-emerald-200/25"><Hourglass className="h-9 w-9 text-emerald-200" /></div><Sparkles className="h-10 w-10 text-emerald-200" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-emerald-200">{date.label}</p><h2 className="mt-5 text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{date.date}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-white/70">{date.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-white/15 pt-6 text-sm font-black text-emerald-100"><Heart className="h-4 w-4 fill-current text-rose-300" /> Abu is saving time for you.</div></section></div></div></main>; }

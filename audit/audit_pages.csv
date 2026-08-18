@@ -30,7 +30,7 @@ cherry-blossom-wish-tree,Cherry Blossom Wish Tree,template_CherryBlossomWishTree
 cloud-skywriter,Cloud Skywriter,template_CloudSkywriter,spatial-exploration,none,M-FROST
 compliment-jar,Compliment Jar,template_page-local,audio,none,M-AMBER
 cooking-game,Cooking Game,template_page-local,guided-interaction,none,M-GOLD
-couple-anniversary-clock,Couple Anniversary Clock,template_CoupleAnniversaryClock,guided-interaction,none,M-NIGHT
+couple-anniversary-clock,Couple Anniversary Clock,template_page-local,spatial-exploration,none,M-NIGHT
 couple-anniversary-timeline,Couple Anniversary Timeline,template_CoupleAnniversaryTimeline,time-reveal,none,M-BLUSH
 couple-bingo,Couple Bingo,template_page-local,game-or-puzzle,none,M-MONO
 couple-bucket-list2,Couple Bucket List2,template_page-local,message-sequence,none,M-SEPIA
@@ -40,7 +40,7 @@ couple-bucket-list-spinner,Couple Bucket List Spinner,template_CoupleBucketListS
 couple-cookbook,Couple Cookbook,template_CoupleCookbook,guided-interaction,none,M-DAWN
 couple-daily-horoscope,Couple Daily Horoscope,template_CoupleDailyHoroscope,randomized-choice,none,M-GREY
 couple-escape-room,Couple Escape Room,template_CoupleEscapeRoom,guided-interaction,none,M-FOREST
-couple-future-home3-d,Couple Future Home3 D,template_CoupleFutureHome3D,spatial-exploration,none,M-DUSK
+couple-future-home3-d,Couple Future Home3 D,template_page-local,spatial-exploration,none,M-DUSK
 couple-milestone-map2,Couple Milestone Map2,template_page-local,message-sequence,none,M-FIELD
 couple-milestone-map,Couple Milestone Map,template_CoupleMilestoneMap,guided-interaction,none,M-FROST
 couple-movie-marathon,Couple Movie Marathon,template_page-local,audio,none,M-AMBER
@@ -127,7 +127,7 @@ love-diary,Love Diary,template_LoveDiary,letter-or-paper,none,M-SEPIA
 love-dice,Love Dice,template_LoveDice,randomized-choice,none,M-ELECT
 love-doodle-canvas,Love Doodle Canvas,template_page-local,letter-or-paper,none,M-WINE
 love-enchanted-glass-terrarium,Love Enchanted Glass Terrarium,template_LoveEnchantedGlassTerrarium,guided-interaction,none,M-PAPER
-love-envelope-collection,Love Envelope Collection,template_LoveEnvelopeCollection,letter-or-paper,none,M-DAWN
+love-envelope-collection,Love Envelope Collection,template_page-local,message-sequence,none,M-DAWN
 love-envelope,Love Envelope,template_page-local,message-sequence,none,M-GREY
 love-fireflies,Love Fireflies,template_LoveFireflies,guided-interaction,none,M-FOREST
 love-firework-painter,Love Firework Painter,template_page-local,reveal,none,M-DUSK
@@ -170,7 +170,7 @@ love-meter-deluxe,Love Meter Deluxe,template_page-local,guided-interaction,none,
 love-mirror-oracle,Love Mirror Oracle,template_LoveMirrorOracle,guided-interaction,none,M-MONO
 love-music-box-carousel,Love Music Box Carousel,template_LoveMusicBoxCarousel,audio,none,M-SEPIA
 love-neon-sign-designer,Love Neon Sign Designer,template_LoveNeonSignDesigner,guided-interaction,none,M-ELECT
-love-neon-sign-gallery,Love Neon Sign Gallery,template_LoveNeonSignGallery,visual-collection,none,M-WINE
+love-neon-sign-gallery,Love Neon Sign Gallery,template_page-local,visual-collection,none,M-WINE
 love-notes-wall,Love Notes Wall,template_LoveNotesWall,guided-interaction,none,M-PAPER
 love-origami-heart,Love Origami Heart,template_LoveOrigamiHeart,letter-or-paper,none,M-DAWN
 love-passport-stamps,Love Passport Stamps,template_page-local,audio,none,M-GREY
@@ -259,7 +259,7 @@ romantic-karaoke,Romantic Karaoke,template_page-local,audio,none,M-NIGHT
 romantic-locket-changer,Romantic Locket Changer,template_page-local,grow-or-assemble,none,M-BLUSH
 romantic-memory-wheel,Romantic Memory Wheel,template_page-local,randomized-choice,none,M-MONO
 romantic-message-grid,Romantic Message Grid,template_page-local,message-sequence,none,M-SEPIA
-romantic-music-box2,Romantic Music Box2,template_RomanticMusicBox2,audio,none,M-ELECT
+romantic-music-box2,Romantic Music Box2,template_page-local,audio,none,M-ELECT
 romantic-night-sky-writer,Romantic Night Sky Writer,template_RomanticNightSkyWriter,spatial-exploration,none,M-WINE
 romantic-petal-rain,Romantic Petal Rain,template_RomanticPetalRain,grow-or-assemble,none,M-PAPER
 romantic-photo-slider3-d,Romantic Photo Slider3 D,template_RomanticPhotoSlider3D,visual-collection,none,M-DAWN

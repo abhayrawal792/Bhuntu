@@ -1,6 +1,11 @@
-import React from 'react';
-import LoveNeonSignGallery from '../components/LoveNeonSignGallery';
+import React, { useState } from 'react';
+import { Heart, Lightbulb, MapPin, Sparkles } from 'lucide-react';
 
-export default function LoveNeonSignGalleryPage() {
-  return <LoveNeonSignGallery />;
-}
+const signs = [
+  { label: 'Sign 01', text: 'You are my favourite notification.', color: 'text-pink-300', glow: 'shadow-[0_0_40px_rgba(244,114,182,.65)]' },
+  { label: 'Sign 02', text: 'Nepalgunj is still connected to Sakai.', color: 'text-sky-300', glow: 'shadow-[0_0_40px_rgba(125,211,252,.65)]' },
+  { label: 'Sign 03', text: 'The future has your name on it.', color: 'text-amber-200', glow: 'shadow-[0_0_40px_rgba(253,230,138,.65)]' },
+  { label: 'Sign 04', text: 'Abu keeps choosing Bhuntu.', color: 'text-emerald-300', glow: 'shadow-[0_0_40px_rgba(110,231,183,.65)]' },
+];
+
+export default function LoveNeonSignGalleryPage() { const [selected, setSelected] = useState(0); const sign = signs[selected]; return <main className="min-h-dvh bg-[#080b15] px-5 py-12 text-white sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-white/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-fuchsia-200"><Lightbulb className="h-4 w-4" /> Abu’s midnight sign gallery</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The lights I would leave on for you.</h1></div><p className="max-w-xs text-sm leading-7 text-white/60">Four neon lines for four things Abu wants Samjhana to feel, even in a dark room.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="grid gap-3 sm:grid-cols-2" aria-label="Neon sign gallery">{signs.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border p-5 text-left transition ${selected === index ? 'border-white/60 bg-white/10 shadow-xl' : 'border-white/10 bg-white/5 hover:bg-white/10'}`}><span className={`block text-[10px] font-black uppercase tracking-[0.18em] ${item.color}`}>{item.label}</span><span className="mt-4 block text-xl font-black">{item.text}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#11162b] p-8 shadow-2xl sm:p-14"><div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(124,58,237,.18),transparent_55%)]" /><div className="relative"><Sparkles className={`h-10 w-10 ${sign.color}`} /><p className={`mt-12 text-[10px] font-black uppercase tracking-[0.22em] ${sign.color}`}>{sign.label} · for Samjhana</p><h2 className={`mt-7 max-w-3xl text-5xl font-black leading-[.92] tracking-[-0.08em] ${sign.color} ${sign.glow} sm:text-8xl`}>{sign.text}</h2><p className="mt-8 max-w-xl text-lg leading-8 text-white/65">A little light from Abu’s side of the distance, left glowing for his Bhuntu.</p><div className="mt-10 flex items-center gap-3 border-t border-white/15 pt-6 text-sm font-black text-white/70"><Heart className="h-4 w-4 fill-current text-rose-300" /><MapPin className="h-4 w-4" /> Nepalgunj → wherever you are.</div></div></section></div></div></main>; }
