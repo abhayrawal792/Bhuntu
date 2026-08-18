@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run audit:uniqueness && npm run audit:experiences && npm run audit:gift-system && npm run audit:game-policy && vite build",
+    "build": "node scripts/build-production.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "audit:uniqueness": "node scripts/validate-uniqueness.mjs",

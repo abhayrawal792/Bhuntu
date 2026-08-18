@@ -1,0 +1,3 @@
+# Public Blank-Screen Findings
+
+The public URL now serves the production index and the initial password gate renders correctly. The deployed HTML references `/Bhuntu/assets/index-CbGgCmQT.js`, and the main asset plus `GalleryPage-8DgJmnWL.js` both return HTTP 200. After entering the correct password, the hash route changes to `#/gallery`, but the rendered root becomes empty: `document.body.innerText` and `#root.innerHTML` are both empty. The browser console tool has not shown a visible error yet, so the next diagnostic step is to capture startup and lazy-import errors during a fresh reload of the gallery route.
