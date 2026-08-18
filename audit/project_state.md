@@ -6,7 +6,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Current batch status
 
-- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, ninety-one first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
+- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, ninety-six first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
 - **Source build:** passed with `npm run build`
 - **Experience-system audit:** passed
 - **Game policy:** passed — exactly 20 approved games, 20 detected in sequence, 0 errors
@@ -15,7 +15,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 - **Middle visual check:** passed — `/bento-box` rendered bespoke Bento content plus editorial keepsake variant
 - **Final visual check:** passed — `/room/12` rendered the three-chapter final keepsake and suppressed the global gift layer
 - **Interactive visual check:** passed on a museum-placard route; strict guard correctly rejected invalid local frontier tests
-- **Latest focused page batch:** Four Seasons of Love, Grand Love Universe, Heart Shape Tangram, Infinite Reasons Machine, and Love Achievement Badges now use five distinct non-game compositions with clean runtime and mobile verification
+- **Latest focused page batch:** Love Advent Calendar, Love Aquarium, Love Arcade Dance Machine, Love Audio Visualizer 2, and Love Awards Night now use five distinct non-game compositions with clean runtime and mobile verification
 - **Privacy surface:** passed — source HTML has `noindex, nofollow`; generated and public `robots.txt` both contain `Disallow: /`
 - **Deployment:** the previous batch is synchronized to `origin/main`; this new batch is validated locally and ready to commit and push
 - **Latest regression:** passed after restarting the local preview service — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
@@ -51,4 +51,4 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Last saved status log
 
-The first upgraded batch, accessibility/mobile batch, twenty-six successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, public deployment verification, and the latest local five-page batch validation are complete. Commit and push this batch, then begin the next unsequenced thin-page batch.
+The first upgraded batch, accessibility/mobile batch, twenty-seven successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, public deployment verification, and the latest local five-page batch validation are complete. Commit and push this batch, then begin the next unsequenced thin-page batch.

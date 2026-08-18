@@ -98,14 +98,14 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 097,letter-tonight,MEMORY,, ,Unique page idea: Letter Tonight,message-sequence,interactive-canvas,M-WINE,distinct,TYPE-A
 098,little-things,LETTER,, ,Unique page idea: Little Things,message-sequence,masonry-grid,M-PAPER,distinct,TYPE-A
 099,love-achievement-badges,CHAT,, ,Unique page idea: Love Achievement Badges,guided-interaction,editorial-two-column,M-DAWN,distinct,TYPE-A
-100,love-advent-calendar,WHY_I_LOVE,, ,Unique page idea: Love Advent Calendar,time-reveal,horizontal-scroll,M-GREY,distinct,TYPE-A
+100,love-advent-calendar,WHY_I_LOVE,, ,Unique page idea: Love Advent Calendar,audio,horizontal-scroll,M-GREY,distinct,TYPE-A
 101,love-alarm,FUTURE,, ,Unique page idea: Love Alarm,message-sequence,full-bleed-hero,M-FOREST,distinct,TYPE-A
 102,love-anagram-solver,SURPRISE,, ,Unique page idea: Love Anagram Solver,message-sequence,single-column,M-DUSK,distinct,TYPE-A
 103,love-aquarium,MILESTONE,, ,Unique page idea: Love Aquarium,guided-interaction,split-screen,M-FIELD,distinct,TYPE-A
-104,love-arcade-dance-machine,SENSORY,, ,Unique page idea: Love Arcade Dance Machine,guided-interaction,typography-first,M-FROST,distinct,TYPE-A
+104,love-arcade-dance-machine,SENSORY,, ,Unique page idea: Love Arcade Dance Machine,audio,typography-first,M-FROST,distinct,TYPE-A
 105,love-audio-visualizer2,MEMORY,, ,Unique page idea: Love Audio Visualizer2,audio,ui-simulation,M-AMBER,distinct,TYPE-A
 106,love-audio-visualizer,LETTER,, ,Unique page idea: Love Audio Visualizer,audio,immersive-scroll,M-GOLD,distinct,TYPE-A
-107,love-awards-night,CHAT,, ,Unique page idea: Love Awards Night,guided-interaction,interactive-canvas,M-NIGHT,distinct,TYPE-A
+107,love-awards-night,CHAT,, ,Unique page idea: Love Awards Night,audio,interactive-canvas,M-NIGHT,distinct,TYPE-A
 108,love-butterfly-catcher,WHY_I_LOVE,, ,Unique page idea: Love Butterfly Catcher,guided-interaction,masonry-grid,M-BLUSH,distinct,TYPE-A
 109,love-calculator,FUTURE,, ,Unique page idea: Love Calculator,guided-interaction,editorial-two-column,M-MONO,distinct,TYPE-A
 110,love-candle-light-dinner,SURPRISE,, ,Unique page idea: Love Candle Light Dinner,grow-or-assemble,horizontal-scroll,M-SEPIA,distinct,TYPE-A

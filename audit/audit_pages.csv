@@ -98,14 +98,14 @@ letter,Letter,template_LetterSection,letter-or-paper,none,M-ELECT
 letter-tonight,Letter Tonight,template_page-local,message-sequence,none,M-WINE
 little-things,Little Things,template_page-local,message-sequence,none,M-PAPER
 love-achievement-badges,Love Achievement Badges,template_page-local,guided-interaction,none,M-DAWN
-love-advent-calendar,Love Advent Calendar,template_LoveAdventCalendar,time-reveal,none,M-GREY
+love-advent-calendar,Love Advent Calendar,template_page-local,audio,none,M-GREY
 love-alarm,Love Alarm,template_page-local,message-sequence,none,M-FOREST
 love-anagram-solver,Love Anagram Solver,template_page-local,message-sequence,none,M-DUSK
-love-aquarium,Love Aquarium,template_LoveAquarium,guided-interaction,none,M-FIELD
-love-arcade-dance-machine,Love Arcade Dance Machine,template_LoveArcadeDanceMachine,guided-interaction,none,M-FROST
-love-audio-visualizer2,Love Audio Visualizer2,template_LoveAudioVisualizer2,audio,none,M-AMBER
+love-aquarium,Love Aquarium,template_page-local,guided-interaction,none,M-FIELD
+love-arcade-dance-machine,Love Arcade Dance Machine,template_page-local,audio,none,M-FROST
+love-audio-visualizer2,Love Audio Visualizer2,template_page-local,audio,none,M-AMBER
 love-audio-visualizer,Love Audio Visualizer,template_LoveAudioVisualizer,audio,none,M-GOLD
-love-awards-night,Love Awards Night,template_LoveAwardsNight,guided-interaction,none,M-NIGHT
+love-awards-night,Love Awards Night,template_page-local,audio,none,M-NIGHT
 love-butterfly-catcher,Love Butterfly Catcher,template_page-local,guided-interaction,none,M-BLUSH
 love-calculator,Love Calculator,template_LoveCalculator,guided-interaction,none,M-MONO
 love-candle-light-dinner,Love Candle Light Dinner,template_LoveCandleLightDinner,grow-or-assemble,none,M-SEPIA
