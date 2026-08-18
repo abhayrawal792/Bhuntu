@@ -1,0 +1,13 @@
+﻿{
+    "page_number":  "001",
+    "route":  "/",
+    "title":  "Your next surprise is already smiling.",
+    "implementation":  "src/pages/HomePage.jsx",
+    "mechanic":  "one-time ribbon-room gift reveal",
+    "reused_mechanic":  false,
+    "shared_page_component_import":  false,
+    "verified_by":  [
+                        "npm run audit:fresh",
+                        "npm run build"
+                    ]
+}

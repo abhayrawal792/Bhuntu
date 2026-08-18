@@ -1,0 +1,305 @@
+slug,title,template_id,interaction,asset_ref,mood
+affirmations,Affirmations,template_LoveAffirmations,guided-interaction,none,M-GOLD
+anniversary-countdown-clock,Anniversary Countdown Clock,template_AnniversaryCountdownClock,time-reveal,none,M-NIGHT
+balloon-pop,Balloon Pop,template_BalloonPop,guided-interaction,none,M-BLUSH
+bento-box,Bento Box,template_BentoBox,guided-interaction,none,M-MONO
+bhuntu-comic-strip2,Bhuntu Comic Strip2,template_BhuntuComicStrip2,guided-interaction,none,M-SEPIA
+bhuntu-emoji-arcade,Bhuntu Emoji Arcade,template_BhuntuEmojiArcade,guided-interaction,none,M-ELECT
+bhuntu-emoji-comic,Bhuntu Emoji Comic,template_BhuntuEmojiComic,guided-interaction,none,M-WINE
+bhuntu-love-polaroids,Bhuntu Love Polaroids,template_BhuntuLovePolaroids,visual-collection,none,M-PAPER
+bhuntu-nicknames-galaxy,Bhuntu Nicknames Galaxy,template_BhuntuNicknamesGalaxy,guided-interaction,none,M-DAWN
+bhuntu-personality-quiz,Bhuntu Personality Quiz,template_BhuntuPersonalityQuiz,game-or-puzzle,none,M-GREY
+bhuntu-photo-mosaic2,Bhuntu Photo Mosaic2,template_BhuntuPhotoMosaic2,visual-collection,none,M-FOREST
+bhuntu-trivia-showdown,Bhuntu Trivia Showdown,template_BhuntuTriviaShowdown,game-or-puzzle,none,M-DUSK
+bhuntu-trivia-wheel,Bhuntu Trivia Wheel,template_BhuntuTriviaWheel,randomized-choice,none,M-FIELD
+bhuntu-voice-note-archive,Bhuntu Voice Note Archive,template_BhuntuVoiceNoteArchive,audio,none,M-FROST
+birthday-time-capsule2,Birthday Time Capsule2,template_BirthdayTimeCapsule2,time-reveal,none,M-AMBER
+blessing-tree,Blessing Tree,template_BlessingTree,grow-or-assemble,none,M-GOLD
+bonus-arcade,Bonus Arcade,template_WorldShell,reveal,none,M-NIGHT
+bottle,Bottle,template_MessageInBottle,message-sequence,none,M-BLUSH
+bouquet,Bouquet,template_BouquetSection,grow-or-assemble,none,M-MONO
+bubble-pop,Bubble Pop,template_BubblePopGame,guided-interaction,none,M-SEPIA
+bubble-wrap,Bubble Wrap,template_BubbleWrap,guided-interaction,none,M-ELECT
+bucket-list,Bucket List,template_TravelBucketList,guided-interaction,none,M-WINE
+candle-blower,Candle Blower,template_CandleBlower,grow-or-assemble,none,M-PAPER
+catcher-game,Catcher Game,template_HeartCatcherGame,guided-interaction,none,M-DAWN
+cherry-blossom-wish-tree,Cherry Blossom Wish Tree,template_CherryBlossomWishTree,grow-or-assemble,none,M-GREY
+cloud-skywriter,Cloud Skywriter,template_CloudSkywriter,spatial-exploration,none,M-FOREST
+compliment-jar,Compliment Jar,template_ComplimentJar,guided-interaction,none,M-DUSK
+cooking-game,Cooking Game,template_CakeBakingGame,guided-interaction,none,M-FIELD
+couple-anniversary-clock,Couple Anniversary Clock,template_CoupleAnniversaryClock,guided-interaction,none,M-FROST
+couple-anniversary-timeline,Couple Anniversary Timeline,template_CoupleAnniversaryTimeline,time-reveal,none,M-AMBER
+couple-bingo,Couple Bingo,template_CoupleBingo,game-or-puzzle,none,M-GOLD
+couple-bucket-list2,Couple Bucket List2,template_CoupleBucketList2,guided-interaction,none,M-NIGHT
+couple-bucket-list-globe,Couple Bucket List Globe,template_CoupleBucketListGlobe,spatial-exploration,none,M-BLUSH
+couple-bucket-list,Couple Bucket List,template_CoupleBucketList,guided-interaction,none,M-MONO
+couple-bucket-list-spinner,Couple Bucket List Spinner,template_CoupleBucketListSpinner,randomized-choice,none,M-SEPIA
+couple-cookbook,Couple Cookbook,template_CoupleCookbook,guided-interaction,none,M-ELECT
+couple-daily-horoscope,Couple Daily Horoscope,template_CoupleDailyHoroscope,randomized-choice,none,M-WINE
+couple-escape-room,Couple Escape Room,template_CoupleEscapeRoom,guided-interaction,none,M-PAPER
+couple-future-home3-d,Couple Future Home3 D,template_CoupleFutureHome3D,spatial-exploration,none,M-DAWN
+couple-milestone-map,Couple Milestone Map,template_CoupleMilestoneMap,guided-interaction,none,M-GREY
+couple-movie-marathon,Couple Movie Marathon,template_CoupleMovieMarathon,guided-interaction,none,M-FOREST
+couple-movie-night,Couple Movie Night,template_CoupleMovieNight,guided-interaction,none,M-DUSK
+couple-nickname-generator,Couple Nickname Generator,template_CoupleNicknameGenerator,guided-interaction,none,M-FIELD
+couple-questions-deep,Couple Questions Deep,template_CoupleQuestionsDeep,guided-interaction,none,M-FROST
+couple-quiz2,Couple Quiz2,template_CoupleQuiz2,game-or-puzzle,none,M-AMBER
+couple-quiz-master,Couple Quiz Master,template_CoupleQuizMaster,game-or-puzzle,none,M-GOLD
+couple-recipe-book,Couple Recipe Book,template_CoupleRecipeBook,guided-interaction,none,M-NIGHT
+couple-relationship-cert,Couple Relationship Cert,template_CoupleRelationshipCert,guided-interaction,none,M-BLUSH
+couple-soundtrack,Couple Soundtrack,template_CoupleSoundtrack,audio,none,M-MONO
+couple-starry-planetarium,Couple Starry Planetarium,template_CoupleStarryPlanetarium,spatial-exploration,none,M-SEPIA
+couple-superlatives,Couple Superlatives,template_CoupleSuperlatives,guided-interaction,none,M-ELECT
+couple-travel-passport-stamps,Couple Travel Passport Stamps,template_CoupleTravelPassportStamps,visual-collection,none,M-WINE
+couple-yearbook,Couple Yearbook,template_CoupleYearbook,guided-interaction,none,M-PAPER
+couples-secret-handshake,Couples Secret Handshake,template_CouplesSecretHandshake,guided-interaction,none,M-DAWN
+coupon-vault,Coupon Vault,template_CouponVault,guided-interaction,none,M-GREY
+cupcake-decorator,Cupcake Decorator,template_CupcakeDecorator,guided-interaction,none,M-FOREST
+cupid-archery,Cupid Archery,template_CupidArchery,guided-interaction,none,M-DUSK
+cupid-radio-djstation,Cupid Radio DJStation,template_CupidRadioDJStation,audio,none,M-FIELD
+curated-journey,Curated Journey,template_page-local,visual-collection,none,M-FROST
+distance,Distance,template_NepalgunjToOsakaFlightSim,guided-interaction,none,M-AMBER
+dragon-princess-adventure,Dragon Princess Adventure,template_DragonPrincessAdventure,guided-interaction,none,M-GOLD
+emoji-art-canvas,Emoji Art Canvas,template_EmojiArtCanvas,guided-interaction,none,M-NIGHT
+emoji-story,Emoji Story,template_EmojiStory,guided-interaction,none,M-BLUSH
+enchanted-crystal-ball,Enchanted Crystal Ball,template_EnchantedCrystalBall,guided-interaction,none,M-MONO
+enchanted-rose-garden,Enchanted Rose Garden,template_EnchantedRoseGarden,grow-or-assemble,none,M-SEPIA
+fairy-tale-generator,Fairy Tale Generator,template_FairyTaleGenerator,guided-interaction,none,M-ELECT
+ferris-wheel,Ferris Wheel,template_FerrisWheel,randomized-choice,none,M-WINE
+firework-maker,Firework Maker,template_FireworkMaker,grow-or-assemble,none,M-PAPER
+fireworks,Fireworks,template_HeartFireworks,grow-or-assemble,none,M-DAWN
+first-moments-timeline,First Moments Timeline,template_FirstMomentsTimeline,time-reveal,none,M-GREY
+fortune-cookie-love,Fortune Cookie Love,template_FortuneCookieLove,randomized-choice,none,M-FOREST
+fortune-cookie,Fortune Cookie,template_FortuneCookie,randomized-choice,none,M-DUSK
+four-seasons-of-love,Four Seasons Of Love,template_FourSeasonsOfLove,guided-interaction,none,M-FIELD
+future-house-builder,Future House Builder,template_FutureHouseBuilder,guided-interaction,none,M-FROST
+gallery,Gallery,template_GallerySection,visual-collection,none,M-AMBER
+grand-love-galaxy3-d,Grand Love Galaxy3 D,template_GrandLoveGalaxy3D,spatial-exploration,none,M-GOLD
+grand-love-universe,Grand Love Universe,template_GrandLoveUniverse,guided-interaction,none,M-NIGHT
+hall-of-fame,Hall Of Fame,template_HallOfFame,guided-interaction,none,M-BLUSH
+heart-bubble-tea-maker,Heart Bubble Tea Maker,template_HeartBubbleTeaMaker,guided-interaction,none,M-MONO
+heart-mailbox,Heart Mailbox,template_HeartMailbox,guided-interaction,none,M-SEPIA
+heart-shape-tangram,Heart Shape Tangram,template_HeartShapeTangram,guided-interaction,none,M-ELECT
+heartbeat-drum-pad,Heartbeat Drum Pad,template_HeartbeatDrumPad,guided-interaction,none,M-WINE
+home,Home,template_page-local,grow-or-assemble,none,M-PAPER
+horoscope,Horoscope,template_LoveHoroscope,randomized-choice,none,M-DAWN
+hug-counter,Hug Counter,template_HugCounter,guided-interaction,none,M-GREY
+infinite-reasons-machine,Infinite Reasons Machine,template_InfiniteReasonsMachine,guided-interaction,none,M-FOREST
+jigsaw,Jigsaw,template_JigsawPuzzle,guided-interaction,none,M-DUSK
+kiss-collector,Kiss Collector,template_KissCollector,guided-interaction,none,M-FIELD
+lanterns,Lanterns,template_SkyLanterns,spatial-exploration,none,M-FROST
+letter,Letter,template_LetterSection,letter-or-paper,none,M-AMBER
+love-achievement-badges,Love Achievement Badges,template_LoveAchievementBadges,guided-interaction,none,M-GOLD
+love-advent-calendar,Love Advent Calendar,template_LoveAdventCalendar,time-reveal,none,M-NIGHT
+love-alarm,Love Alarm,template_LoveAlarm,guided-interaction,none,M-BLUSH
+love-anagram-solver,Love Anagram Solver,template_LoveAnagramSolver,guided-interaction,none,M-MONO
+love-aquarium,Love Aquarium,template_LoveAquarium,guided-interaction,none,M-SEPIA
+love-arcade-dance-machine,Love Arcade Dance Machine,template_LoveArcadeDanceMachine,guided-interaction,none,M-ELECT
+love-audio-visualizer2,Love Audio Visualizer2,template_LoveAudioVisualizer2,audio,none,M-WINE
+love-audio-visualizer,Love Audio Visualizer,template_LoveAudioVisualizer,audio,none,M-PAPER
+love-awards-night,Love Awards Night,template_LoveAwardsNight,guided-interaction,none,M-DAWN
+love-butterfly-catcher,Love Butterfly Catcher,template_LoveButterflyCatcher,guided-interaction,none,M-GREY
+love-calculator,Love Calculator,template_LoveCalculator,guided-interaction,none,M-FOREST
+love-candle-light-dinner,Love Candle Light Dinner,template_LoveCandleLightDinner,grow-or-assemble,none,M-DUSK
+love-chimes,Love Chimes,template_LoveChimes,guided-interaction,none,M-FIELD
+love-clock,Love Clock,template_LoveClock,guided-interaction,none,M-FROST
+love-compass,Love Compass,template_LoveCompass,guided-interaction,none,M-AMBER
+love-compatibility-matrix,Love Compatibility Matrix,template_LoveCompatibilityMatrix,guided-interaction,none,M-GOLD
+love-constellation-connect,Love Constellation Connect,template_LoveConstellationConnect,spatial-exploration,none,M-NIGHT
+love-constellation-maker,Love Constellation Maker,template_LoveConstellationMaker,spatial-exploration,none,M-BLUSH
+love-constellation-painter,Love Constellation Painter,template_LoveConstellationPainter,reveal,none,M-MONO
+love-constellation-stargazer,Love Constellation Stargazer,template_LoveConstellationStargazer,spatial-exploration,none,M-SEPIA
+love-coronation-ceremony,Love Coronation Ceremony,template_LoveCoronationCeremony,guided-interaction,none,M-ELECT
+love-couple-time-capsule-lock-box,Love Couple Time Capsule Lock Box,template_LoveCoupleTimeCapsuleLockBox,time-reveal,none,M-WINE
+love-coupon-generator,Love Coupon Generator,template_LoveCouponGenerator,guided-interaction,none,M-PAPER
+love-crossword,Love Crossword,template_LoveCrossword,game-or-puzzle,none,M-DAWN
+love-crossword-puzzle,Love Crossword Puzzle,template_LoveCrosswordPuzzle,game-or-puzzle,none,M-GREY
+love-dated-calendar,Love Dated Calendar,template_LoveDatedCalendar,time-reveal,none,M-FOREST
+love-diary,Love Diary,template_LoveDiary,letter-or-paper,none,M-DUSK
+love-dice,Love Dice,template_LoveDice,randomized-choice,none,M-FIELD
+love-doodle-canvas,Love Doodle Canvas,template_LoveDoodleCanvas,guided-interaction,none,M-FROST
+love-enchanted-glass-terrarium,Love Enchanted Glass Terrarium,template_LoveEnchantedGlassTerrarium,guided-interaction,none,M-AMBER
+love-envelope-collection,Love Envelope Collection,template_LoveEnvelopeCollection,letter-or-paper,none,M-GOLD
+love-envelope,Love Envelope,template_LoveEnvelope,letter-or-paper,none,M-NIGHT
+love-fireflies,Love Fireflies,template_LoveFireflies,guided-interaction,none,M-BLUSH
+love-firework-painter,Love Firework Painter,template_LoveFireworkPainter,reveal,none,M-MONO
+love-fortune-cookie-jar,Love Fortune Cookie Jar,template_LoveFortuneCookieJar,randomized-choice,none,M-SEPIA
+love-fortune-cookie,Love Fortune Cookie,template_LoveFortuneCookie,randomized-choice,none,M-ELECT
+love-fortune-teller-origami,Love Fortune Teller Origami,template_LoveFortuneTellerOrigami,randomized-choice,none,M-WINE
+love-frequency-tuner,Love Frequency Tuner,template_LoveFrequencyTuner,guided-interaction,none,M-PAPER
+love-graffiti-wall,Love Graffiti Wall,template_LoveGraffitiWall,guided-interaction,none,M-DAWN
+love-grand-finale,Love Grand Finale,template_LoveGrandFinale,guided-interaction,none,M-GREY
+love-heart-nebula3-d,Love Heart Nebula3 D,template_LoveHeartNebula3D,spatial-exploration,none,M-FOREST
+love-horoscope-daily,Love Horoscope Daily,template_LoveHoroscopeDaily,randomized-choice,none,M-DUSK
+love-horoscope-wheel,Love Horoscope Wheel,template_LoveHoroscopeWheel,randomized-choice,none,M-FIELD
+love-jar-notes,Love Jar Notes,template_LoveJarNotes,guided-interaction,none,M-FROST
+love-journal-prompt,Love Journal Prompt,template_LoveJournalPrompt,letter-or-paper,none,M-AMBER
+love-kaleidoscope,Love Kaleidoscope,template_LoveKaleidoscope,guided-interaction,none,M-GOLD
+love-keychain-customizer,Love Keychain Customizer,template_LoveKeychainCustomizer,guided-interaction,none,M-NIGHT
+love-language-test,Love Language Test,template_LoveLanguageTest,guided-interaction,none,M-BLUSH
+love-languages-quiz,Love Languages Quiz,template_LoveLanguagesQuiz,game-or-puzzle,none,M-MONO
+love-letter-archive,Love Letter Archive,template_LoveLetterArchive,letter-or-paper,none,M-SEPIA
+love-letter-generator,Love Letter Generator,template_LoveLetterGenerator,letter-or-paper,none,M-ELECT
+love-letter-in-balloon,Love Letter In Balloon,template_LoveLetterInBalloon,letter-or-paper,none,M-WINE
+love-letter-pop-up3-d,Love Letter Pop Up3 D,template_LoveLetterPopUp3D,letter-or-paper,none,M-PAPER
+love-lock-bridge,Love Lock Bridge,template_LoveLockBridge,guided-interaction,none,M-DAWN
+love-lottery,Love Lottery,template_LoveLottery,guided-interaction,none,M-GREY
+love-love-story-comic-strip,Love Love Story Comic Strip,template_LoveLoveStoryComicStrip,guided-interaction,none,M-FOREST
+love-mad-libs,Love Mad Libs,template_LoveMadLibs,guided-interaction,none,M-DUSK
+love-map-canvas,Love Map Canvas,template_LoveMapCanvas,guided-interaction,none,M-FIELD
+love-maze,Love Maze,template_LoveMaze,guided-interaction,none,M-FROST
+love-memory-cube3-d,Love Memory Cube3 D,template_LoveMemoryCube3D,spatial-exploration,none,M-AMBER
+love-memory-film-strip,Love Memory Film Strip,template_LoveMemoryFilmStrip,guided-interaction,none,M-GOLD
+love-memory-flip,Love Memory Flip,template_LoveMemoryFlip,guided-interaction,none,M-NIGHT
+love-memory-match,Love Memory Match,template_LoveMemoryMatch,guided-interaction,none,M-BLUSH
+love-memory-tree3-d,Love Memory Tree3 D,template_LoveMemoryTree3D,grow-or-assemble,none,M-MONO
+love-message-in-abottle-ocean,Love Message In ABottle Ocean,template_LoveMessageInABottleOcean,message-sequence,none,M-SEPIA
+love-meteor-shower,Love Meteor Shower,template_LoveMeteorShower,guided-interaction,none,M-ELECT
+love-meter-deluxe,Love Meter Deluxe,template_LoveMeterDeluxe,guided-interaction,none,M-WINE
+love-mirror-oracle,Love Mirror Oracle,template_LoveMirrorOracle,guided-interaction,none,M-PAPER
+love-music-box-carousel,Love Music Box Carousel,template_LoveMusicBoxCarousel,audio,none,M-DAWN
+love-neon-sign-designer,Love Neon Sign Designer,template_LoveNeonSignDesigner,guided-interaction,none,M-GREY
+love-neon-sign-gallery,Love Neon Sign Gallery,template_LoveNeonSignGallery,visual-collection,none,M-FOREST
+love-notes-wall,Love Notes Wall,template_LoveNotesWall,guided-interaction,none,M-DUSK
+love-origami-heart,Love Origami Heart,template_LoveOrigamiHeart,letter-or-paper,none,M-FIELD
+love-passport-stamps,Love Passport Stamps,template_LovePassportStamps,visual-collection,none,M-FROST
+love-pet,Love Pet,template_VirtualLovePet,guided-interaction,none,M-AMBER
+love-photo-booth,Love Photo Booth,template_LovePhotoBooth,visual-collection,none,M-GOLD
+love-photo-mosaic-builder,Love Photo Mosaic Builder,template_LovePhotoMosaicBuilder,visual-collection,none,M-NIGHT
+love-piano,Love Piano,template_LovePiano,audio,none,M-BLUSH
+love-pixel-art-creator,Love Pixel Art Creator,template_LovePixelArtCreator,guided-interaction,none,M-MONO
+love-poetry-fridge,Love Poetry Fridge,template_LovePoetryFridge,guided-interaction,none,M-SEPIA
+love-potion-brewery2,Love Potion Brewery2,template_LovePotionBrewery2,guided-interaction,none,M-ELECT
+love-potion-brewery,Love Potion Brewery,template_LovePotionBrewery,guided-interaction,none,M-WINE
+love-potion-laboratory,Love Potion Laboratory,template_LovePotionLaboratory,guided-interaction,none,M-PAPER
+love-potion,Love Potion,template_LovePotion,guided-interaction,none,M-DAWN
+love-puzzle-slider,Love Puzzle Slider,template_LovePuzzleSlider,guided-interaction,none,M-GREY
+love-quiz-advanced,Love Quiz Advanced,template_LoveQuizAdvanced,game-or-puzzle,none,M-FOREST
+love-quiz-personality,Love Quiz Personality,template_LoveQuizPersonality,game-or-puzzle,none,M-DUSK
+love-radio,Love Radio,template_LoveRadio,audio,none,M-FIELD
+love-recipe,Love Recipe,template_LoveRecipe,guided-interaction,none,M-FROST
+love-review,Love Review,template_LoveReview,guided-interaction,none,M-AMBER
+love-rhythm-drum-pad,Love Rhythm Drum Pad,template_LoveRhythmDrumPad,guided-interaction,none,M-GOLD
+love-rhythm-game,Love Rhythm Game,template_LoveRhythmGame,guided-interaction,none,M-NIGHT
+love-scrabble,Love Scrabble,template_LoveScrabble,game-or-puzzle,none,M-BLUSH
+love-scratch-card,Love Scratch Card,template_LoveScratchCard,reveal,none,M-MONO
+love-scratch-off-gallery,Love Scratch Off Gallery,template_LoveScratchOffGallery,reveal,none,M-SEPIA
+love-scratch-voucher-book,Love Scratch Voucher Book,template_LoveScratchVoucherBook,reveal,none,M-ELECT
+love-slots,Love Slots,template_LoveSlots,randomized-choice,none,M-WINE
+love-spell-caster,Love Spell Caster,template_LoveSpellCaster,guided-interaction,none,M-PAPER
+love-spin-bottle,Love Spin Bottle,template_LoveSpinBottle,guided-interaction,none,M-DAWN
+love-spinner3-d,Love Spinner3 D,template_LoveSpinner3D,randomized-choice,none,M-GREY
+love-stamp-collection,Love Stamp Collection,template_LoveStampCollection,guided-interaction,none,M-FOREST
+love-sweet-confectionery-bakery,Love Sweet Confectionery Bakery,template_LoveSweetConfectioneryBakery,guided-interaction,none,M-DUSK
+love-sweet-heart-paper-craft,Love Sweet Heart Paper Craft,template_LoveSweetHeartPaperCraft,letter-or-paper,none,M-FIELD
+love-tamagotchi,Love Tamagotchi,template_LoveTamagotchi,guided-interaction,none,M-FROST
+love-tarot-oracle2,Love Tarot Oracle2,template_LoveTarotOracle2,randomized-choice,none,M-AMBER
+love-tarot,Love Tarot,template_LoveTarot,randomized-choice,none,M-GOLD
+love-tetris-block-puzzle,Love Tetris Block Puzzle,template_LoveTetrisBlockPuzzle,guided-interaction,none,M-NIGHT
+love-tetris,Love Tetris,template_LoveTetris,guided-interaction,none,M-BLUSH
+love-thermometer,Love Thermometer,template_LoveThermometer,guided-interaction,none,M-MONO
+love-time-machine,Love Time Machine,template_LoveTimeMachine,time-reveal,none,M-SEPIA
+love-tree-growth,Love Tree Growth,template_LoveTreeGrowth,grow-or-assemble,none,M-ELECT
+love-trivia-quiz,Love Trivia Quiz,template_LoveTriviaQuiz,game-or-puzzle,none,M-WINE
+love-vault-combination,Love Vault Combination,template_LoveVaultCombination,guided-interaction,none,M-PAPER
+love-vibe,Love Vibe,template_LoveVibe,guided-interaction,none,M-DAWN
+love-wheel-fortune,Love Wheel Fortune,template_LoveWheelFortune,randomized-choice,none,M-GREY
+love-wish-bottle-ocean,Love Wish Bottle Ocean,template_LoveWishBottleOcean,guided-interaction,none,M-FOREST
+love-wish-well,Love Wish Well,template_LoveWishWell,guided-interaction,none,M-DUSK
+love-wishes-sky,Love Wishes Sky,template_LoveWishesSky,spatial-exploration,none,M-FIELD
+love-wizard-tower,Love Wizard Tower,template_LoveWizardTower,guided-interaction,none,M-FROST
+love-wordle,Love Wordle,template_LoveWordle,game-or-puzzle,none,M-AMBER
+magic8-ball-love,Magic8 Ball Love,template_Magic8BallLove,guided-interaction,none,M-GOLD
+magnetic-poetry,Magnetic Poetry,template_MagneticPoetry,guided-interaction,none,M-NIGHT
+memory-constellation-map,Memory Constellation Map,template_MemoryConstellationMap,spatial-exploration,none,M-BLUSH
+memory-lane,Memory Lane,template_MemoryLane,guided-interaction,none,M-MONO
+memory-match,Memory Match,template_MemoryMatchGame,guided-interaction,none,M-SEPIA
+mood-ring,Mood Ring,template_MoodRing,guided-interaction,none,M-ELECT
+movie-ticket-creator,Movie Ticket Creator,template_MovieTicketCreator,visual-collection,none,M-WINE
+music-box,Music Box,template_LoveMusicBox,audio,none,M-PAPER
+mystery-gifts,Mystery Gifts,template_MysteryGiftBoxes,guided-interaction,none,M-DAWN
+nepalgunj-to-osaka-flight-sim,Nepalgunj To Osaka Flight Sim,template_NepalgunjToOsakaFlightSim,guided-interaction,none,M-GREY
+new-year-love-fireworks,New Year Love Fireworks,template_NewYearLoveFireworks,grow-or-assemble,none,M-FOREST
+origami-boat,Origami Boat,template_OrigamiBoat,letter-or-paper,none,M-DUSK
+origami-crane,Origami Crane,template_OrigamiCrane,letter-or-paper,none,M-FIELD
+origami,Origami,template_OrigamiHeart,letter-or-paper,none,M-FROST
+paper-airplane-messenger,Paper Airplane Messenger,template_PaperAirplaneMessenger,letter-or-paper,none,M-AMBER
+passport,Passport,template_CouplePassport,visual-collection,none,M-GOLD
+photo-booth,Photo Booth,template_PolaroidPhotoBooth,visual-collection,none,M-NIGHT
+photo-puzzle3-d,Photo Puzzle3 D,template_PhotoPuzzle3D,visual-collection,none,M-BLUSH
+pixel-heart-painter,Pixel Heart Painter,template_PixelHeartPainter,reveal,none,M-MONO
+polaroid-designer,Polaroid Designer,template_PolaroidDesigner,visual-collection,none,M-SEPIA
+promise-tree,Promise Tree,template_SakuraPromiseTree,grow-or-assemble,none,M-ELECT
+quiz-duel,Quiz Duel,template_QuizDuel,game-or-puzzle,none,M-WINE
+quiz,Quiz,template_page-local,game-or-puzzle,none,M-PAPER
+quote-generator,Quote Generator,template_TypewriterQuotes,guided-interaction,none,M-DAWN
+ring-surprise,Ring Surprise,template_AudioController,reveal,none,M-GREY
+romance-word-jumble,Romance Word Jumble,template_RomanceWordJumble,game-or-puzzle,none,M-FOREST
+romantic-audio-player,Romantic Audio Player,template_RomanticAudioPlayer,audio,none,M-DUSK
+romantic-charades,Romantic Charades,template_RomanticCharades,guided-interaction,none,M-FIELD
+romantic-cooking-recipe,Romantic Cooking Recipe,template_RomanticCookingRecipe,guided-interaction,none,M-FROST
+romantic-flower-garden,Romantic Flower Garden,template_RomanticFlowerGarden,grow-or-assemble,none,M-AMBER
+romantic-karaoke,Romantic Karaoke,template_RomanticKaraoke,audio,none,M-GOLD
+romantic-locket-changer,Romantic Locket Changer,template_RomanticLocketChanger,guided-interaction,none,M-NIGHT
+romantic-memory-wheel,Romantic Memory Wheel,template_RomanticMemoryWheel,randomized-choice,none,M-BLUSH
+romantic-message-grid,Romantic Message Grid,template_RomanticMessageGrid,message-sequence,none,M-MONO
+romantic-music-box2,Romantic Music Box2,template_RomanticMusicBox2,audio,none,M-SEPIA
+romantic-night-sky-writer,Romantic Night Sky Writer,template_RomanticNightSkyWriter,spatial-exploration,none,M-ELECT
+romantic-petal-rain,Romantic Petal Rain,template_RomanticPetalRain,grow-or-assemble,none,M-WINE
+romantic-photo-slider3-d,Romantic Photo Slider3 D,template_RomanticPhotoSlider3D,visual-collection,none,M-PAPER
+romantic-playlist-mixer,Romantic Playlist Mixer,template_RomanticPlaylistMixer,guided-interaction,none,M-DAWN
+room10,Room10,template_BhuntuVoiceNoteArchive,audio,none,M-GREY
+room11,Room11,template_LoveCoronationCeremony,guided-interaction,none,M-FOREST
+room12,Room12,template_LoveGrandFinale,guided-interaction,none,M-DUSK
+room1,Room1,template_LoveScratchCard,reveal,none,M-FIELD
+room2,Room2,template_NepalgunjToOsakaFlightSim,guided-interaction,none,M-FROST
+room3,Room3,template_BhuntuLovePolaroids,visual-collection,none,M-AMBER
+room4,Room4,template_BhuntuTriviaShowdown,game-or-puzzle,none,M-GOLD
+room5,Room5,template_LoveLoveStoryComicStrip,guided-interaction,none,M-NIGHT
+room6,Room6,template_FirstMomentsTimeline,time-reveal,none,M-BLUSH
+room7,Room7,template_LoveEnvelope,letter-or-paper,none,M-MONO
+room8,Room8,template_TravelBucketList,guided-interaction,none,M-SEPIA
+room9,Room9,template_SakuraPromiseTree,grow-or-assemble,none,M-ELECT
+royal-crown,Royal Crown,template_RoyalCrown,guided-interaction,none,M-WINE
+sanzu-photo-gallery-grid,Sanzu Photo Gallery Grid,template_SanzuPhotoGalleryGrid,visual-collection,none,M-PAPER
+scratch-memory,Scratch Memory,template_ScratchMemory,reveal,none,M-DAWN
+scratch-surprise,Scratch Surprise,template_ScratchCard,reveal,none,M-GREY
+secret-cipher-wheel,Secret Cipher Wheel,template_SecretCipherWheel,randomized-choice,none,M-FOREST
+secret-vault,Secret Vault,template_SecretVault,guided-interaction,none,M-DUSK
+snow-globe-shaker,Snow Globe Shaker,template_SnowGlobeShaker,spatial-exploration,none,M-FIELD
+sound-wave,Sound Wave,template_SoundWave,audio,none,M-FROST
+spin-wheel,Spin Wheel,template_SpinWheel,randomized-choice,none,M-AMBER
+star-drawer,Star Drawer,template_StarDrawer,spatial-exploration,none,M-GOLD
+star-namer,Star Namer,template_StarNamer,spatial-exploration,none,M-NIGHT
+star-projector,Star Projector,template_StarProjector,spatial-exploration,none,M-BLUSH
+starry-night-skywriter,Starry Night Skywriter,template_StarryNightSkywriter,spatial-exploration,none,M-MONO
+stars,Stars,template_page-local,spatial-exploration,none,M-SEPIA
+story,Story,template_page-local,letter-or-paper,none,M-ELECT
+surprise,Surprise,template_FinaleSection,guided-interaction,none,M-WINE
+sweet-compliments-fountain,Sweet Compliments Fountain,template_SweetComplimentsFountain,guided-interaction,none,M-PAPER
+sweet-compliments,Sweet Compliments,template_SweetCompliments,guided-interaction,none,M-DAWN
+sweet-dessert-tower,Sweet Dessert Tower,template_SweetDessertTower,guided-interaction,none,M-GREY
+sweet-dream-catcher,Sweet Dream Catcher,template_SweetDreamCatcher,guided-interaction,none,M-FOREST
+sweet-garden-blooms,Sweet Garden Blooms,template_SweetGardenBlooms,grow-or-assemble,none,M-DUSK
+sweet-heart-balloon-ascent,Sweet Heart Balloon Ascent,template_SweetHeartBalloonAscent,guided-interaction,none,M-FIELD
+sweet-memory-scrapbook,Sweet Memory Scrapbook,template_SweetMemoryScrapbook,guided-interaction,none,M-FROST
+sweet-promises-jar,Sweet Promises Jar,template_SweetPromisesJar,guided-interaction,none,M-AMBER
+sweet-proposal-simulator,Sweet Proposal Simulator,template_SweetProposalSimulator,guided-interaction,none,M-GOLD
+sweet-tea-ceremony,Sweet Tea Ceremony,template_SweetTeaCeremony,guided-interaction,none,M-NIGHT
+sweet-voicemail-inbox,Sweet Voicemail Inbox,template_SweetVoicemailInbox,message-sequence,none,M-BLUSH
+tic-tac-toe,Tic Tac Toe,template_LoveTicTacToe,guided-interaction,none,M-MONO
+time-capsule,Time Capsule,template_OpenWhenLetters,letter-or-paper,none,M-SEPIA
+timeline-puzzle,Timeline Puzzle,template_TimelinePuzzle,time-reveal,none,M-ELECT
+treasure-chest,Treasure Chest,template_VIPTreasureChest,guided-interaction,none,M-WINE
+two-truths,Two Truths,template_TwoTruthsGame,game-or-puzzle,none,M-PAPER
+ultimate300th-love-coronation,Ultimate300th Love Coronation,template_Ultimate300thLoveCoronation,guided-interaction,none,M-DAWN
+valentine-card-creator,Valentine Card Creator,template_ValentineCardCreator,guided-interaction,none,M-GREY
+video,Video,template_page-local,audio,tikcdn_beubagah_com_191793ef_79ff_4ac1_9b43_e1f6fc45ccba.mp4,M-FOREST
+virtual-cat-cafe,Virtual Cat Cafe,template_VirtualCatCafe,guided-interaction,none,M-DUSK
+voice-soundboard,Voice Soundboard,template_VoiceSoundboard,message-sequence,none,M-FIELD
+wax-sealer,Wax Sealer,template_WaxSealer,letter-or-paper,none,M-FROST
+whats-app10k-love,Whats App10k Love,template_WhatsApp10kLove,message-sequence,none,M-AMBER
+wish-dandelion,Wish Dandelion,template_WishDandelion,guided-interaction,none,M-GOLD
+wish-wheel,Wish Wheel,template_WishWheel,randomized-choice,none,M-NIGHT
+wishing-well,Wishing Well,template_WishingWell,guided-interaction,none,M-BLUSH
+word-search,Word Search,template_LoveWordSearch,game-or-puzzle,none,M-MONO

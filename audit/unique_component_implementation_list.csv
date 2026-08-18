@@ -1,0 +1,29 @@
+priority,page_number,slug,title,current_component,required_unique_component,reason,status
+P0,008,bhuntu-love-polaroids,Bhuntu Love Polaroids,BhuntuLovePolaroids,BespokeBhuntuLovePolaroidsScene,Shared implementation group of 2 pages,not-started
+P0,255,room3,Room3,BhuntuLovePolaroids,BespokeRoom3Scene,Shared implementation group of 2 pages,not-started
+P0,012,bhuntu-trivia-showdown,Bhuntu Trivia Showdown,BhuntuTriviaShowdown,BespokeBhuntuTriviaShowdownScene,Shared implementation group of 2 pages,not-started
+P0,256,room4,Room4,BhuntuTriviaShowdown,BespokeRoom4Scene,Shared implementation group of 2 pages,not-started
+P0,014,bhuntu-voice-note-archive,Bhuntu Voice Note Archive,BhuntuVoiceNoteArchive,BespokeBhuntuVoiceNoteArchiveScene,Shared implementation group of 2 pages,not-started
+P0,250,room10,Room10,BhuntuVoiceNoteArchive,BespokeRoom10Scene,Shared implementation group of 2 pages,not-started
+P0,017,bonus-arcade,Bonus Arcade,WorldShell,BespokeBonusArcadeScene,Shared implementation group of 2 pages,not-started
+P0,059,curated-journey,Curated Journey,WorldShell,BespokeCuratedJourneyScene,Shared implementation group of 2 pages,not-started
+P1,022,bucket-list,Bucket List,TravelBucketList,BespokeBucketListScene,Shared implementation group of 2 pages,not-started
+P1,260,room8,Room8,TravelBucketList,BespokeRoom8Scene,Shared implementation group of 2 pages,not-started
+P1,060,distance,Distance,NepalgunjToOsakaFlightSim,BespokeDistanceScene,Shared implementation group of 3 pages,not-started
+P1,220,nepalgunj-to-osaka-flight-sim,Nepalgunj To Osaka Flight Sim,NepalgunjToOsakaFlightSim,BespokeNepalgunjToOsakaFlightSimScene,Shared implementation group of 3 pages,not-started
+P1,254,room2,Room2,NepalgunjToOsakaFlightSim,BespokeRoom2Scene,Shared implementation group of 3 pages,not-started
+P1,070,first-moments-timeline,First Moments Timeline,FirstMomentsTimeline,BespokeFirstMomentsTimelineScene,Shared implementation group of 3 pages,not-started
+P1,258,room6,Room6,FirstMomentsTimeline,BespokeRoom6Scene,Shared implementation group of 3 pages,not-started
+P1,276,story,Story,FirstMomentsTimeline,BespokeStoryScene,Shared implementation group of 3 pages,not-started
+P1,111,love-coronation-ceremony,Love Coronation Ceremony,LoveCoronationCeremony,BespokeLoveCoronationCeremonyScene,Shared implementation group of 2 pages,not-started
+P1,251,room11,Room11,LoveCoronationCeremony,BespokeRoom11Scene,Shared implementation group of 2 pages,not-started
+P1,122,love-envelope,Love Envelope,LoveEnvelope,BespokeLoveEnvelopeScene,Shared implementation group of 2 pages,not-started
+P1,259,room7,Room7,LoveEnvelope,BespokeRoom7Scene,Shared implementation group of 2 pages,not-started
+P1,130,love-grand-finale,Love Grand Finale,LoveGrandFinale,BespokeLoveGrandFinaleScene,Shared implementation group of 2 pages,not-started
+P1,252,room12,Room12,LoveGrandFinale,BespokeRoom12Scene,Shared implementation group of 2 pages,not-started
+P1,146,love-love-story-comic-strip,Love Love Story Comic Strip,LoveLoveStoryComicStrip,BespokeLoveLoveStoryComicStripScene,Shared implementation group of 2 pages,not-started
+P1,257,room5,Room5,LoveLoveStoryComicStrip,BespokeRoom5Scene,Shared implementation group of 2 pages,not-started
+P1,184,love-scratch-card,Love Scratch Card,LoveScratchCard,BespokeLoveScratchCardScene,Shared implementation group of 2 pages,not-started
+P1,253,room1,Room1,LoveScratchCard,BespokeRoom1Scene,Shared implementation group of 2 pages,not-started
+P1,231,promise-tree,Promise Tree,SakuraPromiseTree,BespokePromiseTreeScene,Shared implementation group of 2 pages,not-started
+P1,261,room9,Room9,SakuraPromiseTree,BespokeRoom9Scene,Shared implementation group of 2 pages,not-started
