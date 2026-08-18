@@ -314,7 +314,7 @@ two-truths,Two Truths,template_TwoTruthsGame,game-or-puzzle,none,M-DUSK
 ultimate300th-love-coronation,Ultimate300th Love Coronation,template_Ultimate300thLoveCoronation,guided-interaction,none,M-FIELD
 valentine-card-creator,Valentine Card Creator,template_ValentineCardCreator,guided-interaction,none,M-FROST
 video,Video,template_page-local,audio,tikcdn_beubagah_com_191793ef_79ff_4ac1_9b43_e1f6fc45ccba.mp4,M-AMBER
-virtual-cat-cafe,Virtual Cat Cafe,template_VirtualCatCafe,guided-interaction,none,M-GOLD
+virtual-cat-cafe,Virtual Cat Cafe,template_page-local,message-sequence,none,M-GOLD
 voice-soundboard,Voice Soundboard,template_page-local,message-sequence,none,M-NIGHT
 wax-sealer,Wax Sealer,template_page-local,letter-or-paper,none,M-BLUSH
 whats-app10k-love,Whats App10k Love,template_WhatsApp10kLove,message-sequence,none,M-MONO
