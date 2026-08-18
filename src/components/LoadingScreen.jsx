@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Heart, Sparkles, Music } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { birthdayData } from '../data/birthdayData';
 
 const petals = ['🌸', '🌹', '💗', '✨', '🌺', '💕'];
