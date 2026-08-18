@@ -1,12 +1,12 @@
 [
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/gallery",
-    "textLength": 2719,
+    "textLength": 2833,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 4609
+      "scrollHeight": 4685
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
@@ -18,12 +18,12 @@
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/video",
-    "textLength": 1411,
+    "textLength": 1365,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 2960
+      "scrollHeight": 2940
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
@@ -35,7 +35,7 @@
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/letter",
-    "textLength": 936,
+    "textLength": 961,
     "viewport": {
       "width": 390,
       "height": 844,
@@ -52,7 +52,7 @@
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/bouquet",
-    "textLength": 2016,
+    "textLength": 2041,
     "viewport": {
       "width": 390,
       "height": 844,
@@ -69,12 +69,12 @@
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/distance",
-    "textLength": 1461,
+    "textLength": 1526,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 2738
+      "scrollHeight": 2790
     },
     "horizontalOverflow": false,
     "missingAlt": 0,

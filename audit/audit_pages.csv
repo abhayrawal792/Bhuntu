@@ -43,7 +43,7 @@ couple-escape-room,Couple Escape Room,template_CoupleEscapeRoom,guided-interacti
 couple-future-home3-d,Couple Future Home3 D,template_CoupleFutureHome3D,spatial-exploration,none,M-DUSK
 couple-milestone-map2,Couple Milestone Map2,template_page-local,message-sequence,none,M-FIELD
 couple-milestone-map,Couple Milestone Map,template_CoupleMilestoneMap,guided-interaction,none,M-FROST
-couple-movie-marathon,Couple Movie Marathon,template_CoupleMovieMarathon,guided-interaction,none,M-AMBER
+couple-movie-marathon,Couple Movie Marathon,template_page-local,audio,none,M-AMBER
 couple-movie-night,Couple Movie Night,template_CoupleMovieNight,guided-interaction,none,M-GOLD
 couple-nickname-generator,Couple Nickname Generator,template_CoupleNicknameGenerator,guided-interaction,none,M-NIGHT
 couple-questions-deep,Couple Questions Deep,template_CoupleQuestionsDeep,guided-interaction,none,M-BLUSH
@@ -145,7 +145,7 @@ love-jar-notes,Love Jar Notes,template_page-local,message-sequence,none,M-PAPER
 love-journal-prompt,Love Journal Prompt,template_page-local,letter-or-paper,none,M-DAWN
 love-kaleidoscope,Love Kaleidoscope,template_LoveKaleidoscope,guided-interaction,none,M-GREY
 love-keychain-customizer,Love Keychain Customizer,template_LoveKeychainCustomizer,guided-interaction,none,M-FOREST
-love-language-test,Love Language Test,template_LoveLanguageTest,guided-interaction,none,M-DUSK
+love-language-test,Love Language Test,template_page-local,message-sequence,none,M-DUSK
 love-languages-quiz,Love Languages Quiz,template_page-local,game-or-puzzle,none,M-FIELD
 love-letter-archive,Love Letter Archive,template_LoveLetterArchive,letter-or-paper,none,M-FROST
 love-letter-archive-vault,Love Letter Archive Vault,template_page-local,message-sequence,none,M-AMBER
@@ -180,7 +180,7 @@ love-photo-mosaic-builder,Love Photo Mosaic Builder,template_LovePhotoMosaicBuil
 love-piano,Love Piano,template_LovePiano,audio,none,M-FROST
 love-pixel-art-creator,Love Pixel Art Creator,template_page-local,visual-collection,none,M-AMBER
 love-poetry-fridge,Love Poetry Fridge,template_LovePoetryFridge,guided-interaction,none,M-GOLD
-love-potion-brewery2,Love Potion Brewery2,template_LovePotionBrewery2,guided-interaction,none,M-NIGHT
+love-potion-brewery2,Love Potion Brewery2,template_page-local,reveal,none,M-NIGHT
 love-potion-brewery,Love Potion Brewery,template_page-local,grow-or-assemble,none,M-BLUSH
 love-potion-lab2,Love Potion Lab2,template_page-local,message-sequence,none,M-MONO
 love-potion-laboratory,Love Potion Laboratory,template_LovePotionLaboratory,guided-interaction,none,M-SEPIA
@@ -256,9 +256,9 @@ romantic-charades,Romantic Charades,template_RomanticCharades,guided-interaction
 romantic-cooking-recipe,Romantic Cooking Recipe,template_RomanticCookingRecipe,guided-interaction,none,M-AMBER
 romantic-flower-garden,Romantic Flower Garden,template_RomanticFlowerGarden,grow-or-assemble,none,M-GOLD
 romantic-karaoke,Romantic Karaoke,template_page-local,audio,none,M-NIGHT
-romantic-locket-changer,Romantic Locket Changer,template_RomanticLocketChanger,guided-interaction,none,M-BLUSH
+romantic-locket-changer,Romantic Locket Changer,template_page-local,grow-or-assemble,none,M-BLUSH
 romantic-memory-wheel,Romantic Memory Wheel,template_page-local,randomized-choice,none,M-MONO
-romantic-message-grid,Romantic Message Grid,template_RomanticMessageGrid,message-sequence,none,M-SEPIA
+romantic-message-grid,Romantic Message Grid,template_page-local,message-sequence,none,M-SEPIA
 romantic-music-box2,Romantic Music Box2,template_RomanticMusicBox2,audio,none,M-ELECT
 romantic-night-sky-writer,Romantic Night Sky Writer,template_RomanticNightSkyWriter,spatial-exploration,none,M-WINE
 romantic-petal-rain,Romantic Petal Rain,template_RomanticPetalRain,grow-or-assemble,none,M-PAPER

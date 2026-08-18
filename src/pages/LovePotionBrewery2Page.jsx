@@ -1,6 +1,11 @@
-import React from 'react';
-import LovePotionBrewery2 from '../components/LovePotionBrewery2';
+import React, { useState } from 'react';
+import { Beaker, Heart, Leaf, Sparkles } from 'lucide-react';
 
-export default function LovePotionBrewery2Page() {
-  return <LovePotionBrewery2 />;
-}
+const ingredients = [
+  { label: 'Patience', copy: 'The ingredient that lets a call arrive late and still feel worth waiting for.', color: 'bg-sky-50' },
+  { label: 'Playfulness', copy: 'The little spark behind nicknames, food cravings, and the moments when Bhoot or Runchi appears.', color: 'bg-amber-50' },
+  { label: 'Honesty', copy: 'The room where Abu can say what he misses, what he hopes for, and what he promises to keep learning.', color: 'bg-rose-50' },
+  { label: 'A shared future', copy: 'The final ingredient: two people making plans that include ordinary mornings, roads, and one light-blue scooter.', color: 'bg-emerald-50' },
+];
+
+export default function LovePotionBrewery2Page() { const [selected, setSelected] = useState(0); const ingredient = ingredients[selected]; return <main className="min-h-dvh bg-[#e9edf1] px-5 py-12 text-[#26333a] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-slate-800/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-slate-600"><Beaker className="h-4 w-4" /> The second recipe cabinet</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">What keeps a love steady after the sparkle?</h1></div><p className="max-w-xs text-sm leading-7 text-[#61717b]">A quieter recipe for the parts of love that remain when the grand reveal is over.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="grid gap-3 sm:grid-cols-2" aria-label="Steady-love ingredients">{ingredients.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border p-5 text-left transition ${selected === index ? 'border-slate-700 bg-white shadow-xl' : 'border-slate-800/10 bg-white/45 hover:bg-white/80'}`}><Leaf className="h-5 w-5 text-emerald-700" /><span className="mt-5 block text-xl font-black">{item.label}</span><span className="mt-2 block text-[10px] font-black uppercase tracking-[0.18em] text-[#61717b]">Measure 0{index + 1}</span></button>)}</nav><section className={`relative overflow-hidden rounded-[2rem] ${ingredient.color} p-8 shadow-[15px_18px_0_rgba(38,51,58,.12)] sm:p-14`}><div className="absolute right-10 top-10 h-24 w-24 rounded-full border border-slate-700/15" /><Sparkles className="h-10 w-10 text-slate-700" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-slate-600">Measure 0{selected + 1} · Abu keeps this</p><h2 className="mt-5 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{ingredient.label}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#61717b]">{ingredient.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-slate-800/15 pt-6 text-sm font-black text-slate-700"><Heart className="h-4 w-4 fill-current text-rose-400" /> Kept steady for Samjhana.</div></section></div></div></main>; }

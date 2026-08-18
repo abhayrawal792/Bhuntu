@@ -43,7 +43,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 042,couple-future-home3-d,LETTER,, ,Unique page idea: Couple Future Home3 D,spatial-exploration,single-column,M-DUSK,distinct,TYPE-A
 043,couple-milestone-map2,CHAT,, ,Unique page idea: Couple Milestone Map2,message-sequence,split-screen,M-FIELD,distinct,TYPE-A
 044,couple-milestone-map,WHY_I_LOVE,, ,Unique page idea: Couple Milestone Map,guided-interaction,typography-first,M-FROST,distinct,TYPE-A
-045,couple-movie-marathon,FUTURE,, ,Unique page idea: Couple Movie Marathon,guided-interaction,ui-simulation,M-AMBER,distinct,TYPE-A
+045,couple-movie-marathon,FUTURE,, ,Unique page idea: Couple Movie Marathon,audio,ui-simulation,M-AMBER,distinct,TYPE-A
 046,couple-movie-night,SURPRISE,, ,Unique page idea: Couple Movie Night,guided-interaction,immersive-scroll,M-GOLD,distinct,TYPE-A
 047,couple-nickname-generator,MILESTONE,, ,Unique page idea: Couple Nickname Generator,guided-interaction,interactive-canvas,M-NIGHT,distinct,TYPE-A
 048,couple-questions-deep,SENSORY,, ,Unique page idea: Couple Questions Deep,guided-interaction,masonry-grid,M-BLUSH,distinct,TYPE-A
@@ -145,7 +145,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 144,love-journal-prompt,SENSORY,, ,Unique page idea: Love Journal Prompt,letter-or-paper,typography-first,M-DAWN,distinct,TYPE-A
 145,love-kaleidoscope,MEMORY,, ,Unique page idea: Love Kaleidoscope,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
 146,love-keychain-customizer,LETTER,, ,Unique page idea: Love Keychain Customizer,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
-147,love-language-test,CHAT,, ,Unique page idea: Love Language Test,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
+147,love-language-test,CHAT,, ,Unique page idea: Love Language Test,message-sequence,interactive-canvas,M-DUSK,distinct,TYPE-A
 148,love-languages-quiz,WHY_I_LOVE,, ,Unique page idea: Love Languages Quiz,game-or-puzzle,masonry-grid,M-FIELD,distinct,TYPE-A
 149,love-letter-archive,FUTURE,, ,Unique page idea: Love Letter Archive,letter-or-paper,editorial-two-column,M-FROST,distinct,TYPE-A
 150,love-letter-archive-vault,SURPRISE,, ,Unique page idea: Love Letter Archive Vault,message-sequence,horizontal-scroll,M-AMBER,distinct,TYPE-A
@@ -180,7 +180,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 179,love-piano,CHAT,, ,Unique page idea: Love Piano,audio,editorial-two-column,M-FROST,distinct,TYPE-A
 180,love-pixel-art-creator,WHY_I_LOVE,, ,Unique page idea: Love Pixel Art Creator,visual-collection,horizontal-scroll,M-AMBER,distinct,TYPE-A
 181,love-poetry-fridge,FUTURE,, ,Unique page idea: Love Poetry Fridge,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
-182,love-potion-brewery2,SURPRISE,, ,Unique page idea: Love Potion Brewery2,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
+182,love-potion-brewery2,SURPRISE,, ,Unique page idea: Love Potion Brewery2,reveal,single-column,M-NIGHT,distinct,TYPE-A
 183,love-potion-brewery,MILESTONE,, ,Unique page idea: Love Potion Brewery,grow-or-assemble,split-screen,M-BLUSH,distinct,TYPE-A
 184,love-potion-lab2,SENSORY,, ,Unique page idea: Love Potion Lab2,message-sequence,typography-first,M-MONO,distinct,TYPE-A
 185,love-potion-laboratory,MEMORY,, ,Unique page idea: Love Potion Laboratory,guided-interaction,ui-simulation,M-SEPIA,distinct,TYPE-A
@@ -256,7 +256,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 255,romantic-cooking-recipe,MILESTONE,, ,Unique page idea: Romantic Cooking Recipe,guided-interaction,ui-simulation,M-AMBER,distinct,TYPE-A
 256,romantic-flower-garden,SENSORY,, ,Unique page idea: Romantic Flower Garden,grow-or-assemble,immersive-scroll,M-GOLD,distinct,TYPE-A
 257,romantic-karaoke,MEMORY,, ,Unique page idea: Romantic Karaoke,audio,interactive-canvas,M-NIGHT,distinct,TYPE-A
-258,romantic-locket-changer,LETTER,, ,Unique page idea: Romantic Locket Changer,guided-interaction,masonry-grid,M-BLUSH,distinct,TYPE-A
+258,romantic-locket-changer,LETTER,, ,Unique page idea: Romantic Locket Changer,grow-or-assemble,masonry-grid,M-BLUSH,distinct,TYPE-A
 259,romantic-memory-wheel,CHAT,, ,Unique page idea: Romantic Memory Wheel,randomized-choice,editorial-two-column,M-MONO,distinct,TYPE-A
 260,romantic-message-grid,WHY_I_LOVE,, ,Unique page idea: Romantic Message Grid,message-sequence,horizontal-scroll,M-SEPIA,distinct,TYPE-A
 261,romantic-music-box2,FUTURE,, ,Unique page idea: Romantic Music Box2,audio,full-bleed-hero,M-ELECT,distinct,TYPE-A
