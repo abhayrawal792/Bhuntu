@@ -109,7 +109,7 @@ export default function LoveMirrorOracle() {
                       src={currentPhoto}
                       alt="Reflection"
                       onError={(e) => handlePhotoError(e, photoIdx)}
-                      className="w-full h-full object-cover brightness-110 contrast-105"
+                      className="w-full h-full object-contain brightness-110 contrast-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-black/20 pointer-events-none" />
                     <div className="absolute bottom-3 left-0 right-0 text-[10px] font-mono font-bold text-amber-200 text-center">

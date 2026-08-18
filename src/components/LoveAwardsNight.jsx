@@ -77,7 +77,7 @@ export default function LoveAwardsNight() {
                   src={currentPhoto}
                   alt="Award Winner Photo"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                  className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                 />
                 <div className="absolute top-2 right-2 bg-amber-950/90 px-3 py-1.5 rounded-xl text-xs font-mono font-black text-amber-200 border border-amber-400 shadow flex items-center gap-1">
                   <Trophy className="w-3.5 h-3.5 text-amber-400" />

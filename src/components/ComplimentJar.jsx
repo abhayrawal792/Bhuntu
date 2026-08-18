@@ -201,7 +201,7 @@ export default function ComplimentJar() {
                     src={photoSrc}
                     onError={e => handlePhotoError(e, selectedResult.photoIdx)}
                     alt="Scratched Photo"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="space-y-1 flex-1">
@@ -296,7 +296,7 @@ export default function ComplimentJar() {
                   src={photoSrc}
                   onError={e => handlePhotoError(e, selectedResult.photoIdx)}
                   alt="Fortune Photo"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
                 <span className="absolute bottom-1 right-1 bg-black/60 text-white font-mono text-[9px] px-1.5 py-0.5 rounded-full backdrop-blur-xs">
                   Bhuntu 📸

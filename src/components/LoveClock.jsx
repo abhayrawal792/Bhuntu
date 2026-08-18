@@ -108,9 +108,9 @@ export default function LoveClock() {
             <img
               src={currentPhoto}
               alt="Love Clock Photo"
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-contain object-top"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+              className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
             />
           </div>
 

@@ -101,7 +101,7 @@ export default function LoveCompatibilityMatrix() {
                 src={currentPhoto}
                 alt="Compatibility Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
               <div className="absolute bottom-2 left-2 right-2 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-mono text-amber-200 text-center border border-white/20 font-bold">
                 100% Celestial Match Photo Unlocked! 📊📸

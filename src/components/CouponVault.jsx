@@ -110,7 +110,7 @@ export default function CouponVault() {
                         src={photoForCoupon}
                         alt="Coupon Photo"
                         onError={(e) => handlePhotoError(e, photoIdx + i * 7)}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                     </div>
 

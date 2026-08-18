@@ -198,7 +198,7 @@ export default function LoveButterflyCatcher() {
                     src={activeCatchModal.photoUrl}
                     alt="Catch Photo"
                     onError={(e) => handlePhotoError(e, activeCatchModal.photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute bottom-2 left-2 right-2 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-mono text-amber-200 text-center border border-white/20">
                     Butterfly Memory Photo Unlocked! 🦋📸

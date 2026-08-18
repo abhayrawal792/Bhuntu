@@ -107,7 +107,7 @@ export default function FirstMomentsTimeline() {
                   src={currentPhoto}
                   alt="Milestone Photo"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-full object-contain object-top transition-transform duration-500 group-hover:scale-105"
                 />
 
                 <div className="absolute top-3 right-3 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md text-amber-200 text-xs font-bold border border-amber-300/40 flex items-center gap-1 shadow-lg">

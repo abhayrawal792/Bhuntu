@@ -302,7 +302,7 @@ export default function HeartbeatDrumPad() {
                     src={BHUNTU_PHOTOS[unlockedSurprise.photoIdx % BHUNTU_PHOTOS.length] || BHUNTU_PHOTOS[0]}
                     alt="Surprise Photo"
                     onError={(e) => handlePhotoError(e, unlockedSurprise.photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
 

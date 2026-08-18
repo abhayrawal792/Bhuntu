@@ -58,7 +58,7 @@ export default function SanzuPhotoGalleryGrid() {
                 src={currentPhoto}
                 alt="Gallery Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-contain object-top transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute top-2 right-2 bg-black/70 px-3 py-1 rounded-full text-xs font-mono text-amber-200 border border-amber-300/40 font-bold flex items-center gap-1 shadow-lg">
                 <Maximize2 className="w-3.5 h-3.5" />

@@ -19,7 +19,7 @@ export default function ComplimentJarPage() {
             <p className="mt-7 text-xs font-black uppercase tracking-[.3em] text-amber-300">The compliment archive</p>
             <h1 className="mt-4 text-5xl font-black">Abu keeps noticing you.</h1>
             <p className="mt-5 leading-8 text-amber-100/75">Not as a jar to shake. Not as a random result. These are the things Abu has deliberately saved for Samjhana.</p>
-            <img src={getAssetUrl(ALL_MEDIA_PHOTOS[56])} alt="A memory Abu treasures" className="mt-8 h-64 w-full rounded-2xl object-cover" />
+            <img src={getAssetUrl(ALL_MEDIA_PHOTOS[56])} alt="A memory Abu treasures" className="mt-8 h-64 w-full rounded-2xl object-contain" />
           </div>
           <section>
             <div className="flex flex-wrap gap-3">{notes.map(([title], index) => <button key={title} onClick={() => setNote(index)} className={"rounded-full border px-4 py-2 text-sm font-bold " + (note === index ? 'border-rose-600 bg-rose-600 text-white' : 'border-rose-200 bg-white')}>{title}</button>)}</div>

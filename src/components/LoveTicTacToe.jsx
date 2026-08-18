@@ -132,7 +132,7 @@ export default function LoveTicTacToe() {
                 src={bhuntuAvatarSrc}
                 onError={e => handlePhotoError(e, bhuntuPhotoIdx)}
                 alt="Bhuntu"
-                className="w-10 h-10 rounded-full object-cover border-2 border-rose-500 shadow-md"
+                className="w-10 h-10 rounded-full object-contain border-2 border-rose-500 shadow-md"
               />
               <span className="absolute -bottom-1 -right-1 text-[10px] bg-rose-500 text-white rounded-full px-1 font-bold">
                 X
@@ -157,7 +157,7 @@ export default function LoveTicTacToe() {
                 src={abuAvatarSrc}
                 onError={e => handlePhotoError(e, (bhuntuPhotoIdx + 5) % BHUNTU_PHOTOS.length)}
                 alt="Abu"
-                className="w-10 h-10 rounded-full object-cover border-2 border-purple-500 shadow-md"
+                className="w-10 h-10 rounded-full object-contain border-2 border-purple-500 shadow-md"
               />
               <span className="absolute -bottom-1 -right-1 text-[10px] bg-purple-500 text-white rounded-full px-1 font-bold">
                 O
@@ -196,7 +196,7 @@ export default function LoveTicTacToe() {
                       src={bhuntuAvatarSrc}
                       onError={e => handlePhotoError(e, bhuntuPhotoIdx)}
                       alt="Bhuntu Symbol"
-                      className="w-full h-full object-cover rounded-xl border-2 border-rose-500 shadow-md"
+                      className="w-full h-full object-contain rounded-xl border-2 border-rose-500 shadow-md"
                     />
                     <Heart className="absolute -bottom-1 -right-1 w-4 h-4 text-rose-500 fill-rose-500 drop-shadow" />
                   </motion.div>
@@ -208,7 +208,7 @@ export default function LoveTicTacToe() {
                       src={abuAvatarSrc}
                       onError={e => handlePhotoError(e, (bhuntuPhotoIdx + 5) % BHUNTU_PHOTOS.length)}
                       alt="Abu Symbol"
-                      className="w-full h-full object-cover rounded-xl border-2 border-purple-500 shadow-md"
+                      className="w-full h-full object-contain rounded-xl border-2 border-purple-500 shadow-md"
                     />
                     <Sparkles className="absolute -bottom-1 -right-1 w-4 h-4 text-purple-500 fill-purple-500 drop-shadow" />
                   </motion.div>

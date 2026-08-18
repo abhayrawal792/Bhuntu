@@ -177,7 +177,7 @@ export default function LoveVibe() {
                       src={photoSrc}
                       onError={e => handlePhotoError(e, pIdx)}
                       alt={`Bhuntu Card #${i + 1}`}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
 
                     {/* Active Flash Overlay */}

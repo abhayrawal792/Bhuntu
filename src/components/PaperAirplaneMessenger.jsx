@@ -165,7 +165,7 @@ export default function PaperAirplaneMessenger() {
                       src={activeFlight.photoUrl}
                       alt="Attached Photo"
                       onError={(e) => handlePhotoError(e, activeFlight.photoIdx)}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                   <span className="text-[10px] font-bold text-gray-800 truncate max-w-[120px] px-1">
@@ -202,7 +202,7 @@ export default function PaperAirplaneMessenger() {
                 src={attachedPhoto}
                 alt="Selected"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
 
@@ -304,7 +304,7 @@ export default function PaperAirplaneMessenger() {
                         src={flight.photoUrl}
                         alt="Attached"
                         onError={(e) => handlePhotoError(e, flight.photoIdx)}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                     </div>
                     <div>
@@ -362,7 +362,7 @@ export default function PaperAirplaneMessenger() {
                     src={BHUNTU_PHOTOS[unlockedPhoto.photoIdx % BHUNTU_PHOTOS.length] || BHUNTU_PHOTOS[0]}
                     alt="Unlocked Photo"
                     onError={(e) => handlePhotoError(e, unlockedPhoto.photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
 

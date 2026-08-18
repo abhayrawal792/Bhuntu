@@ -222,7 +222,7 @@ export default function LoveFortuneCookieJar() {
                   src={currentPhoto}
                   alt="Fortune photo"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover object-[center_20%]"
+                  className="w-full h-full object-contain object-center"
                 />
                 <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(255,251,235,0.95) 0%, transparent 50%)' }} />
               </div>

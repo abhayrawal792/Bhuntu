@@ -52,7 +52,7 @@ export default function LovePoetryFridge() {
               src={currentPhoto}
               alt="Fridge Magnet Photo"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+              className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
             />
             <div className="absolute top-2 right-2 text-sm bg-black/70 px-2 py-0.5 rounded text-amber-200 font-mono font-bold border border-white/20">
               🧲 Photo Magnet

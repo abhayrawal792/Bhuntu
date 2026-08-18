@@ -67,7 +67,7 @@ export default function CoupleTravelPassportStamps() {
               src={currentPhoto}
               alt="Passport Photo"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+              className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
             />
             <div className="absolute top-2 right-2 bg-black/75 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-mono text-amber-200 border border-white/20 font-bold">
               🛂 Stamped Passport Photo

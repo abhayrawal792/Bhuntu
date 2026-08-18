@@ -185,7 +185,7 @@ export default function LoveMemoryMatch() {
                         src={BHUNTU_PHOTOS[card.photoIdx % BHUNTU_PHOTOS.length]}
                         onError={e => handlePhotoError(e, card.photoIdx)}
                         alt="Photo Card"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                       <div className="absolute bottom-0 left-0 right-0 bg-black/60 p-1 text-[9px] font-black text-amber-200 truncate">
                         📸 {card.title}

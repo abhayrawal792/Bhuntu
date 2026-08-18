@@ -279,7 +279,7 @@ export default function BhuntuEmojiArcade() {
                   src={currentPhoto.url}
                   alt={currentPhoto.title || 'Arcade Photo'}
                   onError={handlePhotoError}
-                  className="w-12 h-12 rounded-xl object-cover border border-pink-500/50"
+                  className="w-12 h-12 rounded-xl object-contain border border-pink-500/50"
                 />
                 <div>
                   <div className="font-bold text-pink-300">{currentPhoto.title || 'Bhuntu Memory Photo'}</div>

@@ -167,7 +167,7 @@ export default function GrandLoveUniverse() {
                   src={currentPhoto.url}
                   alt="Celestial Memory"
                   onError={handlePhotoError}
-                  className="w-16 h-16 rounded-xl object-cover border border-purple-400/50 shadow-md shrink-0"
+                  className="w-16 h-16 rounded-xl object-contain border border-purple-400/50 shadow-md shrink-0"
                 />
                 <div>
                   <div className="font-bold text-xs text-amber-300">{currentPhoto.title || 'Celestial Memory'}</div>

@@ -260,7 +260,7 @@ export default function LoveKaleidoscope() {
                 src={photo1}
                 alt="Queen Sanzu Hero Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
             </div>
 
@@ -286,10 +286,10 @@ export default function LoveKaleidoscope() {
 
             <div className="bday-photo-grid">
               <div className="bday-photo-card">
-                <img src={photo1} alt="Sanzu 1" onError={(e) => handlePhotoError(e, photoIdx)} className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105" />
+                <img src={photo1} alt="Sanzu 1" onError={(e) => handlePhotoError(e, photoIdx)} className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105" />
               </div>
               <div className="bday-photo-card">
-                <img src={photo2} alt="Sanzu 2" onError={(e) => handlePhotoError(e, photoIdx + 1)} className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105" />
+                <img src={photo2} alt="Sanzu 2" onError={(e) => handlePhotoError(e, photoIdx + 1)} className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105" />
               </div>
             </div>
 
@@ -311,10 +311,10 @@ export default function LoveKaleidoscope() {
 
             <div className="bday-photo-grid">
               <div className="bday-photo-card">
-                <img src={photo3} alt="Together 1" onError={(e) => handlePhotoError(e, photoIdx + 2)} className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105" />
+                <img src={photo3} alt="Together 1" onError={(e) => handlePhotoError(e, photoIdx + 2)} className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105" />
               </div>
               <div className="bday-photo-card">
-                <img src={photo4} alt="Together 3" onError={(e) => handlePhotoError(e, photoIdx + 3)} className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105" />
+                <img src={photo4} alt="Together 3" onError={(e) => handlePhotoError(e, photoIdx + 3)} className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105" />
               </div>
             </div>
 
@@ -339,7 +339,7 @@ export default function LoveKaleidoscope() {
                 src={photo1}
                 alt="Queen Sanzu Letter Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
             </div>
 

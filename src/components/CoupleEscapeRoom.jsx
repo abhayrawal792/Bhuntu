@@ -246,7 +246,7 @@ export default function CoupleEscapeRoom() {
                     src={currentPhoto}
                     alt="Vault Reward"
                     onError={(e) => handlePhotoError(e, photoIdx)}
-                    className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105"
+                    className="w-full h-full object-contain object-center brightness-110 contrast-105"
                   />
                   <div className="absolute top-2 right-2 bg-emerald-950/90 px-3 py-1 rounded-lg text-xs font-mono text-emerald-200 border border-emerald-400/40 font-bold flex items-center gap-1">
                     <Sparkles className="w-3.5 h-3.5 text-emerald-400" />

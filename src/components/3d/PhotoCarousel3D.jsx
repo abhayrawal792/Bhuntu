@@ -53,7 +53,7 @@ function Floating3DPhotoFrame({ item, index, total, onSelect }) {
             hovered ? 'scale-105 ring-4 ring-pink-400' : ''
           }`}
         >
-          <img src={item.image} alt={item.caption} className="w-full h-full object-cover" />
+          <img src={item.image} alt={item.caption} className="w-full h-full object-contain" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-1.5">
             <span className="text-[11px] font-bold text-white truncate font-nepali">
               {item.nepaliCaption}

@@ -66,7 +66,7 @@ export default function LoveNeonSignGallery() {
                 src={currentPhoto}
                 alt="Neon Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
               <div className="absolute top-2 right-2 bg-pink-900/80 px-3 py-1 rounded-lg text-xs font-mono text-pink-200 border border-white/20 font-bold">
                 💡 Neon #{neonIdx + 1}

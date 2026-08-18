@@ -108,7 +108,7 @@ export default function SnowGlobeShaker() {
                   src={currentPhoto}
                   alt="Globe Memory"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105 transition-all duration-300"
+                  className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105 transition-all duration-300"
                 />
               </div>
 

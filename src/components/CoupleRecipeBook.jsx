@@ -91,7 +91,7 @@ export default function CoupleRecipeBook() {
                     src={currentPhoto}
                     alt="Chef Photo"
                     onError={(e) => handlePhotoError(e, photoIdx)}
-                    className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                    className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                   />
                   <div className="absolute top-2 right-2 bg-amber-950/80 px-2.5 py-1 rounded text-[10px] font-mono font-bold text-amber-200">
                     COOKED FRESH

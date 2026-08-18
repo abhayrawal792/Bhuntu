@@ -226,7 +226,7 @@ export default function LoveMemoryFlip() {
                         src={photoSrc}
                         onError={e => handlePhotoError(e, card.photoIdx)}
                         alt="Bhuntu Photo Memory"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                       {isMatched && (
                         <div className="absolute top-1 right-1 bg-emerald-500 text-white rounded-full p-0.5 shadow-md">

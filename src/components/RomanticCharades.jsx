@@ -211,7 +211,7 @@ export default function RomanticCharades() {
                   src={BHUNTU_PHOTOS[unlockedPhoto.photoIdx % BHUNTU_PHOTOS.length] || BHUNTU_PHOTOS[0]}
                   alt="Reward Photo"
                   onError={(e) => handlePhotoError(e, unlockedPhoto.photoIdx)}
-                  className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                  className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                 />
               </div>
 

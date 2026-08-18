@@ -194,7 +194,7 @@ export default function SoundWave() {
                 src={photoSrc}
                 onError={e => handlePhotoError(e, currTrack.photoIdx)}
                 alt="Track Cover"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
               <span className="absolute bottom-1 right-1 bg-black/70 text-purple-300 font-mono text-[9px] px-1.5 py-0.5 rounded-full">
                 Track #{currTrack.id}

@@ -120,7 +120,7 @@ export default function LoveMemoryFilmStrip() {
                   src={currentPhoto}
                   alt="Film Reel Frame"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className={`w-full h-full object-cover object-[center_20%] transition-all ${getFilterStyle()}`}
+                  className={`w-full h-full object-contain object-center transition-all ${getFilterStyle()}`}
                 />
                 
                 {/* REEL COUNTER BADGE */}

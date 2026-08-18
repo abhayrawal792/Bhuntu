@@ -66,7 +66,7 @@ export default function LoveHoroscopeWheel() {
                 src={currentPhoto}
                 alt="Horoscope Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
               <div className="absolute top-2 right-2 bg-amber-950/80 px-3 py-1 rounded-lg text-xs font-mono text-amber-200 border border-white/20 font-bold">
                 🔮 {currentHoroscope.sign}

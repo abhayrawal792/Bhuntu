@@ -207,7 +207,7 @@ export default function StarNamer() {
                         src={starPhotoSrc}
                         onError={e => handlePhotoError(e, chosenStar.photoIdx)}
                         alt="Target Star Photo"
-                        className="w-full h-full object-cover rounded-full border-2 border-white"
+                        className="w-full h-full object-contain rounded-full border-2 border-white"
                       />
                     </div>
                     <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 bg-amber-500 text-white text-[9px] font-extrabold px-2 py-0.5 rounded-full shadow-md">
@@ -278,7 +278,7 @@ export default function StarNamer() {
                       src={starPhotoSrc}
                       onError={e => handlePhotoError(e, chosenStar.photoIdx)}
                       alt="Star Owner Photo"
-                      className="w-full h-full object-cover rounded-full border border-white"
+                      className="w-full h-full object-contain rounded-full border border-white"
                     />
                   </div>
                 )}

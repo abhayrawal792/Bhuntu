@@ -80,7 +80,7 @@ export default function MagneticPoetry() {
               src={currentPhoto}
               alt="Backdrop"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover brightness-60 contrast-110"
+              className="w-full h-full object-contain brightness-60 contrast-110"
             />
             <div className="absolute inset-0 bg-slate-950/60 backdrop-blur-xs" />
           </div>

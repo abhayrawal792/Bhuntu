@@ -136,7 +136,7 @@ export default function JigsawPuzzle() {
                 src={currentPhotoSrc}
                 onError={e => handlePhotoError(e, photoIndex)}
                 alt="Target Preview"
-                className="w-40 h-40 object-cover rounded-xl mx-auto border-2 border-pink-400 shadow-md"
+                className="w-40 h-40 object-contain rounded-xl mx-auto border-2 border-pink-400 shadow-md"
               />
             </motion.div>
           )}

@@ -164,7 +164,7 @@ export default function PixelHeartPainter() {
                   src={currentPhoto}
                   alt="Hidden"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div>
@@ -244,7 +244,7 @@ export default function PixelHeartPainter() {
               src={currentPhoto}
               alt="Memory Reveal"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover brightness-115 contrast-105 transition-all duration-500"
+              className="w-full h-full object-contain brightness-115 contrast-105 transition-all duration-500"
             />
           </div>
 

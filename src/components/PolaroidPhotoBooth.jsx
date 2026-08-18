@@ -59,7 +59,7 @@ export default function PolaroidPhotoBooth() {
             src={currentPhotoSrc}
             onError={e => handlePhotoError(e, photoIndex)}
             alt={`Bhuntu Polaroid #${photoIndex + 1}`}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
 
           {/* Render Active Stickers */}

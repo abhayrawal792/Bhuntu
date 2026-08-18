@@ -138,7 +138,7 @@ export default function LoveAnagramSolver() {
                     src={currentPhoto}
                     alt="Anagram Champion Photo"
                     onError={(e) => handlePhotoError(e, photoIdx)}
-                    className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                    className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                   />
                 </div>
                 <p className="text-xs font-bold text-amber-300">

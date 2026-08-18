@@ -77,7 +77,7 @@ export default function LoveConstellationStargazer() {
                     src={currentPhoto}
                     alt="Stargazer Photo"
                     onError={(e) => handlePhotoError(e, photoIdx)}
-                    className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                    className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                   />
                   <div className="absolute inset-0 bg-purple-500/10 pointer-events-none" />
                 </div>

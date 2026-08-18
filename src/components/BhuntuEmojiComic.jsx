@@ -403,7 +403,7 @@ export default function BhuntuEmojiComic() {
               src={currentPhoto}
               alt="Queen Sanzu Cake Photo"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="shizuka-cake-photo object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+              className="shizuka-cake-photo object-contain object-center brightness-110 contrast-105 saturate-105"
             />
           </motion.div>
         )}
@@ -440,7 +440,7 @@ export default function BhuntuEmojiComic() {
                     src={currentPhoto}
                     alt="Storylane Sanzu Photo"
                     onError={(e) => handlePhotoError(e, photoIdx)}
-                    className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                    className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                   />
                 </div>
 

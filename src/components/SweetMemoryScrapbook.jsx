@@ -66,7 +66,7 @@ export default function SweetMemoryScrapbook() {
                 src={currentPhoto}
                 alt="Scrapbook Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
               <div className="absolute top-2 left-2 bg-amber-200/80 px-2 py-0.5 rounded text-[10px] font-mono text-slate-950 font-bold border border-white/20">
                 📌 Pinned Memory

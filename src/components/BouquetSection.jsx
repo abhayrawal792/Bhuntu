@@ -56,7 +56,7 @@ export default function BouquetSection() {
                     alt={flower.name}
                     loading="lazy"
                     decoding="async"
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col justify-end p-4 text-white">
                     <span className="text-[11px] font-bold uppercase tracking-wider text-rose-300 font-ui mb-1">
@@ -112,7 +112,7 @@ export default function BouquetSection() {
                       : 'border-gray-200 opacity-40 grayscale'
                   }`}
                 >
-                  <img src={flower.flowerImg} alt={flower.name} className="w-full h-full object-cover" loading="lazy" />
+                  <img src={flower.flowerImg} alt={flower.name} className="w-full h-full object-contain" loading="lazy" />
                 </div>
               );
             })}
@@ -154,13 +154,13 @@ export default function BouquetSection() {
               {/* Side-by-Side Images */}
               <div className="grid grid-cols-2 bg-pink-100" style={{ height: '200px' }}>
                 <div className="h-full relative overflow-hidden">
-                  <img src={selectedFlower.flowerImg} alt={selectedFlower.name} className="w-full h-full object-cover" />
+                  <img src={selectedFlower.flowerImg} alt={selectedFlower.name} className="w-full h-full object-contain" />
                   <span className="absolute bottom-2 left-2 bg-black/60 text-white text-[11px] px-2 py-0.5 rounded-full font-bold">
                     Luxury Bouquet
                   </span>
                 </div>
                 <div className="h-full relative overflow-hidden">
-                  <img src={selectedFlower.herImg} alt="Mero Bebo" className="w-full h-full object-cover" />
+                  <img src={selectedFlower.herImg} alt="Mero Bebo" className="w-full h-full object-contain" />
                   <span className="absolute bottom-2 left-2 bg-rose-500 text-white text-[11px] px-2 py-0.5 rounded-full font-bold">
                     Mero Bebo ❤️
                   </span>

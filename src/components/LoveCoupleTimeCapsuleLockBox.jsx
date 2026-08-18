@@ -101,7 +101,7 @@ export default function LoveCoupleTimeCapsuleLockBox() {
                     src={currentPhoto}
                     alt="Capsule Photo"
                     onError={(e) => handlePhotoError(e, photoIdx)}
-                    className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                    className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                   />
                   <div className="absolute top-2 right-2 bg-sky-950/90 text-sky-200 px-2.5 py-0.5 rounded text-[10px] font-mono font-bold">
                     BIOMETRIC AUTH PASSED

@@ -59,7 +59,7 @@ export default function CoupleCookbook() {
               src={currentPhoto}
               alt="Cookbook Photo"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+              className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
             />
             <div className="absolute top-2 right-2 bg-emerald-900/80 px-3 py-1 rounded-lg text-xs font-mono text-emerald-200 border border-white/20 font-bold">
               🍱 Recipe #{dishIdx + 1}

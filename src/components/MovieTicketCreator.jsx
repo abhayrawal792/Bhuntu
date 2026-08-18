@@ -97,7 +97,7 @@ export default function MovieTicketCreator() {
                     src={posterPhoto}
                     alt="Movie Poster"
                     onError={(e) => handlePhotoError(e, photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div>
@@ -203,7 +203,7 @@ export default function MovieTicketCreator() {
                   src={createdTicket.photoUrl}
                   alt="Poster"
                   onError={(e) => handlePhotoError(e, createdTicket.photoIdx)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
 

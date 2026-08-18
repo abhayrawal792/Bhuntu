@@ -113,7 +113,7 @@ export default function WishDandelion() {
                     src={s.photoUrl}
                     alt="Wish"
                     onError={(e) => handlePhotoError(e, s.photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <span className="text-xs">🌾</span>
@@ -148,7 +148,7 @@ export default function WishDandelion() {
                   src={currentPhoto}
                   alt="Wish Photo"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div>
@@ -240,7 +240,7 @@ export default function WishDandelion() {
                     src={activeWishModal.photoUrl}
                     alt="Wish Photo"
                     onError={(e) => handlePhotoError(e, activeWishModal.photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute bottom-2 left-2 right-2 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-mono text-amber-200 text-center border border-white/20">
                     Wish Seed Photo Parachute 🌾📸

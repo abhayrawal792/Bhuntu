@@ -97,7 +97,7 @@ export default function StarProjector() {
               src={currentPhoto}
               alt="Star Projection"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105 transition-all duration-500"
+              className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105 transition-all duration-500"
             />
             <div className="absolute bottom-3 left-3 right-3 bg-black/70 backdrop-blur-md px-3 py-1.5 rounded-xl text-xs font-mono text-amber-200 text-center border border-white/20 font-bold">
               Galaxy Starlight Projection 🌌📸

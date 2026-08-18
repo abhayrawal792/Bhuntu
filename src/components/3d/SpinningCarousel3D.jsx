@@ -57,7 +57,7 @@ function SpinningPhotoCard({ item, index, total, onSelect }) {
             hovered ? 'scale-105 ring-4 ring-pink-400' : ''
           }`}
         >
-          <img src={item.path || item.image} alt="Memory" className="w-full h-full object-cover" />
+          <img src={item.path || item.image} alt="Memory" className="w-full h-full object-contain" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-2 text-white">
             <span className="text-[11px] font-bold text-rose-300 truncate font-nepali">
               {compliment.nepali}

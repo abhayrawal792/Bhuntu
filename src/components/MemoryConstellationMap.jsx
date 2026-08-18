@@ -222,7 +222,7 @@ export default function MemoryConstellationMap() {
                   src={currentPhoto}
                   alt="Memory photo"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover object-[center_20%]"
+                  className="w-full h-full object-contain object-center"
                   style={{ filter: 'brightness(0.75) saturate(1.2)' }}
                 />
                 <div className="absolute inset-0" style={{ background: 'linear-gradient(to right, rgba(15,10,46,0.7) 0%, transparent 40%, transparent 60%, rgba(15,10,46,0.7) 100%)' }} />

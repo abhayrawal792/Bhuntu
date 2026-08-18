@@ -90,7 +90,7 @@ export default function CandleBlower() {
               src={currentPhoto}
               alt="Cake Photo"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className={`w-full h-full object-cover object-[center_20%] saturate-105 transition-all duration-500 ${
+              className={`w-full h-full object-contain object-center saturate-105 transition-all duration-500 ${
                 blownOut ? 'brightness-115 contrast-105 scale-105' : 'brightness-75 blur-xs'
               }`}
             />

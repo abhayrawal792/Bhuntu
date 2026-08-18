@@ -114,7 +114,7 @@ export default function CloudSkywriter() {
                       src={c.photoUrl}
                       alt="Attached"
                       onError={(e) => handlePhotoError(e, c.photoIdx)}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                   <span className="text-xs sm:text-sm font-extrabold text-sky-950 font-nepali truncate">
@@ -147,7 +147,7 @@ export default function CloudSkywriter() {
                   src={attachedPhoto}
                   alt="Attached"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div>
@@ -254,7 +254,7 @@ export default function CloudSkywriter() {
                     src={activePhotoModal.photoUrl}
                     alt="Cloud Photo"
                     onError={(e) => handlePhotoError(e, activePhotoModal.photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute bottom-2 left-2 right-2 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg text-[10px] font-mono text-amber-200 text-center border border-white/20">
                     Skywrite Memory Photo ☁️📸

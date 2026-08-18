@@ -136,7 +136,7 @@ export default function LoveGraffitiWall() {
                 src={currentPhoto}
                 alt="Graffiti Artist Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
               <div className="absolute bottom-0 inset-x-0 bg-black/80 text-[9px] font-mono font-bold text-pink-300 py-0.5">
                 ARTIST: SANZU 👑

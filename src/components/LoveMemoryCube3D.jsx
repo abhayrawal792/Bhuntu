@@ -143,7 +143,7 @@ export default function LoveMemoryCube3D() {
                   src={currentPhoto.url || currentPhoto}
                   alt="Cube Memory Photo"
                   onError={handlePhotoError}
-                  className="w-14 h-14 rounded-xl object-cover border border-cyan-400/50"
+                  className="w-14 h-14 rounded-xl object-contain border border-cyan-400/50"
                 />
                 <div>
                   <div className="font-bold text-xs text-cyan-300">{currentPhoto.title || 'Cube Memory'}</div>

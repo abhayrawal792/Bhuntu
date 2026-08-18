@@ -134,7 +134,7 @@ export default function LoveMessageInABottleOcean() {
                 src={currentPhoto}
                 alt="Entrance Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
             </div>
 
@@ -195,7 +195,7 @@ export default function LoveMessageInABottleOcean() {
                         src={BHUNTU_PHOTOS[(photoIdx + idx) % BHUNTU_PHOTOS.length] || currentPhoto}
                         alt="Reason Photo"
                         onError={(e) => handlePhotoError(e, photoIdx)}
-                        className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                        className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
                       />
                     </div>
                   </motion.div>
@@ -237,7 +237,7 @@ export default function LoveMessageInABottleOcean() {
                 src={currentPhoto}
                 alt="Storylane Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
               <div className="absolute bottom-0 inset-x-0 bg-white/90 text-[11px] font-bold text-pink-700 py-1 font-serif">
                 You're the BESTEST Bebo Ever! 💖

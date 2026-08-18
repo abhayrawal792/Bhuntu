@@ -67,7 +67,7 @@ export default function CoupleAnniversaryTimeline() {
                 src={currentPhoto}
                 alt="Milestone Photo"
                 onError={(e) => handlePhotoError(e, photoIdx)}
-                className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105 saturate-105"
+                className="w-full h-full object-contain object-center brightness-110 contrast-105 saturate-105"
               />
             </div>
 

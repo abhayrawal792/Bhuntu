@@ -428,7 +428,7 @@ export default function LoveMapCanvas() {
                       src={photoUrl}
                       alt={m.title}
                       onError={(e) => handlePhotoError(e, m.photoIdx)}
-                      className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform"
+                      className="w-full h-full object-contain rounded-full group-hover:scale-110 transition-transform"
                     />
                   </div>
 
@@ -505,7 +505,7 @@ export default function LoveMapCanvas() {
                     src={BHUNTU_PHOTOS[activeMilestone.photoIdx % BHUNTU_PHOTOS.length] || BHUNTU_PHOTOS[0]}
                     alt={activeMilestone.title}
                     onError={(e) => handlePhotoError(e, activeMilestone.photoIdx)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute bottom-2 left-2 right-2 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg text-[11px] font-mono text-amber-200 text-center border border-white/20">
                     {activeMilestone.date}

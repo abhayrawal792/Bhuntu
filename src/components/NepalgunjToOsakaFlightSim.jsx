@@ -91,7 +91,7 @@ export default function NepalgunjToOsakaFlightSim() {
               src={currentPhoto.url || currentPhoto}
               alt="Flight Viewport"
               onError={(e) => handlePhotoError(e, photoIdx)}
-              className="w-full h-full object-cover object-[center_20%] brightness-110 contrast-105"
+              className="w-full h-full object-contain object-center brightness-110 contrast-105"
             />
             <div className="absolute top-3 left-3 bg-slate-950/80 backdrop-blur-md px-3.5 py-1.5 rounded-full text-xs font-mono text-sky-200 border border-sky-400/40 font-bold flex items-center gap-1.5">
               <Plane className="w-3.5 h-3.5 text-sky-400" />

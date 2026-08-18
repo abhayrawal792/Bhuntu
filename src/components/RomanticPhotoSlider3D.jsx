@@ -124,7 +124,7 @@ export default function RomanticPhotoSlider3D() {
                   src={currentPhoto}
                   alt="Film frame"
                   onError={(e) => handlePhotoError(e, photoIdx)}
-                  className="w-full h-full object-cover object-[center_20%]"
+                  className="w-full h-full object-contain object-center"
                   style={{ filter: 'sepia(0.15) contrast(1.08) brightness(0.92)' }}
                 />
 

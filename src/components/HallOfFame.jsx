@@ -79,7 +79,7 @@ export default function HallOfFame() {
               src={photoSrc}
               onError={e => handlePhotoError(e, photoIdx)}
               alt="Hall of Fame Inductee"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-black/70 backdrop-blur-sm p-1 text-[10px] font-black text-amber-300 uppercase tracking-tight">
               Inductee #1: Sanzu Rawal
@@ -103,7 +103,7 @@ export default function HallOfFame() {
                       src={BHUNTU_PHOTOS[pIdx]}
                       onError={e => handlePhotoError(e, pIdx)}
                       alt="Thumb"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </button>
                 );

@@ -267,7 +267,7 @@ export default function LoveEnvelope() {
                       src={photoSrc}
                       onError={e => handlePhotoError(e, selectedLetter.photoIdx)}
                       alt="Letter Photo"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
 

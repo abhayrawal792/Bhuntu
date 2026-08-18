@@ -95,7 +95,7 @@ export default function ScratchMemory() {
                         src={photoForTile}
                         alt="Scratched Photo"
                         onError={(e) => handlePhotoError(e, randomSeed + t.offset)}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                     </div>
                     <span className="text-[11px] font-extrabold text-amber-300 font-nepali">{t.title}</span>
@@ -170,7 +170,7 @@ export default function ScratchMemory() {
                     src={BHUNTU_PHOTOS[(randomSeed + activeCardModal.offset) % BHUNTU_PHOTOS.length] || BHUNTU_PHOTOS[0]}
                     alt="Card Photo"
                     onError={(e) => handlePhotoError(e, randomSeed + activeCardModal.offset)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
 

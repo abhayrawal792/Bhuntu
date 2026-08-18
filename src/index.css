@@ -14,13 +14,15 @@
     font-family: 'Outfit', sans-serif;
   }
 
-  /* Global Face Framing Protection */
+  /* Preserve the full composition of Samjhana’s portraits. Individual rooms may
+     choose a frame, but the global default must never bias toward a cropped face. */
   img {
-    object-position: center 20%;
+    object-position: center;
   }
   img.object-cover,
-  img.object-top {
-    object-position: center 20% !important;
+  img.object-top,
+  img.object-contain {
+    object-position: center !important;
   }
 
   /* iPhone 16 Pro Safe Area Utilities */

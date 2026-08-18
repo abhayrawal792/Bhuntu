@@ -190,7 +190,7 @@ export default function LovePhotoBooth() {
                 src={photoSrc}
                 onError={e => handlePhotoError(e, photoIdx)}
                 alt="Polaroid Memory"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             )}
 

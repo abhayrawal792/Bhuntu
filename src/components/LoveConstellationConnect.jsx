@@ -232,7 +232,7 @@ export default function LoveConstellationConnect() {
                   src={photoSrc}
                   onError={e => handlePhotoError(e, activeConstellation.photoIdx)}
                   alt="Constellation Photo"
-                  className="w-full h-full object-cover opacity-90"
+                  className="w-full h-full object-contain opacity-90"
                 />
               </motion.div>
             )}
