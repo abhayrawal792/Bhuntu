@@ -476,8 +476,8 @@ export const birthdayData = {
   },
 
   spinWheel: {
-    title: "Love Lucky Spin Wheel 🎡",
-    nepaliTitle: "Bhagya Ra Maya Ko Lucky Spin Wheel 🎡",
+    title: "Love Lucky Bouquet of Reasons 🎡",
+    nepaliTitle: "Bhagya Ra Maya Ko Lucky Bouquet of Reasons 🎡",
     subtitle: "Click SPIN to land on an instant romantic prize or sweet voucher!",
     nepaliSubtitle: "SPIN thichera aafno instant romantic prize jitnus!",
     prizes: [
@@ -597,8 +597,8 @@ export const birthdayData = {
   },
 
   ferrisWheel: {
-    title: "3D Romantic Night Ferris Wheel 🎡",
-    nepaliTitle: "Sanjh Ko Meetho Ferris Wheel 🎡",
+    title: "3D Romantic Night The Night Ride 🎡",
+    nepaliTitle: "Sanjh Ko Meetho The Night Ride 🎡",
     subtitle: "Click cabins high up in the sky to reveal romantic date memories!",
     nepaliSubtitle: "Ferris wheel ko cabin thichera date memories hernus!"
   },

@@ -1,10 +1,6 @@
 import React from 'react';
-import FerrisWheel from '../components/FerrisWheel';
+import RomanticReplacementPage from './RomanticReplacementPage';
 
 export default function FerrisWheelPage() {
-  return (
-    <div className="min-h-dvh py-6 bg-slate-950">
-      <FerrisWheel />
-    </div>
-  );
+  return <RomanticReplacementPage />;
 }

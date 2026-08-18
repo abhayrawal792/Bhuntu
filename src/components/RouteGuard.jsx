@@ -5,8 +5,8 @@ import { ROOM_SEQUENCE } from '../data/roomSequence';
 
 export { ROOM_SEQUENCE };
 
-/* These routes are always accessible (no lock) */
-const FREE_ROUTES = ['/', '/home', '/curated-journey', '/curated-journey/'];
+/* The doorway is always reachable; every other page must be entered in sequence. */
+const DOORWAY_ROUTES = ['/', '/home'];
 
 export default function RouteGuard() {
   const navigate = useNavigate();
@@ -16,8 +16,11 @@ export default function RouteGuard() {
   useEffect(() => {
     const path = location.pathname;
 
-    // Landing home page is accessible to view the password prompt
-    if (path === '/' || path === '/home') return;
+    // The doorway is always reachable, but all other pages are sequentially locked.
+    if (DOORWAY_ROUTES.includes(path)) {
+      if (currentRoomIndex !== 0) setCurrentRoomIndex(0);
+      return;
+    }
 
     // STRICT LOCK: If secret password has NOT been entered, block access & redirect to landing home
     if (!hasEntered) {
@@ -25,15 +28,26 @@ export default function RouteGuard() {
       return;
     }
 
-    // Check if the requested path is in the sequence
     const requestedIndex = ROOM_SEQUENCE.indexOf(path);
+    const safeCurrentIndex = Math.max(0, Math.min(currentRoomIndex, ROOM_SEQUENCE.length - 1));
 
-    // Not in linear sequence (standalone page or route) — allow access
-    if (requestedIndex === -1) return;
+    // Every registered route belongs to the sequence. Unknown routes return to the current page.
+    if (requestedIndex === -1) {
+      navigate(ROOM_SEQUENCE[safeCurrentIndex], { replace: true });
+      return;
+    }
 
-    // Synchronize room index with current route
+    // Allow the current page or exactly one adjacent page. If a page tries to jump,
+    // move only one step in the requested direction.
+    const distance = requestedIndex - safeCurrentIndex;
+    if (Math.abs(distance) > 1) {
+      const nextIndex = safeCurrentIndex + (distance > 0 ? 1 : -1);
+      navigate(ROOM_SEQUENCE[Math.max(0, Math.min(nextIndex, ROOM_SEQUENCE.length - 1))], { replace: true });
+      return;
+    }
+
     setCurrentRoomIndex(requestedIndex);
-  }, [location.pathname, hasEntered, navigate, setCurrentRoomIndex]);
+  }, [location.pathname, hasEntered, currentRoomIndex, navigate, setCurrentRoomIndex]);
 
   return null;
 }

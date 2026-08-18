@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Heart, Sparkles } from 'lucide-react';
 import { ROOM_SEQUENCE } from './RouteGuard';
 import { birthdayData } from '../data/birthdayData';
+import { pageNameByRoute } from '../data/pageNames';
 
 const ROOM_LABELS = [
   '🔐 Secret Door',
@@ -313,7 +314,7 @@ export default function Navbar() {
   const currentPath = location.pathname;
   const seqIndex = ROOM_SEQUENCE.indexOf(currentPath);
   const isSeqPage = seqIndex !== -1;
-  const roomLabel = isSeqPage ? ROOM_LABELS[seqIndex] : '🏠 Home';
+  const roomLabel = pageNameByRoute[currentPath]?.title || (isSeqPage ? `Page ${seqIndex + 1}` : '🏠 Home');
   const totalRooms = ROOM_SEQUENCE.length;
   const progress = isSeqPage ? (seqIndex + 1) / totalRooms : 0;
 
@@ -347,7 +348,7 @@ export default function Navbar() {
                 {roomLabel}
               </span>
               <span className="text-[11px] text-rose-500 font-ui font-bold">
-                {isSeqPage ? `Surprise ${seqIndex + 1} of ${totalRooms} 💕` : 'Birthday Journey 💕'}
+                {isSeqPage ? `Birthday gift ${seqIndex + 1} of ${totalRooms} 💕` : 'Birthday Journey 💕'}
               </span>
             </div>
           </div>

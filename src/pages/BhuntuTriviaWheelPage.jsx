@@ -1,6 +1,6 @@
 import React from 'react';
-import BhuntuTriviaWheel from '../components/BhuntuTriviaWheel';
+import RomanticReplacementPage from './RomanticReplacementPage';
 
 export default function BhuntuTriviaWheelPage() {
-  return <BhuntuTriviaWheel />;
+  return <RomanticReplacementPage />;
 }

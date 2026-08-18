@@ -1,10 +1,6 @@
 import React from 'react';
-import LoveWheelFortune from '../components/LoveWheelFortune';
+import RomanticReplacementPage from './RomanticReplacementPage';
 
 export default function LoveWheelFortunePage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveWheelFortune />
-    </div>
-  );
+  return <RomanticReplacementPage />;
 }

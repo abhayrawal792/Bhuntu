@@ -39,7 +39,6 @@ const CatcherGamePage = lazy(() => import('./pages/CatcherGamePage'));
 const MemoryMatchPage = lazy(() => import('./pages/MemoryMatchPage'));
 const QuoteGeneratorPage = lazy(() => import('./pages/QuoteGeneratorPage'));
 const MysteryGiftsPage = lazy(() => import('./pages/MysteryGiftsPage'));
-const SpinWheelPage = lazy(() => import('./pages/SpinWheelPage'));
 const PassportPage = lazy(() => import('./pages/PassportPage'));
 const BottlePage = lazy(() => import('./pages/BottlePage'));
 const MusicBoxPage = lazy(() => import('./pages/MusicBoxPage'));
@@ -52,7 +51,6 @@ const HoroscopePage = lazy(() => import('./pages/HoroscopePage'));
 const LoveCalculatorPage = lazy(() => import('./pages/LoveCalculatorPage'));
 const CookingGamePage = lazy(() => import('./pages/CookingGamePage'));
 const LovePetPage = lazy(() => import('./pages/LovePetPage'));
-const FerrisWheelPage = lazy(() => import('./pages/FerrisWheelPage'));
 const TwoTruthsPage = lazy(() => import('./pages/TwoTruthsPage'));
 const WordSearchPage = lazy(() => import('./pages/WordSearchPage'));
 const WishingWellPage = lazy(() => import('./pages/WishingWellPage'));
@@ -90,9 +88,7 @@ const LoveRadioPage = lazy(() => import('./pages/LoveRadioPage'));
 const BlessingTreePage = lazy(() => import('./pages/BlessingTreePage'));
 const LoveVibePage = lazy(() => import('./pages/LoveVibePage'));
 const CoupleQuiz2Page = lazy(() => import('./pages/CoupleQuiz2Page'));
-const LoveSpinner3DPage = lazy(() => import('./pages/LoveSpinner3DPage'));
 const BentoBoxPage = lazy(() => import('./pages/BentoBoxPage'));
-const LoveWheelFortunePage = lazy(() => import('./pages/LoveWheelFortunePage'));
 const LoveCouponGeneratorPage = lazy(() => import('./pages/LoveCouponGeneratorPage'));
 const StarNamerPage = lazy(() => import('./pages/StarNamerPage'));
 const LoveJarNotesPage = lazy(() => import('./pages/LoveJarNotesPage'));
@@ -135,7 +131,6 @@ const PaperAirplaneMessengerPage = lazy(() => import('./pages/PaperAirplaneMesse
 const EmojiArtCanvasPage = lazy(() => import('./pages/EmojiArtCanvasPage'));
 const Magic8BallLovePage = lazy(() => import('./pages/Magic8BallLovePage'));
 const LoveLockBridgePage = lazy(() => import('./pages/LoveLockBridgePage'));
-const SecretCipherWheelPage = lazy(() => import('./pages/SecretCipherWheelPage'));
 const CloudSkywriterPage = lazy(() => import('./pages/CloudSkywriterPage'));
 const LoveThermometerPage = lazy(() => import('./pages/LoveThermometerPage'));
 const MovieTicketCreatorPage = lazy(() => import('./pages/MovieTicketCreatorPage'));
@@ -152,7 +147,6 @@ const LoveMirrorOraclePage = lazy(() => import('./pages/LoveMirrorOraclePage'));
 
 const OrigamiCranePage = lazy(() => import('./pages/OrigamiCranePage'));
 const StarDrawerPage = lazy(() => import('./pages/StarDrawerPage'));
-const WishWheelPage = lazy(() => import('./pages/WishWheelPage'));
 const BubbleWrapPage = lazy(() => import('./pages/BubbleWrapPage'));
 const ScratchMemoryPage = lazy(() => import('./pages/ScratchMemoryPage'));
 const QuizDuelPage = lazy(() => import('./pages/QuizDuelPage'));
@@ -179,14 +173,12 @@ const FutureHouseBuilderPage = lazy(() => import('./pages/FutureHouseBuilderPage
 const RomanticPlaylistMixerPage = lazy(() => import('./pages/RomanticPlaylistMixerPage'));
 const SweetPromisesJarPage = lazy(() => import('./pages/SweetPromisesJarPage'));
 const LoveLanguagesQuizPage = lazy(() => import('./pages/LoveLanguagesQuizPage'));
-const CoupleBucketListSpinnerPage = lazy(() => import('./pages/CoupleBucketListSpinnerPage'));
 const LoveConstellationPainterPage = lazy(() => import('./pages/LoveConstellationPainterPage'));
 const LoveLetterGeneratorPage = lazy(() => import('./pages/LoveLetterGeneratorPage'));
 const AnniversaryCountdownClockPage = lazy(() => import('./pages/AnniversaryCountdownClockPage'));
 const HeartBubbleTeaMakerPage = lazy(() => import('./pages/HeartBubbleTeaMakerPage'));
 const LoveNotesWallPage = lazy(() => import('./pages/LoveNotesWallPage'));
 const VirtualCatCafePage = lazy(() => import('./pages/VirtualCatCafePage'));
-const RomanticMemoryWheelPage = lazy(() => import('./pages/RomanticMemoryWheelPage'));
 const LoveQuizPersonalityPage = lazy(() => import('./pages/LoveQuizPersonalityPage'));
 const SweetProposalSimulatorPage = lazy(() => import('./pages/SweetProposalSimulatorPage'));
 const LoveFrequencyTunerPage = lazy(() => import('./pages/LoveFrequencyTunerPage'));
@@ -236,7 +228,6 @@ const LoveSweetHeartPaperCraftPage = lazy(() => import('./pages/LoveSweetHeartPa
 // ✨ NEW PAGES 219–250 — Photo-Rich Birthday Expansion ✨
 const LoveWordlePage = lazy(() => import('./pages/LoveWordlePage'));
 const CoupleEscapeRoomPage = lazy(() => import('./pages/CoupleEscapeRoomPage'));
-const LoveSpinBottlePage = lazy(() => import('./pages/LoveSpinBottlePage'));
 const BhuntuTriviaShowdownPage = lazy(() => import('./pages/BhuntuTriviaShowdownPage'));
 const LovePixelArtCreatorPage = lazy(() => import('./pages/LovePixelArtCreatorPage'));
 const LoveAnagramSolverPage = lazy(() => import('./pages/LoveAnagramSolverPage'));
@@ -277,7 +268,6 @@ const NepalgunjToOsakaFlightSimPage = lazy(() => import('./pages/NepalgunjToOsak
 const LoveScratchVoucherBookPage = lazy(() => import('./pages/LoveScratchVoucherBookPage'));
 const BhuntuVoiceNoteArchivePage = lazy(() => import('./pages/BhuntuVoiceNoteArchivePage'));
 const CoupleMilestoneMapPage = lazy(() => import('./pages/CoupleMilestoneMapPage'));
-const LoveHoroscopeWheelPage = lazy(() => import('./pages/LoveHoroscopeWheelPage'));
 const RomanticPetalRainPage = lazy(() => import('./pages/RomanticPetalRainPage'));
 const LoveLetterPopUp3DPage = lazy(() => import('./pages/LoveLetterPopUp3DPage'));
 const CoupleQuizMasterPage = lazy(() => import('./pages/CoupleQuizMasterPage'));
@@ -310,7 +300,6 @@ const RomanticFlowerGardenPage = lazy(() => import('./pages/RomanticFlowerGarden
 const LoveWishBottleOceanPage = lazy(() => import('./pages/LoveWishBottleOceanPage'));
 const CoupleSuperlativesPage = lazy(() => import('./pages/CoupleSuperlativesPage'));
 const LoveMemoryCube3DPage = lazy(() => import('./pages/LoveMemoryCube3DPage'));
-const BhuntuTriviaWheelPage = lazy(() => import('./pages/BhuntuTriviaWheelPage'));
 const LoveEnvelopeCollectionPage = lazy(() => import('./pages/LoveEnvelopeCollectionPage'));
 const RomanticMusicBox2Page = lazy(() => import('./pages/RomanticMusicBox2Page'));
 const CoupleFutureHome3DPage = lazy(() => import('./pages/CoupleFutureHome3DPage'));
@@ -399,7 +388,7 @@ function MainAppContent() {
               <Route path="/memory-match"      element={<MemoryMatchPage />} />
               <Route path="/quote-generator"   element={<QuoteGeneratorPage />} />
               <Route path="/mystery-gifts"     element={<MysteryGiftsPage />} />
-              <Route path="/spin-wheel"        element={<SpinWheelPage />} />
+              <Route path="/bouquet-reasons"        element={<RomanticReplacementPage />} />
               <Route path="/passport"          element={<PassportPage />} />
               <Route path="/message-bottle"    element={<BottlePage />} />
               <Route path="/music-box"         element={<MusicBoxPage />} />
@@ -412,7 +401,7 @@ function MainAppContent() {
               <Route path="/love-calculator"   element={<LoveCalculatorPage />} />
               <Route path="/cooking-game"      element={<CookingGamePage />} />
               <Route path="/love-pet"          element={<LovePetPage />} />
-              <Route path="/ferris-wheel"      element={<FerrisWheelPage />} />
+              <Route path="/future-night-ride"      element={<RomanticReplacementPage />} />
               <Route path="/two-truths"        element={<TwoTruthsPage />} />
               <Route path="/word-search"       element={<WordSearchPage />} />
               <Route path="/wishing-well"      element={<WishingWellPage />} />
@@ -448,9 +437,9 @@ function MainAppContent() {
               <Route path="/blessing-tree"     element={<BlessingTreePage />} />
               <Route path="/love-vibe"         element={<LoveVibePage />} />
               <Route path="/couple-quiz-2"     element={<CoupleQuiz2Page />} />
-              <Route path="/love-spinner-3d"   element={<LoveSpinner3DPage />} />
+              <Route path="/promise-trio"   element={<RomanticReplacementPage />} />
               <Route path="/bento-box"         element={<BentoBoxPage />} />
-              <Route path="/love-wheel-fortune" element={<LoveWheelFortunePage />} />
+              <Route path="/letter-tonight" element={<RomanticReplacementPage />} />
               <Route path="/love-coupon-generator" element={<LoveCouponGeneratorPage />} />
               <Route path="/star-namer"        element={<StarNamerPage />} />
               <Route path="/love-jar-notes"    element={<LoveJarNotesPage />} />
@@ -494,7 +483,7 @@ function MainAppContent() {
               <Route path="/emoji-art-canvas" element={<EmojiArtCanvasPage />} />
               <Route path="/magic-8-ball-love" element={<Magic8BallLovePage />} />
               <Route path="/love-lock-bridge" element={<LoveLockBridgePage />} />
-              <Route path="/secret-cipher-wheel" element={<SecretCipherWheelPage />} />
+              <Route path="/secret-language" element={<RomanticReplacementPage />} />
               <Route path="/cloud-skywriter" element={<CloudSkywriterPage />} />
               <Route path="/love-thermometer" element={<LoveThermometerPage />} />
               <Route path="/movie-ticket-creator" element={<MovieTicketCreatorPage />} />
@@ -512,7 +501,7 @@ function MainAppContent() {
               {/* ── 19 NEW Unique Interactive Pages ── */}
               <Route path="/origami-crane" element={<OrigamiCranePage />} />
               <Route path="/star-drawer" element={<StarDrawerPage />} />
-              <Route path="/wish-wheel" element={<WishWheelPage />} />
+              <Route path="/birthday-wish-letter" element={<RomanticReplacementPage />} />
               <Route path="/bubble-wrap" element={<BubbleWrapPage />} />
               <Route path="/scratch-memory" element={<ScratchMemoryPage />} />
               <Route path="/quiz-duel" element={<QuizDuelPage />} />
@@ -540,14 +529,13 @@ function MainAppContent() {
               <Route path="/romantic-playlist-mixer" element={<RomanticPlaylistMixerPage />} />
               <Route path="/sweet-promises-jar" element={<SweetPromisesJarPage />} />
               <Route path="/love-languages-quiz" element={<LoveLanguagesQuizPage />} />
-              <Route path="/couple-bucket-list-spinner" element={<CoupleBucketListSpinnerPage />} />
               <Route path="/love-constellation-painter" element={<LoveConstellationPainterPage />} />
               <Route path="/love-letter-generator" element={<LoveLetterGeneratorPage />} />
               <Route path="/anniversary-countdown-clock" element={<AnniversaryCountdownClockPage />} />
               <Route path="/heart-bubble-tea-maker" element={<HeartBubbleTeaMakerPage />} />
               <Route path="/love-notes-wall" element={<LoveNotesWallPage />} />
               <Route path="/virtual-cat-cafe" element={<VirtualCatCafePage />} />
-              <Route path="/romantic-memory-wheel" element={<RomanticMemoryWheelPage />} />
+              <Route path="/memory-replay" element={<RomanticReplacementPage />} />
               <Route path="/love-quiz-personality" element={<LoveQuizPersonalityPage />} />
               <Route path="/sweet-proposal-simulator" element={<SweetProposalSimulatorPage />} />
               <Route path="/love-frequency-tuner" element={<LoveFrequencyTunerPage />} />
@@ -598,7 +586,6 @@ function MainAppContent() {
               {/* ✨✨ NEW PAGES 219–250 — Photo-Rich Birthday Expansion ✨✨ */}
               <Route path="/love-wordle"               element={<LoveWordlePage />} />
               <Route path="/couple-escape-room"        element={<CoupleEscapeRoomPage />} />
-              <Route path="/love-spin-bottle"          element={<LoveSpinBottlePage />} />
               <Route path="/bhuntu-trivia-showdown"    element={<BhuntuTriviaShowdownPage />} />
               <Route path="/love-pixel-art"            element={<LovePixelArtCreatorPage />} />
               <Route path="/love-anagram-solver"       element={<LoveAnagramSolverPage />} />
@@ -639,7 +626,7 @@ function MainAppContent() {
               <Route path="/love-scratch-voucher-book" element={<LoveScratchVoucherBookPage />} />
               <Route path="/bhuntu-voice-note-archive" element={<BhuntuVoiceNoteArchivePage />} />
               <Route path="/couple-milestone-map" element={<CoupleMilestoneMapPage />} />
-              <Route path="/love-horoscope-wheel" element={<LoveHoroscopeWheelPage />} />
+              <Route path="/birthday-sky-letter" element={<RomanticReplacementPage />} />
               <Route path="/romantic-petal-rain" element={<RomanticPetalRainPage />} />
               <Route path="/love-letter-popup-3d" element={<LoveLetterPopUp3DPage />} />
               <Route path="/couple-quiz-master" element={<CoupleQuizMasterPage />} />
@@ -672,7 +659,7 @@ function MainAppContent() {
               <Route path="/love-wish-bottle-ocean" element={<LoveWishBottleOceanPage />} />
               <Route path="/couple-superlatives" element={<CoupleSuperlativesPage />} />
               <Route path="/love-memory-cube-3d" element={<LoveMemoryCube3DPage />} />
-              <Route path="/bhuntu-trivia-wheel" element={<BhuntuTriviaWheelPage />} />
+              <Route path="/little-things-abu-notices" element={<RomanticReplacementPage />} />
               <Route path="/love-envelope-collection" element={<LoveEnvelopeCollectionPage />} />
               <Route path="/romantic-music-box-2" element={<RomanticMusicBox2Page />} />
               <Route path="/couple-future-home-3d" element={<CoupleFutureHome3DPage />} />

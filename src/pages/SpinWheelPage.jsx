@@ -1,10 +1,6 @@
 import React from 'react';
-import SpinWheel from '../components/SpinWheel';
+import RomanticReplacementPage from './RomanticReplacementPage';
 
 export default function SpinWheelPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <SpinWheel />
-    </div>
-  );
+  return <RomanticReplacementPage />;
 }

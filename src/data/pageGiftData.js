@@ -1,4 +1,4 @@
-// Generated from every registered route. Do not replace with generic page copy.
+// Unique Abu-to-Samjhana gift records for every registered route.
 export const pageGiftData = [
   {
     "pageNumber": "001",
@@ -268,16 +268,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "020",
-    "route": "/spin-wheel",
-    "component": "SpinWheelPage",
-    "title": "Spin Wheel",
+    "route": "/bouquet-reasons",
+    "component": "RomanticReplacementPage",
+    "title": "A Bouquet of Reasons Abu Loves You",
     "nickname": "Sanzu",
     "kind": "promise",
     "accent": "sky",
     "gift": "a compliment saved for your next tired day",
     "compliment": "Your smile makes Abu forget what he was worried about.",
     "memory": "Bageshwori Temple and the prayers we carried home",
-    "message": "Samjhana, my Sanzu, Abu made the Spin Wheel room around Bageshwori Temple and the prayers we carried home. Open this when you miss Abu.",
+    "message": "Samjhana, my Sanzu, Abu made the Bouquet of Reasons room around Bageshwori Temple and the prayers we carried home. Open this when you miss Abu.",
     "surprise": "The secret is simple: Abu would still choose you in every version of the story. Your smile makes Abu forget what he was worried about. This page is Abu’s a Sakai-to-Nepalgunj distance token for Bhuntu."
   },
   {
@@ -450,16 +450,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "033",
-    "route": "/ferris-wheel",
-    "component": "FerrisWheelPage",
-    "title": "Ferris Wheel",
+    "route": "/future-night-ride",
+    "component": "RomanticReplacementPage",
+    "title": "The Night Ride We Still Owe Ourselves",
     "nickname": "Sanu",
     "kind": "journey",
     "accent": "sky",
     "gift": "a compliment saved for your next tired day",
     "compliment": "Your voice can cross the Nepalgunj-to-Sakai distance faster than any flight.",
     "memory": "the future light-blue scooter ride toward Bardiya",
-    "message": "Samjhana, my Sanu, Abu made the Ferris Wheel room around the future light-blue scooter ride toward Bardiya. Open this when you miss Abu.",
+    "message": "Samjhana, my Sanu, Abu made the The Night Ride room around the future light-blue scooter ride toward Bardiya. Open this when you miss Abu.",
     "surprise": "The secret is simple: Abu would still choose you in every version of the story. Your voice can cross the Nepalgunj-to-Sakai distance faster than any flight. This page is Abu’s a Sakai-to-Nepalgunj distance token for Babe."
   },
   {
@@ -954,16 +954,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "069",
-    "route": "/love-spinner-3d",
-    "component": "LoveSpinner3DPage",
-    "title": "Love Spinner 3d",
+    "route": "/promise-trio",
+    "component": "RomanticReplacementPage",
+    "title": "Three Little Promises for Our Future",
     "nickname": "Samjhana",
     "kind": "letter",
     "accent": "peach",
     "gift": "a future postcard from the light-blue scooter road",
     "compliment": "Your “huss” can make a long day feel close again.",
     "memory": "Water Park laughter and the day moving too quickly",
-    "message": "Samjhana, my Samjhana, Abu made the Love Spinner 3d room around Water Park laughter and the day moving too quickly. Read this slowly, Sanu. It was made for your exact heart.",
+    "message": "Samjhana, my Samjhana, Abu made the Three Promises room around Water Park laughter and the day moving too quickly. Read this slowly, Sanu. It was made for your exact heart.",
     "surprise": "This page is a soft place to land when your day is heavy. Your “huss” can make a long day feel close again. This page is Abu’s a Bageshwori memory pressed between two pages for Sanzu."
   },
   {
@@ -982,16 +982,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "071",
-    "route": "/love-wheel-fortune",
-    "component": "LoveWheelFortunePage",
-    "title": "Love Wheel Fortune",
+    "route": "/letter-tonight",
+    "component": "RomanticReplacementPage",
+    "title": "The Letter Abu Would Send Tonight",
     "nickname": "Samjhana",
     "kind": "voice-note",
     "accent": "peach",
     "gift": "a future postcard from the light-blue scooter road",
     "compliment": "Your “huss” can make a long day feel close again.",
     "memory": "Water Park laughter and the day moving too quickly",
-    "message": "Samjhana, my Samjhana, Abu made the Love Wheel Fortune room around Water Park laughter and the day moving too quickly. Read this slowly, Sanu. It was made for your exact heart.",
+    "message": "Samjhana, my Samjhana, Abu made the Letter Abu Would Send Tonight room around Water Park laughter and the day moving too quickly. Read this slowly, Sanu. It was made for your exact heart.",
     "surprise": "This page is a soft place to land when your day is heavy. Your “huss” can make a long day feel close again. This page is Abu’s a Bageshwori memory pressed between two pages for Sanzu."
   },
   {
@@ -1570,16 +1570,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "113",
-    "route": "/secret-cipher-wheel",
-    "component": "SecretCipherWheelPage",
-    "title": "Secret Cipher Wheel",
+    "route": "/secret-language",
+    "component": "RomanticReplacementPage",
+    "title": "The Secret Language of Us",
     "nickname": "Bhuntu",
     "kind": "letter",
     "accent": "mint",
     "gift": "a promise folded into a keepsake card",
     "compliment": "Your moods, your laugh, your quiet, and your Bhoot moments all belong to the girl Abu loves.",
     "memory": "dropping you at the Language Institute before Japan",
-    "message": "Samjhana, my Bhuntu, Abu made the Secret Cipher Wheel room around dropping you at the Language Institute before Japan. This page is a soft place to land when your day is heavy.",
+    "message": "Samjhana, my Bhuntu, Abu made the The Secret Language of Us room around dropping you at the Language Institute before Japan. This page is a soft place to land when your day is heavy.",
     "surprise": "A small surprise: Abu remembers more than he says. Your moods, your laugh, your quiet, and your Bhoot moments all belong to the girl Abu loves. This page is Abu’s a compliment saved for your next tired day for Sanu."
   },
   {
@@ -1794,16 +1794,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "129",
-    "route": "/wish-wheel",
-    "component": "WishWheelPage",
-    "title": "Wish Wheel",
+    "route": "/birthday-wish-letter",
+    "component": "RomanticReplacementPage",
+    "title": "A Sealed Birthday Letter from Abu",
     "nickname": "Samjhana",
     "kind": "keepsake",
     "accent": "sky",
     "gift": "a compliment saved for your next tired day",
     "compliment": "You make Abu want to become gentler, steadier, and more worthy of your trust.",
     "memory": "the way you can be Sanzu, Bhuntu, Sanu, Babe, or Runchi and still be home",
-    "message": "Samjhana, my Samjhana, Abu made the Wish Wheel room around the way you can be Sanzu, Bhuntu, Sanu, Babe, or Runchi and still be home. Open this when you miss Abu.",
+    "message": "Samjhana, my Samjhana, Abu made the Birthday Wish Letter room around the way you can be Sanzu, Bhuntu, Sanu, Babe, or Runchi and still be home. Open this when you miss Abu.",
     "surprise": "The secret is simple: Abu would still choose you in every version of the story. You make Abu want to become gentler, steadier, and more worthy of your trust. This page is Abu’s a Sakai-to-Nepalgunj distance token for Sanzu."
   },
   {
@@ -2157,20 +2157,6 @@ export const pageGiftData = [
     "surprise": "This page is a soft place to land when your day is heavy. Your “huss” can make a long day feel close again. This page is Abu’s a private letter from Abu for Sanu."
   },
   {
-    "pageNumber": "155",
-    "route": "/couple-bucket-list-spinner",
-    "component": "CoupleBucketListSpinnerPage",
-    "title": "Couple Bucket List Spinner",
-    "nickname": "Fuchee",
-    "kind": "keepsake",
-    "accent": "sky",
-    "gift": "a promise map for the places we still want to see",
-    "compliment": "You make ordinary food, ordinary calls, and ordinary rooms feel like memories.",
-    "memory": "late-night video calls between Nepalgunj and Sakai, Osaka",
-    "message": "Samjhana, my Fuchee, Abu made the Couple Bucket List Spinner room around late-night video calls between Nepalgunj and Sakai, Osaka. Open this when you miss Abu.",
-    "surprise": "The secret is simple: Abu would still choose you in every version of the story. You make ordinary food, ordinary calls, and ordinary rooms feel like memories. This page is Abu’s a tiny memory ticket from Nepalgunj for Samjhana."
-  },
-  {
     "pageNumber": "156",
     "route": "/love-constellation-painter",
     "component": "LoveConstellationPainterPage",
@@ -2256,16 +2242,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "162",
-    "route": "/romantic-memory-wheel",
-    "component": "RomanticMemoryWheelPage",
-    "title": "Romantic Memory Wheel",
+    "route": "/memory-replay",
+    "component": "RomanticReplacementPage",
+    "title": "The Memory Abu Keeps Replaying",
     "nickname": "Fuchee",
     "kind": "blessing",
     "accent": "saffron",
     "gift": "a tiny memory ticket from Nepalgunj",
     "compliment": "You are the best part of every future Abu imagines.",
     "memory": "the room-search conversation that started in Nepalgunj",
-    "message": "Samjhana, my Fuchee, Abu made the Romantic Memory Wheel room around the room-search conversation that started in Nepalgunj. A small surprise: Abu remembers more than he says.",
+    "message": "Samjhana, my Fuchee, Abu made the Memory Abu Keeps Replaying room around the room-search conversation that started in Nepalgunj. A small surprise: Abu remembers more than he says.",
     "surprise": "Keep this for the next time distance feels loud. You are the best part of every future Abu imagines. This page is Abu’s a voice-note moment for the nights you miss home for Samjhana."
   },
   {
@@ -2913,20 +2899,6 @@ export const pageGiftData = [
     "surprise": "A small surprise: Abu remembers more than he says. You are the person behind every name Abu says with a softer voice. This page is Abu’s a compliment saved for your next tired day for Bhuntu."
   },
   {
-    "pageNumber": "209",
-    "route": "/love-spin-bottle",
-    "component": "LoveSpinBottlePage",
-    "title": "Love Spin Bottle",
-    "nickname": "Sanu",
-    "kind": "bouquet",
-    "accent": "peach",
-    "gift": "a future postcard from the light-blue scooter road",
-    "compliment": "You are beautiful in the moments you never think to pose for.",
-    "memory": "the dream of Pokhara, Manang, and Mustang waiting for us",
-    "message": "Samjhana, my Sanu, Abu made the Love Spin Bottle room around the dream of Pokhara, Manang, and Mustang waiting for us. Read this slowly, Sanu. It was made for your exact heart.",
-    "surprise": "This page is a soft place to land when your day is heavy. You are beautiful in the moments you never think to pose for. This page is Abu’s a Bageshwori memory pressed between two pages for Babe."
-  },
-  {
     "pageNumber": "210",
     "route": "/bhuntu-trivia-showdown",
     "component": "BhuntuTriviaShowdownPage",
@@ -3460,16 +3432,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "248",
-    "route": "/love-horoscope-wheel",
-    "component": "LoveHoroscopeWheelPage",
-    "title": "Love Horoscope Wheel",
+    "route": "/birthday-sky-letter",
+    "component": "RomanticReplacementPage",
+    "title": "Your Birthday Sky Letter",
     "nickname": "Runchi",
     "kind": "keepsake",
     "accent": "mint",
     "gift": "a quiet “open when” note for your pocket",
     "compliment": "You are the best part of every future Abu imagines.",
     "memory": "the room-search conversation that started in Nepalgunj",
-    "message": "Samjhana, my Runchi, Abu made the Love Horoscope Wheel room around the room-search conversation that started in Nepalgunj. This page is a soft place to land when your day is heavy.",
+    "message": "Samjhana, my Runchi, Abu made the Birthday Sky Letter room around the room-search conversation that started in Nepalgunj. This page is a soft place to land when your day is heavy.",
     "surprise": "A small surprise: Abu remembers more than he says. You are the best part of every future Abu imagines. This page is Abu’s a promise map for the places we still want to see for Bhoot."
   },
   {
@@ -3922,16 +3894,16 @@ export const pageGiftData = [
   },
   {
     "pageNumber": "281",
-    "route": "/bhuntu-trivia-wheel",
-    "component": "BhuntuTriviaWheelPage",
-    "title": "Bhuntu Trivia Wheel",
+    "route": "/little-things-abu-notices",
+    "component": "RomanticReplacementPage",
+    "title": "The Little Things Abu Notices",
     "nickname": "Runchi",
     "kind": "cinema",
     "accent": "mint",
     "gift": "a promise folded into a keepsake card",
     "compliment": "You are the best part of every future Abu imagines.",
     "memory": "the room-search conversation that started in Nepalgunj",
-    "message": "Samjhana, my Runchi, Abu made the Bhuntu Trivia Wheel room around the room-search conversation that started in Nepalgunj. This page is a soft place to land when your day is heavy.",
+    "message": "Samjhana, my Runchi, Abu made the Little Things Abu Notices room around the room-search conversation that started in Nepalgunj. This page is a soft place to land when your day is heavy.",
     "surprise": "A small surprise: Abu remembers more than he says. You are the best part of every future Abu imagines. This page is Abu’s a compliment saved for your next tired day for Bhoot."
   },
   {
@@ -4383,5 +4355,4 @@ export const pageGiftData = [
     "surprise": "Open this when you miss Abu. You make ordinary food, ordinary calls, and ordinary rooms feel like memories. This page is Abu’s a quiet “open when” note for your pocket for Fuchee."
   }
 ];
-
 export const pageGiftByRoute = Object.fromEntries(pageGiftData.map((item) => [item.route, item]));

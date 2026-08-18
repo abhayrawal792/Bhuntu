@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const file = 'src/App.jsx';
+let text = fs.readFileSync(file, 'utf8');
+const legacy = ['SpinWheelPage', 'FerrisWheelPage', 'LoveSpinner3DPage', 'LoveWheelFortunePage', 'SecretCipherWheelPage', 'WishWheelPage', 'RomanticMemoryWheelPage', 'LoveHoroscopeWheelPage', 'BhuntuTriviaWheelPage'];
+text = text.split('\n').filter((line) => !legacy.some((name) => line.includes(`const ${name} = lazy`))).join('\n');
+const anchor = "const PersonalGiftLayer = lazy(() => import('./components/PersonalGiftLayer'));";
+if (!text.includes("const RomanticReplacementPage = lazy")) text = text.replace(anchor, `${anchor}\nconst RomanticReplacementPage = lazy(() => import('./pages/RomanticReplacementPage'));`);
+for (const name of legacy) text = text.split(`<${name} />`).join('<RomanticReplacementPage />');
+fs.writeFileSync(file, text);
+console.log('Router now uses RomanticReplacementPage directly for all former wheel routes.');

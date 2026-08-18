@@ -1,48 +1,59 @@
-import React, { useState } from 'react';
-import { ArrowUpRight, Gift, Heart, LockKeyhole, MapPin, Sparkles } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { ArrowUpRight, Camera, Gift, Heart, LockKeyhole, MapPin, Sparkles } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import { pageGiftByRoute } from '../data/pageGiftData';
+import { pageNameByRoute } from '../data/pageNames';
 import { personalVoice } from '../data/personalVoice';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
 
-const palettes = {
-  rose: 'border-rose-200 bg-rose-50 text-rose-950', saffron: 'border-amber-200 bg-amber-50 text-amber-950', night: 'border-indigo-200 bg-indigo-950 text-white',
-  mint: 'border-emerald-200 bg-emerald-50 text-emerald-950', lavender: 'border-violet-200 bg-violet-50 text-violet-950', peach: 'border-orange-200 bg-orange-50 text-orange-950',
-  sky: 'border-sky-200 bg-sky-50 text-sky-950', plum: 'border-fuchsia-200 bg-fuchsia-950 text-white',
+const families = {
+  letter: { label: 'Abu’s letter room', place: 'A quiet corner for words', icon: '✉️', cta: 'Open Abu’s letter', shell: 'from-rose-50 via-white to-orange-50', badge: 'text-rose-600', button: 'bg-rose-600', composition: 'paper' },
+  keepsake: { label: 'The keepsake room', place: 'A small thing worth carrying', icon: '🎁', cta: 'Unwrap the keepsake', shell: 'from-amber-50 via-white to-yellow-50', badge: 'text-amber-700', button: 'bg-amber-600', composition: 'ticket' },
+  memory: { label: 'The memory room', place: 'A moment Abu refused to lose', icon: '📍', cta: 'Reveal the memory', shell: 'from-sky-50 via-white to-indigo-50', badge: 'text-sky-700', button: 'bg-sky-700', composition: 'film' },
+  compliment: { label: 'The compliment room', place: 'A mirror made from Abu’s words', icon: '💌', cta: 'Read the compliment', shell: 'from-pink-50 via-white to-fuchsia-50', badge: 'text-fuchsia-700', button: 'bg-fuchsia-700', composition: 'portrait' },
+  promise: { label: 'The promise room', place: 'A road Abu still wants to walk', icon: '🛵', cta: 'Open the promise', shell: 'from-emerald-50 via-white to-teal-50', badge: 'text-emerald-700', button: 'bg-emerald-700', composition: 'postcard' },
+  journey: { label: 'The journey room', place: 'One stop on our real story', icon: '🗺️', cta: 'Read the next stop', shell: 'from-violet-50 via-white to-indigo-50', badge: 'text-violet-700', button: 'bg-violet-700', composition: 'map' },
+  bouquet: { label: 'The bouquet room', place: 'Flowers made of sentences', icon: '🌸', cta: 'Choose the flower Abu means', shell: 'from-pink-50 via-white to-green-50', badge: 'text-pink-700', button: 'bg-pink-600', composition: 'bouquet' },
+  'voice-note': { label: 'The voice room', place: 'A message for the nights between calls', icon: '🎙️', cta: 'Open the voice note', shell: 'from-slate-50 via-white to-blue-50', badge: 'text-slate-700', button: 'bg-slate-800', composition: 'audio' },
+  future: { label: 'The future room', place: 'A window into what Abu imagines', icon: '🏠', cta: 'Open the future postcard', shell: 'from-orange-50 via-white to-rose-50', badge: 'text-orange-700', button: 'bg-orange-700', composition: 'window' },
+  blessing: { label: 'The blessing room', place: 'A little light for your next year', icon: '✨', cta: 'Read the birthday blessing', shell: 'from-indigo-50 via-white to-purple-50', badge: 'text-indigo-700', button: 'bg-indigo-700', composition: 'night' },
+  cinema: { label: 'The cinema room', place: 'A scene Abu would replay', icon: '🎞️', cta: 'Open the scene', shell: 'from-stone-100 via-white to-amber-50', badge: 'text-stone-700', button: 'bg-stone-800', composition: 'film' },
+  'single-quiz': { label: 'The one game’s prize room', place: 'Play once, then keep the feeling', icon: '🏆', cta: 'Open your personal prize', shell: 'from-cyan-50 via-white to-rose-50', badge: 'text-cyan-700', button: 'bg-cyan-700', composition: 'ticket' },
 };
 
-const variants = {
-  letter: { label: 'A letter from Abu', icon: '✉️', hint: 'Read this like Abu is sitting beside you.' },
-  keepsake: { label: 'A keepsake for Samjhana', icon: '🎁', hint: 'Keep this little detail close.' },
-  memory: { label: 'A memory Abu saved', icon: '📍', hint: 'This moment still has a pulse.' },
-  compliment: { label: 'A compliment you cannot return', icon: '💌', hint: 'Abu is being specific on purpose.' },
-  promise: { label: 'A promise for the road', icon: '🛵', hint: 'For the distance between Nepalgunj and Sakai.' },
-  journey: { label: 'A stop on our story', icon: '🗺️', hint: 'One page, one real memory.' },
-  bouquet: { label: 'A bouquet made of words', icon: '🌸', hint: 'Every flower is a sentence Abu means.' },
-  'voice-note': { label: 'A voice-note in writing', icon: '🎙️', hint: 'Imagine Abu saying this softly.' },
-  future: { label: 'A future postcard', icon: '🏠', hint: 'A place we have not reached yet.' },
-  blessing: { label: 'A birthday blessing', icon: '✨', hint: 'For the year ahead of my Sanu.' },
-  cinema: { label: 'A scene Abu would replay', icon: '🎞️', hint: 'Some memories deserve a second look.' },
-  'single-quiz': { label: 'The one game’s personal prize', icon: '🏆', hint: 'No second game is hiding here.' },
-};
+const hash = (text) => [...text].reduce((value, char) => (value * 31 + char.charCodeAt(0)) >>> 0, 17);
 
 export default function PersonalGiftLayer() {
   const { pathname } = useLocation();
   const [revealed, setRevealed] = useState(false);
+  useEffect(() => setRevealed(false), [pathname]);
   if (pathname === '/' || pathname === '/home') return null;
+
   const item = pageGiftByRoute[pathname] || pageGiftByRoute['/'];
   if (!item) return null;
-  const variant = variants[item.kind] || variants.keepsake;
-  const palette = palettes[item.accent] || palettes.rose;
+  const page = pageNameByRoute[pathname] || { title: item.title };
+  const family = families[item.kind] || families.keepsake;
+  const seed = hash(`${pathname}:${item.nickname}`);
+  const photos = [0, 1, 2].map((offset) => getAssetUrl(ALL_MEDIA_PHOTOS[(seed + offset * 7) % ALL_MEDIA_PHOTOS.length]));
 
   return (
-    <section className={`mx-auto my-10 w-[calc(100%-2rem)] max-w-6xl overflow-hidden rounded-[2rem] border p-5 shadow-lg sm:my-14 sm:p-8 ${palette}`} aria-label={`Personal gift for ${item.nickname}`}>
-      <div className="grid gap-8 lg:grid-cols-[.75fr_1.25fr] lg:items-center">
-        <div><div className="flex items-center gap-3 text-xs font-black uppercase tracking-[0.22em] opacity-70"><span className="text-xl">{variant.icon}</span>{variant.label}</div><h2 className="mt-4 max-w-md text-3xl font-black leading-tight tracking-[-0.05em]">{item.nickname}, this page has one thing Abu wanted you to keep.</h2><p className="mt-4 max-w-md text-sm leading-7 opacity-75">{variant.hint} {personalVoice.statements.closing}</p><div className="mt-6 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.16em] opacity-60"><Heart className="h-4 w-4 fill-current" /> From Abhay, your Abu</div></div>
-        <div className="rounded-[1.5rem] border border-current/10 bg-white/55 p-5 backdrop-blur sm:p-7">
-          <div className="flex items-center justify-between gap-4 border-b border-current/10 pb-4"><div><p className="text-xs font-bold uppercase tracking-[0.18em] opacity-60">{item.title}</p><p className="mt-2 text-xl font-black">{item.gift}</p></div><Gift className="h-6 w-6 shrink-0 opacity-70" /></div>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2"><div><p className="text-[10px] font-black uppercase tracking-[0.18em] opacity-55">A memory</p><p className="mt-2 text-sm leading-6 opacity-80"><MapPin className="mr-1 inline h-3.5 w-3.5" />{item.memory}</p></div><div><p className="text-[10px] font-black uppercase tracking-[0.18em] opacity-55">A compliment</p><p className="mt-2 text-sm leading-6 opacity-80">{item.compliment}</p></div></div>
-          <div className="mt-6 rounded-2xl border border-current/10 bg-black/[.04] p-4"><p className="text-sm font-semibold leading-7">{item.message}</p></div>
-          {!revealed ? <button type="button" onClick={() => setRevealed(true)} className="mt-6 inline-flex items-center gap-2 rounded-full bg-current px-5 py-3 text-xs font-black uppercase tracking-[0.12em] text-white mix-blend-multiply transition hover:scale-[1.02] active:scale-[.98]"><LockKeyhole className="h-4 w-4" /> Open the personal surprise</button> : <div className="mt-6 rounded-2xl bg-white/65 p-4"><div className="flex items-center gap-2 text-xs font-black uppercase tracking-[0.16em] opacity-65"><Sparkles className="h-4 w-4" /> Surprise unlocked</div><p className="mt-2 text-sm font-semibold leading-7">{item.surprise}</p><a href="#top" className="mt-3 inline-flex items-center gap-1 text-xs font-black uppercase tracking-[0.12em] underline underline-offset-4">Keep exploring <ArrowUpRight className="h-3.5 w-3.5" /></a></div>}
+    <section id="page-gift" className={`relative mx-auto my-12 w-[calc(100%-1rem)] max-w-6xl overflow-hidden rounded-[2.5rem] border border-white/80 bg-gradient-to-br ${family.shell} p-3 shadow-[0_24px_80px_rgba(91,33,67,.16)] sm:my-16 sm:p-5`} aria-label={`${page.title} — personal birthday gift from Abu`}>
+      <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-white/70 blur-3xl" />
+      <div className="relative overflow-hidden rounded-[2rem] border border-white/80 bg-white/60 backdrop-blur-xl">
+        <div className="grid lg:grid-cols-[.95fr_1.05fr]">
+          <div className="relative min-h-[27rem] overflow-hidden bg-slate-900 p-5 text-white sm:min-h-[31rem] sm:p-7">
+            <img src={photos[0]} alt="A personal memory selected for Samjhana" className="absolute inset-0 h-full w-full object-cover opacity-80" loading="lazy" />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/25 to-transparent" />
+            <div className="relative flex h-full flex-col justify-between"><div className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.22em] text-white/75"><span>{family.icon} {family.label}</span><span>Page {item.pageNumber}</span></div><div><div className="mb-3 flex items-center gap-2 text-xs font-bold text-white/75"><Camera className="h-4 w-4" /> {family.place}</div><p className="max-w-sm text-4xl font-black leading-[.95] tracking-[-0.06em]">For {item.nickname}, because Abu remembers the details.</p><div className="mt-5 flex gap-2">{photos.slice(1).map((photo) => <img key={photo} src={photo} alt="A second birthday memory" className="h-14 w-14 rounded-xl border-2 border-white/50 object-cover shadow-lg" loading="lazy" />)}</div></div></div>
+          </div>
+          <div className="p-6 sm:p-9">
+            <div className={`text-xs font-black uppercase tracking-[0.22em] ${family.badge}`}>{family.label} · a birthday place for Samjhana</div>
+            <h2 className="mt-4 max-w-xl text-4xl font-black leading-[.92] tracking-[-0.07em] text-slate-950 sm:text-6xl">{page.title}</h2>
+            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-700">{item.message}</p>
+            <div className="mt-7 grid gap-4 sm:grid-cols-2"><div className="rounded-2xl border border-slate-900/10 bg-white/65 p-4"><p className="text-[10px] font-black uppercase tracking-[0.18em] text-slate-500">A real memory</p><p className="mt-2 text-sm font-semibold leading-6 text-slate-800"><MapPin className="mr-1 inline h-3.5 w-3.5" />{item.memory}</p></div><div className="rounded-2xl border border-slate-900/10 bg-white/65 p-4"><p className="text-[10px] font-black uppercase tracking-[0.18em] text-slate-500">A compliment from Abu</p><p className="mt-2 text-sm font-semibold leading-6 text-slate-800">{item.compliment}</p></div></div>
+            <blockquote className="mt-6 border-l-4 border-current/20 pl-4 text-sm italic leading-7 text-slate-700">“{personalVoice.statements.closing}”</blockquote>
+            {!revealed ? <button type="button" onClick={() => setRevealed(true)} className={`mt-7 inline-flex items-center gap-2 rounded-full px-5 py-3 text-xs font-black uppercase tracking-[0.13em] text-white shadow-lg transition hover:-translate-y-0.5 ${family.button}`}><LockKeyhole className="h-4 w-4" /> {family.cta}</button> : <div className="mt-7 rounded-3xl border border-white bg-white/80 p-5 shadow-inner"><div className={`flex items-center gap-2 text-xs font-black uppercase tracking-[0.15em] ${family.badge}`}><Sparkles className="h-4 w-4" /> Personal surprise unlocked</div><p className="mt-3 text-base font-bold leading-7 text-slate-900">{item.surprise}</p><div className="mt-4 flex items-center gap-2 text-sm font-semibold text-slate-700"><Gift className="h-4 w-4" /> {item.gift}</div><div className="mt-4 flex items-center justify-between border-t border-slate-900/10 pt-4 text-xs font-black uppercase tracking-[0.14em] text-slate-500"><span>From Abhay, your Abu</span><a href="#page-gift" className="inline-flex items-center gap-1 underline underline-offset-4">Keep this <ArrowUpRight className="h-3.5 w-3.5" /></a></div></div>}
+          </div>
         </div>
       </div>
     </section>

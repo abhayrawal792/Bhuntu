@@ -1,6 +1,6 @@
 import React from 'react';
-import LoveHoroscopeWheel from '../components/LoveHoroscopeWheel';
+import RomanticReplacementPage from './RomanticReplacementPage';
 
 export default function LoveHoroscopeWheelPage() {
-  return <LoveHoroscopeWheel />;
+  return <RomanticReplacementPage />;
 }
