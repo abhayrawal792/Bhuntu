@@ -1,6 +1,6 @@
 slug,title,template_id,interaction,asset_ref,mood
 affirmations,Affirmations,template_LoveAffirmations,guided-interaction,none,M-GOLD
-anniversary-countdown-clock,Anniversary Countdown Clock,template_AnniversaryCountdownClock,time-reveal,none,M-NIGHT
+anniversary-countdown-clock,Anniversary Countdown Clock,template_page-local,audio,none,M-NIGHT
 balloon-pop,Balloon Pop,template_BalloonPop,guided-interaction,none,M-BLUSH
 bento-box,Bento Box,template_page-local,guided-interaction,none,M-MONO
 bhuntu-comic-strip2,Bhuntu Comic Strip2,template_BhuntuComicStrip2,guided-interaction,none,M-SEPIA
@@ -44,7 +44,7 @@ couple-future-home3-d,Couple Future Home3 D,template_page-local,spatial-explorat
 couple-milestone-map2,Couple Milestone Map2,template_page-local,message-sequence,none,M-FIELD
 couple-milestone-map,Couple Milestone Map,template_CoupleMilestoneMap,guided-interaction,none,M-FROST
 couple-movie-marathon,Couple Movie Marathon,template_page-local,audio,none,M-AMBER
-couple-movie-night,Couple Movie Night,template_CoupleMovieNight,guided-interaction,none,M-GOLD
+couple-movie-night,Couple Movie Night,template_page-local,message-sequence,none,M-GOLD
 couple-nickname-generator,Couple Nickname Generator,template_CoupleNicknameGenerator,guided-interaction,none,M-NIGHT
 couple-questions-deep,Couple Questions Deep,template_CoupleQuestionsDeep,guided-interaction,none,M-BLUSH
 couple-quiz2,Couple Quiz2,template_page-local,game-or-puzzle,none,M-MONO

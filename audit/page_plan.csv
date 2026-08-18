@@ -1,6 +1,6 @@
 page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mechanic_code,layout_type,mood_code,emotional_beat,photo_use_type
 001,affirmations,MEMORY,, ,Unique page idea: Affirmations,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
-002,anniversary-countdown-clock,LETTER,, ,Unique page idea: Anniversary Countdown Clock,time-reveal,single-column,M-NIGHT,distinct,TYPE-A
+002,anniversary-countdown-clock,LETTER,, ,Unique page idea: Anniversary Countdown Clock,audio,single-column,M-NIGHT,distinct,TYPE-A
 003,balloon-pop,CHAT,, ,Unique page idea: Balloon Pop,guided-interaction,split-screen,M-BLUSH,distinct,TYPE-A
 004,bento-box,WHY_I_LOVE,, ,Unique page idea: Bento Box,guided-interaction,typography-first,M-MONO,distinct,TYPE-A
 005,bhuntu-comic-strip2,FUTURE,, ,Unique page idea: Bhuntu Comic Strip2,guided-interaction,ui-simulation,M-SEPIA,distinct,TYPE-A
@@ -44,7 +44,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 043,couple-milestone-map2,CHAT,, ,Unique page idea: Couple Milestone Map2,message-sequence,split-screen,M-FIELD,distinct,TYPE-A
 044,couple-milestone-map,WHY_I_LOVE,, ,Unique page idea: Couple Milestone Map,guided-interaction,typography-first,M-FROST,distinct,TYPE-A
 045,couple-movie-marathon,FUTURE,, ,Unique page idea: Couple Movie Marathon,audio,ui-simulation,M-AMBER,distinct,TYPE-A
-046,couple-movie-night,SURPRISE,, ,Unique page idea: Couple Movie Night,guided-interaction,immersive-scroll,M-GOLD,distinct,TYPE-A
+046,couple-movie-night,SURPRISE,, ,Unique page idea: Couple Movie Night,message-sequence,immersive-scroll,M-GOLD,distinct,TYPE-A
 047,couple-nickname-generator,MILESTONE,, ,Unique page idea: Couple Nickname Generator,guided-interaction,interactive-canvas,M-NIGHT,distinct,TYPE-A
 048,couple-questions-deep,SENSORY,, ,Unique page idea: Couple Questions Deep,guided-interaction,masonry-grid,M-BLUSH,distinct,TYPE-A
 049,couple-quiz2,MEMORY,, ,Unique page idea: Couple Quiz2,game-or-puzzle,editorial-two-column,M-MONO,distinct,TYPE-A
