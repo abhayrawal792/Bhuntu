@@ -1,10 +1,15 @@
-import React from 'react';
-import SweetCompliments from '../components/SweetCompliments';
+import React, { useState } from 'react';
+import { Eye, Heart, MessageCircle, Sparkles } from 'lucide-react';
+
+const compliments = [
+  { title: 'The way you look at things', copy: 'You notice tiny details and make them feel worthy of a story. Abu loves that your attention is never careless.', mark: 'observation' },
+  { title: 'The way you say “Abu”', copy: 'Two syllables, and suddenly Nepalgunj feels closer to Sakai. Your voice can make a whole evening softer.', mark: 'voice note' },
+  { title: 'The way you keep going', copy: 'Even when a day is heavy, there is still kindness in you. That is not a small thing, my Bebo.', mark: 'quiet strength' },
+  { title: 'The way you are yourself', copy: 'No performance, no perfect angle required. Abu loves the person behind every photograph and every message.', mark: 'the real you' },
+];
 
 export default function SweetComplimentsPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <SweetCompliments />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const current = compliments[selected];
+  return <main className="min-h-dvh bg-[#f5eaf1] px-5 py-12 text-[#3c1d33] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-fuchsia-900/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-fuchsia-700"><Sparkles className="h-4 w-4" /> Abu’s compliment press</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The things I notice before I say “beautiful.”</h1></div><p className="max-w-xs text-sm leading-7 text-[#7b526e]">A small archive of the qualities that make Samjhana unmistakably herself.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr]"><nav className="grid gap-3" aria-label="Compliment archive">{compliments.map((item, index) => <button key={item.title} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border p-5 text-left transition ${selected === index ? 'border-fuchsia-600 bg-white shadow-xl' : 'border-fuchsia-900/10 bg-white/40 hover:bg-white/75'}`}><span className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.18em] text-fuchsia-700"><span>Note 0{index + 1}</span><span>{item.mark}</span></span><span className="mt-4 block text-xl font-black">{item.title}</span></button>)}</nav><article className="relative overflow-hidden rounded-[2rem] bg-[#3c1d33] p-8 text-white shadow-2xl sm:p-14"><div className="absolute -right-16 -top-16 h-56 w-56 rounded-full border border-pink-200/20" /><div className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.2em] text-pink-200/70"><span>Private observation · 0{selected + 1}</span><Heart className="h-4 w-4 fill-current text-pink-300" /></div><Eye className="mt-16 h-10 w-10 text-pink-200" /><h2 className="mt-7 max-w-2xl text-4xl font-black leading-[.95] tracking-[-0.07em] sm:text-6xl">{current.title}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-white/75">{current.copy}</p><div className="mt-12 flex flex-wrap items-center gap-4 border-t border-white/15 pt-6"><MessageCircle className="h-5 w-5 text-pink-200" /><span className="text-sm font-bold text-white/65">Abu wrote this because generic compliments are not enough for you.</span></div></article></div></div></main>;
 }

@@ -479,6 +479,7 @@ export default function AudioController({ isAudioStarted, setIsAudioStarted }) {
           onClick={() => setShowControls(prev => !prev)}
           className="bg-white/90 hover:bg-white text-gray-700 p-2.5 rounded-full shadow-lg border border-pink-200 transition-transform active:scale-90 cursor-pointer"
           title="Audio Settings"
+          aria-label="Open audio settings"
         >
           <SlidersHorizontal className="w-4 h-4 text-rose-500" />
         </button>
@@ -487,6 +488,7 @@ export default function AudioController({ isAudioStarted, setIsAudioStarted }) {
           onClick={handleToggle}
           className="relative group bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600 text-white p-3 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-105 active:scale-95 border-2 border-white/40 cursor-pointer"
           title={isPlaying ? "Mute Background Music" : "Play Background Music"}
+          aria-label={isPlaying ? "Mute background music" : "Play background music"}
         >
           {isPlaying ? (
             <Volume2 className="w-5 h-5 text-white" />

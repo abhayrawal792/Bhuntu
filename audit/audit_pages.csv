@@ -23,7 +23,7 @@ bouquet,Bouquet,template_BouquetSection,grow-or-assemble,none,M-ELECT
 bouquet-reasons,Bouquet Reasons,template_page-local,message-sequence,none,M-WINE
 bubble-pop,Bubble Pop,template_BubblePopGame,guided-interaction,none,M-PAPER
 bubble-wrap,Bubble Wrap,template_BubbleWrap,guided-interaction,none,M-DAWN
-bucket-list,Bucket List,template_TravelBucketList,guided-interaction,none,M-GREY
+bucket-list,Bucket List,template_page-local,visual-collection,none,M-GREY
 candle-blower,Candle Blower,template_CandleBlower,grow-or-assemble,none,M-FOREST
 catcher-game,Catcher Game,template_HeartCatcherGame,guided-interaction,none,M-DUSK
 cherry-blossom-wish-tree,Cherry Blossom Wish Tree,template_CherryBlossomWishTree,grow-or-assemble,none,M-FIELD
@@ -92,14 +92,14 @@ horoscope,Horoscope,template_page-local,randomized-choice,none,M-AMBER
 hug-counter,Hug Counter,template_HugCounter,guided-interaction,none,M-GOLD
 infinite-reasons-machine,Infinite Reasons Machine,template_InfiniteReasonsMachine,guided-interaction,none,M-NIGHT
 jigsaw,Jigsaw,template_JigsawPuzzle,guided-interaction,none,M-BLUSH
-kiss-collector,Kiss Collector,template_KissCollector,guided-interaction,none,M-MONO
+kiss-collector,Kiss Collector,template_page-local,message-sequence,none,M-MONO
 lanterns,Lanterns,template_page-local,letter-or-paper,none,M-SEPIA
 letter,Letter,template_LetterSection,letter-or-paper,none,M-ELECT
 letter-tonight,Letter Tonight,template_page-local,message-sequence,none,M-WINE
 little-things,Little Things,template_page-local,message-sequence,none,M-PAPER
 love-achievement-badges,Love Achievement Badges,template_LoveAchievementBadges,guided-interaction,none,M-DAWN
 love-advent-calendar,Love Advent Calendar,template_LoveAdventCalendar,time-reveal,none,M-GREY
-love-alarm,Love Alarm,template_LoveAlarm,guided-interaction,none,M-FOREST
+love-alarm,Love Alarm,template_page-local,message-sequence,none,M-FOREST
 love-anagram-solver,Love Anagram Solver,template_LoveAnagramSolver,guided-interaction,none,M-DUSK
 love-aquarium,Love Aquarium,template_LoveAquarium,guided-interaction,none,M-FIELD
 love-arcade-dance-machine,Love Arcade Dance Machine,template_LoveArcadeDanceMachine,guided-interaction,none,M-FROST
@@ -173,7 +173,7 @@ love-neon-sign-designer,Love Neon Sign Designer,template_LoveNeonSignDesigner,gu
 love-neon-sign-gallery,Love Neon Sign Gallery,template_LoveNeonSignGallery,visual-collection,none,M-WINE
 love-notes-wall,Love Notes Wall,template_LoveNotesWall,guided-interaction,none,M-PAPER
 love-origami-heart,Love Origami Heart,template_LoveOrigamiHeart,letter-or-paper,none,M-DAWN
-love-passport-stamps,Love Passport Stamps,template_LovePassportStamps,visual-collection,none,M-GREY
+love-passport-stamps,Love Passport Stamps,template_page-local,audio,none,M-GREY
 love-pet,Love Pet,template_VirtualLovePet,guided-interaction,none,M-FOREST
 love-photo-booth,Love Photo Booth,template_LovePhotoBooth,visual-collection,none,M-DUSK
 love-photo-mosaic-builder,Love Photo Mosaic Builder,template_LovePhotoMosaicBuilder,visual-collection,none,M-FIELD
@@ -248,7 +248,7 @@ promise-tree,Promise Tree,template_SakuraPromiseTree,grow-or-assemble,none,M-ELE
 promise-trio,Promise Trio,template_page-local,message-sequence,none,M-WINE
 quiz-duel,Quiz Duel,template_QuizDuel,game-or-puzzle,none,M-PAPER
 quiz,Quiz,template_page-local,game-or-puzzle,none,M-DAWN
-quote-generator,Quote Generator,template_TypewriterQuotes,guided-interaction,none,M-GREY
+quote-generator,Quote Generator,template_page-local,audio,none,M-GREY
 ring-surprise,Ring Surprise,template_AudioController,reveal,none,M-FOREST
 romance-word-jumble,Romance Word Jumble,template_RomanceWordJumble,game-or-puzzle,none,M-DUSK
 romantic-audio-player,Romantic Audio Player,template_RomanticAudioPlayer,audio,none,M-FIELD
@@ -268,7 +268,7 @@ romantic-replacement,Romantic Replacement,template_page-local,randomized-choice,
 room10,Room10,template_page-local,message-sequence,none,M-DUSK
 room11,Room11,template_page-local,audio,none,M-FIELD
 room12,Room12,template_page-local,visual-collection,none,M-FROST
-room1,Room1,template_LoveScratchCard,reveal,none,M-AMBER
+room1,Room1,template_page-local,spatial-exploration,none,M-AMBER
 room2,Room2,template_page-local,audio,none,M-GOLD
 room3,Room3,template_page-local,visual-collection,none,M-NIGHT
 room4,Room4,template_page-local,guided-interaction,none,M-BLUSH
@@ -286,17 +286,17 @@ secret-language,Secret Language,template_page-local,message-sequence,none,M-FROS
 secret-vault,Secret Vault,template_page-local,guided-interaction,none,M-AMBER
 secret-vault-second,Secret Vault Second,template_page-local,message-sequence,none,M-GOLD
 snow-globe-shaker,Snow Globe Shaker,template_SnowGlobeShaker,spatial-exploration,none,M-NIGHT
-sound-wave,Sound Wave,template_SoundWave,audio,none,M-BLUSH
+sound-wave,Sound Wave,template_page-local,message-sequence,none,M-BLUSH
 spin-wheel,Spin Wheel,template_page-local,randomized-choice,none,M-MONO
 star-drawer,Star Drawer,template_StarDrawer,spatial-exploration,none,M-SEPIA
-star-namer,Star Namer,template_StarNamer,spatial-exploration,none,M-ELECT
+star-namer,Star Namer,template_page-local,message-sequence,none,M-ELECT
 star-projector,Star Projector,template_StarProjector,spatial-exploration,none,M-WINE
 starry-night-skywriter,Starry Night Skywriter,template_StarryNightSkywriter,spatial-exploration,none,M-PAPER
 stars,Stars,template_page-local,randomized-choice,none,M-DAWN
 story,Story,template_page-local,game-or-puzzle,none,M-GREY
 surprise,Surprise,template_FinaleSection,guided-interaction,none,M-FOREST
 sweet-compliments-fountain,Sweet Compliments Fountain,template_SweetComplimentsFountain,guided-interaction,none,M-DUSK
-sweet-compliments,Sweet Compliments,template_SweetCompliments,guided-interaction,none,M-FIELD
+sweet-compliments,Sweet Compliments,template_page-local,message-sequence,none,M-FIELD
 sweet-dessert-tower,Sweet Dessert Tower,template_SweetDessertTower,guided-interaction,none,M-FROST
 sweet-dream-catcher,Sweet Dream Catcher,template_SweetDreamCatcher,guided-interaction,none,M-AMBER
 sweet-garden-blooms,Sweet Garden Blooms,template_SweetGardenBlooms,grow-or-assemble,none,M-GOLD
@@ -316,7 +316,7 @@ valentine-card-creator,Valentine Card Creator,template_ValentineCardCreator,guid
 video,Video,template_page-local,audio,tikcdn_beubagah_com_191793ef_79ff_4ac1_9b43_e1f6fc45ccba.mp4,M-AMBER
 virtual-cat-cafe,Virtual Cat Cafe,template_VirtualCatCafe,guided-interaction,none,M-GOLD
 voice-soundboard,Voice Soundboard,template_page-local,message-sequence,none,M-NIGHT
-wax-sealer,Wax Sealer,template_WaxSealer,letter-or-paper,none,M-BLUSH
+wax-sealer,Wax Sealer,template_page-local,letter-or-paper,none,M-BLUSH
 whats-app10k-love,Whats App10k Love,template_WhatsApp10kLove,message-sequence,none,M-MONO
 wish-dandelion,Wish Dandelion,template_WishDandelion,guided-interaction,none,M-SEPIA
 wish-wheel,Wish Wheel,template_page-local,randomized-choice,none,M-ELECT

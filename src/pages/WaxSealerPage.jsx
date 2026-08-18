@@ -1,10 +1,14 @@
-import React from 'react';
-import WaxSealer from '../components/WaxSealer';
+import React, { useState } from 'react';
+import { Feather, Heart, MailOpen, ShieldCheck, Sparkles } from 'lucide-react';
+
+const seals = [
+  { label: 'For a quiet night', color: 'bg-rose-100 text-rose-900', copy: 'When the distance feels loud, remember that Abu is only one call away from making the room feel warmer.' },
+  { label: 'For a brave morning', color: 'bg-amber-100 text-amber-950', copy: 'You do not have to carry every worry beautifully. Abu loves the real you, on ordinary mornings too.' },
+  { label: 'For our next road', color: 'bg-emerald-100 text-emerald-950', copy: 'Keep one future window open: a light-blue scooter, a mountain road, and your hand finding mine.' },
+];
 
 export default function WaxSealerPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <WaxSealer />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const seal = seals[selected];
+  return <main className="min-h-dvh bg-[#351923] px-5 py-12 text-[#fff3e8] sm:px-10 sm:py-16"><div className="mx-auto max-w-6xl"><header className="grid gap-8 border-b border-amber-100/20 pb-8 md:grid-cols-[1fr_auto] md:items-end"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-amber-200"><Feather className="h-4 w-4" /> Abu’s letter atelier</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Some words deserve a seal.</h1></div><p className="max-w-xs text-sm leading-7 text-white/65">Choose the feeling you want to carry. Abu wrote one small letter for each.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="space-y-3" aria-label="Choose a sealed letter">{seals.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`flex w-full items-center gap-4 rounded-2xl border p-5 text-left transition ${selected === index ? 'border-amber-200 bg-white/15 shadow-xl' : 'border-white/15 bg-black/10 hover:bg-white/10'}`}><span className={`grid h-11 w-11 shrink-0 place-items-center rounded-full ${item.color}`}><Heart className="h-5 w-5 fill-current" /></span><span><span className="block text-[10px] font-black uppercase tracking-[0.15em] text-amber-200">Letter 0{index + 1}</span><span className="mt-1 block text-lg font-black">{item.label}</span></span></button>)}</nav><article className="relative overflow-hidden rounded-[2rem] bg-[#fff7ee] p-7 text-[#4a2531] shadow-[0_22px_70px_rgba(0,0,0,.32)] sm:p-14"><div className="absolute right-8 top-8 grid h-16 w-16 place-items-center rounded-full bg-[#8d2f4f] text-white shadow-lg"><ShieldCheck className="h-7 w-7" /></div><p className="text-[10px] font-black uppercase tracking-[0.25em] text-[#a34a61]">Sealed for Samjhana · {seal.label}</p><MailOpen className="mt-12 h-9 w-9 text-[#a34a61]" /><h2 className="mt-6 max-w-2xl text-4xl font-black leading-[.95] tracking-[-0.07em] sm:text-6xl">A letter from Abu, opened at the right moment.</h2><p className="mt-7 max-w-2xl text-lg leading-8 text-[#754553]">{seal.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-[#4a2531]/15 pt-6 text-sm font-black text-[#a34a61]"><Sparkles className="h-4 w-4" /> Keep this feeling close, my Bhuntu.</div></article></div></div></main>;
 }

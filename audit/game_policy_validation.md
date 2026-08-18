@@ -5,7 +5,7 @@
 | Curated sequence routes | 263 |
 | Detected game routes in curated sequence | 20 |
 | Approved game routes | 20 |
-| Removed game routes | 40 |
+| Removed game routes | 39 |
 | Errors | 0 |
 
 ## Approved games

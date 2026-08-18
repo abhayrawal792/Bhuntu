@@ -1,10 +1,14 @@
-import React from 'react';
-import LoveScratchCard from '../components/LoveScratchCard';
+import React, { useState } from 'react';
+import { ArrowRight, Heart, MapPin, Utensils } from 'lucide-react';
+
+const notes = [
+  { label: 'Chau-Chau', title: 'The comfort bowl', copy: 'If Abu could send one warm bowl through the distance, it would be the kind that feels like a long conversation after a tiring day.' },
+  { label: 'Panipuri', title: 'The little burst of joy', copy: 'Some memories do not need a grand occasion. A shared bite, a laugh, and your expression are enough to make an ordinary walk unforgettable.' },
+  { label: 'Momo', title: 'The plate between us', copy: 'Two people reaching for the same plate is its own kind of promise: simple, familiar, and somehow always worth repeating.' },
+];
 
 export default function Room1Page() {
-  return (
-    <div className="min-h-dvh">
-      <LoveScratchCard />
-    </div>
-  );
+  const [opened, setOpened] = useState(0);
+  const note = notes[opened];
+  return <main className="min-h-dvh overflow-hidden bg-[#f8efe4] px-5 py-12 text-[#3a251f] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="grid gap-8 border-b border-[#a66b4d]/25 pb-8 lg:grid-cols-[.8fr_1.2fr] lg:items-end"><div><p className="text-[10px] font-black uppercase tracking-[0.28em] text-[#a45b3d]">A private first door · for Sanu</p><h1 className="mt-5 max-w-xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Before the trail, there was taste.</h1></div><div className="max-w-xl text-base leading-8 text-[#70493d]"><p>Abu remembers the small foods that became shorthand for comfort: Chau-Chau, Panipuri, momo, and every time a craving became a reason to talk.</p><p className="mt-4 inline-flex items-center gap-2 text-sm font-black text-[#a45b3d]"><MapPin className="h-4 w-4" /> Nepalgunj · one table · many memories</p></div></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-start"><aside className="space-y-3">{notes.map((item, index) => <button key={item.label} type="button" onClick={() => setOpened(index)} className={`w-full rounded-2xl border p-5 text-left transition ${index === opened ? 'border-[#a45b3d] bg-[#fffaf3] shadow-xl' : 'border-[#a66b4d]/20 bg-white/35 hover:bg-white/65'}`}><span className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.2em] text-[#a45b3d]"><span>{item.label}</span><span>0{index + 1}</span></span><span className="mt-3 block text-xl font-black">{item.title}</span></button>)}</aside><section className="relative overflow-hidden rounded-[2rem] bg-[#3a251f] p-7 text-[#fff9ef] shadow-2xl sm:p-12"><div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border border-[#f4bf84]/25" /><Utensils className="h-8 w-8 text-[#f4bf84]" /><p className="mt-10 text-[10px] font-black uppercase tracking-[0.25em] text-[#f4bf84]">A note Abu would fold into your pocket</p><h2 className="mt-5 max-w-2xl text-4xl font-black leading-[.95] tracking-[-0.07em] sm:text-7xl">{note.title}</h2><p className="mt-6 max-w-xl text-lg leading-8 text-white/75">{note.copy}</p><div className="mt-10 flex flex-wrap items-center gap-4"><button type="button" onClick={() => setOpened((opened + 1) % notes.length)} className="inline-flex items-center gap-2 rounded-full bg-[#f4bf84] px-5 py-3 text-sm font-black text-[#3a251f] transition hover:-translate-y-1 active:scale-[.98]">Turn the memory <ArrowRight className="h-4 w-4" /></button><span className="inline-flex items-center gap-2 text-xs font-bold text-white/60"><Heart className="h-4 w-4 fill-current text-rose-300" /> From Abu, who notices the details</span></div></section></div><footer className="border-t border-[#a66b4d]/25 pt-6 text-sm text-[#70493d]">A small beginning for Samjhana, my Sanu. The rest of the birthday world is waiting.</footer></div></main>;
 }

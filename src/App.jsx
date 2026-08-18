@@ -7,6 +7,7 @@ import PageFooter from './components/PageFooter';
 import EasterEggModal from './components/EasterEggModal';
 import PersonalGiftLayer from './components/PersonalGiftLayer';
 import IndependentPageStage from './components/IndependentPageStage';
+import JourneyPulse from './components/JourneyPulse';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const CuratedJourneyPage = lazy(() => import('./pages/CuratedJourneyPage'));
@@ -368,6 +369,7 @@ function MainAppContent() {
 
           {/* ---- Navbar (fixed top, accounts for Dynamic Island via CSS) ---- */}
           <Navbar />
+          <JourneyPulse />
 
           {/*
             ---- Main wrapper ----

@@ -1,10 +1,14 @@
-import React from 'react';
-import KissCollector from '../components/KissCollector';
+import React, { useState } from 'react';
+import { ArrowRight, Heart, MapPin, Send } from 'lucide-react';
+
+const moments = [
+  { label: 'Good morning', copy: 'One kiss for the message that makes Abu start the day smiling before the tea is ready.', place: 'Nepalgunj · morning' },
+  { label: 'Call garne', copy: 'One kiss for the little promise that closes the miles between Dhamboji and Sakai.', place: 'Sakai · evening' },
+  { label: 'Goodnight, Babe', copy: 'One kiss to keep beside your pillow until the next voice call brings the real one closer.', place: 'Two skies · one night' },
+];
 
 export default function KissCollectorPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <KissCollector />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const moment = moments[selected];
+  return <main className="min-h-dvh bg-[#f9eee9] px-5 py-12 text-[#40222a] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="grid gap-8 border-b border-rose-900/15 pb-8 lg:grid-cols-[1fr_auto] lg:items-end"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-rose-700"><Send className="h-4 w-4" /> Airmail from Abu</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Three kisses, sent across the distance.</h1></div><p className="max-w-xs text-sm leading-7 text-[#855967]">No counter. No score. Just three places where Abu would send affection to Samjhana.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.8fr_1.2fr] lg:items-start"><nav className="space-y-3" aria-label="Choose an affectionate postcard">{moments.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-rose-600 bg-white shadow-xl' : 'border-rose-900/10 bg-white/45 hover:bg-white/80'}`}><span className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.18em] text-rose-700"><span>Postcard 0{index + 1}</span><span>{item.place}</span></span><span className="mt-4 flex items-center gap-3 text-xl font-black"><Heart className="h-5 w-5 fill-current text-rose-500" /> {item.label}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#40222a] p-8 text-[#fff8f4] shadow-2xl sm:p-14"><div className="absolute -right-10 -top-10 h-48 w-48 rounded-full border border-rose-200/20" /><div className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.2em] text-rose-200/70"><span>{moment.place}</span><span>For Samjhana</span></div><Heart className="mt-16 h-14 w-14 fill-rose-300 text-rose-300" /><h2 className="mt-8 text-5xl font-black tracking-[-0.08em] sm:text-8xl">{moment.label}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-white/75">{moment.copy}</p><p className="mt-12 border-t border-white/15 pt-6 text-sm font-bold text-rose-100/70">From Abu, folded carefully and sent with all the distance removed.</p><button type="button" onClick={() => setSelected((selected + 1) % moments.length)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-rose-200 px-5 py-3 text-sm font-black text-[#40222a] transition hover:-translate-y-1 active:scale-[.98]">Send the next postcard <ArrowRight className="h-4 w-4" /></button><MapPin className="absolute bottom-8 right-10 h-6 w-6 text-rose-200/40" /></section></div></div></main>;
 }

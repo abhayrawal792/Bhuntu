@@ -1,0 +1,52 @@
+# Bhuntu Autonomous Project State
+
+## Current target
+
+Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 263-route sequential experience inside the 311-route production site. Continue automatically from batch to batch until an explicit `STOP` message or an unrecoverable hard technical limit.
+
+## Current batch status
+
+- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, five first-80 wrapper replacements, and one unsequenced alias replacement
+- **Source build:** passed with `npm run build`
+- **Experience-system audit:** passed
+- **Game policy:** passed — exactly 20 approved games, 20 detected in sequence, 0 errors
+- **Sequential runtime sweep:** passed — 263 routes, 0 blank pages, 0 routes with errors
+- **Opening visual check:** passed — clean password gate rendered nonblank
+- **Middle visual check:** passed — `/bento-box` rendered bespoke Bento content plus editorial keepsake variant
+- **Final visual check:** passed — `/room/12` rendered the three-chapter final keepsake and suppressed the global gift layer
+- **Interactive visual check:** passed on a museum-placard route; strict guard correctly rejected invalid local frontier tests
+- **Latest focused page batch:** Room 1, Quote Generator, Bucket List, Wax Sealer, and Sound Wave use bespoke non-game compositions; Star Namer, Sweet Compliments, Kiss Collector, Love Passport Stamps, and Love Alarm now use bespoke non-game compositions
+- **Privacy surface:** passed — source HTML has `noindex, nofollow`; generated `dist/robots.txt` contains `Disallow: /`
+- **Latest regression:** passed — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
+- **Latest resolved polish:** mobile smoke passed on 5 representative routes with 0 horizontal overflow, 0 missing alt attributes, 0 empty interactive controls, and 0 blank routes after adding explicit aria-labels to the global audio controls
+- **Latest unresolved polish:** measured bundle warning remains (main chunk above 500 kB); continue with safe loading/performance checks and queue the next high-impact page batch
+
+## Implemented in this batch
+
+- Added `JourneyPulse.jsx`, a persistent milestone rail showing progress and the next keepsake threshold.
+- Replaced the repeated centered `WorldShell` structure with route-driven composition families: split, portrait, museum, cinema, scrapbook, passport, floating, editorial, postcard, map, ticket, contact, diary, window, altar, and archive.
+- Replaced the global PersonalGiftLayer’s repeated two-column pattern with route-sensitive cinema, map, ticket, contact-sheet, diary, archive, postcard, portrait, and editorial variants.
+- Rebuilt `Room12Page.jsx` as a three-chapter birthday climax with curated real photos, exact photo captions, future plans, promise chapters, and printable keepsake action.
+- Suppressed the global gift layer on `/room/12` so the bespoke finale owns the ending.
+
+## Durable constraints
+
+- Password is `Bhuntu` or `bhuntu` only.
+- Strict sequential navigation; no forward skipping.
+- Exactly 20 approved games in the entire sequential journey.
+- No roulette, wheel, or spin mechanics.
+- No prohibited labels: `Mero Buda`, `wifey`, `budi`, `husband`, `wife`.
+- Real photos use centered `object-contain` and filename-matched captions/comments.
+- Preserve the 311-route registry, 263-route canonical sequence, 167 real photos, and 20 videos.
+
+## Next queued batch
+
+1. Inspect privacy/indexing files and add or verify safe no-index metadata for the personal GitHub Pages gift.
+2. Audit the next thin pages after route 80 and choose five safe bespoke replacements.
+3. Improve the next batch without changing the 263-route sequence or 20-game policy.
+4. Build, run all audits, the full runtime sweep, and the mobile smoke test.
+5. Update this file, commit, push, and immediately start the next queued batch.
+
+## Last saved status log
+
+The first upgraded batch, accessibility/mobile batch, two successive five-page replacement batches, and privacy/indexing protection are complete. The next action is the next thin-page batch; do not wait for approval.

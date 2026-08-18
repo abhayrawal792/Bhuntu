@@ -1,10 +1,15 @@
-import React from 'react';
-import LoveAlarm from '../components/LoveAlarm';
+import React, { useState } from 'react';
+import { AlarmClock, ArrowRight, CloudMoon, Coffee, Sun } from 'lucide-react';
+
+const moments = [
+  { label: 'Her morning', time: '07:00 Sakai', icon: Sun, copy: 'Abu wants your first message to feel like a little light arriving from Nepalgunj.', tone: 'from-amber-100 to-rose-100' },
+  { label: 'Our overlap', time: '21:15 Nepalgunj · 00:00 Sakai', icon: Coffee, copy: 'The small window where a goodnight can become a full conversation, even when tomorrow is waiting.', tone: 'from-violet-100 to-sky-100' },
+  { label: 'The promise hour', time: 'Whenever you say “call garne”', icon: CloudMoon, copy: 'No clock can own this one. If you need Abu, the promise is to make room for your voice.', tone: 'from-indigo-100 to-slate-100' },
+];
 
 export default function LoveAlarmPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveAlarm />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const moment = moments[selected];
+  const Icon = moment.icon;
+  return <main className="min-h-dvh bg-[#e8e9f4] px-5 py-12 text-[#262746] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-indigo-900/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-indigo-700"><AlarmClock className="h-4 w-4" /> Time-zone promise desk</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">An alarm for the moments I want to find you.</h1></div><p className="max-w-xs text-sm leading-7 text-[#5e6289]">Sakai and Nepalgunj may keep different clocks. Abu keeps the promise underneath them.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="space-y-3" aria-label="Choose a time-zone promise">{moments.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-indigo-700 bg-white shadow-xl' : 'border-indigo-900/10 bg-white/45 hover:bg-white/80'}`}><span className="flex items-center gap-3"><item.icon className="h-5 w-5 text-indigo-700" /><span className="text-xl font-black">{item.label}</span></span><span className="mt-3 block text-xs font-bold text-[#5e6289]">{item.time}</span></button>)}</nav><section className={`relative overflow-hidden rounded-[2rem] bg-gradient-to-br ${moment.tone} p-8 shadow-[15px_18px_0_rgba(38,39,70,.12)] sm:p-14`}><div className="absolute right-10 top-10 grid h-16 w-16 place-items-center rounded-full border-4 border-indigo-700/20"><Icon className="h-7 w-7 text-indigo-700" /></div><p className="text-[10px] font-black uppercase tracking-[0.22em] text-indigo-700">{moment.time}</p><h2 className="mt-16 max-w-2xl text-5xl font-black leading-[.92] tracking-[-0.08em] sm:text-8xl">{moment.label}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#505476]">{moment.copy}</p><button type="button" onClick={() => setSelected((selected + 1) % moments.length)} className="mt-10 inline-flex items-center gap-2 rounded-full bg-[#262746] px-5 py-3 text-sm font-black text-white transition hover:-translate-y-1 active:scale-[.98]">Open the next time note <ArrowRight className="h-4 w-4" /></button></section></div></div></main>;
 }

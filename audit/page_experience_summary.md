@@ -5,12 +5,12 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 | Measure | Count |
 |---|---:|
 | Routes scanned | 311 |
-| Pages with game signals | 60 |
-| Pages with gift signals | 83 |
-| Pages with romantic/personal signals | 252 |
-| Pages with memory/story signals | 85 |
-| Pages with surprise/reveal signals | 95 |
-| Pages missing at least one core gift dimension | 266 |
+| Pages with game signals | 59 |
+| Pages with gift signals | 88 |
+| Pages with romantic/personal signals | 257 |
+| Pages with memory/story signals | 93 |
+| Pages with surprise/reveal signals | 105 |
+| Pages missing at least one core gift dimension | 258 |
 | Game-only pages needing rewrite | 5 |
 | Structural fingerprint groups with overlap | 4 |
 
@@ -18,11 +18,11 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 
 | Mechanic | Pages detected |
 |---|---:|
-| memory-reveal | 71 |
+| memory-reveal | 77 |
 | decorator | 14 |
-| choice-reveal | 19 |
+| choice-reveal | 20 |
 | quiz | 10 |
-| scratch | 7 |
+| scratch | 6 |
 | puzzle | 16 |
 | photo-game | 8 |
 | audio-game | 8 |
@@ -41,7 +41,7 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 - **/compliment-jar** (ComplimentJarPage): gift|romance|memory
 - **/catcher-game** (CatcherGamePage): game|romance
 - **/memory-match** (MemoryMatchPage): game|memory
-- **/quote-generator** (QuoteGeneratorPage): no detected experience category
+- **/quote-generator** (QuoteGeneratorPage): romance|memory|surprise
 - **/mystery-gifts** (MysteryGiftsPage): gift|surprise
 - **/message-bottle** (BottlePage): surprise
 - **/music-box** (MusicBoxPage): gift|romance
@@ -59,11 +59,10 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 - **/tic-tac-toe** (TicTacToePage): game|romance
 - **/timeline-quiz** (TimelinePuzzlePage): game|romance|memory
 - **/bubble-pop** (BubblePopPage): game
-- **/bucket-list** (BucketListPage): no detected experience category
+- **/bucket-list** (BucketListPage): romance|memory|surprise
 - **/origami** (OrigamiPage): romance
 - **/affirmations** (AffirmationsPage): gift|romance
 - **/love-piano** (LovePianoPage): romance
-- **/wax-sealer** (WaxSealerPage): no detected experience category
 - **/love-maze** (LoveMazePage): game|romance|memory|surprise
 - **/fortune-cookie** (FortuneCookiePage): surprise
 - **/love-potion** (LovePotionPage): romance
@@ -84,16 +83,11 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 - **/love-vibe** (LoveVibePage): romance
 - **/bento-box** (BentoBoxPage): gift|romance|memory
 - **/love-coupon-generator** (LoveCouponGeneratorPage): gift|romance
-- **/star-namer** (StarNamerPage): surprise
-- **/sweet-compliments** (SweetComplimentsPage): gift|romance
-- **/kiss-collector** (KissCollectorPage): romance
+- **/star-namer** (StarNamerPage): romance|surprise
 - **/love-memory-flip** (LoveMemoryFlipPage): romance|memory
-- **/sound-wave** (SoundWavePage): no detected experience category
-- **/love-passport-stamps** (LovePassportStampsPage): gift|romance
 - **/mood-ring** (MoodRingPage): romance|memory|surprise
 - **/love-tetris** (LoveTetrisPage): game|romance|memory|surprise
 - **/cupid-archery** (CupidArcheryPage): no detected experience category
-- **/love-alarm** (LoveAlarmPage): romance
 - **/love-meter-deluxe** (LoveMeterDeluxePage): romance
 - **/love-envelope** (LoveEnvelopePage): gift|romance
 - **/love-constellation-connect** (LoveConstellationConnectPage): romance|surprise
@@ -109,10 +103,16 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 - **/love-origami-heart** (LoveOrigamiHeartPage): romance
 - **/love-fortune-cookie** (LoveFortuneCookiePage): romance|surprise
 - **/love-audio-visualizer** (LoveAudioVisualizerPage): romance
+- **/love-trivia-quiz** (LoveTriviaQuizPage): game|romance
+- **/love-photo-booth** (LovePhotoBoothPage): romance|memory
+- **/love-grand-finale** (LoveGrandFinalePage): romance|surprise
+- **/love-map-canvas** (LoveMapCanvasPage): game|romance
+- **/heartbeat-drum-pad** (HeartbeatDrumPadPage): game|romance
+- **/paper-airplane-messenger** (PaperAirplaneMessengerPage): no detected experience category
 
 ## Structural overlap groups
 
-- /gallery, /letter, /bouquet, /distance, /surprise, /promise-tree, /bucket-list, /love-envelope, /love-grand-finale, /love-coronation-ceremony, /love-story-comic-strip, /bhuntu-trivia-showdown, /first-moments-timeline, /bhuntu-voice-note-archive, /bhuntu-love-polaroids, /room/1
-- /time-capsule, /scratch-surprises, /catcher-game, /memory-match, /quote-generator, /mystery-gifts, /message-bottle, /music-box, /photo-booth, /love-slots, /love-calculator, /love-pet, /two-truths, /word-search, /wishing-well, /tic-tac-toe, /bubble-pop, /origami, /affirmations, /love-piano, /wax-sealer, /fortune-cookie, /love-potion, /emoji-story, /jigsaw, /love-dice, /balloon-pop, /love-review, /love-diary, /love-scrabble, /love-tamagotchi, /love-tarot, /hug-counter, /love-vibe, /love-coupon-generator, /star-namer, /sweet-compliments, /kiss-collector, /love-memory-flip, /sound-wave, /love-passport-stamps, /cupid-archery, /love-alarm, /love-constellation-connect, /love-journal-prompt, /love-chimes, /love-puzzle-slider, /love-horoscope-daily, /love-recipe, /love-fireflies, /love-wishes-sky, /love-time-machine, /love-memory-match, /love-origami-heart, /love-fortune-cookie, /love-audio-visualizer, /love-trivia-quiz, /love-photo-booth, /hall-of-fame
+- /gallery, /letter, /bouquet, /distance, /surprise, /promise-tree, /love-envelope, /love-grand-finale, /love-coronation-ceremony, /love-story-comic-strip, /bhuntu-trivia-showdown, /first-moments-timeline, /bhuntu-voice-note-archive, /bhuntu-love-polaroids
+- /time-capsule, /scratch-surprises, /catcher-game, /memory-match, /mystery-gifts, /message-bottle, /music-box, /photo-booth, /love-slots, /love-calculator, /love-pet, /two-truths, /word-search, /wishing-well, /tic-tac-toe, /bubble-pop, /origami, /affirmations, /love-piano, /fortune-cookie, /love-potion, /emoji-story, /jigsaw, /love-dice, /balloon-pop, /love-review, /love-diary, /love-scrabble, /love-tamagotchi, /love-tarot, /hug-counter, /love-vibe, /love-coupon-generator, /love-memory-flip, /cupid-archery, /love-constellation-connect, /love-journal-prompt, /love-chimes, /love-puzzle-slider, /love-horoscope-daily, /love-recipe, /love-fireflies, /love-wishes-sky, /love-time-machine, /love-memory-match, /love-origami-heart, /love-fortune-cookie, /love-audio-visualizer, /love-trivia-quiz, /love-photo-booth, /hall-of-fame
 - /love-map-canvas, /paper-airplane-messenger, /magic-8-ball-love, /love-lock-bridge, /cloud-skywriter, /love-thermometer, /movie-ticket-creator, /snow-globe-shaker, /wish-dandelion, /pixel-heart-painter, /romantic-charades, /love-achievement-badges, /enchanted-rose-garden, /love-mad-libs, /love-mirror-oracle, /origami-crane, /star-drawer, /bubble-wrap, /scratch-memory, /quiz-duel, /love-aquarium, /coupon-vault, /heart-mailbox, /star-projector, /cupcake-decorator, /magnetic-poetry, /love-clock, /polaroid-designer, /origami-boat, /candle-blower, /royal-crown, /potion-brewery, /love-compass, /word-jumble, /time-capsule-2
 - /love-compatibility-matrix, /future-house-builder, /romantic-playlist-mixer, /sweet-promises-jar, /love-letter-generator, /anniversary-countdown-clock, /heart-bubble-tea-maker, /love-notes-wall, /virtual-cat-cafe, /love-quiz-personality, /love-frequency-tuner, /couples-secret-handshake, /starry-night-skywriter, /romantic-cooking-recipe, /love-vault-combination, /sweet-voicemail-inbox, /couple-daily-horoscope, /love-scratch-off-gallery, /heart-shape-tangram, /love-meteor-shower, /sweet-tea-ceremony, /couple-nickname-generator, /sweet-dessert-tower, /love-poetry-fridge, /couple-travel-passport-stamps, /sweet-dream-catcher, /couple-questions-deep, /love-music-box-carousel, /sweet-compliments-fountain, /couple-movie-night, /love-keychain-customizer, /sweet-garden-blooms, /couple-anniversary-timeline, /love-fortune-teller-origami, /sweet-heart-balloon-ascent, /couple-starry-planetarium, /love-letter-in-balloon, /sweet-memory-scrapbook, /whatsapp-10k-love, /cupid-radio-dj, /constellation-stargazer, /heart-nebula-3d, /sweet-confectionery-bakery, /arcade-dance-machine, /enchanted-glass-terrarium, /bottle-ocean-3d, /couple-time-capsule-lockbox, /sweet-heart-paper-craft, /couple-escape-room, /love-pixel-art, /love-anagram-solver, /love-photo-mosaic, /memory-constellation, /couple-yearbook, /love-letter-archive, /couple-soundtrack, /love-spell-caster, /love-potion-lab, /fairy-tale-generator, /enchanted-crystal-ball, /dragon-princess-adventure, /love-wizard-tower, /love-graffiti-wall, /love-neon-sign, /bhuntu-emoji-comic, /love-kaleidoscope, /cherry-blossom-wish-tree, /love-advent-calendar, /new-year-fireworks, /valentine-card-creator, /love-dated-calendar, /fortune-cookie-love, /infinite-reasons, /love-awards-night, /four-seasons-of-love, /couple-cookbook, /couple-bucket-list, /grand-love-universe, /sanzu-photo-gallery, /romantic-audio-player, /love-memory-tree-3d, /love-scratch-voucher-book, /couple-milestone-map, /romantic-petal-rain, /love-letter-popup-3d, /couple-quiz-master, /love-memory-film-strip, /love-candlelight-dinner, /bhuntu-nicknames-galaxy, /love-fortune-cookie-jar, /couple-bucket-list-globe, /love-audio-visualizer-2, /romantic-photo-slider-3d, /bhuntu-emoji-arcade, /love-stamp-collection, /romantic-night-skywriter, /couple-recipe-book, /love-constellation-maker, /love-tarot-oracle-2, /romantic-locket-changer, /love-crossword-puzzle, /couple-movie-marathon, /love-language-test, /bhuntu-personality-quiz, /love-potion-brewery-2, /romantic-message-grid, /couple-anniversary-clock, /bhuntu-comic-strip-2, /love-rhythm-drum-pad, /romantic-flower-garden, /love-wish-bottle-ocean, /couple-superlatives, /love-memory-cube-3d, /love-envelope-collection, /romantic-music-box-2, /couple-future-home-3d, /love-neon-sign-gallery, /bhuntu-photo-mosaic-2, /couple-relationship-cert, /grand-love-galaxy-3d, /ultimate-300th-love-coronation

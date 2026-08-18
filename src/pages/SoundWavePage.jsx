@@ -1,10 +1,14 @@
-import React from 'react';
-import SoundWave from '../components/SoundWave';
+import React, { useState } from 'react';
+import { Headphones, MapPin, PhoneCall, Radio, Waves } from 'lucide-react';
+
+const calls = [
+  { title: 'The first hello after a long day', duration: '00:18:42', copy: 'The call where the distance became background noise and your voice became the whole room.', tone: 'from-sky-950 to-indigo-800' },
+  { title: 'The “call garne” promise', duration: '01:07:15', copy: 'A small message that still makes Abu feel chosen, even when Nepalgunj and Sakai are sleeping under different skies.', tone: 'from-rose-950 to-fuchsia-800' },
+  { title: 'The quiet line before sleep', duration: '00:42:08', copy: 'Not every call needs a story. Sometimes hearing you breathe softly is enough to make the night kind.', tone: 'from-emerald-950 to-teal-800' },
+];
 
 export default function SoundWavePage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <SoundWave />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const call = calls[selected];
+  return <main className="min-h-dvh bg-[#101827] px-5 py-12 text-[#e8f4ff] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-sky-100/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-sky-300"><Radio className="h-4 w-4" /> Call archive · Nepalgunj ↔ Sakai</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The distance has a sound.</h1></div><p className="max-w-xs text-sm leading-7 text-white/60">A quiet archive of the calls that made two different nights feel like one room.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.8fr_1.2fr] lg:items-start"><nav className="space-y-3" aria-label="Call archive entries">{calls.map((item, index) => <button key={item.title} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-sky-300/60 bg-white/10 shadow-xl' : 'border-white/10 bg-white/5 hover:bg-white/10'}`}><span className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.18em] text-sky-300"><span>Archive 0{index + 1}</span><span>{item.duration}</span></span><span className="mt-4 block text-lg font-black">{item.title}</span></button>)}</nav><section className={`relative overflow-hidden rounded-[2rem] bg-gradient-to-br ${call.tone} p-7 shadow-2xl sm:p-14`}><div className="absolute inset-x-0 top-0 flex h-28 items-center gap-1 overflow-hidden px-8 opacity-35">{Array.from({ length: 42 }, (_, index) => <span key={index} className="w-1 rounded-full bg-sky-200" style={{ height: `${18 + ((index * 29) % 76)}%` }} />)}</div><div className="relative"><div className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.2em] text-white/65"><span className="inline-flex items-center gap-2"><PhoneCall className="h-4 w-4" /> {call.duration}</span><span>From Abu’s archive</span></div><Headphones className="mt-20 h-10 w-10 text-sky-200" /><h2 className="mt-6 max-w-2xl text-4xl font-black leading-[.95] tracking-[-0.07em] sm:text-6xl">{call.title}</h2><p className="mt-6 max-w-xl text-lg leading-8 text-white/75">{call.copy}</p><div className="mt-10 flex flex-wrap items-center gap-4"><button type="button" onClick={() => setSelected((selected + 1) % calls.length)} className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-black text-slate-900 transition hover:-translate-y-1 active:scale-[.98]"><Waves className="h-4 w-4" /> Open the next call note</button><span className="inline-flex items-center gap-2 text-xs font-bold text-white/60"><MapPin className="h-4 w-4" /> Nepalgunj to Sakai, still connected</span></div></div></section></div></div></main>;
 }

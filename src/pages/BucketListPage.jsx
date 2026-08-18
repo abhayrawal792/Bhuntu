@@ -1,10 +1,16 @@
-import React from 'react';
-import TravelBucketList from '../components/TravelBucketList';
+import React, { useState } from 'react';
+import { ArrowRight, Bike, Camera, Compass, MapPin, Mountain } from 'lucide-react';
+
+const destinations = [
+  { place: 'Bardiya', mark: '01', copy: 'A slower road, warm air, and the kind of day where we forget to check the time.', icon: MapPin, tone: 'bg-emerald-50' },
+  { place: 'Pokhara', mark: '02', copy: 'A lake, a quiet morning, and a photo where the mountains are not the only beautiful thing.', icon: Compass, tone: 'bg-sky-50' },
+  { place: 'Manang', mark: '03', copy: 'A high road for two people who have already crossed a much bigger distance together.', icon: Mountain, tone: 'bg-indigo-50' },
+  { place: 'Mustang', mark: '04', copy: 'Dusty trails, open skies, and Abu keeping one hand ready for yours.', icon: Camera, tone: 'bg-orange-50' },
+];
 
 export default function BucketListPage() {
-  return (
-    <div className="min-h-dvh">
-      <TravelBucketList />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const current = destinations[selected];
+  const Icon = current.icon;
+  return <main className="min-h-dvh bg-[#dfe8e3] px-5 py-12 text-[#18352d] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-start justify-between gap-8"><div><p className="text-[10px] font-black uppercase tracking-[0.28em] text-emerald-700">Future route book · Abu & Bhuntu</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Places we have not loved yet.</h1></div><div className="rounded-2xl border border-emerald-800/15 bg-white/40 p-5 text-sm leading-7 text-[#42635a]"><Bike className="h-5 w-5 text-emerald-700" /><p className="mt-4 max-w-xs">One light-blue scooter. Four future roads. Unlimited tea stops.</p></div></header><div className="mt-12 grid gap-10 lg:grid-cols-[.8fr_1.2fr]"><nav className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1" aria-label="Future destinations">{destinations.map((item, index) => <button key={item.place} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border p-5 text-left transition ${selected === index ? 'border-emerald-700 bg-white shadow-xl' : 'border-emerald-800/15 bg-white/35 hover:bg-white/70'}`}><span className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.2em] text-emerald-700"><span>{item.mark} / future stop</span><span>{item.place}</span></span><span className="mt-5 block text-2xl font-black">{item.place}</span></button>)}</nav><section className={`relative overflow-hidden rounded-[2rem] ${current.tone} p-8 shadow-[16px_18px_0_rgba(24,53,45,.12)] sm:p-14`}><div className="absolute -bottom-20 -right-12 h-72 w-72 rounded-full border border-emerald-700/15" /><Icon className="h-10 w-10 text-emerald-700" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-emerald-700">Future stop {current.mark}</p><h2 className="mt-4 text-5xl font-black tracking-[-0.08em] sm:text-8xl">{current.place}</h2><p className="mt-6 max-w-xl text-xl leading-8 text-[#42635a]">{current.copy}</p><div className="mt-10 flex flex-wrap items-center gap-4"><button type="button" onClick={() => setSelected((selected + 1) % destinations.length)} className="inline-flex items-center gap-2 rounded-full bg-[#18352d] px-5 py-3 text-sm font-black text-white transition hover:-translate-y-1 active:scale-[.98]">Open the next road <ArrowRight className="h-4 w-4" /></button><span className="text-xs font-black uppercase tracking-[0.15em] text-emerald-700">Abu is saving you a window seat</span></div></section></div></div></main>;
 }

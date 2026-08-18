@@ -1,10 +1,15 @@
-import React from 'react';
-import LovePassportStamps from '../components/LovePassportStamps';
+import React, { useState } from 'react';
+import { Check, Compass, MapPin, Plane, Stamp } from 'lucide-react';
+
+const stops = [
+  { place: 'Dhamboji', subtitle: 'Where Abu begins', copy: 'The starting point: familiar streets, Bageshwori memories, and the name Abhay waiting to become Abu.', done: true },
+  { place: 'Sakai', subtitle: 'Where Samjhana is', copy: 'The distance is real, but so is every call, every “Huss,” and every promise to keep choosing each other.', done: true },
+  { place: 'Pokhara', subtitle: 'Where we pause', copy: 'A future window seat beside the lake, with no hurry and a camera full of evidence.', done: false },
+  { place: 'Mustang', subtitle: 'Where we keep going', copy: 'An open road for the light-blue scooter and two people who have already crossed the hardest miles.', done: false },
+];
 
 export default function LovePassportStampsPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LovePassportStamps />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const stop = stops[selected];
+  return <main className="min-h-dvh bg-[#e9e0cb] px-5 py-12 text-[#2d2a22] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b-4 border-double border-[#706548]/30 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#786844]"><Plane className="h-4 w-4" /> Abu & Bhuntu travel document</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Our passport has two kinds of stamps.</h1></div><p className="max-w-xs text-sm leading-7 text-[#706548]">Places we have lived, and places we are still promising to visit.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr]"><nav className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1" aria-label="Travel passport stops">{stops.map((item, index) => <button key={item.place} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border-2 border-dashed p-5 text-left transition ${selected === index ? 'border-[#a75b3c] bg-[#fffaf0] shadow-xl' : 'border-[#706548]/25 bg-white/35 hover:bg-white/70'}`}><span className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.18em] text-[#a75b3c]"><span>Stamp 0{index + 1}</span>{item.done ? <Check className="h-4 w-4" /> : <Stamp className="h-4 w-4" />}</span><span className="mt-5 block text-2xl font-black">{item.place}</span><span className="mt-1 block text-xs font-bold text-[#706548]">{item.subtitle}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#fffaf0] p-8 shadow-[15px_18px_0_rgba(84,69,42,.14)] sm:p-14"><div className="absolute right-8 top-8 rotate-12 rounded-full border-4 border-[#a75b3c]/70 px-3 py-2 text-[10px] font-black uppercase tracking-[0.16em] text-[#a75b3c]">{stop.done ? 'Visited by heart' : 'Future promise'}</div><Compass className="h-10 w-10 text-[#a75b3c]" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-[#786844]">{stop.subtitle}</p><h2 className="mt-4 text-6xl font-black tracking-[-0.08em] sm:text-9xl">{stop.place}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#5d5139]">{stop.copy}</p><p className="mt-10 border-t border-[#706548]/20 pt-6 text-sm font-bold text-[#786844]">{stop.place === 'Dhamboji' ? 'The first coordinate in Abu’s story.' : stop.place === 'Sakai' ? 'The place your voice reaches from.' : 'A future coordinate waiting for both of us.'}</p></section></div></div></main>;
 }

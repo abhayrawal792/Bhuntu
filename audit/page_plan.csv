@@ -23,7 +23,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 022,bouquet-reasons,SURPRISE,, ,Unique page idea: Bouquet Reasons,message-sequence,single-column,M-WINE,distinct,TYPE-A
 023,bubble-pop,MILESTONE,, ,Unique page idea: Bubble Pop,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
 024,bubble-wrap,SENSORY,, ,Unique page idea: Bubble Wrap,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
-025,bucket-list,MEMORY,, ,Unique page idea: Bucket List,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
+025,bucket-list,MEMORY,, ,Unique page idea: Bucket List,visual-collection,ui-simulation,M-GREY,distinct,TYPE-A
 026,candle-blower,LETTER,, ,Unique page idea: Candle Blower,grow-or-assemble,immersive-scroll,M-FOREST,distinct,TYPE-A
 027,catcher-game,CHAT,, ,Unique page idea: Catcher Game,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
 028,cherry-blossom-wish-tree,WHY_I_LOVE,, ,Unique page idea: Cherry Blossom Wish Tree,grow-or-assemble,masonry-grid,M-FIELD,distinct,TYPE-A
@@ -92,14 +92,14 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 091,hug-counter,CHAT,, ,Unique page idea: Hug Counter,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
 092,infinite-reasons-machine,WHY_I_LOVE,, ,Unique page idea: Infinite Reasons Machine,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
 093,jigsaw,FUTURE,, ,Unique page idea: Jigsaw,guided-interaction,split-screen,M-BLUSH,distinct,TYPE-A
-094,kiss-collector,SURPRISE,, ,Unique page idea: Kiss Collector,guided-interaction,typography-first,M-MONO,distinct,TYPE-A
+094,kiss-collector,SURPRISE,, ,Unique page idea: Kiss Collector,message-sequence,typography-first,M-MONO,distinct,TYPE-A
 095,lanterns,MILESTONE,, ,Unique page idea: Lanterns,letter-or-paper,ui-simulation,M-SEPIA,distinct,TYPE-A
 096,letter,SENSORY,, ,Unique page idea: Letter,letter-or-paper,immersive-scroll,M-ELECT,distinct,TYPE-A
 097,letter-tonight,MEMORY,, ,Unique page idea: Letter Tonight,message-sequence,interactive-canvas,M-WINE,distinct,TYPE-A
 098,little-things,LETTER,, ,Unique page idea: Little Things,message-sequence,masonry-grid,M-PAPER,distinct,TYPE-A
 099,love-achievement-badges,CHAT,, ,Unique page idea: Love Achievement Badges,guided-interaction,editorial-two-column,M-DAWN,distinct,TYPE-A
 100,love-advent-calendar,WHY_I_LOVE,, ,Unique page idea: Love Advent Calendar,time-reveal,horizontal-scroll,M-GREY,distinct,TYPE-A
-101,love-alarm,FUTURE,, ,Unique page idea: Love Alarm,guided-interaction,full-bleed-hero,M-FOREST,distinct,TYPE-A
+101,love-alarm,FUTURE,, ,Unique page idea: Love Alarm,message-sequence,full-bleed-hero,M-FOREST,distinct,TYPE-A
 102,love-anagram-solver,SURPRISE,, ,Unique page idea: Love Anagram Solver,guided-interaction,single-column,M-DUSK,distinct,TYPE-A
 103,love-aquarium,MILESTONE,, ,Unique page idea: Love Aquarium,guided-interaction,split-screen,M-FIELD,distinct,TYPE-A
 104,love-arcade-dance-machine,SENSORY,, ,Unique page idea: Love Arcade Dance Machine,guided-interaction,typography-first,M-FROST,distinct,TYPE-A
@@ -173,7 +173,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 172,love-neon-sign-gallery,WHY_I_LOVE,, ,Unique page idea: Love Neon Sign Gallery,visual-collection,single-column,M-WINE,distinct,TYPE-A
 173,love-notes-wall,FUTURE,, ,Unique page idea: Love Notes Wall,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
 174,love-origami-heart,SURPRISE,, ,Unique page idea: Love Origami Heart,letter-or-paper,typography-first,M-DAWN,distinct,TYPE-A
-175,love-passport-stamps,MILESTONE,, ,Unique page idea: Love Passport Stamps,visual-collection,ui-simulation,M-GREY,distinct,TYPE-A
+175,love-passport-stamps,MILESTONE,, ,Unique page idea: Love Passport Stamps,audio,ui-simulation,M-GREY,distinct,TYPE-A
 176,love-pet,SENSORY,, ,Unique page idea: Love Pet,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
 177,love-photo-booth,MEMORY,, ,Unique page idea: Love Photo Booth,visual-collection,interactive-canvas,M-DUSK,distinct,TYPE-A
 178,love-photo-mosaic-builder,LETTER,, ,Unique page idea: Love Photo Mosaic Builder,visual-collection,masonry-grid,M-FIELD,distinct,TYPE-A
@@ -248,7 +248,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 247,promise-trio,MILESTONE,, ,Unique page idea: Promise Trio,message-sequence,interactive-canvas,M-WINE,distinct,TYPE-A
 248,quiz-duel,SENSORY,, ,Unique page idea: Quiz Duel,game-or-puzzle,masonry-grid,M-PAPER,distinct,TYPE-A
 249,quiz,MEMORY,, ,Unique page idea: Quiz,game-or-puzzle,editorial-two-column,M-DAWN,distinct,TYPE-A
-250,quote-generator,LETTER,, ,Unique page idea: Quote Generator,guided-interaction,horizontal-scroll,M-GREY,distinct,TYPE-A
+250,quote-generator,LETTER,, ,Unique page idea: Quote Generator,audio,horizontal-scroll,M-GREY,distinct,TYPE-A
 251,ring-surprise,CHAT,, ,Unique page idea: Ring Surprise,reveal,full-bleed-hero,M-FOREST,distinct,TYPE-A
 252,romance-word-jumble,WHY_I_LOVE,, ,Unique page idea: Romance Word Jumble,game-or-puzzle,single-column,M-DUSK,distinct,TYPE-A
 253,romantic-audio-player,FUTURE,, ,Unique page idea: Romantic Audio Player,audio,split-screen,M-FIELD,distinct,TYPE-A
@@ -268,7 +268,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 267,room10,CHAT,, ,Unique page idea: Room10,message-sequence,interactive-canvas,M-DUSK,distinct,TYPE-A
 268,room11,WHY_I_LOVE,, ,Unique page idea: Room11,audio,masonry-grid,M-FIELD,distinct,TYPE-A
 269,room12,FUTURE,, ,Unique page idea: Room12,visual-collection,editorial-two-column,M-FROST,distinct,TYPE-A
-270,room1,SURPRISE,, ,Unique page idea: Room1,reveal,horizontal-scroll,M-AMBER,distinct,TYPE-A
+270,room1,SURPRISE,, ,Unique page idea: Room1,spatial-exploration,horizontal-scroll,M-AMBER,distinct,TYPE-A
 271,room2,MILESTONE,, ,Unique page idea: Room2,audio,full-bleed-hero,M-GOLD,distinct,TYPE-A
 272,room3,SENSORY,, ,Unique page idea: Room3,visual-collection,single-column,M-NIGHT,distinct,TYPE-A
 273,room4,MEMORY,, ,Unique page idea: Room4,guided-interaction,split-screen,M-BLUSH,distinct,TYPE-A
@@ -286,17 +286,17 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 285,secret-vault,FUTURE,, ,Unique page idea: Secret Vault,guided-interaction,ui-simulation,M-AMBER,distinct,TYPE-A
 286,secret-vault-second,SURPRISE,, ,Unique page idea: Secret Vault Second,message-sequence,immersive-scroll,M-GOLD,distinct,TYPE-A
 287,snow-globe-shaker,MILESTONE,, ,Unique page idea: Snow Globe Shaker,spatial-exploration,interactive-canvas,M-NIGHT,distinct,TYPE-A
-288,sound-wave,SENSORY,, ,Unique page idea: Sound Wave,audio,masonry-grid,M-BLUSH,distinct,TYPE-A
+288,sound-wave,SENSORY,, ,Unique page idea: Sound Wave,message-sequence,masonry-grid,M-BLUSH,distinct,TYPE-A
 289,spin-wheel,MEMORY,, ,Unique page idea: Spin Wheel,randomized-choice,editorial-two-column,M-MONO,distinct,TYPE-A
 290,star-drawer,LETTER,, ,Unique page idea: Star Drawer,spatial-exploration,horizontal-scroll,M-SEPIA,distinct,TYPE-A
-291,star-namer,CHAT,, ,Unique page idea: Star Namer,spatial-exploration,full-bleed-hero,M-ELECT,distinct,TYPE-A
+291,star-namer,CHAT,, ,Unique page idea: Star Namer,message-sequence,full-bleed-hero,M-ELECT,distinct,TYPE-A
 292,star-projector,WHY_I_LOVE,, ,Unique page idea: Star Projector,spatial-exploration,single-column,M-WINE,distinct,TYPE-A
 293,starry-night-skywriter,FUTURE,, ,Unique page idea: Starry Night Skywriter,spatial-exploration,split-screen,M-PAPER,distinct,TYPE-A
 294,stars,SURPRISE,, ,Unique page idea: Stars,randomized-choice,typography-first,M-DAWN,distinct,TYPE-A
 295,story,MILESTONE,, ,Unique page idea: Story,game-or-puzzle,ui-simulation,M-GREY,distinct,TYPE-A
 296,surprise,SENSORY,, ,Unique page idea: Surprise,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
 297,sweet-compliments-fountain,MEMORY,, ,Unique page idea: Sweet Compliments Fountain,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
-298,sweet-compliments,LETTER,, ,Unique page idea: Sweet Compliments,guided-interaction,masonry-grid,M-FIELD,distinct,TYPE-A
+298,sweet-compliments,LETTER,, ,Unique page idea: Sweet Compliments,message-sequence,masonry-grid,M-FIELD,distinct,TYPE-A
 299,sweet-dessert-tower,CHAT,, ,Unique page idea: Sweet Dessert Tower,guided-interaction,editorial-two-column,M-FROST,distinct,TYPE-A
 300,sweet-dream-catcher,WHY_I_LOVE,, ,Unique page idea: Sweet Dream Catcher,guided-interaction,horizontal-scroll,M-AMBER,distinct,TYPE-A
 301,sweet-garden-blooms,FUTURE,, ,Unique page idea: Sweet Garden Blooms,grow-or-assemble,full-bleed-hero,M-GOLD,distinct,TYPE-A

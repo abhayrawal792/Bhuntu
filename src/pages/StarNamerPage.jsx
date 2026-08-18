@@ -1,10 +1,15 @@
-import React from 'react';
-import StarNamer from '../components/StarNamer';
+import React, { useState } from 'react';
+import { ArrowRight, Moon, Sparkles, Star } from 'lucide-react';
+
+const stars = [
+  { name: 'Sanzu', line: 'The name that turns Abu’s ordinary day into something worth smiling about.', hue: 'text-rose-300' },
+  { name: 'Bhuntu', line: 'The name that feels like home, especially when the distance feels wide.', hue: 'text-sky-300' },
+  { name: 'Bebo', line: 'The name Abu saves for the softest messages and the longest goodnights.', hue: 'text-amber-200' },
+  { name: 'Runchi', line: 'The name that carries the mischievous little light only Samjhana can bring.', hue: 'text-emerald-300' },
+];
 
 export default function StarNamerPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <StarNamer />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const current = stars[selected];
+  return <main className="min-h-dvh overflow-hidden bg-[#08111f] px-5 py-12 text-white sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-white/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] text-sky-200"><Moon className="h-4 w-4" /> Abu’s private sky register</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">I named the stars after your names.</h1></div><p className="max-w-xs text-sm leading-7 text-white/60">Four names. Four ways Abu says the same quiet thing: I love you.</p></header><div className="grid gap-12 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1" aria-label="Samjhana’s star names">{stars.map((star, index) => <button key={star.name} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border p-5 text-left transition ${selected === index ? 'border-sky-200/70 bg-white/10 shadow-xl' : 'border-white/10 bg-white/5 hover:bg-white/10'}`}><span className="flex items-center gap-3"><Star className={`h-5 w-5 fill-current ${star.hue}`} /><span className="text-xl font-black">{star.name}</span></span><span className="mt-3 block text-[10px] font-black uppercase tracking-[0.18em] text-white/45">Register 0{index + 1}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-indigo-950 via-[#122849] to-sky-900 p-8 shadow-2xl sm:p-14"><div className="absolute right-10 top-10 h-2 w-2 rounded-full bg-white shadow-[0_0_30px_10px_rgba(186,230,253,.7)]" /><div className="absolute bottom-20 left-16 h-1.5 w-1.5 rounded-full bg-amber-200 shadow-[0_0_25px_8px_rgba(253,230,138,.65)]" /><Sparkles className={`h-10 w-10 ${current.hue}`} /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-sky-200">Constellation note · {current.name}</p><h2 className="mt-5 text-6xl font-black tracking-[-0.08em] sm:text-9xl">{current.name}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-white/75">{current.line}</p><button type="button" onClick={() => setSelected((selected + 1) % stars.length)} className="mt-10 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-black text-[#08111f] transition hover:-translate-y-1 active:scale-[.98]">Read the next name <ArrowRight className="h-4 w-4" /></button></section></div></div></main>;
 }
