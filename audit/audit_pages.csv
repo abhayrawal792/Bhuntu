@@ -144,14 +144,14 @@ love-horoscope-wheel,Love Horoscope Wheel,template_page-local,randomized-choice,
 love-jar-notes,Love Jar Notes,template_page-local,message-sequence,none,M-PAPER
 love-journal-prompt,Love Journal Prompt,template_page-local,letter-or-paper,none,M-DAWN
 love-kaleidoscope,Love Kaleidoscope,template_page-local,spatial-exploration,none,M-GREY
-love-keychain-customizer,Love Keychain Customizer,template_LoveKeychainCustomizer,guided-interaction,none,M-FOREST
+love-keychain-customizer,Love Keychain Customizer,template_page-local,guided-interaction,none,M-FOREST
 love-language-test,Love Language Test,template_page-local,message-sequence,none,M-DUSK
 love-languages-quiz,Love Languages Quiz,template_page-local,game-or-puzzle,none,M-FIELD
-love-letter-archive,Love Letter Archive,template_LoveLetterArchive,letter-or-paper,none,M-FROST
+love-letter-archive,Love Letter Archive,template_page-local,audio,none,M-FROST
 love-letter-archive-vault,Love Letter Archive Vault,template_page-local,message-sequence,none,M-AMBER
-love-letter-generator,Love Letter Generator,template_LoveLetterGenerator,letter-or-paper,none,M-GOLD
-love-letter-in-balloon,Love Letter In Balloon,template_LoveLetterInBalloon,letter-or-paper,none,M-NIGHT
-love-letter-pop-up3-d,Love Letter Pop Up3 D,template_LoveLetterPopUp3D,letter-or-paper,none,M-BLUSH
+love-letter-generator,Love Letter Generator,template_page-local,letter-or-paper,none,M-GOLD
+love-letter-in-balloon,Love Letter In Balloon,template_page-local,message-sequence,none,M-NIGHT
+love-letter-pop-up3-d,Love Letter Pop Up3 D,template_page-local,reveal,none,M-BLUSH
 love-lock-bridge,Love Lock Bridge,template_LoveLockBridge,guided-interaction,none,M-MONO
 love-lottery,Love Lottery,template_page-local,grow-or-assemble,none,M-SEPIA
 love-love-story-comic-strip,Love Love Story Comic Strip,template_LoveLoveStoryComicStrip,guided-interaction,none,M-ELECT
