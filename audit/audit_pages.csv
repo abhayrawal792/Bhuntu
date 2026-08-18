@@ -45,7 +45,7 @@ couple-milestone-map2,Couple Milestone Map2,template_page-local,message-sequence
 couple-milestone-map,Couple Milestone Map,template_CoupleMilestoneMap,guided-interaction,none,M-FROST
 couple-movie-marathon,Couple Movie Marathon,template_page-local,audio,none,M-AMBER
 couple-movie-night,Couple Movie Night,template_page-local,message-sequence,none,M-GOLD
-couple-nickname-generator,Couple Nickname Generator,template_CoupleNicknameGenerator,guided-interaction,none,M-NIGHT
+couple-nickname-generator,Couple Nickname Generator,template_page-local,guided-interaction,none,M-NIGHT
 couple-questions-deep,Couple Questions Deep,template_page-local,message-sequence,none,M-BLUSH
 couple-quiz2,Couple Quiz2,template_page-local,game-or-puzzle,none,M-MONO
 couple-quiz-master,Couple Quiz Master,template_CoupleQuizMaster,game-or-puzzle,none,M-SEPIA
