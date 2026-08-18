@@ -1,7 +1,24 @@
 [
   {
+    "url": "http://127.0.0.1:4177/Bhuntu/",
+    "textLength": 1191,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 2318
+    },
+    "horizontalOverflow": false,
+    "missingAlt": 0,
+    "emptyInteractive": 0,
+    "disabledVisible": 0,
+    "stage": "paper-letter",
+    "giftVariant": null,
+    "route": "/gallery"
+  },
+  {
     "url": "http://127.0.0.1:4177/Bhuntu/#/gallery",
-    "textLength": 2796,
+    "textLength": 2770,
     "viewport": {
       "width": 390,
       "height": 844,
@@ -14,16 +31,16 @@
     "disabledVisible": 0,
     "stage": "ink-noir",
     "giftVariant": "editorial",
-    "route": "/gallery"
+    "route": "/bento-box"
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/video",
-    "textLength": 1478,
+    "textLength": 1338,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 3000
+      "scrollHeight": 2940
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
@@ -31,11 +48,11 @@
     "disabledVisible": 0,
     "stage": "sakura-air",
     "giftVariant": "contact",
-    "route": "/bento-box"
+    "route": "/love-languages-quiz"
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/letter",
-    "textLength": 972,
+    "textLength": 920,
     "viewport": {
       "width": 390,
       "height": 844,
@@ -48,16 +65,16 @@
     "disabledVisible": 0,
     "stage": "blue-hour",
     "giftVariant": "postcard",
-    "route": "/love-languages-quiz"
+    "route": "/love-grand-finale"
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/bouquet",
-    "textLength": 2142,
+    "textLength": 2050,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 3830
+      "scrollHeight": 3802
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
@@ -65,23 +82,6 @@
     "disabledVisible": 0,
     "stage": "film-negative",
     "giftVariant": "editorial",
-    "route": "/love-grand-finale"
-  },
-  {
-    "url": "http://127.0.0.1:4177/Bhuntu/#/distance",
-    "textLength": 1387,
-    "viewport": {
-      "width": 390,
-      "height": 844,
-      "scrollWidth": 390,
-      "scrollHeight": 2714
-    },
-    "horizontalOverflow": false,
-    "missingAlt": 0,
-    "emptyInteractive": 0,
-    "disabledVisible": 0,
-    "stage": "mint-desk",
-    "giftVariant": "ticket",
     "route": "/room/12"
   }
 ]
