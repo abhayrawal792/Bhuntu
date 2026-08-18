@@ -302,7 +302,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 301,sweet-garden-blooms,FUTURE,, ,Unique page idea: Sweet Garden Blooms,grow-or-assemble,full-bleed-hero,M-GOLD,distinct,TYPE-A
 302,sweet-heart-balloon-ascent,SURPRISE,, ,Unique page idea: Sweet Heart Balloon Ascent,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
 303,sweet-memory-scrapbook,MILESTONE,, ,Unique page idea: Sweet Memory Scrapbook,guided-interaction,split-screen,M-BLUSH,distinct,TYPE-A
-304,sweet-promises-jar,SENSORY,, ,Unique page idea: Sweet Promises Jar,guided-interaction,typography-first,M-MONO,distinct,TYPE-A
+304,sweet-promises-jar,SENSORY,, ,Unique page idea: Sweet Promises Jar,audio,typography-first,M-MONO,distinct,TYPE-A
 305,sweet-proposal-simulator,MEMORY,, ,Unique page idea: Sweet Proposal Simulator,guided-interaction,ui-simulation,M-SEPIA,distinct,TYPE-A
 306,sweet-tea-ceremony,LETTER,, ,Unique page idea: Sweet Tea Ceremony,guided-interaction,immersive-scroll,M-ELECT,distinct,TYPE-A
 307,sweet-voicemail-inbox,CHAT,, ,Unique page idea: Sweet Voicemail Inbox,message-sequence,interactive-canvas,M-WINE,distinct,TYPE-A

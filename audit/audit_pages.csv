@@ -302,7 +302,7 @@ sweet-dream-catcher,Sweet Dream Catcher,template_SweetDreamCatcher,guided-intera
 sweet-garden-blooms,Sweet Garden Blooms,template_SweetGardenBlooms,grow-or-assemble,none,M-GOLD
 sweet-heart-balloon-ascent,Sweet Heart Balloon Ascent,template_SweetHeartBalloonAscent,guided-interaction,none,M-NIGHT
 sweet-memory-scrapbook,Sweet Memory Scrapbook,template_SweetMemoryScrapbook,guided-interaction,none,M-BLUSH
-sweet-promises-jar,Sweet Promises Jar,template_SweetPromisesJar,guided-interaction,none,M-MONO
+sweet-promises-jar,Sweet Promises Jar,template_page-local,audio,none,M-MONO
 sweet-proposal-simulator,Sweet Proposal Simulator,template_page-local,guided-interaction,none,M-SEPIA
 sweet-tea-ceremony,Sweet Tea Ceremony,template_SweetTeaCeremony,guided-interaction,none,M-ELECT
 sweet-voicemail-inbox,Sweet Voicemail Inbox,template_SweetVoicemailInbox,message-sequence,none,M-WINE
