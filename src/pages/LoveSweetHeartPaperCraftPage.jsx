@@ -1,6 +1,11 @@
-import React from 'react';
-import LoveSweetHeartPaperCraft from '../components/LoveSweetHeartPaperCraft';
+import React, { useState } from 'react';
+import { Heart, Scissors, Sparkles } from 'lucide-react';
 
-export default function LoveSweetHeartPaperCraftPage() {
-  return <LoveSweetHeartPaperCraft />;
+const folds = [
+  { label: 'Fold one · today', copy: 'A little heart for the birthday girl who makes even ordinary messages feel handmade.', tone: 'bg-rose-50' },
+  { label: 'Fold two · distance', copy: 'A paper bridge from Nepalgunj to Sakai, held together by calls, nicknames, and patient choosing.', tone: 'bg-sky-50' },
+  { label: 'Fold three · someday', copy: 'A future card for the light-blue scooter, the mountain roads, and the hand Abu will keep reaching for.', tone: 'bg-amber-50' },
+];
+
+export default function LoveSweetHeartPaperCraftPage() { const [selected, setSelected] = useState(0); const fold = folds[selected]; return <main className="min-h-dvh bg-[#f3eadc] px-5 py-12 text-[#3e2e26] sm:px-10 sm:py-16"><div className="mx-auto max-w-6xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-[#8e6248]/20 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#9b6045]"><Scissors className="h-4 w-4" /> The handmade heart studio</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Some promises deserve paper edges.</h1></div><p className="max-w-xs text-sm leading-7 text-[#76594a]">Three handmade folds for three versions of the love Abu wants to give Samjhana.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.7fr_1.3fr] lg:items-center"><nav className="space-y-3" aria-label="Paper heart folds">{folds.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-[#9b6045] bg-white shadow-xl' : 'border-[#8e6248]/15 bg-white/40 hover:bg-white/80'}`}><span className="block text-[10px] font-black uppercase tracking-[0.18em] text-[#9b6045]">{item.label}</span></button>)}</nav><section className={`relative overflow-hidden rounded-[2rem] ${fold.tone} p-8 shadow-[15px_18px_0_rgba(62,46,38,.12)] sm:p-14`}><div className="absolute right-10 top-10 rotate-12"><Heart className="h-20 w-20 fill-rose-300/60 text-rose-400/70" /></div><Sparkles className="h-9 w-9 text-[#9b6045]" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-[#9b6045]">{fold.label}</p><h2 className="mt-5 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{fold.copy}</h2><p className="mt-10 border-t border-[#8e6248]/15 pt-6 text-sm font-black text-[#76594a]">Cut, folded, and kept carefully by Abu for my Bhuntu.</p></section></div></div></main>;
 }

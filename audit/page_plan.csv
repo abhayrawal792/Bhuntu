@@ -55,7 +55,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 054,couple-starry-planetarium,SURPRISE,, ,Unique page idea: Couple Starry Planetarium,spatial-exploration,typography-first,M-DAWN,distinct,TYPE-A
 055,couple-superlatives,MILESTONE,, ,Unique page idea: Couple Superlatives,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
 056,couple-travel-passport-stamps,SENSORY,, ,Unique page idea: Couple Travel Passport Stamps,visual-collection,immersive-scroll,M-FOREST,distinct,TYPE-A
-057,couple-yearbook,MEMORY,, ,Unique page idea: Couple Yearbook,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
+057,couple-yearbook,MEMORY,, ,Unique page idea: Couple Yearbook,spatial-exploration,interactive-canvas,M-DUSK,distinct,TYPE-A
 058,couples-secret-handshake,LETTER,, ,Unique page idea: Couples Secret Handshake,guided-interaction,masonry-grid,M-FIELD,distinct,TYPE-A
 059,coupon-vault,CHAT,, ,Unique page idea: Coupon Vault,guided-interaction,editorial-two-column,M-FROST,distinct,TYPE-A
 060,cupcake-decorator,WHY_I_LOVE,, ,Unique page idea: Cupcake Decorator,guided-interaction,horizontal-scroll,M-AMBER,distinct,TYPE-A
@@ -100,7 +100,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 099,love-achievement-badges,CHAT,, ,Unique page idea: Love Achievement Badges,guided-interaction,editorial-two-column,M-DAWN,distinct,TYPE-A
 100,love-advent-calendar,WHY_I_LOVE,, ,Unique page idea: Love Advent Calendar,time-reveal,horizontal-scroll,M-GREY,distinct,TYPE-A
 101,love-alarm,FUTURE,, ,Unique page idea: Love Alarm,message-sequence,full-bleed-hero,M-FOREST,distinct,TYPE-A
-102,love-anagram-solver,SURPRISE,, ,Unique page idea: Love Anagram Solver,guided-interaction,single-column,M-DUSK,distinct,TYPE-A
+102,love-anagram-solver,SURPRISE,, ,Unique page idea: Love Anagram Solver,message-sequence,single-column,M-DUSK,distinct,TYPE-A
 103,love-aquarium,MILESTONE,, ,Unique page idea: Love Aquarium,guided-interaction,split-screen,M-FIELD,distinct,TYPE-A
 104,love-arcade-dance-machine,SENSORY,, ,Unique page idea: Love Arcade Dance Machine,guided-interaction,typography-first,M-FROST,distinct,TYPE-A
 105,love-audio-visualizer2,MEMORY,, ,Unique page idea: Love Audio Visualizer2,audio,ui-simulation,M-AMBER,distinct,TYPE-A
@@ -178,7 +178,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 177,love-photo-booth,MEMORY,, ,Unique page idea: Love Photo Booth,visual-collection,interactive-canvas,M-DUSK,distinct,TYPE-A
 178,love-photo-mosaic-builder,LETTER,, ,Unique page idea: Love Photo Mosaic Builder,visual-collection,masonry-grid,M-FIELD,distinct,TYPE-A
 179,love-piano,CHAT,, ,Unique page idea: Love Piano,audio,editorial-two-column,M-FROST,distinct,TYPE-A
-180,love-pixel-art-creator,WHY_I_LOVE,, ,Unique page idea: Love Pixel Art Creator,guided-interaction,horizontal-scroll,M-AMBER,distinct,TYPE-A
+180,love-pixel-art-creator,WHY_I_LOVE,, ,Unique page idea: Love Pixel Art Creator,visual-collection,horizontal-scroll,M-AMBER,distinct,TYPE-A
 181,love-poetry-fridge,FUTURE,, ,Unique page idea: Love Poetry Fridge,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
 182,love-potion-brewery2,SURPRISE,, ,Unique page idea: Love Potion Brewery2,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
 183,love-potion-brewery,MILESTONE,, ,Unique page idea: Love Potion Brewery,grow-or-assemble,split-screen,M-BLUSH,distinct,TYPE-A
@@ -205,7 +205,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 204,love-spinner3-d,WHY_I_LOVE,, ,Unique page idea: Love Spinner3 D,randomized-choice,typography-first,M-DAWN,distinct,TYPE-A
 205,love-stamp-collection,FUTURE,, ,Unique page idea: Love Stamp Collection,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
 206,love-sweet-confectionery-bakery,SURPRISE,, ,Unique page idea: Love Sweet Confectionery Bakery,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
-207,love-sweet-heart-paper-craft,MILESTONE,, ,Unique page idea: Love Sweet Heart Paper Craft,letter-or-paper,interactive-canvas,M-DUSK,distinct,TYPE-A
+207,love-sweet-heart-paper-craft,MILESTONE,, ,Unique page idea: Love Sweet Heart Paper Craft,message-sequence,interactive-canvas,M-DUSK,distinct,TYPE-A
 208,love-tamagotchi,SENSORY,, ,Unique page idea: Love Tamagotchi,guided-interaction,masonry-grid,M-FIELD,distinct,TYPE-A
 209,love-tarot-oracle2,MEMORY,, ,Unique page idea: Love Tarot Oracle2,randomized-choice,editorial-two-column,M-FROST,distinct,TYPE-A
 210,love-tarot,LETTER,, ,Unique page idea: Love Tarot,randomized-choice,horizontal-scroll,M-AMBER,distinct,TYPE-A

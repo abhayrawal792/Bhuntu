@@ -1,6 +1,12 @@
-﻿import React from 'react';
-import CoupleYearbook from '../components/CoupleYearbook';
+﻿import React, { useState } from 'react';
+import { BookOpen, CalendarDays, Heart, PenLine } from 'lucide-react';
 
-export default function CoupleYearbookPage() {
-  return <CoupleYearbook />;
+const pages = [
+  { date: '28 OCT 2025', title: 'The chapter that began', copy: 'The day the proposal became a yes, and a future quietly started making room for both of us.' },
+  { date: 'NEPALGUNJ ↔ SAKAI', title: 'The chapter that travels', copy: 'Late-night calls, different clocks, and two places learning how to feel connected across a map.' },
+  { date: 'CHAU-CHAU · PANIPURI · MOMO', title: 'The chapter that tastes like home', copy: 'Food became our little language: ordinary bites carrying more affection than a grand speech could manage.' },
+  { date: 'THE NEXT EDITION', title: 'The chapter we have not written', copy: 'A light-blue scooter, Bardiya, Pokhara, Manang, Mustang, and the beautiful ordinary life after the distance.' },
+];
+
+export default function CoupleYearbookPage() { const [selected, setSelected] = useState(0); const page = pages[selected]; return <main className="min-h-dvh bg-[#f8f2e8] px-5 py-12 text-[#312a24] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b-4 border-double border-[#7c6651]/25 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#9b6547]"><BookOpen className="h-4 w-4" /> Abu & Samjhana · private yearbook</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">A yearbook for a story still becoming.</h1></div><p className="max-w-xs text-sm leading-7 text-[#776452]">Every edition gets a little more honest, a little more ours.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.72fr_1.28fr] lg:items-center"><nav className="space-y-3" aria-label="Yearbook pages">{pages.map((item, index) => <button key={item.date} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-[#9b6547] bg-white shadow-xl' : 'border-[#7c6651]/10 bg-white/45 hover:bg-white/80'}`}><span className="flex items-center justify-between text-[10px] font-black uppercase tracking-[0.18em] text-[#9b6547]"><span>Page 0{index + 1}</span><CalendarDays className="h-4 w-4" /></span><span className="mt-3 block text-lg font-black">{item.date}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#312a24] p-8 text-[#fff9ef] shadow-2xl sm:p-14"><PenLine className="h-10 w-10 text-amber-200" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-amber-200">{page.date}</p><h2 className="mt-5 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{page.title}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-white/70">{page.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-white/15 pt-6 text-sm font-black text-amber-200"><Heart className="h-4 w-4 fill-current text-rose-300" /> Written by Abu for his Bhuntu.</div></section></div></div></main>;
 }

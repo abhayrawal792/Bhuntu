@@ -51,11 +51,11 @@ couple-quiz2,Couple Quiz2,template_page-local,game-or-puzzle,none,M-MONO
 couple-quiz-master,Couple Quiz Master,template_CoupleQuizMaster,game-or-puzzle,none,M-SEPIA
 couple-recipe-book,Couple Recipe Book,template_CoupleRecipeBook,guided-interaction,none,M-ELECT
 couple-relationship-cert,Couple Relationship Cert,template_CoupleRelationshipCert,guided-interaction,none,M-WINE
-couple-soundtrack,Couple Soundtrack,template_CoupleSoundtrack,audio,none,M-PAPER
+couple-soundtrack,Couple Soundtrack,template_page-local,audio,none,M-PAPER
 couple-starry-planetarium,Couple Starry Planetarium,template_CoupleStarryPlanetarium,spatial-exploration,none,M-DAWN
 couple-superlatives,Couple Superlatives,template_CoupleSuperlatives,guided-interaction,none,M-GREY
 couple-travel-passport-stamps,Couple Travel Passport Stamps,template_CoupleTravelPassportStamps,visual-collection,none,M-FOREST
-couple-yearbook,Couple Yearbook,template_CoupleYearbook,guided-interaction,none,M-DUSK
+couple-yearbook,Couple Yearbook,template_page-local,spatial-exploration,none,M-DUSK
 couples-secret-handshake,Couples Secret Handshake,template_CouplesSecretHandshake,guided-interaction,none,M-FIELD
 coupon-vault,Coupon Vault,template_CouponVault,guided-interaction,none,M-FROST
 cupcake-decorator,Cupcake Decorator,template_CupcakeDecorator,guided-interaction,none,M-AMBER
@@ -100,7 +100,7 @@ little-things,Little Things,template_page-local,message-sequence,none,M-PAPER
 love-achievement-badges,Love Achievement Badges,template_LoveAchievementBadges,guided-interaction,none,M-DAWN
 love-advent-calendar,Love Advent Calendar,template_LoveAdventCalendar,time-reveal,none,M-GREY
 love-alarm,Love Alarm,template_page-local,message-sequence,none,M-FOREST
-love-anagram-solver,Love Anagram Solver,template_LoveAnagramSolver,guided-interaction,none,M-DUSK
+love-anagram-solver,Love Anagram Solver,template_page-local,message-sequence,none,M-DUSK
 love-aquarium,Love Aquarium,template_LoveAquarium,guided-interaction,none,M-FIELD
 love-arcade-dance-machine,Love Arcade Dance Machine,template_LoveArcadeDanceMachine,guided-interaction,none,M-FROST
 love-audio-visualizer2,Love Audio Visualizer2,template_LoveAudioVisualizer2,audio,none,M-AMBER
@@ -178,7 +178,7 @@ love-pet,Love Pet,template_VirtualLovePet,guided-interaction,none,M-FOREST
 love-photo-booth,Love Photo Booth,template_LovePhotoBooth,visual-collection,none,M-DUSK
 love-photo-mosaic-builder,Love Photo Mosaic Builder,template_LovePhotoMosaicBuilder,visual-collection,none,M-FIELD
 love-piano,Love Piano,template_LovePiano,audio,none,M-FROST
-love-pixel-art-creator,Love Pixel Art Creator,template_LovePixelArtCreator,guided-interaction,none,M-AMBER
+love-pixel-art-creator,Love Pixel Art Creator,template_page-local,visual-collection,none,M-AMBER
 love-poetry-fridge,Love Poetry Fridge,template_LovePoetryFridge,guided-interaction,none,M-GOLD
 love-potion-brewery2,Love Potion Brewery2,template_LovePotionBrewery2,guided-interaction,none,M-NIGHT
 love-potion-brewery,Love Potion Brewery,template_page-local,grow-or-assemble,none,M-BLUSH
@@ -205,7 +205,7 @@ love-spin-bottle,Love Spin Bottle,template_LoveSpinBottle,guided-interaction,non
 love-spinner3-d,Love Spinner3 D,template_page-local,randomized-choice,none,M-DAWN
 love-stamp-collection,Love Stamp Collection,template_LoveStampCollection,guided-interaction,none,M-GREY
 love-sweet-confectionery-bakery,Love Sweet Confectionery Bakery,template_LoveSweetConfectioneryBakery,guided-interaction,none,M-FOREST
-love-sweet-heart-paper-craft,Love Sweet Heart Paper Craft,template_LoveSweetHeartPaperCraft,letter-or-paper,none,M-DUSK
+love-sweet-heart-paper-craft,Love Sweet Heart Paper Craft,template_page-local,message-sequence,none,M-DUSK
 love-tamagotchi,Love Tamagotchi,template_LoveTamagotchi,guided-interaction,none,M-FIELD
 love-tarot-oracle2,Love Tarot Oracle2,template_LoveTarotOracle2,randomized-choice,none,M-FROST
 love-tarot,Love Tarot,template_LoveTarot,randomized-choice,none,M-AMBER

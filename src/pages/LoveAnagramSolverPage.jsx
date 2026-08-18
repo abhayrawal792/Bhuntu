@@ -1,6 +1,12 @@
-﻿import React from 'react';
-import LoveAnagramSolver from '../components/LoveAnagramSolver';
+﻿import React, { useState } from 'react';
+import { BookOpen, Heart, KeyRound, Sparkles } from 'lucide-react';
 
-export default function LoveAnagramSolverPage() {
-  return <LoveAnagramSolver />;
+const words = [
+  { scrambled: 'ABU', answer: 'Your name for me', copy: 'Three letters that changed how Abu hears his own name.' },
+  { scrambled: 'SANZU', answer: 'Your bright name', copy: 'A name that sounds like a smile arriving before the message is finished.' },
+  { scrambled: 'BEBE', answer: 'Your soft name', copy: 'The name Abu keeps for the gentlest, most affectionate moments.' },
+  { scrambled: 'BHUNTU', answer: 'My home word', copy: 'The word that makes a website, a promise, and a whole birthday trail feel worth building.' },
+];
+
+export default function LoveAnagramSolverPage() { const [selected, setSelected] = useState(0); const word = words[selected]; return <main className="min-h-dvh bg-[#e8e3da] px-5 py-12 text-[#292923] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b-2 border-[#292923]/20 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#8b4f39]"><BookOpen className="h-4 w-4" /> Abu’s word cabinet</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The right words were already in us.</h1></div><p className="max-w-xs text-sm leading-7 text-[#6e6252]">A cabinet of names and meanings Abu does not want to lose to ordinary language.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.7fr_1.3fr] lg:items-center"><nav className="grid gap-3 sm:grid-cols-2" aria-label="Word cabinet entries">{words.map((item, index) => <button key={item.scrambled} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border p-5 text-left transition ${selected === index ? 'border-[#8b4f39] bg-white shadow-xl' : 'border-[#6e6252]/15 bg-white/45 hover:bg-white/80'}`}><span className="block text-[10px] font-black uppercase tracking-[0.18em] text-[#8b4f39]">Entry 0{index + 1}</span><span className="mt-4 block font-mono text-2xl font-black tracking-[0.2em]">{item.scrambled}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#292923] p-8 text-[#fff9ef] shadow-2xl sm:p-14"><KeyRound className="h-10 w-10 text-amber-200" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-amber-200">Cabinet entry 0{selected + 1}</p><div className="mt-5 flex flex-wrap gap-2">{word.scrambled.split('').map((letter, index) => <span key={`${letter}-${index}`} className="grid h-12 w-12 place-items-center rounded-lg bg-white/10 font-mono text-2xl font-black text-amber-100">{letter}</span>)}</div><h2 className="mt-10 text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{word.answer}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-white/70">{word.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-white/15 pt-6 text-sm font-black text-amber-200"><Heart className="h-4 w-4 fill-current text-rose-300" /><Sparkles className="h-4 w-4" /> Abu knows the meaning now.</div></section></div></div></main>;
 }
