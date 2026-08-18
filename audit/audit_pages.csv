@@ -152,14 +152,14 @@ love-letter-archive-vault,Love Letter Archive Vault,template_page-local,message-
 love-letter-generator,Love Letter Generator,template_page-local,letter-or-paper,none,M-GOLD
 love-letter-in-balloon,Love Letter In Balloon,template_page-local,message-sequence,none,M-NIGHT
 love-letter-pop-up3-d,Love Letter Pop Up3 D,template_page-local,reveal,none,M-BLUSH
-love-lock-bridge,Love Lock Bridge,template_LoveLockBridge,guided-interaction,none,M-MONO
+love-lock-bridge,Love Lock Bridge,template_page-local,guided-interaction,none,M-MONO
 love-lottery,Love Lottery,template_page-local,grow-or-assemble,none,M-SEPIA
 love-love-story-comic-strip,Love Love Story Comic Strip,template_LoveLoveStoryComicStrip,guided-interaction,none,M-ELECT
-love-mad-libs,Love Mad Libs,template_LoveMadLibs,guided-interaction,none,M-WINE
-love-map-canvas,Love Map Canvas,template_LoveMapCanvas,guided-interaction,none,M-PAPER
+love-mad-libs,Love Mad Libs,template_page-local,guided-interaction,none,M-WINE
+love-map-canvas,Love Map Canvas,template_page-local,guided-interaction,none,M-PAPER
 love-maze,Love Maze,template_page-local,spatial-exploration,none,M-DAWN
-love-memory-cube3-d,Love Memory Cube3 D,template_LoveMemoryCube3D,spatial-exploration,none,M-GREY
-love-memory-film-strip,Love Memory Film Strip,template_LoveMemoryFilmStrip,guided-interaction,none,M-FOREST
+love-memory-cube3-d,Love Memory Cube3 D,template_page-local,spatial-exploration,none,M-GREY
+love-memory-film-strip,Love Memory Film Strip,template_page-local,guided-interaction,none,M-FOREST
 love-memory-flip,Love Memory Flip,template_LoveMemoryFlip,guided-interaction,none,M-DUSK
 love-memory-match3-d,Love Memory Match3 D,template_page-local,message-sequence,none,M-FIELD
 love-memory-match,Love Memory Match,template_LoveMemoryMatch,guided-interaction,none,M-FROST
