@@ -31,7 +31,7 @@ cloud-skywriter,Cloud Skywriter,template_CloudSkywriter,spatial-exploration,none
 compliment-jar,Compliment Jar,template_page-local,audio,none,M-AMBER
 cooking-game,Cooking Game,template_page-local,guided-interaction,none,M-GOLD
 couple-anniversary-clock,Couple Anniversary Clock,template_page-local,spatial-exploration,none,M-NIGHT
-couple-anniversary-timeline,Couple Anniversary Timeline,template_CoupleAnniversaryTimeline,time-reveal,none,M-BLUSH
+couple-anniversary-timeline,Couple Anniversary Timeline,template_page-local,spatial-exploration,none,M-BLUSH
 couple-bingo,Couple Bingo,template_page-local,game-or-puzzle,none,M-MONO
 couple-bucket-list2,Couple Bucket List2,template_page-local,message-sequence,none,M-SEPIA
 couple-bucket-list-globe,Couple Bucket List Globe,template_CoupleBucketListGlobe,spatial-exploration,none,M-ELECT
