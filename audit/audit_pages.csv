@@ -56,7 +56,7 @@ couple-starry-planetarium,Couple Starry Planetarium,template_page-local,spatial-
 couple-superlatives,Couple Superlatives,template_CoupleSuperlatives,guided-interaction,none,M-GREY
 couple-travel-passport-stamps,Couple Travel Passport Stamps,template_CoupleTravelPassportStamps,visual-collection,none,M-FOREST
 couple-yearbook,Couple Yearbook,template_page-local,spatial-exploration,none,M-DUSK
-couples-secret-handshake,Couples Secret Handshake,template_CouplesSecretHandshake,guided-interaction,none,M-FIELD
+couples-secret-handshake,Couples Secret Handshake,template_page-local,message-sequence,none,M-FIELD
 coupon-vault,Coupon Vault,template_CouponVault,guided-interaction,none,M-FROST
 cupcake-decorator,Cupcake Decorator,template_CupcakeDecorator,guided-interaction,none,M-AMBER
 cupid-archery,Cupid Archery,template_page-local,audio,none,M-GOLD
