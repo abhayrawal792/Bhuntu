@@ -8,7 +8,7 @@ bhuntu-emoji-arcade,Bhuntu Emoji Arcade,template_page-local,message-sequence,non
 bhuntu-emoji-comic,Bhuntu Emoji Comic,template_page-local,message-sequence,none,M-WINE
 bhuntu-love-polaroids,Bhuntu Love Polaroids,template_BhuntuLovePolaroids,visual-collection,none,M-PAPER
 bhuntu-nicknames-galaxy,Bhuntu Nicknames Galaxy,template_page-local,message-sequence,none,M-DAWN
-bhuntu-personality-quiz,Bhuntu Personality Quiz,template_BhuntuPersonalityQuiz,game-or-puzzle,none,M-GREY
+bhuntu-personality-quiz,Bhuntu Personality Quiz,template_page-local,game-or-puzzle,none,M-GREY
 bhuntu-photo-mosaic2,Bhuntu Photo Mosaic2,template_page-local,audio,none,M-FOREST
 bhuntu-trivia-showdown,Bhuntu Trivia Showdown,template_BhuntuTriviaShowdown,game-or-puzzle,none,M-DUSK
 bhuntu-trivia-wheel,Bhuntu Trivia Wheel,template_page-local,randomized-choice,none,M-FIELD
@@ -26,15 +26,15 @@ bubble-wrap,Bubble Wrap,template_page-local,message-sequence,none,M-DAWN
 bucket-list,Bucket List,template_page-local,visual-collection,none,M-GREY
 candle-blower,Candle Blower,template_page-local,grow-or-assemble,none,M-FOREST
 catcher-game,Catcher Game,template_HeartCatcherGame,guided-interaction,none,M-DUSK
-cherry-blossom-wish-tree,Cherry Blossom Wish Tree,template_CherryBlossomWishTree,grow-or-assemble,none,M-FIELD
-cloud-skywriter,Cloud Skywriter,template_CloudSkywriter,spatial-exploration,none,M-FROST
+cherry-blossom-wish-tree,Cherry Blossom Wish Tree,template_page-local,visual-collection,none,M-FIELD
+cloud-skywriter,Cloud Skywriter,template_page-local,message-sequence,none,M-FROST
 compliment-jar,Compliment Jar,template_page-local,audio,none,M-AMBER
 cooking-game,Cooking Game,template_page-local,guided-interaction,none,M-GOLD
 couple-anniversary-clock,Couple Anniversary Clock,template_page-local,spatial-exploration,none,M-NIGHT
 couple-anniversary-timeline,Couple Anniversary Timeline,template_page-local,spatial-exploration,none,M-BLUSH
 couple-bingo,Couple Bingo,template_page-local,game-or-puzzle,none,M-MONO
 couple-bucket-list2,Couple Bucket List2,template_page-local,message-sequence,none,M-SEPIA
-couple-bucket-list-globe,Couple Bucket List Globe,template_CoupleBucketListGlobe,spatial-exploration,none,M-ELECT
+couple-bucket-list-globe,Couple Bucket List Globe,template_page-local,audio,none,M-ELECT
 couple-bucket-list,Couple Bucket List,template_CoupleBucketList,guided-interaction,none,M-WINE
 couple-bucket-list-spinner,Couple Bucket List Spinner,template_CoupleBucketListSpinner,randomized-choice,none,M-PAPER
 couple-cookbook,Couple Cookbook,template_CoupleCookbook,guided-interaction,none,M-DAWN
