@@ -3,13 +3,13 @@ affirmations,Affirmations,template_LoveAffirmations,guided-interaction,none,M-GO
 anniversary-countdown-clock,Anniversary Countdown Clock,template_page-local,audio,none,M-NIGHT
 balloon-pop,Balloon Pop,template_BalloonPop,guided-interaction,none,M-BLUSH
 bento-box,Bento Box,template_page-local,guided-interaction,none,M-MONO
-bhuntu-comic-strip2,Bhuntu Comic Strip2,template_BhuntuComicStrip2,guided-interaction,none,M-SEPIA
-bhuntu-emoji-arcade,Bhuntu Emoji Arcade,template_BhuntuEmojiArcade,guided-interaction,none,M-ELECT
-bhuntu-emoji-comic,Bhuntu Emoji Comic,template_BhuntuEmojiComic,guided-interaction,none,M-WINE
+bhuntu-comic-strip2,Bhuntu Comic Strip2,template_page-local,grow-or-assemble,none,M-SEPIA
+bhuntu-emoji-arcade,Bhuntu Emoji Arcade,template_page-local,message-sequence,none,M-ELECT
+bhuntu-emoji-comic,Bhuntu Emoji Comic,template_page-local,message-sequence,none,M-WINE
 bhuntu-love-polaroids,Bhuntu Love Polaroids,template_BhuntuLovePolaroids,visual-collection,none,M-PAPER
-bhuntu-nicknames-galaxy,Bhuntu Nicknames Galaxy,template_BhuntuNicknamesGalaxy,guided-interaction,none,M-DAWN
+bhuntu-nicknames-galaxy,Bhuntu Nicknames Galaxy,template_page-local,message-sequence,none,M-DAWN
 bhuntu-personality-quiz,Bhuntu Personality Quiz,template_BhuntuPersonalityQuiz,game-or-puzzle,none,M-GREY
-bhuntu-photo-mosaic2,Bhuntu Photo Mosaic2,template_BhuntuPhotoMosaic2,visual-collection,none,M-FOREST
+bhuntu-photo-mosaic2,Bhuntu Photo Mosaic2,template_page-local,audio,none,M-FOREST
 bhuntu-trivia-showdown,Bhuntu Trivia Showdown,template_BhuntuTriviaShowdown,game-or-puzzle,none,M-DUSK
 bhuntu-trivia-wheel,Bhuntu Trivia Wheel,template_page-local,randomized-choice,none,M-FIELD
 bhuntu-voice-note-archive,Bhuntu Voice Note Archive,template_BhuntuVoiceNoteArchive,audio,none,M-FROST

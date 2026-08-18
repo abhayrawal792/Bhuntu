@@ -3,13 +3,13 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 002,anniversary-countdown-clock,LETTER,, ,Unique page idea: Anniversary Countdown Clock,audio,single-column,M-NIGHT,distinct,TYPE-A
 003,balloon-pop,CHAT,, ,Unique page idea: Balloon Pop,guided-interaction,split-screen,M-BLUSH,distinct,TYPE-A
 004,bento-box,WHY_I_LOVE,, ,Unique page idea: Bento Box,guided-interaction,typography-first,M-MONO,distinct,TYPE-A
-005,bhuntu-comic-strip2,FUTURE,, ,Unique page idea: Bhuntu Comic Strip2,guided-interaction,ui-simulation,M-SEPIA,distinct,TYPE-A
-006,bhuntu-emoji-arcade,SURPRISE,, ,Unique page idea: Bhuntu Emoji Arcade,guided-interaction,immersive-scroll,M-ELECT,distinct,TYPE-A
-007,bhuntu-emoji-comic,MILESTONE,, ,Unique page idea: Bhuntu Emoji Comic,guided-interaction,interactive-canvas,M-WINE,distinct,TYPE-A
+005,bhuntu-comic-strip2,FUTURE,, ,Unique page idea: Bhuntu Comic Strip2,grow-or-assemble,ui-simulation,M-SEPIA,distinct,TYPE-A
+006,bhuntu-emoji-arcade,SURPRISE,, ,Unique page idea: Bhuntu Emoji Arcade,message-sequence,immersive-scroll,M-ELECT,distinct,TYPE-A
+007,bhuntu-emoji-comic,MILESTONE,, ,Unique page idea: Bhuntu Emoji Comic,message-sequence,interactive-canvas,M-WINE,distinct,TYPE-A
 008,bhuntu-love-polaroids,SENSORY,, ,Unique page idea: Bhuntu Love Polaroids,visual-collection,masonry-grid,M-PAPER,distinct,TYPE-A
-009,bhuntu-nicknames-galaxy,MEMORY,, ,Unique page idea: Bhuntu Nicknames Galaxy,guided-interaction,editorial-two-column,M-DAWN,distinct,TYPE-A
+009,bhuntu-nicknames-galaxy,MEMORY,, ,Unique page idea: Bhuntu Nicknames Galaxy,message-sequence,editorial-two-column,M-DAWN,distinct,TYPE-A
 010,bhuntu-personality-quiz,LETTER,, ,Unique page idea: Bhuntu Personality Quiz,game-or-puzzle,horizontal-scroll,M-GREY,distinct,TYPE-A
-011,bhuntu-photo-mosaic2,CHAT,, ,Unique page idea: Bhuntu Photo Mosaic2,visual-collection,full-bleed-hero,M-FOREST,distinct,TYPE-A
+011,bhuntu-photo-mosaic2,CHAT,, ,Unique page idea: Bhuntu Photo Mosaic2,audio,full-bleed-hero,M-FOREST,distinct,TYPE-A
 012,bhuntu-trivia-showdown,WHY_I_LOVE,, ,Unique page idea: Bhuntu Trivia Showdown,game-or-puzzle,single-column,M-DUSK,distinct,TYPE-A
 013,bhuntu-trivia-wheel,FUTURE,, ,Unique page idea: Bhuntu Trivia Wheel,randomized-choice,split-screen,M-FIELD,distinct,TYPE-A
 014,bhuntu-voice-note-archive,SURPRISE,, ,Unique page idea: Bhuntu Voice Note Archive,audio,typography-first,M-FROST,distinct,TYPE-A
