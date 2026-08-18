@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import PageFooter from './components/PageFooter';
 import EasterEggModal from './components/EasterEggModal';
 import PersonalGiftLayer from './components/PersonalGiftLayer';
+import IndependentPageStage from './components/IndependentPageStage';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const CuratedJourneyPage = lazy(() => import('./pages/CuratedJourneyPage'));
@@ -362,14 +363,14 @@ function MainAppContent() {
 
       {hasEntered && (
         <>
-          {/* ── Route guard: enforces series navigation ── */}
+          {/* ---- Route guard: enforces series navigation ---- */}
           <RouteGuard />
 
-          {/* ── Navbar (fixed top, accounts for Dynamic Island via CSS) ── */}
+          {/* ---- Navbar (fixed top, accounts for Dynamic Island via CSS) ---- */}
           <Navbar />
 
           {/*
-            ── Main wrapper ──
+            ---- Main wrapper ----
             padding-top = navbar height (56px) + Dynamic Island safe-area
             padding-bottom = fixed footer height (52px) + home indicator safe-area
             This ONE wrapper handles ALL pages — no page needs its own padding.
@@ -389,8 +390,9 @@ function MainAppContent() {
         </div>
       </div>
     }>
+                <IndependentPageStage>
                 <Routes>
-              {/* ── Named routes ── */}
+              {/* -- Named routes -- */}
               <Route path="/"                  element={<HomePage />} />
               <Route path="/curated-journey"   element={<CuratedJourneyPage />} />
               <Route path="/story"             element={<StoryPage />} />
@@ -498,7 +500,7 @@ function MainAppContent() {
               <Route path="/love-wish-well" element={<LoveWishWellPage />} />
               <Route path="/love-grand-finale" element={<LoveGrandFinalePage />} />
 
-              {/* ── 20 NEW Interactive Pages ── */}
+              {/* ---- 20 NEW Interactive Pages ---- */}
               <Route path="/love-map-canvas" element={<LoveMapCanvasPage />} />
               <Route path="/heartbeat-drum-pad" element={<HeartbeatDrumPadPage />} />
               <Route path="/paper-airplane-messenger" element={<PaperAirplaneMessengerPage />} />
@@ -520,7 +522,7 @@ function MainAppContent() {
               <Route path="/romantic-karaoke" element={<RomanticKaraokePage />} />
               <Route path="/love-mirror-oracle" element={<LoveMirrorOraclePage />} />
 
-              {/* ── 19 NEW Unique Interactive Pages ── */}
+              {/* ---- 19 NEW Unique Interactive Pages ---- */}
               <Route path="/origami-crane" element={<OrigamiCranePage />} />
               <Route path="/star-drawer" element={<StarDrawerPage />} />
               <Route path="/birthday-wish-letter" element={<BirthdayWishLetterPage />} />
@@ -545,7 +547,7 @@ function MainAppContent() {
               <Route path="/word-jumble" element={<RomanceWordJumblePage />} />
               <Route path="/time-capsule-2" element={<BirthdayTimeCapsule2Page />} />
 
-              {/* ── 46 NEW Unique Interactive Pages to reach 200 Total Pages ── */}
+              {/* ---- 46 NEW Unique Interactive Pages to reach 200 Total Pages ---- */}
               <Route path="/love-compatibility-matrix" element={<LoveCompatibilityMatrixPage />} />
               <Route path="/future-house-builder" element={<FutureHouseBuilderPage />} />
               <Route path="/romantic-playlist-mixer" element={<RomanticPlaylistMixerPage />} />
@@ -592,7 +594,7 @@ function MainAppContent() {
               <Route path="/sweet-memory-scrapbook" element={<SweetMemoryScrapbookPage />} />
               <Route path="/love-coronation-ceremony" element={<LoveCoronationCeremonyPage />} />
 
-              {/* ── 11 NEW Romantic Interactive Pages (10,000 I Love You & Cute Experiences) ── */}
+              {/* ---- 11 NEW Romantic Interactive Pages (10,000 I Love You & Cute Experiences) ---- */}
               <Route path="/whatsapp-10k-love" element={<WhatsApp10kLovePage />} />
               <Route path="/cupid-radio-dj" element={<CupidRadioDJStationPage />} />
               <Route path="/constellation-stargazer" element={<LoveConstellationStargazerPage />} />
@@ -705,7 +707,7 @@ function MainAppContent() {
               <Route path="/hall-of-fame"      element={<HallOfFamePage />} />
 
 
-              {/* ── Room routes (12 rooms + extras) ── */}
+              {/* ---- Room routes (12 rooms + extras) ---- */}
               <Route path="/bonus-arcade" element={<BonusArcadePage />} />
               <Route path="/room/1"   element={<Room1Page />} />
               <Route path="/room/2"   element={<Room2Page />} />
@@ -720,11 +722,12 @@ function MainAppContent() {
               <Route path="/room/11"  element={<Room11Page />} />
               <Route path="/room/12"  element={<Room12Page />} />
               </Routes>
+                </IndependentPageStage>
               <PersonalGiftLayer />
               </Suspense>
           </main>
 
-          {/* ── Single global footer — fixed bottom, never duplicated ── */}
+          {/* ---- Single global footer — fixed bottom, never duplicated ---- */}
           <PageFooter />
 
           <AudioController

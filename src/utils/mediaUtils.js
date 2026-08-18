@@ -1,6 +1,6 @@
 export const PHOTOS_42 = Array.from({ length: 42 }, (_, i) => `photos/photo${i + 1}.jpg`);
 
-export const ALL_MEDIA_PHOTOS = [
+const RAW_MEDIA_PHOTOS = [
   "all_media/IMG-20260424-WA0005.jpg",
   "all_media/IMG-20260424-WA0012.jpg",
   "all_media/IMG-20260424-WA0074.jpg",
@@ -169,6 +169,13 @@ export const ALL_MEDIA_PHOTOS = [
   "all_media/IMG20260115095622.jpg",
   "all_media/IMG_20260614_193713_434.png"
 ];
+
+const shuffledMediaPhotos = [...RAW_MEDIA_PHOTOS];
+for (let i = shuffledMediaPhotos.length - 1; i > 0; i -= 1) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [shuffledMediaPhotos[i], shuffledMediaPhotos[j]] = [shuffledMediaPhotos[j], shuffledMediaPhotos[i]];
+}
+export const ALL_MEDIA_PHOTOS = shuffledMediaPhotos;
 
 export const ALL_PHOTOS = [
   ...ALL_MEDIA_PHOTOS
