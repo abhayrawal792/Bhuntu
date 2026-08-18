@@ -6,11 +6,11 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 |---|---:|
 | Routes scanned | 311 |
 | Pages with game signals | 59 |
-| Pages with gift signals | 93 |
+| Pages with gift signals | 94 |
 | Pages with romantic/personal signals | 261 |
 | Pages with memory/story signals | 101 |
-| Pages with surprise/reveal signals | 120 |
-| Pages missing at least one core gift dimension | 251 |
+| Pages with surprise/reveal signals | 121 |
+| Pages missing at least one core gift dimension | 250 |
 | Game-only pages needing rewrite | 5 |
 | Structural fingerprint groups with overlap | 4 |
 
@@ -19,13 +19,13 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 | Mechanic | Pages detected |
 |---|---:|
 | memory-reveal | 85 |
-| decorator | 14 |
+| decorator | 13 |
 | choice-reveal | 20 |
 | quiz | 10 |
 | scratch | 6 |
-| puzzle | 16 |
-| photo-game | 8 |
-| audio-game | 9 |
+| puzzle | 15 |
+| photo-game | 7 |
+| audio-game | 8 |
 
 ## Rewrite priorities
 

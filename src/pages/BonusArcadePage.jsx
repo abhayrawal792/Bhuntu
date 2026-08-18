@@ -1,65 +1,11 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Gamepad2, Sparkles, ArrowLeft, Heart } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
-import WorldShell from '../components/WorldShell';
+import React, { useState } from 'react';
+import { Archive, ArrowRight, Heart, Sparkles } from 'lucide-react';
 
-const BONUS_GAMES = [
-  { name: "Love Tic-Tac-Toe ❌⭕", path: "/tic-tac-toe", desc: "Classic 3-in-a-row heart game" },
-  { name: "Love Tetris 🧩", path: "/tetris", desc: "Falling block puzzle fun" },
-  { name: "Love Arcade Dance 💃", path: "/dance", desc: "Rhythm and arrow tap game" },
-  { name: "Love Butterfly Catcher 🦋", path: "/butterfly-catcher", desc: "Catch floating butterflies" },
-  { name: "Bubble Wrap Pop 🫧", path: "/bubble-wrap", desc: "Relaxing bubble wrap popping" },
-  { name: "Heart Tangram 🧩", path: "/tangram", desc: "Geometric heart puzzle" },
-  { name: "Love Doodle Canvas 🎨", path: "/doodle", desc: "Draw cute glowing love doodles" },
-  { name: "Love Kaleidoscope 🌀", path: "/kaleidoscope", desc: "Symmetrical rainbow visuals" },
-  { name: "Pixel Heart Painter 👾", path: "/pixel-painter", desc: "Retro pixel art designer" },
-  { name: "3D Photo Puzzle 🧩", path: "/photo-puzzle-3d", desc: "Assemble 3D photo blocks" },
-  { name: "Bhuntu Emoji Arcade 🕹️", path: "/emoji-arcade", desc: "Retro emoji arcade fun" },
-  { name: "Love Anagram Solver 🔤", path: "/anagram", desc: "Scramble & unscramble love words" },
-  { name: "Cupid Archery 🏹", path: "/archery", desc: "Aim & shoot love arrows" },
-  { name: "Heart Catcher Game 💖", path: "/catcher", desc: "Catch falling pink hearts" },
-  { name: "Love Maze 🧩", path: "/maze", desc: "Guide the heart through the maze" },
-  { name: "Love Slots 🎰", path: "/slots", desc: "Triple heart slot machine" },
-  { name: "Love Memory Match 🃏", path: "/memory-match", desc: "Flip and pair matching cards" },
-  { name: "Love Tamagotchi 🐱", path: "/pet", desc: "Virtual pet care simulator" }
+const entries = [
+  { label: 'The first door', title: 'How Abhay became Abu', copy: 'A nickname can be a tiny home. Samjhana gave Abu one, and the whole story started sounding more personal.' },
+  { label: 'The everyday shelf', title: 'The foods that became ours', copy: 'Chau-Chau, Panipuri, momo, and the ordinary details that became a private language between two people.' },
+  { label: 'The future drawer', title: 'Roads still waiting', copy: 'Bardiya, Pokhara, Manang, Mustang, and a light-blue scooter kept safe in the future plans drawer.' },
+  { label: 'The last note', title: 'What Abu wants Samjhana to remember', copy: 'The website is only a keepsake. The real gift is that Abu keeps choosing the details of you.' },
 ];
 
-export default function BonusArcadePage() {
-  const navigate = useNavigate();
-
-  return (
-    <WorldShell
-      theme="arcade"
-      badge="Bonus Games & Side Extras 🎮"
-      badgeIcon={<Gamepad2 className="w-3.5 h-3.5" />}
-      title="बोनस आर्केड र रमाइलो गेमहरू"
-      subtitle="Fun Side Arcade & Mini-Games"
-      description="A dedicated bonus corner for quick mini-games, puzzles, and arcade extras!"
-    >
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto my-6 text-left">
-        {BONUS_GAMES.map((game, i) => (
-          <motion.div
-            key={i}
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-            onClick={() => navigate(game.path)}
-            className="glass-card rounded-2xl p-5 border border-pink-300 shadow-md bg-white/90 cursor-pointer flex flex-col justify-between hover:border-rose-400 hover:shadow-xl transition-all"
-          >
-            <div>
-              <div className="flex items-center gap-2 mb-1.5 font-bold text-rose-600 font-ui text-sm">
-                <Heart className="w-4 h-4 text-pink-500 fill-pink-500 flex-shrink-0" />
-                <span>{game.name}</span>
-              </div>
-              <p className="text-xs text-gray-600 font-ui">{game.desc}</p>
-            </div>
-            <div className="mt-3 pt-2 border-t border-pink-100 flex items-center justify-between text-[11px] font-bold text-pink-600 font-ui">
-              <span>Play Game</span>
-              <Sparkles className="w-3.5 h-3.5" />
-            </div>
-          </motion.div>
-        ))}
-      </div>
-    </WorldShell>
-  );
-}
+export default function BonusArcadePage() { const [selected, setSelected] = useState(0); const entry = entries[selected]; return <main className="min-h-dvh bg-[#eee9df] px-5 py-12 text-[#2f2b27] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b-2 border-[#2f2b27]/20 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#9b5d40]"><Archive className="h-4 w-4" /> Private scrapbook index</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The side shelf is made of memories, not distractions.</h1></div><p className="max-w-xs text-sm leading-7 text-[#756556]">A quiet archive for the details Abu would still keep if the whole website became one folded letter.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="space-y-3" aria-label="Private scrapbook entries">{entries.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-[#9b5d40] bg-white shadow-xl' : 'border-[#756556]/10 bg-white/45 hover:bg-white/80'}`}><span className="block text-[10px] font-black uppercase tracking-[0.18em] text-[#9b5d40]">Entry 0{index + 1} · {item.label}</span><span className="mt-3 block text-xl font-black">{item.title}</span></button>)}</nav><section className="relative overflow-hidden rounded-[2rem] bg-[#2f2b27] p-8 text-[#fff8ed] shadow-2xl sm:p-14"><div className="absolute -right-10 -top-10 h-48 w-48 rounded-full border border-amber-100/20" /><Sparkles className="h-10 w-10 text-amber-200" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-amber-200">{entry.label}</p><h2 className="mt-5 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{entry.title}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-white/70">{entry.copy}</p><button type="button" onClick={() => setSelected((selected + 1) % entries.length)} className="mt-10 inline-flex items-center gap-2 rounded-full bg-amber-200 px-5 py-3 text-sm font-black text-[#2f2b27] transition hover:-translate-y-1 active:scale-[.98]">Open the next shelf <ArrowRight className="h-4 w-4" /></button><div className="mt-10 flex items-center gap-3 border-t border-white/15 pt-6 text-sm font-black text-amber-100"><Heart className="h-4 w-4 fill-current text-rose-300" /> Abu keeps this for his Bhuntu.</div></section></div></div></main>; }

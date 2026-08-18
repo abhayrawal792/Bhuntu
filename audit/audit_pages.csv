@@ -17,7 +17,7 @@ birthday-sky-letter,Birthday Sky Letter,template_page-local,randomized-choice,no
 birthday-time-capsule2,Birthday Time Capsule2,template_BirthdayTimeCapsule2,time-reveal,none,M-GOLD
 birthday-wish-letter,Birthday Wish Letter,template_page-local,reveal,none,M-NIGHT
 blessing-tree,Blessing Tree,template_page-local,grow-or-assemble,none,M-BLUSH
-bonus-arcade,Bonus Arcade,template_WorldShell,reveal,none,M-MONO
+bonus-arcade,Bonus Arcade,template_page-local,audio,none,M-MONO
 bottle,Bottle,template_MessageInBottle,message-sequence,none,M-SEPIA
 bouquet,Bouquet,template_BouquetSection,grow-or-assemble,none,M-ELECT
 bouquet-reasons,Bouquet Reasons,template_page-local,message-sequence,none,M-WINE
