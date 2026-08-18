@@ -6,7 +6,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Current batch status
 
-- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, seventy-six first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
+- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, eighty-one first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
 - **Source build:** passed with `npm run build`
 - **Experience-system audit:** passed
 - **Game policy:** passed — exactly 20 approved games, 20 detected in sequence, 0 errors
@@ -15,7 +15,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 - **Middle visual check:** passed — `/bento-box` rendered bespoke Bento content plus editorial keepsake variant
 - **Final visual check:** passed — `/room/12` rendered the three-chapter final keepsake and suppressed the global gift layer
 - **Interactive visual check:** passed on a museum-placard route; strict guard correctly rejected invalid local frontier tests
-- **Latest focused page batch:** Couple Bucket List, Couple Cookbook, Couple Escape Room, Couple Milestone Map, and Couple Superlatives now use five distinct non-game compositions with clean runtime and mobile verification
+- **Latest focused page batch:** Couple Bucket List Spinner, Couple Quiz Master, Couple Recipe Book, Couple Travel Passport Stamps, and Cupid Radio DJ Station now use five distinct non-game compositions with clean runtime and mobile verification
 - **Privacy surface:** passed — source HTML has `noindex, nofollow`; generated and public `robots.txt` both contain `Disallow: /`
 - **Deployment:** the previous batch is synchronized to `origin/main`; this new batch is validated locally and ready to commit and push
 - **Latest regression:** passed after restarting the local preview service — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
@@ -43,7 +43,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Next queued batch
 
-1. Audit the next thin wrappers after the completed comic, nickname, and photo batch and choose five safe bespoke replacements.
+1. Audit the next thin wrappers after the completed bucket-list, recipe, passport, conversation, and radio batch and choose five safe bespoke replacements.
 2. Improve the next batch without changing the 263-route sequence or 20-game policy.
 3. Run the full build, policy, 263-route runtime, mobile smoke, diff, and prohibited-word checks.
 4. Build, run all audits, the full runtime sweep, and the mobile smoke test.
@@ -51,4 +51,4 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Last saved status log
 
-The first upgraded batch, accessibility/mobile batch, twenty-three successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, public deployment verification, and the latest local five-page batch validation are complete. Commit and push this batch, then begin the next unsequenced thin-page batch.
+The first upgraded batch, accessibility/mobile batch, twenty-four successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, public deployment verification, and the latest local five-page batch validation are complete. Commit and push this batch, then begin the next unsequenced thin-page batch.

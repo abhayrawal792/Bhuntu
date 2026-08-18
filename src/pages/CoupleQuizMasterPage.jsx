@@ -1,6 +1,4 @@
-import React from 'react';
-import CoupleQuizMaster from '../components/CoupleQuizMaster';
-
-export default function CoupleQuizMasterPage() {
-  return <CoupleQuizMaster />;
-}
+import React, { useState } from 'react';
+import { Heart, MessageCircle, Sparkles } from 'lucide-react';
+const prompts = ['Tell Abu one tiny detail from your day that you want him to remember.', 'Which future road should carry the first photograph of Abu and Sanu?', 'What nickname feels most like home tonight?'];
+export default function CoupleQuizMasterPage() { const [prompt, setPrompt] = useState(0); return <main className="min-h-dvh bg-[#f4e9f0] px-5 py-12 text-[#3d3044] sm:px-10 sm:py-16"><div className="mx-auto max-w-5xl"><p className="text-[10px] font-black uppercase tracking-[0.3em] text-[#a85f76]">A conversation salon · Abu asks Samjhana</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.88] tracking-[-0.08em] sm:text-8xl">The best answers are the ones we keep talking about.</h1><section className="mt-12 rounded-[2rem] bg-[#3d3044] p-8 text-[#fff7ee] shadow-[12px_12px_0_rgba(61,48,68,.18)] sm:p-14"><MessageCircle className="h-9 w-9 text-[#f0b7c4]" /><p className="mt-16 text-[10px] font-black uppercase tracking-[0.25em] text-[#f0b7c4]">Prompt 0{prompt + 1}</p><h2 className="mt-5 max-w-3xl text-5xl font-black leading-[.92] tracking-[-0.07em] sm:text-7xl">{prompts[prompt]}</h2><div className="mt-12 flex flex-wrap gap-3">{prompts.map((_, index) => <button key={index} type="button" onClick={() => setPrompt(index)} className="rounded-full border border-white/25 px-5 py-3 text-sm font-black hover:bg-white/10">Open prompt 0{index + 1}</button>)}</div><p className="mt-14 flex items-center gap-2 border-t border-white/15 pt-5 text-sm font-black text-[#f0b7c4]"><Sparkles className="h-4 w-4" /> Abu wants the answer, not a score. <Heart className="ml-auto h-4 w-4 fill-current" /></p></section></div></main>; }

@@ -1,12 +1,29 @@
 [
   {
-    "url": "http://127.0.0.1:4177/Bhuntu/#/gallery",
-    "textLength": 2752,
+    "url": "http://127.0.0.1:4177/Bhuntu/",
+    "textLength": 1191,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 4633
+      "scrollHeight": 2318
+    },
+    "horizontalOverflow": false,
+    "missingAlt": 0,
+    "emptyInteractive": 0,
+    "disabledVisible": 0,
+    "stage": "paper-letter",
+    "giftVariant": null,
+    "route": "/gallery"
+  },
+  {
+    "url": "http://127.0.0.1:4177/Bhuntu/#/gallery",
+    "textLength": 2782,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 4657
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
@@ -14,11 +31,11 @@
     "disabledVisible": 0,
     "stage": "ink-noir",
     "giftVariant": "editorial",
-    "route": "/gallery"
+    "route": "/bento-box"
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/video",
-    "textLength": 1316,
+    "textLength": 1347,
     "viewport": {
       "width": 390,
       "height": 844,
@@ -31,16 +48,16 @@
     "disabledVisible": 0,
     "stage": "sakura-air",
     "giftVariant": "contact",
-    "route": "/bento-box"
+    "route": "/love-languages-quiz"
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/letter",
-    "textLength": 1026,
+    "textLength": 941,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 2200
+      "scrollHeight": 2144
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
@@ -48,16 +65,16 @@
     "disabledVisible": 0,
     "stage": "blue-hour",
     "giftVariant": "postcard",
-    "route": "/love-languages-quiz"
+    "route": "/love-grand-finale"
   },
   {
     "url": "http://127.0.0.1:4177/Bhuntu/#/bouquet",
-    "textLength": 2078,
+    "textLength": 2041,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 3802
+      "scrollHeight": 3774
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
@@ -65,23 +82,6 @@
     "disabledVisible": 0,
     "stage": "film-negative",
     "giftVariant": "editorial",
-    "route": "/love-grand-finale"
-  },
-  {
-    "url": "http://127.0.0.1:4177/Bhuntu/#/distance",
-    "textLength": 1469,
-    "viewport": {
-      "width": 390,
-      "height": 844,
-      "scrollWidth": 390,
-      "scrollHeight": 2766
-    },
-    "horizontalOverflow": false,
-    "missingAlt": 0,
-    "emptyInteractive": 0,
-    "disabledVisible": 0,
-    "stage": "mint-desk",
-    "giftVariant": "ticket",
     "route": "/room/12"
   }
 ]
