@@ -1,0 +1,1 @@
+var e=(e,t=`💖 Special Message from Bhuntu Site`)=>{if(!e||typeof e!=`string`)return;let n=`*${t}*\n\n${e.trim()}\n\n~ Sent with love from your birthday site ✨`,r=`https://wa.me/9779708349123?text=${encodeURIComponent(n)}`;window.open(r,`_blank`,`noopener,noreferrer`)};export{e as t};
