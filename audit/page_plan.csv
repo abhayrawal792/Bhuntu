@@ -35,14 +35,14 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 034,couple-bingo,LETTER,, ,Unique page idea: Couple Bingo,game-or-puzzle,typography-first,M-MONO,distinct,TYPE-A
 035,couple-bucket-list2,CHAT,, ,Unique page idea: Couple Bucket List2,message-sequence,ui-simulation,M-SEPIA,distinct,TYPE-A
 036,couple-bucket-list-globe,WHY_I_LOVE,, ,Unique page idea: Couple Bucket List Globe,audio,immersive-scroll,M-ELECT,distinct,TYPE-A
-037,couple-bucket-list,FUTURE,, ,Unique page idea: Couple Bucket List,guided-interaction,interactive-canvas,M-WINE,distinct,TYPE-A
+037,couple-bucket-list,FUTURE,, ,Unique page idea: Couple Bucket List,visual-collection,interactive-canvas,M-WINE,distinct,TYPE-A
 038,couple-bucket-list-spinner,SURPRISE,, ,Unique page idea: Couple Bucket List Spinner,randomized-choice,masonry-grid,M-PAPER,distinct,TYPE-A
-039,couple-cookbook,MILESTONE,, ,Unique page idea: Couple Cookbook,guided-interaction,editorial-two-column,M-DAWN,distinct,TYPE-A
+039,couple-cookbook,MILESTONE,, ,Unique page idea: Couple Cookbook,audio,editorial-two-column,M-DAWN,distinct,TYPE-A
 040,couple-daily-horoscope,SENSORY,, ,Unique page idea: Couple Daily Horoscope,randomized-choice,horizontal-scroll,M-GREY,distinct,TYPE-A
-041,couple-escape-room,MEMORY,, ,Unique page idea: Couple Escape Room,guided-interaction,full-bleed-hero,M-FOREST,distinct,TYPE-A
+041,couple-escape-room,MEMORY,, ,Unique page idea: Couple Escape Room,reveal,full-bleed-hero,M-FOREST,distinct,TYPE-A
 042,couple-future-home3-d,LETTER,, ,Unique page idea: Couple Future Home3 D,spatial-exploration,single-column,M-DUSK,distinct,TYPE-A
 043,couple-milestone-map2,CHAT,, ,Unique page idea: Couple Milestone Map2,message-sequence,split-screen,M-FIELD,distinct,TYPE-A
-044,couple-milestone-map,WHY_I_LOVE,, ,Unique page idea: Couple Milestone Map,guided-interaction,typography-first,M-FROST,distinct,TYPE-A
+044,couple-milestone-map,WHY_I_LOVE,, ,Unique page idea: Couple Milestone Map,time-reveal,typography-first,M-FROST,distinct,TYPE-A
 045,couple-movie-marathon,FUTURE,, ,Unique page idea: Couple Movie Marathon,audio,ui-simulation,M-AMBER,distinct,TYPE-A
 046,couple-movie-night,SURPRISE,, ,Unique page idea: Couple Movie Night,message-sequence,immersive-scroll,M-GOLD,distinct,TYPE-A
 047,couple-nickname-generator,MILESTONE,, ,Unique page idea: Couple Nickname Generator,guided-interaction,interactive-canvas,M-NIGHT,distinct,TYPE-A
@@ -53,7 +53,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 052,couple-relationship-cert,WHY_I_LOVE,, ,Unique page idea: Couple Relationship Cert,guided-interaction,single-column,M-WINE,distinct,TYPE-A
 053,couple-soundtrack,FUTURE,, ,Unique page idea: Couple Soundtrack,audio,split-screen,M-PAPER,distinct,TYPE-A
 054,couple-starry-planetarium,SURPRISE,, ,Unique page idea: Couple Starry Planetarium,spatial-exploration,typography-first,M-DAWN,distinct,TYPE-A
-055,couple-superlatives,MILESTONE,, ,Unique page idea: Couple Superlatives,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
+055,couple-superlatives,MILESTONE,, ,Unique page idea: Couple Superlatives,message-sequence,ui-simulation,M-GREY,distinct,TYPE-A
 056,couple-travel-passport-stamps,SENSORY,, ,Unique page idea: Couple Travel Passport Stamps,visual-collection,immersive-scroll,M-FOREST,distinct,TYPE-A
 057,couple-yearbook,MEMORY,, ,Unique page idea: Couple Yearbook,spatial-exploration,interactive-canvas,M-DUSK,distinct,TYPE-A
 058,couples-secret-handshake,LETTER,, ,Unique page idea: Couples Secret Handshake,message-sequence,masonry-grid,M-FIELD,distinct,TYPE-A

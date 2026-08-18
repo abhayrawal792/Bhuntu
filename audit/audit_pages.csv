@@ -35,14 +35,14 @@ couple-anniversary-timeline,Couple Anniversary Timeline,template_page-local,spat
 couple-bingo,Couple Bingo,template_page-local,game-or-puzzle,none,M-MONO
 couple-bucket-list2,Couple Bucket List2,template_page-local,message-sequence,none,M-SEPIA
 couple-bucket-list-globe,Couple Bucket List Globe,template_page-local,audio,none,M-ELECT
-couple-bucket-list,Couple Bucket List,template_CoupleBucketList,guided-interaction,none,M-WINE
+couple-bucket-list,Couple Bucket List,template_page-local,visual-collection,none,M-WINE
 couple-bucket-list-spinner,Couple Bucket List Spinner,template_CoupleBucketListSpinner,randomized-choice,none,M-PAPER
-couple-cookbook,Couple Cookbook,template_CoupleCookbook,guided-interaction,none,M-DAWN
+couple-cookbook,Couple Cookbook,template_page-local,audio,none,M-DAWN
 couple-daily-horoscope,Couple Daily Horoscope,template_page-local,randomized-choice,none,M-GREY
-couple-escape-room,Couple Escape Room,template_CoupleEscapeRoom,guided-interaction,none,M-FOREST
+couple-escape-room,Couple Escape Room,template_page-local,reveal,none,M-FOREST
 couple-future-home3-d,Couple Future Home3 D,template_page-local,spatial-exploration,none,M-DUSK
 couple-milestone-map2,Couple Milestone Map2,template_page-local,message-sequence,none,M-FIELD
-couple-milestone-map,Couple Milestone Map,template_CoupleMilestoneMap,guided-interaction,none,M-FROST
+couple-milestone-map,Couple Milestone Map,template_page-local,time-reveal,none,M-FROST
 couple-movie-marathon,Couple Movie Marathon,template_page-local,audio,none,M-AMBER
 couple-movie-night,Couple Movie Night,template_page-local,message-sequence,none,M-GOLD
 couple-nickname-generator,Couple Nickname Generator,template_page-local,guided-interaction,none,M-NIGHT
@@ -53,7 +53,7 @@ couple-recipe-book,Couple Recipe Book,template_CoupleRecipeBook,guided-interacti
 couple-relationship-cert,Couple Relationship Cert,template_page-local,guided-interaction,none,M-WINE
 couple-soundtrack,Couple Soundtrack,template_page-local,audio,none,M-PAPER
 couple-starry-planetarium,Couple Starry Planetarium,template_page-local,spatial-exploration,none,M-DAWN
-couple-superlatives,Couple Superlatives,template_CoupleSuperlatives,guided-interaction,none,M-GREY
+couple-superlatives,Couple Superlatives,template_page-local,message-sequence,none,M-GREY
 couple-travel-passport-stamps,Couple Travel Passport Stamps,template_CoupleTravelPassportStamps,visual-collection,none,M-FOREST
 couple-yearbook,Couple Yearbook,template_page-local,spatial-exploration,none,M-DUSK
 couples-secret-handshake,Couples Secret Handshake,template_page-local,message-sequence,none,M-FIELD
