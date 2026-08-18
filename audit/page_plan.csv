@@ -134,16 +134,16 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 133,love-fortune-cookie-jar,FUTURE,, ,Unique page idea: Love Fortune Cookie Jar,randomized-choice,split-screen,M-FIELD,distinct,TYPE-A
 134,love-fortune-cookie,SURPRISE,, ,Unique page idea: Love Fortune Cookie,randomized-choice,typography-first,M-FROST,distinct,TYPE-A
 135,love-fortune-teller-origami,MILESTONE,, ,Unique page idea: Love Fortune Teller Origami,randomized-choice,ui-simulation,M-AMBER,distinct,TYPE-A
-136,love-frequency-tuner,SENSORY,, ,Unique page idea: Love Frequency Tuner,guided-interaction,immersive-scroll,M-GOLD,distinct,TYPE-A
-137,love-graffiti-wall,MEMORY,, ,Unique page idea: Love Graffiti Wall,guided-interaction,interactive-canvas,M-NIGHT,distinct,TYPE-A
+136,love-frequency-tuner,SENSORY,, ,Unique page idea: Love Frequency Tuner,audio,immersive-scroll,M-GOLD,distinct,TYPE-A
+137,love-graffiti-wall,MEMORY,, ,Unique page idea: Love Graffiti Wall,message-sequence,interactive-canvas,M-NIGHT,distinct,TYPE-A
 138,love-grand-finale,LETTER,, ,Unique page idea: Love Grand Finale,guided-interaction,masonry-grid,M-BLUSH,distinct,TYPE-A
 139,love-grand-finale-second,CHAT,, ,Unique page idea: Love Grand Finale Second,message-sequence,editorial-two-column,M-MONO,distinct,TYPE-A
-140,love-heart-nebula3-d,WHY_I_LOVE,, ,Unique page idea: Love Heart Nebula3 D,spatial-exploration,horizontal-scroll,M-SEPIA,distinct,TYPE-A
+140,love-heart-nebula3-d,WHY_I_LOVE,, ,Unique page idea: Love Heart Nebula3 D,audio,horizontal-scroll,M-SEPIA,distinct,TYPE-A
 141,love-horoscope-daily,FUTURE,, ,Unique page idea: Love Horoscope Daily,randomized-choice,full-bleed-hero,M-ELECT,distinct,TYPE-A
 142,love-horoscope-wheel,SURPRISE,, ,Unique page idea: Love Horoscope Wheel,randomized-choice,single-column,M-WINE,distinct,TYPE-A
 143,love-jar-notes,MILESTONE,, ,Unique page idea: Love Jar Notes,message-sequence,split-screen,M-PAPER,distinct,TYPE-A
 144,love-journal-prompt,SENSORY,, ,Unique page idea: Love Journal Prompt,letter-or-paper,typography-first,M-DAWN,distinct,TYPE-A
-145,love-kaleidoscope,MEMORY,, ,Unique page idea: Love Kaleidoscope,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
+145,love-kaleidoscope,MEMORY,, ,Unique page idea: Love Kaleidoscope,spatial-exploration,ui-simulation,M-GREY,distinct,TYPE-A
 146,love-keychain-customizer,LETTER,, ,Unique page idea: Love Keychain Customizer,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
 147,love-language-test,CHAT,, ,Unique page idea: Love Language Test,message-sequence,interactive-canvas,M-DUSK,distinct,TYPE-A
 148,love-languages-quiz,WHY_I_LOVE,, ,Unique page idea: Love Languages Quiz,game-or-puzzle,masonry-grid,M-FIELD,distinct,TYPE-A
