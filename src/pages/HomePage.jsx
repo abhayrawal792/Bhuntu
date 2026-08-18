@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { ArrowDown, ArrowRight, Gift, Heart, LockKeyhole, Sparkles } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { nicknameFor, personalVoice } from '../data/personalVoice';
+import { ROOM_SEQUENCE } from '../data/roomSequence';
 
 const ribbons = [
   { label: 'The name Abu kept', copy: 'You called Abhay “Abu,” and that little name became a home I carry everywhere.', color: 'from-rose-200 via-orange-100 to-amber-100' },
@@ -38,7 +39,7 @@ export default function HomePage() {
               <button type="button" onClick={() => setOpened(true)} className="group inline-flex items-center gap-3 rounded-full bg-[#321526] px-6 py-4 text-sm font-bold text-white shadow-[0_16px_30px_rgba(50,21,38,.22)] transition hover:-translate-y-1 hover:bg-[#4e1d3a] active:scale-[.98]">
                 <Gift className="h-5 w-5 transition group-hover:rotate-12" /> Open Abu’s first gift
               </button>
-              <button type="button" onClick={() => navigate('/curated-journey')} className="inline-flex items-center gap-2 rounded-full border border-rose-200 bg-white/60 px-5 py-4 text-sm font-bold text-rose-700 transition hover:bg-white active:scale-[.98]">
+              <button type="button" onClick={() => navigate(ROOM_SEQUENCE[1])} className="inline-flex items-center gap-2 rounded-full border border-rose-200 bg-white/60 px-5 py-4 text-sm font-bold text-rose-700 transition hover:bg-white active:scale-[.98]">
                 Follow Abu’s trail <ArrowRight className="h-4 w-4" />
               </button>
             </div>
@@ -80,7 +81,7 @@ export default function HomePage() {
       </section>
 
       {opened && <div className="fixed inset-0 z-50 grid place-items-center bg-[#24121f]/55 p-5 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label="First gift opened">
-        <div className="relative w-full max-w-md rounded-[2rem] bg-[#fffaf6] p-8 text-center shadow-2xl"><button type="button" onClick={() => setOpened(false)} className="absolute right-5 top-5 text-sm font-bold text-[#9a6b7c]">Close</button><div className="mx-auto grid h-16 w-16 place-items-center rounded-3xl bg-rose-100 text-rose-600"><Gift className="h-8 w-8" /></div><p className="mt-6 text-xs font-bold uppercase tracking-[0.25em] text-rose-500">Abu’s first gift unlocked</p><h2 className="mt-3 text-3xl font-black tracking-[-0.05em] text-[#351624]">Sanzu, you are Abu’s best surprise.</h2><p className="mt-4 leading-7 text-[#744e5b]">From Nepalgunj to Sakai, the rest of the trail is waiting: a small birthday world for my Bhuntu, my Bhoot, my Sanu, my Babe, my Runchi, and my forever person.</p><button type="button" onClick={() => navigate('/curated-journey')} className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#351624] px-5 py-3 text-sm font-bold text-white">Continue <ArrowRight className="h-4 w-4" /></button></div>
+        <div className="relative w-full max-w-md rounded-[2rem] bg-[#fffaf6] p-8 text-center shadow-2xl"><button type="button" onClick={() => setOpened(false)} className="absolute right-5 top-5 text-sm font-bold text-[#9a6b7c]">Close</button><div className="mx-auto grid h-16 w-16 place-items-center rounded-3xl bg-rose-100 text-rose-600"><Gift className="h-8 w-8" /></div><p className="mt-6 text-xs font-bold uppercase tracking-[0.25em] text-rose-500">Abu’s first gift unlocked</p><h2 className="mt-3 text-3xl font-black tracking-[-0.05em] text-[#351624]">Sanzu, you are Abu’s best surprise.</h2><p className="mt-4 leading-7 text-[#744e5b]">From Nepalgunj to Sakai, the rest of the trail is waiting: a small birthday world for my Bhuntu, my Bhoot, my Sanu, my Babe, my Runchi, and my forever person.</p><button type="button" onClick={() => navigate(ROOM_SEQUENCE[1])} className="mt-7 inline-flex items-center gap-2 rounded-full bg-[#351624] px-5 py-3 text-sm font-bold text-white">Continue <ArrowRight className="h-4 w-4" /></button></div>
       </div>}
     </main>
   );
