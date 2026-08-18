@@ -163,12 +163,12 @@ love-memory-film-strip,Love Memory Film Strip,template_page-local,guided-interac
 love-memory-flip,Love Memory Flip,template_LoveMemoryFlip,guided-interaction,none,M-DUSK
 love-memory-match3-d,Love Memory Match3 D,template_page-local,message-sequence,none,M-FIELD
 love-memory-match,Love Memory Match,template_LoveMemoryMatch,guided-interaction,none,M-FROST
-love-memory-tree3-d,Love Memory Tree3 D,template_LoveMemoryTree3D,grow-or-assemble,none,M-AMBER
-love-message-in-abottle-ocean,Love Message In ABottle Ocean,template_LoveMessageInABottleOcean,message-sequence,none,M-GOLD
-love-meteor-shower,Love Meteor Shower,template_LoveMeteorShower,guided-interaction,none,M-NIGHT
+love-memory-tree3-d,Love Memory Tree3 D,template_page-local,grow-or-assemble,none,M-AMBER
+love-message-in-abottle-ocean,Love Message In ABottle Ocean,template_page-local,message-sequence,none,M-GOLD
+love-meteor-shower,Love Meteor Shower,template_page-local,spatial-exploration,none,M-NIGHT
 love-meter-deluxe,Love Meter Deluxe,template_page-local,guided-interaction,none,M-BLUSH
-love-mirror-oracle,Love Mirror Oracle,template_LoveMirrorOracle,guided-interaction,none,M-MONO
-love-music-box-carousel,Love Music Box Carousel,template_LoveMusicBoxCarousel,audio,none,M-SEPIA
+love-mirror-oracle,Love Mirror Oracle,template_page-local,spatial-exploration,none,M-MONO
+love-music-box-carousel,Love Music Box Carousel,template_page-local,audio,none,M-SEPIA
 love-neon-sign-designer,Love Neon Sign Designer,template_LoveNeonSignDesigner,guided-interaction,none,M-ELECT
 love-neon-sign-gallery,Love Neon Sign Gallery,template_page-local,visual-collection,none,M-WINE
 love-notes-wall,Love Notes Wall,template_page-local,guided-interaction,none,M-PAPER
