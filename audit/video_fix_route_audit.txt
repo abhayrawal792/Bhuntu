@@ -1,0 +1,10 @@
+{
+  "registered": 311,
+  "inSequence": 263,
+  "outsideSequence": 48,
+  "missingImports": 0,
+  "unknownNavigation": 0,
+  "exactDuplicateGroups": 0,
+  "highBoredom": 31,
+  "output": "audit/all_registered_pages_code_audit.md"
+}
