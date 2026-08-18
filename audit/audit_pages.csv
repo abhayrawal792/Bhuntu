@@ -63,17 +63,17 @@ cupid-archery,Cupid Archery,template_page-local,audio,none,M-GOLD
 cupid-radio-djstation,Cupid Radio DJStation,template_page-local,audio,none,M-NIGHT
 curated-journey,Curated Journey,template_page-local,audio,none,M-BLUSH
 distance,Distance,template_NepalgunjToOsakaFlightSim,guided-interaction,none,M-MONO
-dragon-princess-adventure,Dragon Princess Adventure,template_DragonPrincessAdventure,guided-interaction,none,M-SEPIA
+dragon-princess-adventure,Dragon Princess Adventure,template_page-local,audio,none,M-SEPIA
 emoji-art-canvas,Emoji Art Canvas,template_page-local,message-sequence,none,M-ELECT
 emoji-story,Emoji Story,template_EmojiStory,guided-interaction,none,M-WINE
-enchanted-crystal-ball,Enchanted Crystal Ball,template_EnchantedCrystalBall,guided-interaction,none,M-PAPER
+enchanted-crystal-ball,Enchanted Crystal Ball,template_page-local,visual-collection,none,M-PAPER
 enchanted-rose-garden,Enchanted Rose Garden,template_page-local,grow-or-assemble,none,M-DAWN
-fairy-tale-generator,Fairy Tale Generator,template_FairyTaleGenerator,guided-interaction,none,M-GREY
+fairy-tale-generator,Fairy Tale Generator,template_page-local,guided-interaction,none,M-GREY
 ferris-wheel,Ferris Wheel,template_page-local,randomized-choice,none,M-FOREST
 firework-maker,Firework Maker,template_page-local,grow-or-assemble,none,M-DUSK
 fireworks,Fireworks,template_page-local,reveal,none,M-FIELD
 first-moments-timeline,First Moments Timeline,template_FirstMomentsTimeline,time-reveal,none,M-FROST
-fortune-cookie-love,Fortune Cookie Love,template_FortuneCookieLove,randomized-choice,none,M-AMBER
+fortune-cookie-love,Fortune Cookie Love,template_page-local,randomized-choice,none,M-AMBER
 fortune-cookie,Fortune Cookie,template_FortuneCookie,randomized-choice,none,M-GOLD
 four-seasons-of-love,Four Seasons Of Love,template_FourSeasonsOfLove,guided-interaction,none,M-NIGHT
 future-house-builder,Future House Builder,template_page-local,visual-collection,none,M-BLUSH

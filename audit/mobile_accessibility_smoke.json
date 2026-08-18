@@ -1,87 +1,87 @@
 [
   {
-    "url": "http://127.0.0.1:4177/Bhuntu/",
-    "textLength": 1191,
+    "url": "http://127.0.0.1:4177/Bhuntu/#/room/12",
+    "textLength": 1038,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 2318
+      "scrollHeight": 2088
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
     "emptyInteractive": 0,
-    "disabledVisible": 0,
-    "stage": "paper-letter",
+    "disabledVisible": 1,
+    "stage": "quiet-sunrise",
     "giftVariant": null,
     "route": "/gallery"
   },
   {
-    "url": "http://127.0.0.1:4177/Bhuntu/#/gallery",
-    "textLength": 2782,
+    "url": "http://127.0.0.1:4177/Bhuntu/#/room/12",
+    "textLength": 1035,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 4657
+      "scrollHeight": 2092
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
     "emptyInteractive": 0,
-    "disabledVisible": 0,
-    "stage": "ink-noir",
-    "giftVariant": "editorial",
+    "disabledVisible": 1,
+    "stage": "quiet-sunrise",
+    "giftVariant": null,
     "route": "/bento-box"
   },
   {
-    "url": "http://127.0.0.1:4177/Bhuntu/#/video",
-    "textLength": 1347,
+    "url": "http://127.0.0.1:4177/Bhuntu/#/room/12",
+    "textLength": 1054,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 2920
+      "scrollHeight": 2092
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
     "emptyInteractive": 0,
-    "disabledVisible": 0,
-    "stage": "sakura-air",
-    "giftVariant": "contact",
+    "disabledVisible": 1,
+    "stage": "quiet-sunrise",
+    "giftVariant": null,
     "route": "/love-languages-quiz"
   },
   {
-    "url": "http://127.0.0.1:4177/Bhuntu/#/letter",
-    "textLength": 941,
+    "url": "http://127.0.0.1:4177/Bhuntu/#/room/12",
+    "textLength": 1027,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 2144
+      "scrollHeight": 2088
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
     "emptyInteractive": 0,
-    "disabledVisible": 0,
-    "stage": "blue-hour",
-    "giftVariant": "postcard",
+    "disabledVisible": 1,
+    "stage": "quiet-sunrise",
+    "giftVariant": null,
     "route": "/love-grand-finale"
   },
   {
-    "url": "http://127.0.0.1:4177/Bhuntu/#/bouquet",
-    "textLength": 2041,
+    "url": "http://127.0.0.1:4177/Bhuntu/#/room/12",
+    "textLength": 1027,
     "viewport": {
       "width": 390,
       "height": 844,
       "scrollWidth": 390,
-      "scrollHeight": 3774
+      "scrollHeight": 2088
     },
     "horizontalOverflow": false,
     "missingAlt": 0,
     "emptyInteractive": 0,
-    "disabledVisible": 0,
-    "stage": "film-negative",
-    "giftVariant": "editorial",
+    "disabledVisible": 1,
+    "stage": "quiet-sunrise",
+    "giftVariant": null,
     "route": "/room/12"
   }
 ]
