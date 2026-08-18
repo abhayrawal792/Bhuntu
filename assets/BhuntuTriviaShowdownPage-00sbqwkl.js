@@ -1,1 +1,0 @@
-import{n as e,t}from"./jsx-runtime-B5yqYJvp.js";import{t as n}from"./BhuntuTriviaShowdown-DQbamFWD.js";e();var r=t();function i(){return(0,r.jsx)(`div`,{className:`min-h-dvh`,children:(0,r.jsx)(n,{})})}export{i as default};

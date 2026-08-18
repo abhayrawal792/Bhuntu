@@ -309,6 +309,24 @@ const LoveTetrisBlockPuzzlePage = lazy(() => import('./pages/LoveTetrisBlockPuzz
 const CoupleRelationshipCertPage = lazy(() => import('./pages/CoupleRelationshipCertPage'));
 const GrandLoveGalaxy3DPage = lazy(() => import('./pages/GrandLoveGalaxy3DPage'));
 const Ultimate300thLoveCoronationPage = lazy(() => import('./pages/Ultimate300thLoveCoronationPage'));
+const BouquetReasonsPage = lazy(() => import('./pages/BouquetReasonsPage'));
+const FutureNightRidePage = lazy(() => import('./pages/FutureNightRidePage'));
+const PromiseTrioPage = lazy(() => import('./pages/PromiseTrioPage'));
+const LetterTonightPage = lazy(() => import('./pages/LetterTonightPage'));
+const SecretLanguagePage = lazy(() => import('./pages/SecretLanguagePage'));
+const BirthdayWishLetterPage = lazy(() => import('./pages/BirthdayWishLetterPage'));
+const MemoryReplayPage = lazy(() => import('./pages/MemoryReplayPage'));
+const BirthdaySkyLetterPage = lazy(() => import('./pages/BirthdaySkyLetterPage'));
+const LittleThingsPage = lazy(() => import('./pages/LittleThingsPage'));
+const SecretVaultSecondPage = lazy(() => import('./pages/SecretVaultSecondPage'));
+const LoveMemoryMatch3DPage = lazy(() => import('./pages/LoveMemoryMatch3DPage'));
+const LoveGrandFinaleSecondPage = lazy(() => import('./pages/LoveGrandFinaleSecondPage'));
+const FutureHouseBuilderSecondPage = lazy(() => import('./pages/FutureHouseBuilderSecondPage'));
+const LoveScratchOffGallerySecondPage = lazy(() => import('./pages/LoveScratchOffGallerySecondPage'));
+const CoupleMilestoneMap2Page = lazy(() => import('./pages/CoupleMilestoneMap2Page'));
+const LoveLetterArchiveVaultPage = lazy(() => import('./pages/LoveLetterArchiveVaultPage'));
+const LoveSpellCasterStudioPage = lazy(() => import('./pages/LoveSpellCasterStudioPage'));
+const LovePotionLab2Page = lazy(() => import('./pages/LovePotionLab2Page'));
 
 
 import AudioController, { playSparkle } from './components/AudioController';
