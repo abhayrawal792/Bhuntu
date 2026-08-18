@@ -38,7 +38,7 @@ couple-bucket-list-globe,Couple Bucket List Globe,template_CoupleBucketListGlobe
 couple-bucket-list,Couple Bucket List,template_CoupleBucketList,guided-interaction,none,M-WINE
 couple-bucket-list-spinner,Couple Bucket List Spinner,template_CoupleBucketListSpinner,randomized-choice,none,M-PAPER
 couple-cookbook,Couple Cookbook,template_CoupleCookbook,guided-interaction,none,M-DAWN
-couple-daily-horoscope,Couple Daily Horoscope,template_CoupleDailyHoroscope,randomized-choice,none,M-GREY
+couple-daily-horoscope,Couple Daily Horoscope,template_page-local,randomized-choice,none,M-GREY
 couple-escape-room,Couple Escape Room,template_CoupleEscapeRoom,guided-interaction,none,M-FOREST
 couple-future-home3-d,Couple Future Home3 D,template_page-local,spatial-exploration,none,M-DUSK
 couple-milestone-map2,Couple Milestone Map2,template_page-local,message-sequence,none,M-FIELD

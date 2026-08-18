@@ -6,7 +6,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Current batch status
 
-- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, fifty-one first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
+- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, fifty-two first-263 wrapper replacements, and the unsequenced bonus arcade alias replacement
 - **Source build:** passed with `npm run build`
 - **Experience-system audit:** passed
 - **Game policy:** passed — exactly 20 approved games, 20 detected in sequence, 0 errors
@@ -15,7 +15,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 - **Middle visual check:** passed — `/bento-box` rendered bespoke Bento content plus editorial keepsake variant
 - **Final visual check:** passed — `/room/12` rendered the three-chapter final keepsake and suppressed the global gift layer
 - **Interactive visual check:** passed on a museum-placard route; strict guard correctly rejected invalid local frontier tests
-- **Latest focused page batch:** the prior fifty bespoke compositions plus Couples Secret Handshake now uses a distinct private-code ritual with clean runtime and mobile verification
+- **Latest focused page batch:** the prior fifty-one bespoke compositions plus Couple Daily Horoscope now uses a distinct emotional-weather desk with clean runtime and mobile verification
 - **Privacy surface:** passed — source HTML has `noindex, nofollow`; generated and public `robots.txt` both contain `Disallow: /`
 - **Deployment:** latest source changes are ready for the next Pages workflow after commit
 - **Latest regression:** passed after a transient preview timing race was rerun — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
@@ -51,4 +51,4 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Last saved status log
 
-The first upgraded batch, accessibility/mobile batch, seventeen successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, and public deployment verification are complete. The next action is the next unsequenced thin-page batch; do not wait for approval.
+The first upgraded batch, accessibility/mobile batch, eighteen successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, and public deployment verification are complete. The next action is the next unsequenced thin-page batch; do not wait for approval.
