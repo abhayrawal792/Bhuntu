@@ -121,19 +121,19 @@ love-coronation-ceremony,Love Coronation Ceremony,template_LoveCoronationCeremon
 love-couple-time-capsule-lock-box,Love Couple Time Capsule Lock Box,template_page-local,time-reveal,none,M-AMBER
 love-coupon-generator,Love Coupon Generator,template_LoveCouponGenerator,guided-interaction,none,M-GOLD
 love-crossword,Love Crossword,template_page-local,game-or-puzzle,none,M-NIGHT
-love-crossword-puzzle,Love Crossword Puzzle,template_LoveCrosswordPuzzle,game-or-puzzle,none,M-BLUSH
-love-dated-calendar,Love Dated Calendar,template_LoveDatedCalendar,time-reveal,none,M-MONO
+love-crossword-puzzle,Love Crossword Puzzle,template_page-local,game-or-puzzle,none,M-BLUSH
+love-dated-calendar,Love Dated Calendar,template_page-local,time-reveal,none,M-MONO
 love-diary,Love Diary,template_LoveDiary,letter-or-paper,none,M-SEPIA
 love-dice,Love Dice,template_LoveDice,randomized-choice,none,M-ELECT
 love-doodle-canvas,Love Doodle Canvas,template_page-local,letter-or-paper,none,M-WINE
-love-enchanted-glass-terrarium,Love Enchanted Glass Terrarium,template_LoveEnchantedGlassTerrarium,guided-interaction,none,M-PAPER
+love-enchanted-glass-terrarium,Love Enchanted Glass Terrarium,template_page-local,guided-interaction,none,M-PAPER
 love-envelope-collection,Love Envelope Collection,template_page-local,message-sequence,none,M-DAWN
 love-envelope,Love Envelope,template_page-local,message-sequence,none,M-GREY
 love-fireflies,Love Fireflies,template_LoveFireflies,guided-interaction,none,M-FOREST
 love-firework-painter,Love Firework Painter,template_page-local,reveal,none,M-DUSK
-love-fortune-cookie-jar,Love Fortune Cookie Jar,template_LoveFortuneCookieJar,randomized-choice,none,M-FIELD
+love-fortune-cookie-jar,Love Fortune Cookie Jar,template_page-local,randomized-choice,none,M-FIELD
 love-fortune-cookie,Love Fortune Cookie,template_LoveFortuneCookie,randomized-choice,none,M-FROST
-love-fortune-teller-origami,Love Fortune Teller Origami,template_LoveFortuneTellerOrigami,randomized-choice,none,M-AMBER
+love-fortune-teller-origami,Love Fortune Teller Origami,template_page-local,randomized-choice,none,M-AMBER
 love-frequency-tuner,Love Frequency Tuner,template_LoveFrequencyTuner,guided-interaction,none,M-GOLD
 love-graffiti-wall,Love Graffiti Wall,template_LoveGraffitiWall,guided-interaction,none,M-NIGHT
 love-grand-finale,Love Grand Finale,template_LoveGrandFinale,guided-interaction,none,M-BLUSH
