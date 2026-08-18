@@ -1,5 +1,5 @@
 import React, { useState, lazy, Suspense } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import LoadingScreen from './components/LoadingScreen';
 import RouteGuard from './components/RouteGuard';
 import Navbar from './components/Navbar';
@@ -328,12 +328,14 @@ import { useAppStore } from './store/useAppStore';
 
 function MainAppContent() {
   const { hasEntered, setHasEntered } = useAppStore();
+  const navigate = useNavigate();
   const [isAudioStarted, setIsAudioStarted] = useState(false);
 
   const handleStart = () => {
     playSparkle();
     setHasEntered(true);
     setIsAudioStarted(true);
+    navigate('/curated-journey', { replace: true });
   };
 
   return (
@@ -341,7 +343,7 @@ function MainAppContent() {
       className="min-h-dvh bg-[#FAF8F8] text-[#1A1A1A] relative font-ui"
       style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
     >
-      {/* Gatekeeper — shown until user taps Enter */}
+      {/* Gatekeeper — shown until Samjhana enters the Bhuntu password */}
       {!hasEntered && <LoadingScreen onStart={handleStart} />}
 
       {/* Easter Egg Modal */}

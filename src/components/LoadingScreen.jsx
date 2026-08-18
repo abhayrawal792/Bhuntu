@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Heart, Sparkles, Music } from 'lucide-react';
+import { Heart, Sparkles, Music, KeyRound, LockKeyhole, ShieldCheck } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { birthdayData } from '../data/birthdayData';
 
@@ -8,6 +8,38 @@ const petals = ['🌸', '🌹', '💗', '✨', '🌺', '💕'];
 export default function LoadingScreen({ onStart }) {
   const [floats, setFloats] = useState([]);
   const [showContent, setShowContent] = useState(false);
+  const [password, setPassword] = useState('');
+  const [wrongAttempts, setWrongAttempts] = useState(0);
+  const [feedback, setFeedback] = useState('The first door opens only for the name you gave Abu.');
+  const [isChecking, setIsChecking] = useState(false);
+
+  const handlePasswordSubmit = (event) => {
+    event.preventDefault();
+    const normalized = password.trim().toLowerCase();
+    if (!normalized) {
+      setFeedback('Type the nickname you gave Abhay.');
+      return;
+    }
+    setIsChecking(true);
+    window.setTimeout(() => {
+      if (normalized === 'bhuntu') {
+        setFeedback('Correct. Abu’s birthday world is opening for you.');
+        onStart();
+        return;
+      }
+      const nextAttempts = wrongAttempts + 1;
+      setWrongAttempts(nextAttempts);
+      setPassword('');
+      setIsChecking(false);
+      if (nextAttempts >= 8) {
+        setFeedback('The real password is: Bhuntu. Abu knew your nickname would open the door.');
+      } else if (nextAttempts >= 5) {
+        setFeedback('Tip from Abu: the password is your nickname for him.');
+      } else {
+        setFeedback(`Not this one, Babe. Attempt ${nextAttempts} of 8.`);
+      }
+    }, 350);
+  };
 
   useEffect(() => {
     const items = Array.from({ length: 16 }, (_, i) => ({
@@ -131,33 +163,24 @@ export default function LoadingScreen({ onStart }) {
           )}
         </AnimatePresence>
 
-        {/* Enter Button — full width for easy tapping on iPhone */}
+        {/* Password gate — Bhuntu is the only key to page two */}
         <AnimatePresence mode="wait">
           {showContent && (
-            <motion.button
-              onClick={onStart}
-              className="btn-romantic w-full py-4 font-bold text-lg rounded-2xl shadow-xl flex items-center justify-center gap-3 cursor-pointer group"
+            <motion.form
+              onSubmit={handlePasswordSubmit}
+              className="w-full rounded-3xl border border-pink-200/80 bg-white/75 p-4 shadow-xl shadow-pink-200/30 backdrop-blur-md"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ delay: 0.75, type: 'spring', stiffness: 200 }}
-              whileTap={{ scale: 0.95 }}
-              whileHover={{ scale: 1.02 }}
             >
-              <motion.div
-                animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-              >
-                <Heart className="w-5 h-5 fill-white" />
-              </motion.div>
-              <span>{birthdayData.hero.enterButtonText}</span>
-              <motion.div
-                animate={{ x: [0, 5, 0] }}
-                transition={{ duration: 1.2, repeat: Infinity }}
-              >
-                <Sparkles className="w-5 h-5 fill-white" />
-              </motion.div>
-            </motion.button>
+              <div className="mb-3 flex items-center justify-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-rose-500"><LockKeyhole className="h-3.5 w-3.5" /> Page 1 is locked for Samjhana</div>
+              <label htmlFor="bhuntu-password" className="mb-2 block text-sm font-bold text-gray-800">Enter the nickname you gave Abu</label>
+              <div className="flex gap-2"><div className="relative flex-1"><KeyRound className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-rose-400" /><input id="bhuntu-password" value={password} onChange={(event) => setPassword(event.target.value)} autoComplete="off" placeholder="Your secret nickname" className="w-full rounded-2xl border border-pink-200 bg-white px-10 py-3 text-sm font-bold text-gray-900 outline-none ring-rose-300 placeholder:text-gray-400 focus:ring-2" /></div><button type="submit" disabled={isChecking} className="rounded-2xl bg-gradient-to-r from-pink-500 to-rose-600 px-4 py-3 text-xs font-black text-white shadow-lg transition hover:scale-[1.02] disabled:opacity-60">{isChecking ? 'Checking…' : 'Unlock'}</button></div>
+              <p className={`mt-3 text-xs leading-5 ${wrongAttempts >= 5 ? 'font-bold text-rose-600' : 'text-gray-500'}`}>{feedback}</p>
+              {wrongAttempts >= 8 && <p className="mt-2 flex items-center justify-center gap-1.5 rounded-xl bg-rose-100 px-3 py-2 text-xs font-black text-rose-700"><ShieldCheck className="h-4 w-4" /> Password revealed: Bhuntu</p>}
+              <p className="mt-3 text-[10px] font-semibold uppercase tracking-[0.15em] text-gray-400">{wrongAttempts} / 8 attempts used</p>
+            </motion.form>
           )}
         </AnimatePresence>
 
