@@ -17,7 +17,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 - **Interactive visual check:** passed on a museum-placard route; strict guard correctly rejected invalid local frontier tests
 - **Latest focused page batch:** Birthday Time Capsule 2, Bubble Wrap, Coupon Vault, Cupcake Decorator, and Heart Mailbox now use five distinct non-game compositions with clean runtime and mobile verification
 - **Privacy surface:** passed — source HTML has `noindex, nofollow`; generated and public `robots.txt` both contain `Disallow: /`
-- **Deployment:** latest source changes are ready for the next Pages workflow after commit
+- **Deployment:** local batch commit `a00b9ae` is complete; push to `origin/main` is pending because the configured GitHub token was rejected as invalid
 - **Latest regression:** passed after restarting the local preview service — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
 - **Whole-site game-signal audit:** unapproved game-like routes remain excluded from the canonical navigation; the bonus arcade hub itself has been replaced by a non-game scrapbook index
 - **Latest resolved polish:** mobile smoke passed on 5 representative routes with 0 horizontal overflow, 0 missing alt attributes, 0 empty interactive controls, and 0 blank routes after adding explicit aria-labels to the global audio controls
@@ -51,4 +51,4 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Last saved status log
 
-The first upgraded batch, accessibility/mobile batch, twenty successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, and public deployment verification are complete. The next action is the next unsequenced thin-page batch; do not wait for approval.
+The first upgraded batch, accessibility/mobile batch, twenty successive replacement batches, the bonus-arcade replacement, privacy/indexing protection, and public deployment verification are complete locally. Commit `a00b9ae` contains the latest five-page batch; resume by repairing GitHub authentication and pushing it, then begin the next unsequenced thin-page batch.
