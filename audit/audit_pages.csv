@@ -171,7 +171,7 @@ love-mirror-oracle,Love Mirror Oracle,template_LoveMirrorOracle,guided-interacti
 love-music-box-carousel,Love Music Box Carousel,template_LoveMusicBoxCarousel,audio,none,M-SEPIA
 love-neon-sign-designer,Love Neon Sign Designer,template_LoveNeonSignDesigner,guided-interaction,none,M-ELECT
 love-neon-sign-gallery,Love Neon Sign Gallery,template_page-local,visual-collection,none,M-WINE
-love-notes-wall,Love Notes Wall,template_LoveNotesWall,guided-interaction,none,M-PAPER
+love-notes-wall,Love Notes Wall,template_page-local,guided-interaction,none,M-PAPER
 love-origami-heart,Love Origami Heart,template_LoveOrigamiHeart,letter-or-paper,none,M-DAWN
 love-passport-stamps,Love Passport Stamps,template_page-local,audio,none,M-GREY
 love-pet,Love Pet,template_VirtualLovePet,guided-interaction,none,M-FOREST

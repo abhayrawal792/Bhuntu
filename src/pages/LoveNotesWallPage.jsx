@@ -1,3 +1,10 @@
-import React from 'react';
-import LoveNotesWall from '../components/LoveNotesWall';
-export default function LoveNotesWallPage() { return <LoveNotesWall />; }
+import React, { useState } from 'react';
+import { Heart, Pin, StickyNote } from 'lucide-react';
+
+const notes = [
+  { title: 'You make ordinary days memorable.', copy: 'Abu notices the small details because you make them worth noticing.' },
+  { title: 'Your nicknames feel like rooms.', copy: 'Sanzu, Bhuntu, Bebo, Sanu, Runchi—each one carries a different kind of warmth.' },
+  { title: 'You are worth the distance.', copy: 'Nepalgunj and Sakai are far apart, but the choice to keep showing up is never small.' },
+  { title: 'Your future is beautiful to imagine.', copy: 'Bardiya, Pokhara, Manang, Mustang, and the light-blue scooter are all better with you in the frame.' },
+];
+export default function LoveNotesWallPage() { const [selected, setSelected] = useState(0); const note = notes[selected]; return <main className="min-h-dvh bg-[#e8e1d4] px-5 py-12 text-[#342c25] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="border-b border-[#765846]/20 pb-8"><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#9b5d40]"><StickyNote className="h-4 w-4" /> Abu’s noticeboard</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The things Abu never wants to overlook.</h1></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr]"><nav className="grid gap-3 sm:grid-cols-2" aria-label="Noticeboard notes">{notes.map((item, index) => <button key={item.title} type="button" onClick={() => setSelected(index)} className={`relative rounded-2xl border p-5 text-left transition ${selected === index ? 'border-[#9b5d40] bg-white shadow-xl' : 'border-[#765846]/10 bg-white/45 hover:bg-white/80'}`}><Pin className="absolute right-4 top-4 h-4 w-4 rotate-45 text-[#9b5d40]" /><span className="block pr-6 text-[10px] font-black uppercase tracking-[0.18em] text-[#9b5d40]">Note 0{index + 1}</span><span className="mt-5 block text-lg font-black">{item.title}</span></button>)}</nav><section className="rounded-[2rem] bg-[#fff9ee] p-8 shadow-[15px_18px_0_rgba(52,44,37,.12)] sm:p-14"><Heart className="h-9 w-9 fill-rose-300 text-rose-500" /><h2 className="mt-10 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{note.title}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#765846]">{note.copy}</p><p className="mt-10 border-t border-[#765846]/15 pt-6 text-sm font-black text-[#9b5d40]">Pinned by Abu for his Bhuntu.</p></section></div></div></main>; }
