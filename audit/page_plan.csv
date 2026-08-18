@@ -76,14 +76,14 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 075,fortune-cookie-love,CHAT,, ,Unique page idea: Fortune Cookie Love,randomized-choice,ui-simulation,M-AMBER,distinct,TYPE-A
 076,fortune-cookie,WHY_I_LOVE,, ,Unique page idea: Fortune Cookie,randomized-choice,immersive-scroll,M-GOLD,distinct,TYPE-A
 077,four-seasons-of-love,FUTURE,, ,Unique page idea: Four Seasons Of Love,guided-interaction,interactive-canvas,M-NIGHT,distinct,TYPE-A
-078,future-house-builder,SURPRISE,, ,Unique page idea: Future House Builder,guided-interaction,masonry-grid,M-BLUSH,distinct,TYPE-A
+078,future-house-builder,SURPRISE,, ,Unique page idea: Future House Builder,visual-collection,masonry-grid,M-BLUSH,distinct,TYPE-A
 079,future-house-builder-second,MILESTONE,, ,Unique page idea: Future House Builder Second,message-sequence,editorial-two-column,M-MONO,distinct,TYPE-A
 080,future-night-ride,SENSORY,, ,Unique page idea: Future Night Ride,message-sequence,horizontal-scroll,M-SEPIA,distinct,TYPE-A
 081,gallery,MEMORY,, ,Unique page idea: Gallery,visual-collection,full-bleed-hero,M-ELECT,distinct,TYPE-A
 082,grand-love-galaxy3-d,LETTER,, ,Unique page idea: Grand Love Galaxy3 D,spatial-exploration,single-column,M-WINE,distinct,TYPE-A
 083,grand-love-universe,CHAT,, ,Unique page idea: Grand Love Universe,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
 084,hall-of-fame,WHY_I_LOVE,, ,Unique page idea: Hall Of Fame,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
-085,heart-bubble-tea-maker,FUTURE,, ,Unique page idea: Heart Bubble Tea Maker,guided-interaction,ui-simulation,M-GREY,distinct,TYPE-A
+085,heart-bubble-tea-maker,FUTURE,, ,Unique page idea: Heart Bubble Tea Maker,audio,ui-simulation,M-GREY,distinct,TYPE-A
 086,heart-mailbox,SURPRISE,, ,Unique page idea: Heart Mailbox,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
 087,heart-shape-tangram,MILESTONE,, ,Unique page idea: Heart Shape Tangram,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
 088,heartbeat-drum-pad,SENSORY,, ,Unique page idea: Heartbeat Drum Pad,audio,masonry-grid,M-FIELD,distinct,TYPE-A
@@ -112,7 +112,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 111,love-chimes,MILESTONE,, ,Unique page idea: Love Chimes,message-sequence,full-bleed-hero,M-ELECT,distinct,TYPE-A
 112,love-clock,SENSORY,, ,Unique page idea: Love Clock,guided-interaction,single-column,M-WINE,distinct,TYPE-A
 113,love-compass,MEMORY,, ,Unique page idea: Love Compass,audio,split-screen,M-PAPER,distinct,TYPE-A
-114,love-compatibility-matrix,LETTER,, ,Unique page idea: Love Compatibility Matrix,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
+114,love-compatibility-matrix,LETTER,, ,Unique page idea: Love Compatibility Matrix,grow-or-assemble,typography-first,M-DAWN,distinct,TYPE-A
 115,love-constellation-connect,CHAT,, ,Unique page idea: Love Constellation Connect,spatial-exploration,ui-simulation,M-GREY,distinct,TYPE-A
 116,love-constellation-maker,WHY_I_LOVE,, ,Unique page idea: Love Constellation Maker,spatial-exploration,immersive-scroll,M-FOREST,distinct,TYPE-A
 117,love-constellation-painter,FUTURE,, ,Unique page idea: Love Constellation Painter,reveal,interactive-canvas,M-DUSK,distinct,TYPE-A

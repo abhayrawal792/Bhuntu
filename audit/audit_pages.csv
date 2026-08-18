@@ -67,7 +67,7 @@ dragon-princess-adventure,Dragon Princess Adventure,template_DragonPrincessAdven
 emoji-art-canvas,Emoji Art Canvas,template_page-local,message-sequence,none,M-ELECT
 emoji-story,Emoji Story,template_EmojiStory,guided-interaction,none,M-WINE
 enchanted-crystal-ball,Enchanted Crystal Ball,template_EnchantedCrystalBall,guided-interaction,none,M-PAPER
-enchanted-rose-garden,Enchanted Rose Garden,template_EnchantedRoseGarden,grow-or-assemble,none,M-DAWN
+enchanted-rose-garden,Enchanted Rose Garden,template_page-local,grow-or-assemble,none,M-DAWN
 fairy-tale-generator,Fairy Tale Generator,template_FairyTaleGenerator,guided-interaction,none,M-GREY
 ferris-wheel,Ferris Wheel,template_page-local,randomized-choice,none,M-FOREST
 firework-maker,Firework Maker,template_page-local,grow-or-assemble,none,M-DUSK
@@ -76,14 +76,14 @@ first-moments-timeline,First Moments Timeline,template_FirstMomentsTimeline,time
 fortune-cookie-love,Fortune Cookie Love,template_FortuneCookieLove,randomized-choice,none,M-AMBER
 fortune-cookie,Fortune Cookie,template_FortuneCookie,randomized-choice,none,M-GOLD
 four-seasons-of-love,Four Seasons Of Love,template_FourSeasonsOfLove,guided-interaction,none,M-NIGHT
-future-house-builder,Future House Builder,template_FutureHouseBuilder,guided-interaction,none,M-BLUSH
+future-house-builder,Future House Builder,template_page-local,visual-collection,none,M-BLUSH
 future-house-builder-second,Future House Builder Second,template_page-local,message-sequence,none,M-MONO
 future-night-ride,Future Night Ride,template_page-local,message-sequence,none,M-SEPIA
 gallery,Gallery,template_GallerySection,visual-collection,none,M-ELECT
 grand-love-galaxy3-d,Grand Love Galaxy3 D,template_page-local,spatial-exploration,none,M-WINE
 grand-love-universe,Grand Love Universe,template_GrandLoveUniverse,guided-interaction,none,M-PAPER
 hall-of-fame,Hall Of Fame,template_HallOfFame,guided-interaction,none,M-DAWN
-heart-bubble-tea-maker,Heart Bubble Tea Maker,template_HeartBubbleTeaMaker,guided-interaction,none,M-GREY
+heart-bubble-tea-maker,Heart Bubble Tea Maker,template_page-local,audio,none,M-GREY
 heart-mailbox,Heart Mailbox,template_HeartMailbox,guided-interaction,none,M-FOREST
 heart-shape-tangram,Heart Shape Tangram,template_HeartShapeTangram,guided-interaction,none,M-DUSK
 heartbeat-drum-pad,Heartbeat Drum Pad,template_page-local,audio,none,M-FIELD
@@ -112,7 +112,7 @@ love-candle-light-dinner,Love Candle Light Dinner,template_LoveCandleLightDinner
 love-chimes,Love Chimes,template_page-local,message-sequence,none,M-ELECT
 love-clock,Love Clock,template_LoveClock,guided-interaction,none,M-WINE
 love-compass,Love Compass,template_page-local,audio,none,M-PAPER
-love-compatibility-matrix,Love Compatibility Matrix,template_LoveCompatibilityMatrix,guided-interaction,none,M-DAWN
+love-compatibility-matrix,Love Compatibility Matrix,template_page-local,grow-or-assemble,none,M-DAWN
 love-constellation-connect,Love Constellation Connect,template_LoveConstellationConnect,spatial-exploration,none,M-GREY
 love-constellation-maker,Love Constellation Maker,template_LoveConstellationMaker,spatial-exploration,none,M-FOREST
 love-constellation-painter,Love Constellation Painter,template_page-local,reveal,none,M-DUSK
