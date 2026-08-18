@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveTetris from '../components/LoveTetris';
-
-export default function LoveTetrisPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveTetris />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Layers3, ArrowDownUp, Heart } from 'lucide-react';
+const memories = [['01', 'The beginning', 'The day Samjhana made Abhay into Abu.'], ['02', 'The middle', 'The calls that crossed Nepalgunj and Sakai.'], ['03', 'The next chapter', 'The trips Abu still wants to take with Babe.']];
+export default function LoveTetrisPage() { const [order, setOrder] = useState(memories); const move = (index, direction) => { const target = index + direction; if (target < 0 || target >= order.length) return; const next = [...order]; [next[index], next[target]] = [next[target], next[index]]; setOrder(next); }; return <main className="min-h-dvh bg-[#eaf1f4] px-5 py-16 text-[#20343d]"><div className="mx-auto max-w-4xl"><Layers3 className="h-10 w-10 text-sky-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-sky-700">Arrange the memory altar</p><h1 className="mt-4 text-6xl font-black">Put our story in the order Abu feels it.</h1><div className="mt-12 space-y-4">{order.map(([id, title, copy], i) => <article key={id} className="grid gap-5 rounded-[2rem] border border-sky-200 bg-white p-6 shadow-lg md:grid-cols-[4rem_1fr_auto] md:items-center"><span className="font-mono text-sky-600">{id}</span><div><h2 className="text-2xl font-black">{title}</h2><p className="mt-2 text-slate-600">{copy}</p></div><div className="flex gap-2"><button onClick={() => move(i, -1)} className="rounded-full bg-sky-100 p-3" aria-label="Move up"><ArrowDownUp className="h-4 w-4" /></button><button onClick={() => move(i, 1)} className="rounded-full bg-sky-100 p-3" aria-label="Move down"><ArrowDownUp className="h-4 w-4 rotate-180" /></button></div></article>)}</div>{order[0][0] === '01' && order[1][0] === '02' && order[2][0] === '03' && <div className="mt-9 flex items-center gap-3 rounded-2xl bg-sky-700 p-6 text-white"><Heart className="fill-pink-300 text-pink-300" /><p className="text-xl font-bold">The altar is ready. Abu’s next chapter is still you.</p></div>}</div></main>; }

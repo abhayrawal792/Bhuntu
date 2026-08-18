@@ -1,10 +1,4 @@
-import React from 'react';
-import CoupleBingo from '../components/CoupleBingo';
-
-export default function CoupleBingoPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <CoupleBingo />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { ClipboardCheck, Heart } from 'lucide-react';
+const details = ['Your “Huss”', 'A late call', 'Panipuri craving', 'Sanzu eyes', 'A soft apology', 'Bhoot teasing', 'A future plan', 'Abu message'];
+export default function CoupleBingoPage() { const [marked, setMarked] = useState([]); const complete = marked.length === details.length; return <main className="min-h-dvh bg-[#f8f3ea] px-5 py-16 text-[#35291e]"><div className="mx-auto max-w-5xl"><header className="flex items-end justify-between gap-5 border-b-2 border-[#35291e] pb-7"><div><ClipboardCheck className="h-10 w-10" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em]">The little things Abu notices</p><h1 className="mt-3 text-6xl font-black">A ledger, not a game.</h1></div><span className="font-mono text-sm">{marked.length} / {details.length} noticed</span></header><div className="mt-10 grid grid-cols-2 gap-px border border-[#35291e] bg-[#35291e] sm:grid-cols-4">{details.map((item) => <button key={item} onClick={() => setMarked(marked.includes(item) ? marked.filter((x) => x !== item) : [...marked, item])} className={"min-h-32 p-5 text-left transition " + (marked.includes(item) ? 'bg-amber-200' : 'bg-[#fffdf8] hover:bg-amber-50')}><Heart className={"h-5 w-5 " + (marked.includes(item) ? 'fill-rose-600 text-rose-600' : 'text-[#9f8770]')} /><span className="mt-8 block text-lg font-black">{item}</span></button>)}</div>{complete && <div className="mt-8 border-l-4 border-rose-500 bg-white p-6 text-xl font-bold">Samjhana, Abu noticed all of this before he learned how to say it.</div>}</div></main>; }

@@ -3,8 +3,8 @@
 
 export const whatsappChatData = {
   couple: {
-    husband: "Abu (Abhay)",
-    wife: "Bhuntu (Sanzu Rawal / Bebo)",
+    partner: "Abu (Abhay)",
+    beloved: "Bhuntu (Sanzu Rawal / Bebo)",
     locationFrom: "Nepalgunj, Nepal 🇳🇵",
     locationTo: "Sakai, Osaka, Japan 🇯🇵",
     anniversaryDate: "2025-10-28",
@@ -18,7 +18,7 @@ export const whatsappChatData = {
     { name: "Bebo", meaning: "Her romantic title of affection 💖" },
     { name: "Fuchee", meaning: "Playful cute name when being childish 🥺" },
     { name: "Runchee", meaning: "Cute nickname when she pretends to be pouty 🌙" },
-    { name: "Mero Budi (Wifey)", meaning: "Abu's eternal title for her 💍" }
+    { name: "Bhuntu (Bebo)", meaning: "Abu's eternal title for her 💍" }
   ],
 
   insideJokes: [

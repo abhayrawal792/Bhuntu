@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveCoronationCeremony from '../components/LoveCoronationCeremony';
-
-export default function Room11Page() {
-  return (
-    <div className="min-h-dvh">
-      <LoveCoronationCeremony />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Crown, Award, Check } from 'lucide-react';
+const honors = ['Most comforting voice', 'Most beautiful heart', 'Most missed person', 'Abu’s forever favorite'];
+export default function Room11Page() { const [honorsSeen, setHonorsSeen] = useState([]); return <main className="min-h-dvh bg-[#1d1230] px-5 py-16 text-amber-50"><div className="mx-auto max-w-5xl text-center"><Crown className="mx-auto h-14 w-14 text-amber-300" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-amber-300">Room 11 / a private honors room</p><h1 className="mt-4 text-6xl font-black">Samjhana, Abu made the awards impossible to separate.</h1><div className="mt-12 grid gap-4 md:grid-cols-2">{honors.map((honor) => <button key={honor} onClick={() => !honorsSeen.includes(honor) && setHonorsSeen([...honorsSeen, honor])} className={"rounded-[2rem] border-2 p-8 text-left " + (honorsSeen.includes(honor) ? 'border-amber-300 bg-amber-300 text-[#1d1230]' : 'border-amber-100/20 bg-white/5')}><Award className="h-8 w-8" /><h2 className="mt-12 text-3xl font-black">{honor}</h2>{honorsSeen.includes(honor) && <Check className="mt-5" />}</button>)}</div>{honorsSeen.length === honors.length && <p className="mt-9 text-2xl font-black text-amber-300">Certificate issued: loved beyond measurement by Abu.</p>}</div></main>; }

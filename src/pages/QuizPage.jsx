@@ -1,38 +1,13 @@
 import React, { useState } from 'react';
-import { Check, Heart, Lock, RotateCcw } from 'lucide-react';
-
-const questions = [
-  { prompt: 'Who turned Abhay into Abu with one little nickname?', options: ['A stranger', 'Samjhana', 'The birthday cake', 'A lucky star'], answer: 1 },
-  { prompt: 'Which route belongs to our real story?', options: ['Paris to Rome', 'Nepalgunj to Sakai, Osaka', 'Delhi to London', 'Tokyo to Bali'], answer: 1 },
-  { prompt: 'Which foods belong in an Abu-and-Samjhana memory?', options: ['Chau-Chau and Panipuri', 'Only fancy sushi', 'Popcorn and soda', 'Nothing, we never eat'], answer: 0 },
-  { prompt: 'Who is this entire birthday trail for?', options: ['My Sanzu', 'My Bhoot', 'My Bhuntu, Sanu, Babe, and Runchi', 'All of the above'], answer: 3 },
+import { Heart, MapPin, Check, ArrowRight } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+const prompts = [
+  ['Where did Abu keep finding reasons to remember you?', 'Bageshwori, Water Park, and every ordinary road after them.'],
+  ['What food became part of our private language?', 'Chau-Chau, Panipuri, momo, and the cravings that made distance feel smaller.'],
+  ['What does Samjhana call Abhay?', 'Abu — the little name that turned into a home.'],
 ];
-
 export default function QuizPage() {
-  const [step, setStep] = useState(0);
-  const [selected, setSelected] = useState(null);
-  const [score, setScore] = useState(0);
-  const finished = step >= questions.length;
-  const question = questions[step];
-  const choose = (index) => { if (selected !== null) return; setSelected(index); if (index === question.answer) setScore((value) => value + 1); };
-  const next = () => { setSelected(null); setStep((value) => value + 1); };
-  const reset = () => { setStep(0); setSelected(null); setScore(0); };
-
-  return (
-    <main className="min-h-dvh bg-[#10131d] px-5 py-10 text-white sm:px-10 lg:px-20">
-      <div className="mx-auto grid min-h-[calc(100dvh-5rem)] max-w-6xl gap-12 lg:grid-cols-[.7fr_1.3fr] lg:items-center">
-        <aside><div className="mb-10 flex items-center gap-3 text-xs font-bold uppercase tracking-[0.25em] text-cyan-300"><Lock className="h-4 w-4" /> The only game Abu made for Samjhana</div><p className="text-sm font-bold uppercase tracking-[0.25em] text-white/40">Page 004 / one-time play</p><h1 className="mt-5 max-w-sm text-6xl font-black leading-[.9] tracking-[-0.07em] sm:text-8xl">A tiny test of how well Sanzu knows Abu.</h1><p className="mt-7 max-w-sm text-lg leading-8 text-white/55">Four questions about the details that belong to us: the name you gave Abhay, the places between us, the food memories, and all the names Abu keeps for you.</p></aside>
-        <section className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[.06] p-6 shadow-2xl backdrop-blur sm:p-10">
-          <div className="absolute right-[-3rem] top-[-3rem] h-40 w-40 rounded-full bg-cyan-300/15 blur-3xl" />
-          {!finished ? <>
-            <div className="relative flex items-center justify-between text-xs font-bold uppercase tracking-[0.2em] text-white/45"><span>Question {String(step + 1).padStart(2, '0')} / {questions.length}</span><span>{score} correct</span></div>
-            <div className="relative mt-5 h-1 overflow-hidden rounded-full bg-white/10"><div className="h-full rounded-full bg-cyan-300 transition-all" style={{ width: `${((step + 1) / questions.length) * 100}%` }} /></div>
-            <h2 className="relative mt-14 max-w-xl text-4xl font-black leading-tight tracking-[-0.05em] sm:text-5xl">{question.prompt}</h2>
-            <div className="relative mt-9 grid gap-3 sm:grid-cols-2">{question.options.map((option, index) => { const isCorrect = selected !== null && index === question.answer; const isWrong = selected === index && !isCorrect; return <button key={option} type="button" onClick={() => choose(index)} className={`flex min-h-16 items-center justify-between rounded-2xl border px-5 py-4 text-left text-sm font-bold transition active:scale-[.98] ${isCorrect ? 'border-emerald-300 bg-emerald-300/15 text-emerald-100' : isWrong ? 'border-rose-300 bg-rose-300/15 text-rose-100' : 'border-white/10 bg-white/[.04] text-white/75 hover:border-cyan-300/60 hover:bg-cyan-300/10'}`}><span>{option}</span>{isCorrect && <Check className="h-5 w-5" />}</button>; })}</div>
-            {selected !== null && <div className="relative mt-8 flex items-center justify-between rounded-2xl bg-white/[.06] p-4"><p className="text-sm text-white/65">{selected === question.answer ? 'Exactly, Sanu. Abu knew you would remember that.' : 'A charming answer, Babe. Abu still approves.'}</p><button type="button" onClick={next} className="rounded-full bg-cyan-300 px-4 py-2 text-xs font-black text-[#10131d]">{step === questions.length - 1 ? 'See result' : 'Next'}</button></div>}
-          </> : <div className="relative py-10 text-center"><div className="mx-auto grid h-20 w-20 place-items-center rounded-full bg-rose-300/15 text-rose-200"><Heart className="h-9 w-9 fill-current" /></div><p className="mt-8 text-xs font-bold uppercase tracking-[0.25em] text-cyan-300">The one game is complete</p><h2 className="mt-4 text-5xl font-black tracking-[-0.06em]">{score >= 3 ? 'Certified Samjhana expert.' : 'Officially Abu’s favourite person.'}</h2><p className="mx-auto mt-5 max-w-md text-lg leading-8 text-white/55">Your final score is {score} / {questions.length}. The important answer was correct before the game began: Samjhana is the person Abu made this whole birthday world for.</p><button type="button" onClick={reset} className="mt-9 inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm font-bold text-white/75 transition hover:border-white/35 hover:text-white"><RotateCcw className="h-4 w-4" /> Play the one game again</button></div>}
-        </section>
-      </div>
-    </main>
-  );
+  const [step, setStep] = useState(0); const [answered, setAnswered] = useState(false);
+  const finished = step === prompts.length; const photo = getAssetUrl(ALL_MEDIA_PHOTOS[3]);
+  return <main className="min-h-dvh bg-[#101827] px-5 py-16 text-white"><div className="mx-auto max-w-5xl"><div className="grid gap-10 lg:grid-cols-[.8fr_1.2fr] lg:items-center"><img src={photo} alt="Samjhana remembered by Abu" className="h-[28rem] w-full rounded-[2rem] object-cover shadow-2xl" /><section className="rounded-[2rem] border border-cyan-200/20 bg-white/10 p-8 backdrop-blur-xl">{finished ? <><Heart className="h-12 w-12 fill-pink-400 text-pink-400" /><h1 className="mt-6 text-5xl font-black">You are the answer, Sanzu.</h1><p className="mt-5 text-lg leading-8 text-cyan-100">Abu did not make a score screen. He made a small place where every answer returns to Samjhana.</p><button onClick={() => { setStep(0); setAnswered(false); }} className="mt-8 rounded-full bg-pink-500 px-5 py-3 font-bold">Read the memories again</button></> : <><p className="text-xs font-black uppercase tracking-[.3em] text-cyan-300">Abu’s memory confession {step + 1} / {prompts.length}</p><h1 className="mt-5 text-4xl font-black">{prompts[step][0]}</h1>{!answered ? <button onClick={() => setAnswered(true)} className="mt-9 inline-flex items-center gap-2 rounded-full bg-cyan-300 px-5 py-3 font-black text-slate-950">I know this one <Check className="h-4 w-4" /></button> : <div className="mt-8 rounded-2xl border border-cyan-200/30 bg-cyan-100/10 p-5"><MapPin className="h-5 w-5 text-cyan-300" /><p className="mt-3 text-xl font-bold text-cyan-50">{prompts[step][1]}</p><button onClick={() => { setStep(step + 1); setAnswered(false); }} className="mt-6 inline-flex items-center gap-2 rounded-full bg-pink-500 px-5 py-3 font-bold">Next memory <ArrowRight className="h-4 w-4" /></button></div>}</>}</section></div></div></main>;
 }

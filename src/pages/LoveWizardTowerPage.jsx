@@ -4,4 +4,3 @@ import LoveWizardTower from '../components/LoveWizardTower';
 export default function LoveWizardTowerPage() {
   return <LoveWizardTower />;
 }
-

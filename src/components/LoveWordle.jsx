@@ -9,7 +9,7 @@ import { BHUNTU_PHOTOS, handlePhotoError } from '../utils/mediaUtils';
 import { sendWhatsAppMessage } from '../utils/whatsappHelper';
 
 const TARGET_WORDS = [
-  { word: "SANZU", hint: "The royal name of Abu's wife 👑" },
+  { word: "SANZU", hint: "The royal name of Samjhana's special name 👑" },
   { word: "SAKAI", hint: "The city in Osaka where Sanzu lives 🇯🇵" },
   { word: "MOMOS", hint: "Sanzu's favorite spicy steamed food 🥟" }
 ];

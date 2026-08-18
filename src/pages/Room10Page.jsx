@@ -1,10 +1,4 @@
-import React from 'react';
-import BhuntuVoiceNoteArchive from '../components/BhuntuVoiceNoteArchive';
-
-export default function Room10Page() {
-  return (
-    <div className="min-h-dvh">
-      <BhuntuVoiceNoteArchive />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { MessageSquareText, Clock, ArrowRight } from 'lucide-react';
+const calls = [['22:14', 'A little “Huss” that kept Abu awake smiling.'], ['23:08', 'The pause where neither of you wanted to say goodbye.'], ['00:02', 'The goodnight that crossed from Nepalgunj into Sakai.']];
+export default function Room10Page() { const [call, setCall] = useState(0); return <main className="min-h-dvh bg-[#172033] px-5 py-16 text-white"><div className="mx-auto max-w-5xl"><MessageSquareText className="h-11 w-11 text-cyan-300" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-cyan-300">Room 10 / call transcripts</p><h1 className="mt-4 text-6xl font-black">The lines Abu replayed after hanging up.</h1><div className="mt-12 space-y-3">{calls.map(([time], i) => <button key={time} onClick={() => setCall(i)} className={"flex w-full items-center gap-5 rounded-2xl p-5 text-left " + (call === i ? 'bg-cyan-300 text-[#172033]' : 'bg-white/10')}><Clock className="h-5 w-5" /><span className="font-mono">{time}</span><span className="flex-1">Call note 0{i + 1}</span><ArrowRight className="h-4 w-4" /></button>)}</div><article className="mt-8 rounded-[2rem] bg-cyan-50 p-8 text-[#172033]"><p className="font-mono text-sm text-cyan-700">{calls[call][0]} / SAVED BY ABU</p><p className="mt-6 text-3xl font-black">{calls[call][1]}</p></article></div></main>; }

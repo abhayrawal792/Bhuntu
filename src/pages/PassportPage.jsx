@@ -1,10 +1,5 @@
-import React from 'react';
-import CouplePassport from '../components/CouplePassport';
-
-export default function PassportPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <CouplePassport />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Plane, MapPin, Check } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+const stops = [['Dhamboji', 'Abu’s starting point'], ['Sakai', 'Samjhana’s midnight window'], ['The next visit', 'A trip we will make real']];
+export default function PassportPage() { const [visited, setVisited] = useState([]); const photo = getAssetUrl(ALL_MEDIA_PHOTOS[9]); return <main className="min-h-dvh bg-[#e9eef6] px-5 py-16 text-[#18263c]"><div className="mx-auto max-w-6xl"><div className="grid gap-8 lg:grid-cols-[.8fr_1.2fr]"><img src={photo} alt="A travel memory for Samjhana" className="h-[30rem] w-full rounded-[2rem] object-cover" /><section className="rounded-[2rem] border-2 border-dashed border-[#18263c] bg-white p-8"><Plane className="h-10 w-10 text-blue-700" /><p className="mt-6 text-xs font-black uppercase tracking-[.3em] text-blue-700">Abu’s Nepalgunj-to-Sakai travel document</p><h1 className="mt-4 text-5xl font-black">Every stamp points to you.</h1><p className="mt-5 text-lg leading-8">This passport carries three destinations: where Abu is, where Samjhana is, and where the two of you are going next.</p><div className="mt-9 grid gap-3">{stops.map(([name, copy], i) => <button key={name} onClick={() => !visited.includes(name) && setVisited([...visited, name])} className="flex items-center gap-4 rounded-2xl border border-blue-100 bg-blue-50 p-4 text-left"><span className="grid h-10 w-10 place-items-center rounded-full bg-blue-700 font-mono text-white">0{i + 1}</span><span className="flex-1"><b className="block text-lg">{name}</b><small>{copy}</small></span>{visited.includes(name) && <Check className="text-emerald-600" />}</button>)}</div>{visited.length === stops.length && <p className="mt-8 border-t border-blue-100 pt-6 text-xl font-bold">Passport complete. Happy birthday, Sanzu; Abu is still coming home to you.</p>}</section></div></div></main>; }

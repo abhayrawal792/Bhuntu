@@ -1,10 +1,4 @@
-import React from 'react';
-import BentoBox from '../components/BentoBox';
-
-export default function BentoBoxPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <BentoBox />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Utensils, Heart, Check } from 'lucide-react';
+const bites = [['Chau-Chau', 'The comfort Abu would make after a long day.'], ['Panipuri', 'The bite that turns a walk into a story.'], ['Momo', 'The shared plate that makes two people reach at once.'], ['Sweet tea', 'The warm ending Abu wants beside Samjhana.']];
+export default function BentoBoxPage() { const [packed, setPacked] = useState([]); return <main className="min-h-dvh bg-[#f4dfc3] px-5 py-16 text-[#402515]"><div className="mx-auto max-w-6xl"><Utensils className="h-10 w-10 text-orange-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-orange-700">A Nepali food memory room</p><h1 className="mt-4 text-6xl font-black">Pack the box Abu would send to Sakai.</h1><div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">{bites.map(([title, copy]) => <button key={title} onClick={() => !packed.includes(title) && setPacked([...packed, title])} className={"min-h-64 rounded-3xl border-4 p-6 text-left " + (packed.includes(title) ? 'border-orange-700 bg-orange-200' : 'border-orange-100 bg-[#fffaf0]')}><Heart className="h-6 w-6 text-rose-600" /><h2 className="mt-16 text-2xl font-black">{title}</h2><p className="mt-3 text-sm leading-6">{copy}</p>{packed.includes(title) && <Check className="mt-5 text-orange-800" />}</button>)}</div><p className="mt-8 text-xl font-bold">{packed.length === bites.length ? 'Packed with love from Abu, delivered to his favorite person.' : packed.length + ' / ' + bites.length + ' memories packed'}</p></div></main>; }

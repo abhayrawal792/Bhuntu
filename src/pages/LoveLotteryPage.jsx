@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveLottery from '../components/LoveLottery';
-
-export default function LoveLotteryPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveLottery />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Gift, Heart, Star } from 'lucide-react';
+const gifts = [['The bouquet', 'For every soft day you bring into Abu’s life.'], ['The ring', 'For the promise that began on October 28, 2025.'], ['The journey', 'For Bardiya, Pokhara, Manang, Mustang, and us.']];
+export default function LoveLotteryPage() { const [chosen, setChosen] = useState(null); return <main className="min-h-dvh bg-[#fdf0f3] px-5 py-16 text-[#4a1926]"><div className="mx-auto max-w-5xl text-center"><Gift className="mx-auto h-12 w-12 text-rose-600" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-rose-600">A personal gift cabinet</p><h1 className="mt-4 text-6xl font-black">Not a lottery. Abu chose all three.</h1><p className="mx-auto mt-5 max-w-xl text-lg leading-8">Open the ribbon that calls to you first. The other gifts will still be waiting because this birthday is not chance.</p><div className="mt-12 grid gap-5 md:grid-cols-3">{gifts.map(([title, copy], i) => <button key={title} onClick={() => setChosen(i)} className={"min-h-72 rounded-[2rem] border-2 p-7 text-left " + (chosen === i ? 'border-rose-600 bg-rose-200' : 'border-rose-200 bg-white')}><Star className="h-7 w-7 text-amber-500" /><h2 className="mt-20 text-3xl font-black">{title}</h2>{chosen === i && <p className="mt-3 leading-7">{copy}</p>}</button>)}</div>{chosen !== null && <p className="mt-9 flex items-center justify-center gap-2 text-xl font-bold"><Heart className="fill-rose-500 text-rose-500" />Chosen by Samjhana, wrapped by Abu.</p>}</div></main>; }

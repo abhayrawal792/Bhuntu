@@ -1,10 +1,4 @@
-import React from 'react';
-import NepalgunjToOsakaFlightSim from '../components/NepalgunjToOsakaFlightSim';
-
-export default function Room2Page() {
-  return (
-    <div className="min-h-dvh">
-      <NepalgunjToOsakaFlightSim />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { PhoneCall, MapPin, ArrowRight } from 'lucide-react';
+const moments = [['The hello', 'Abu hears Samjhana’s voice and the miles soften.'], ['The pause', 'Even silence feels like company when the call is ours.'], ['The goodnight', 'Nepalgunj sleeps later because Sakai is still on the line.']];
+export default function Room2Page() { const [moment, setMoment] = useState(0); return <main className="min-h-dvh bg-[#102a43] px-5 py-16 text-sky-50"><div className="mx-auto max-w-5xl"><PhoneCall className="h-12 w-12 text-sky-300" /><p className="mt-6 text-xs font-black uppercase tracking-[.3em] text-sky-300">Room 2 / the call between us</p><h1 className="mt-4 text-6xl font-black">A postcard from one voice to another.</h1><div className="mt-12 rounded-[2rem] border border-sky-100/20 bg-white/10 p-8"><p className="font-mono text-sm text-sky-300">NEPALGUNJ ↔ SAKAI</p><h2 className="mt-8 text-4xl font-black">{moments[moment][0]}</h2><p className="mt-4 max-w-2xl text-xl leading-8 text-sky-100/75">{moments[moment][1]}</p><button onClick={() => setMoment((moment + 1) % moments.length)} className="mt-9 inline-flex items-center gap-2 rounded-full bg-sky-300 px-5 py-3 font-black text-[#102a43]">Follow the call <ArrowRight className="h-4 w-4" /></button></div><p className="mt-8 flex items-center gap-2 text-sky-200"><MapPin className="h-5 w-5" />No map can measure how close Abu feels to Samjhana here.</p></div></main>; }

@@ -1,10 +1,5 @@
-import React from 'react';
-import LoveGrandFinale from '../components/LoveGrandFinale';
-
-export default function Room12Page() {
-  return (
-    <div className="min-h-dvh">
-      <LoveGrandFinale />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Sunrise, Heart, ArrowRight } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+const endings = ['The gift ends here.', 'The story does not.', 'Abu is still choosing you.'];
+export default function Room12Page() { const [ending, setEnding] = useState(0); return <main className="min-h-dvh bg-gradient-to-b from-[#1e1b4b] via-[#be6b79] to-[#f6c87a] px-5 py-16 text-white"><div className="mx-auto max-w-5xl text-center"><Sunrise className="mx-auto h-14 w-14 text-amber-100" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-amber-100">Room 12 / after the final gift</p><h1 className="mt-4 text-6xl font-black">The last page is a sunrise, not a goodbye.</h1><img src={getAssetUrl(ALL_MEDIA_PHOTOS[132])} alt="A warm memory for Samjhana" className="mx-auto mt-10 h-72 w-full max-w-2xl rounded-[2rem] object-cover shadow-2xl" /><div className="mt-8 rounded-[2rem] bg-black/20 p-8 backdrop-blur"><Heart className="mx-auto h-8 w-8 fill-pink-200 text-pink-200" /><p className="mt-6 text-3xl font-black">{endings[ending]}</p><button onClick={() => setEnding((ending + 1) % endings.length)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 font-black text-[#1e1b4b]">Read the next promise <ArrowRight className="h-4 w-4" /></button></div></div></main>; }

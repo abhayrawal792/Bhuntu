@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveCrossword from '../components/LoveCrossword';
-
-export default function LoveCrosswordPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveCrossword />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { KeyRound, PenLine } from 'lucide-react';
+const clues = [['ABU', 'The name Samjhana gave Abhay'], ['SANZU', 'A name Abu says when the world is quiet'], ['SAKAI', 'Where his favorite voice waits'], ['BARDIYA', 'A future road for the light-blue scooter']];
+export default function LoveCrosswordPage() { const [open, setOpen] = useState([]); return <main className="min-h-dvh bg-[#f4eee7] px-5 py-16 text-[#2c201d]"><div className="mx-auto max-w-5xl"><div className="mx-auto max-w-2xl text-center"><PenLine className="mx-auto h-10 w-10 text-rose-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-rose-700">A private vocabulary desk</p><h1 className="mt-3 text-6xl font-black">Words that only make sense as us.</h1></div><div className="mt-12 grid gap-5 md:grid-cols-2">{clues.map(([word, clue]) => <button key={word} onClick={() => setOpen(open.includes(word) ? open.filter((x) => x !== word) : [...open, word])} className="rounded-2xl border border-rose-200 bg-white p-6 text-left shadow-[6px_6px_0_#e8c8c2] transition active:translate-x-1 active:translate-y-1"><KeyRound className="h-5 w-5 text-rose-600" /><p className="mt-5 text-xs font-black uppercase tracking-[.2em] text-rose-600">Clue</p><p className="mt-2 text-xl font-bold">{clue}</p>{open.includes(word) && <p className="mt-5 border-t border-rose-100 pt-4 text-3xl font-black tracking-[.3em] text-[#2c201d]">{word}</p>}</button>)}</div></div></main>; }

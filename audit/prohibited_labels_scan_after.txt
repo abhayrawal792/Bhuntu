@@ -1,0 +1,2 @@
+src/data/birthdayData.js:424:      { id: 5, nepali: "Bihe paxi temlai dherai maya garera budi banayera rakhnexam! 💍", english: "I cannot wait for the day I marry you and hold your hand forever." },
+src/data/whatsappChatData.js:7:    wife: "Bhuntu (Sanzu Rawal / Bebo)",

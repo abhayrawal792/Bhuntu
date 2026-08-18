@@ -11,8 +11,8 @@ const CATEGORIES = [
   { name: 'Hand-Feeding Food 🍜🤲', emoji: '🍜', desc: 'How sweet is Abu when he promises to feed you Chau-chau & Panipuri with his own hands?' },
   { name: 'Movie Theater Hand-Holding 🎬🍿', emoji: '🍿', desc: 'How romantic is Abu holding your hand tight through the entire film?' },
   { name: 'Back-Seat Scooter Passenger 🛵💙', emoji: '🛵', desc: 'How great is Abu sitting behind you on your light blue scooter all the way to Bardiya?' },
-  { name: 'Honeymoon & Future Husband 🏔️💍', emoji: '🏔️', desc: 'How excited are you for your honeymoon trip to Pokhara, Manang & Mustang with Abu?' },
-  { name: 'Overall Boyfriend Score 💖👑', emoji: '💕', desc: 'Rate Abu as your overall boyfriend, best friend & future husband!' }
+  { name: 'Honeymoon & Future Together 🏔️💍', emoji: '🏔️', desc: 'How excited are you for your honeymoon trip to Pokhara, Manang & Mustang with Abu?' },
+  { name: 'Overall Boyfriend Score 💖👑', emoji: '💕', desc: 'Rate Abu as your overall boyfriend, best friend & future together!' }
 ];
 
 export default function LoveReview() {
@@ -23,7 +23,7 @@ export default function LoveReview() {
     'Hand-Feeding Food 🍜🤲': 5,
     'Movie Theater Hand-Holding 🎬🍿': 5,
     'Back-Seat Scooter Passenger 🛵💙': 5,
-    'Honeymoon & Future Husband 🏔️💍': 5,
+    'Honeymoon & Future Together 🏔️💍': 5,
     'Overall Boyfriend Score 💖👑': 5,
   });
   const [submitted, setSubmitted] = useState(false);
@@ -50,7 +50,7 @@ export default function LoveReview() {
       badge="Rate Your Boyfriend Abu ⭐"
       badgeIcon={<Star className="w-3.5 h-3.5 text-amber-500" />}
       title="Rate Your Sweetheart Abu ⭐"
-      subtitle="Rate Abu as Your Boyfriend & Future Husband!"
+      subtitle="Rate Abu as Your Boyfriend & Future Together!"
       description="Tap the stars below to rate Abu for video calls, hand-feeding, light blue scooter ride & Pokhara honeymoon!"
     >
       <div className="space-y-3 max-w-md mx-auto mb-6 text-left font-ui">
@@ -100,11 +100,11 @@ export default function LoveReview() {
             Abu Earned a {avg}/5 Star Rating! 🏆
           </h3>
           <p className="text-xs text-gray-600 font-ui mb-4">
-            Certified: World's Best Boyfriend & Future Husband for Sanzu! 💕
+            Certified: World's Best Boyfriend & Future Together for Sanzu! 💕
           </p>
 
           <a
-            href={`https://wa.me/9779708349123?text=${encodeURIComponent(`Hey Abu! ⭐ I just rated you as my boyfriend on our website:\n\nYou got a PERFECT ${avg}/5 STAR RATING as my partner & future husband! 🏆❤️`)}`}
+            href={`https://wa.me/9779708349123?text=${encodeURIComponent(`Hey Abu! ⭐ I just rated you as my boyfriend on our website:\n\nYou got a PERFECT ${avg}/5 STAR RATING as my partner & future together! 🏆❤️`)}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-5 py-3 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-xs shadow-lg transition-all cursor-pointer font-ui"

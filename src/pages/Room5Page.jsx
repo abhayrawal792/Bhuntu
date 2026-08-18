@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveLoveStoryComicStrip from '../components/LoveLoveStoryComicStrip';
-
-export default function Room5Page() {
-  return (
-    <div className="min-h-dvh">
-      <LoveLoveStoryComicStrip />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { PanelsTopLeft, ArrowRight } from 'lucide-react';
+const scenes = [['The first frame', 'Abhay became Abu because Samjhana gave him a name that felt close.'], ['The middle frame', 'Chau-Chau, Panipuri, teasing, and phone calls filled the days between places.'], ['The wide frame', 'The story is still opening toward every road you will travel together.']];
+export default function Room5Page() { const [scene, setScene] = useState(0); return <main className="min-h-dvh bg-[#f6e8e1] px-5 py-16 text-[#4b2424]"><div className="mx-auto max-w-6xl"><PanelsTopLeft className="h-11 w-11 text-rose-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-rose-700">Room 5 / a scene board</p><h1 className="mt-4 text-6xl font-black">The story Abu would draw for Samjhana.</h1><div className="mt-12 flex flex-wrap gap-3">{scenes.map(([title], i) => <button key={title} onClick={() => setScene(i)} className={"rounded-full px-5 py-3 font-bold " + (scene === i ? 'bg-rose-700 text-white' : 'bg-white')}>{title}</button>)}</div><article className="mt-8 min-h-[24rem] rounded-[2rem] border-8 border-white bg-rose-100 p-8 shadow-xl"><p className="font-mono text-sm text-rose-700">PANEL 0{scene + 1}</p><h2 className="mt-12 max-w-3xl text-5xl font-black">{scenes[scene][1]}</h2><button onClick={() => setScene((scene + 1) % scenes.length)} className="mt-10 inline-flex items-center gap-2 rounded-full bg-rose-700 px-5 py-3 font-bold text-white">Turn the page <ArrowRight className="h-4 w-4" /></button></article></div></main>; }

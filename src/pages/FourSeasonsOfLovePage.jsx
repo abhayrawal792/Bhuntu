@@ -4,4 +4,3 @@ import FourSeasonsOfLove from '../components/FourSeasonsOfLove';
 export default function FourSeasonsOfLovePage() {
   return <FourSeasonsOfLove />;
 }
-

@@ -1,10 +1,4 @@
-import React from 'react';
-import FirstMomentsTimeline from '../components/FirstMomentsTimeline';
-
-export default function Room6Page() {
-  return (
-    <div className="min-h-dvh">
-      <FirstMomentsTimeline />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { CalendarDays, Check } from 'lucide-react';
+const dates = [['28 Oct 2025', 'The yes that changed Abu’s calendar'], ['The next call', 'Two cities began learning one rhythm'], ['Her birthday', 'August 20, 2004 — the day Abu celebrates you'], ['The next trip', 'A date waiting for Bardiya, Pokhara, Manang, or Mustang']];
+export default function Room6Page() { const [date, setDate] = useState(0); return <main className="min-h-dvh bg-[#eaf3f8] px-5 py-16 text-[#203747]"><div className="mx-auto max-w-5xl"><CalendarDays className="h-11 w-11 text-sky-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-sky-700">Room 6 / the date cards</p><h1 className="mt-4 text-6xl font-black">A calendar with only the dates that matter.</h1><div className="mt-12 grid gap-3 md:grid-cols-4">{dates.map(([dateLabel], i) => <button key={dateLabel} onClick={() => setDate(i)} className={"rounded-2xl p-5 text-left " + (date === i ? 'bg-sky-700 text-white' : 'bg-white')}><span className="font-mono text-xs">CARD 0{i + 1}</span><b className="mt-12 block text-xl">{dateLabel}</b></button>)}</div><article className="mt-8 rounded-[2rem] bg-white p-8 shadow-xl"><p className="font-mono text-sm text-sky-700">{dates[date][0]}</p><h2 className="mt-5 text-4xl font-black">{dates[date][1]}</h2>{date === dates.length - 1 && <p className="mt-6 flex items-center gap-2 font-bold text-emerald-700"><Check /> Abu will put this one on the real calendar.</p>}</article></div></main>; }

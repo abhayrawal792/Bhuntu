@@ -4,4 +4,3 @@ import EnchantedCrystalBall from '../components/EnchantedCrystalBall';
 export default function EnchantedCrystalBallPage() {
   return <EnchantedCrystalBall />;
 }
-

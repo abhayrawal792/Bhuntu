@@ -11,7 +11,7 @@ const DOORWAY_ROUTES = ['/', '/home'];
 export default function RouteGuard() {
   const navigate = useNavigate();
   const location = useLocation();
-  const { hasEntered, currentRoomIndex, setCurrentRoomIndex } = useAppStore();
+  const { hasEntered, currentRoomIndex, maxUnlockedIndex, setCurrentRoomIndex } = useAppStore();
 
   useEffect(() => {
     const path = location.pathname;
@@ -29,7 +29,8 @@ export default function RouteGuard() {
     }
 
     const requestedIndex = ROOM_SEQUENCE.indexOf(path);
-    const safeCurrentIndex = Math.max(0, Math.min(currentRoomIndex, ROOM_SEQUENCE.length - 1));
+    const safeCurrentIndex = Math.max(0, Math.min(currentRoomIndex, maxUnlockedIndex, ROOM_SEQUENCE.length - 1));
+    const safeNextIndex = Math.min(ROOM_SEQUENCE.length - 1, safeCurrentIndex + 1);
 
     // Every registered route belongs to the sequence. Unknown routes return to the current page.
     if (requestedIndex === -1) {
@@ -37,17 +38,15 @@ export default function RouteGuard() {
       return;
     }
 
-    // Allow the current page or exactly one adjacent page. If a page tries to jump,
-    // move only one step in the requested direction.
-    const distance = requestedIndex - safeCurrentIndex;
-    if (Math.abs(distance) > 1) {
-      const nextIndex = safeCurrentIndex + (distance > 0 ? 1 : -1);
-      navigate(ROOM_SEQUENCE[Math.max(0, Math.min(nextIndex, ROOM_SEQUENCE.length - 1))], { replace: true });
+    // The persisted unlock frontier is authoritative. A URL may open the current room
+    // or one next room only; arbitrary future routes are sent back to the current room.
+    if (requestedIndex > maxUnlockedIndex + 1 || Math.abs(requestedIndex - safeCurrentIndex) > 1) {
+      navigate(ROOM_SEQUENCE[Math.min(safeNextIndex, maxUnlockedIndex)], { replace: true });
       return;
     }
 
     setCurrentRoomIndex(requestedIndex);
-  }, [location.pathname, hasEntered, currentRoomIndex, navigate, setCurrentRoomIndex]);
+  }, [location.pathname, hasEntered, currentRoomIndex, maxUnlockedIndex, navigate, setCurrentRoomIndex]);
 
   return null;
 }

@@ -31,7 +31,7 @@ const GAME_ROUNDS = [
     question: "Round 3: Which nickname claim is a LIE? 👑",
     options: [
       { text: "1. Abu's favorite cute nickname for you is 'Bhuntu..!!👀🤍✨'", isLie: false, explanation: "Sachho ho! Bhuntu..!!👀🤍✨ is the cutest name!" },
-      { text: "2. Abu calls you 'Mero Budi', 'Sanuu', and 'Runchee'.", isLie: false, explanation: "Sachho ho! Maya le sabai naam le bolauxu!" },
+      { text: "2. Abu calls you 'Bhuntu', 'Sanuu', and 'Runchee'.", isLie: false, explanation: "Sachho ho! Maya le sabai naam le bolauxu!" },
       { text: "3. Abu prefers calling you 'Stranger'.", isLie: true, explanation: "Jhootho (LIE)! ❌ Temi mero aafno life ko partner ho, stranger haina! 💖" }
     ]
   },

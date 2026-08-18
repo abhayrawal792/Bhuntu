@@ -1,0 +1,51 @@
+audit/full_sequence_page_audit.md:24: trailing whitespace.
+[32m+[m[32m**Implementation:** `HomePage` / `src/pages/HomePage.jsx + src/data/personalVoice.js + src/data/roomSequence.js`[m[41m  [m
+audit/full_sequence_page_audit.md:27: trailing whitespace.
+[32m+[m[32m**Photos/media:** 0 image signals, 0 media signals. **Interaction:** 8 signals. **Narrative:** 228 signals. **Gift layer:** 36 signals.[m[41m  [m
+audit/full_sequence_page_audit.md:36: trailing whitespace.
+[32m+[m[32m**Photos/media:** 24 image signals, 46 media signals. **Interaction:** 79 signals. **Narrative:** 192 signals. **Gift layer:** 67 signals.[m[41m  [m
+src/pages/BentoBoxPage.jsx:5: new blank line at EOF.
+src/pages/BlessingTreePage.jsx:5: new blank line at EOF.
+src/pages/CookingGamePage.jsx:4: new blank line at EOF.
+src/pages/CoupleBingoPage.jsx:5: new blank line at EOF.
+src/pages/EmojiArtCanvasPage.jsx:5: new blank line at EOF.
+src/pages/FireworksPage.jsx:5: new blank line at EOF.
+src/pages/HeartbeatDrumPadPage.jsx:5: new blank line at EOF.
+src/pages/HoroscopePage.jsx:5: new blank line at EOF.
+src/pages/LanternsPage.jsx:5: new blank line at EOF.
+src/pages/LoveButterflyCatcherPage.jsx:5: new blank line at EOF.
+src/pages/LoveConstellationPainterPage.jsx:5: new blank line at EOF.
+src/pages/LoveCrosswordPage.jsx:5: new blank line at EOF.
+src/pages/LoveDoodleCanvasPage.jsx:4: new blank line at EOF.
+src/pages/LoveFireworkPainterPage.jsx:5: new blank line at EOF.
+src/pages/LoveLanguagesQuizPage.jsx:5: new blank line at EOF.
+src/pages/LoveLotteryPage.jsx:5: new blank line at EOF.
+src/pages/LoveMazePage.jsx:5: new blank line at EOF.
+src/pages/LoveMeterDeluxePage.jsx:5: new blank line at EOF.
+src/pages/LoveRadioPage.jsx:5: new blank line at EOF.
+src/pages/LoveRhythmGamePage.jsx:5: new blank line at EOF.
+src/pages/LoveScratchCardPage.jsx:5: new blank line at EOF.
+src/pages/LoveTetrisBlockPuzzlePage.jsx:5: new blank line at EOF.
+src/pages/LoveTetrisPage.jsx:5: new blank line at EOF.
+src/pages/LoveTreeGrowthPage.jsx:5: new blank line at EOF.
+src/pages/LoveWishWellPage.jsx:5: new blank line at EOF.
+src/pages/MoodRingPage.jsx:5: new blank line at EOF.
+src/pages/PassportPage.jsx:6: new blank line at EOF.
+src/pages/PhotoPuzzle3DPage.jsx:5: new blank line at EOF.
+src/pages/RomanticKaraokePage.jsx:5: new blank line at EOF.
+src/pages/Room10Page.jsx:5: new blank line at EOF.
+src/pages/Room11Page.jsx:5: new blank line at EOF.
+src/pages/Room12Page.jsx:6: new blank line at EOF.
+src/pages/Room2Page.jsx:5: new blank line at EOF.
+src/pages/Room3Page.jsx:6: new blank line at EOF.
+src/pages/Room4Page.jsx:5: new blank line at EOF.
+src/pages/Room5Page.jsx:5: new blank line at EOF.
+src/pages/Room6Page.jsx:5: new blank line at EOF.
+src/pages/Room7Page.jsx:5: new blank line at EOF.
+src/pages/Room8Page.jsx:5: new blank line at EOF.
+src/pages/Room9Page.jsx:5: new blank line at EOF.
+src/pages/SecretVaultPage.jsx:5: new blank line at EOF.
+src/pages/SweetProposalSimulatorPage.jsx:5: new blank line at EOF.
+src/pages/TimelinePuzzlePage.jsx:5: new blank line at EOF.
+src/pages/TreasureChestPage.jsx:6: new blank line at EOF.
+src/pages/VoiceSoundboardPage.jsx:5: new blank line at EOF.

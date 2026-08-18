@@ -1,10 +1,4 @@
-import React from 'react';
-import HeartFireworks from '../components/HeartFireworks';
-
-export default function FireworksPage() {
-  return (
-    <div className="min-h-dvh py-6 bg-slate-950">
-      <HeartFireworks />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Sparkles, Heart } from 'lucide-react';
+const letters = ['Happy birthday, Samjhana.', 'You make Abu braver.', 'You make distance worth crossing.', 'You are my favorite future.'];
+export default function FireworksPage() { const [revealed, setRevealed] = useState([]); return <main className="min-h-dvh bg-[#070b20] px-5 py-16 text-white"><div className="mx-auto max-w-5xl text-center"><Sparkles className="mx-auto h-12 w-12 text-pink-300" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-sky-300">A birthday sky-letter</p><h1 className="mt-4 text-6xl font-black">Open Abu’s lights in order.</h1><div className="mt-12 grid gap-4 sm:grid-cols-2">{letters.map((letter, i) => <button key={letter} onClick={() => !revealed.includes(i) && (i === 0 || revealed.includes(i - 1)) && setRevealed([...revealed, i])} className={"min-h-48 rounded-full border-2 p-8 transition " + (revealed.includes(i) ? 'border-pink-300 bg-pink-400 text-[#070b20] shadow-[0_0_50px_#f9a8d4]' : 'border-sky-200/20 bg-white/5')}><span className="text-xs font-mono">LIGHT 0{i + 1}</span>{revealed.includes(i) ? <p className="mt-8 text-2xl font-black">{letter}</p> : <p className="mt-8 text-sky-200">Tap after the previous light.</p>}</button>)}</div>{revealed.length === letters.length && <div className="mt-10 flex items-center justify-center gap-3 text-xl font-bold"><Heart className="fill-pink-300 text-pink-300" />All of the sky says: happy birthday, Bhuntu.</div>}</div></main>; }

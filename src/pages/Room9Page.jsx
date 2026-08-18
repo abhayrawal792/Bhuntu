@@ -1,10 +1,4 @@
-import React from 'react';
-import SakuraPromiseTree from '../components/SakuraPromiseTree';
-
-export default function Room9Page() {
-  return (
-    <div className="min-h-dvh">
-      <SakuraPromiseTree />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Flower2, Heart, Sparkles } from 'lucide-react';
+const promises = ['I will keep listening', 'I will keep making you laugh', 'I will keep crossing the distance', 'I will keep choosing you'];
+export default function Room9Page() { const [kept, setKept] = useState([]); return <main className="min-h-dvh bg-[#fff1f7] px-5 py-16 text-[#4a2036]"><div className="mx-auto max-w-5xl text-center"><Flower2 className="mx-auto h-12 w-12 text-pink-600" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-pink-600">Room 9 / promise petals</p><h1 className="mt-4 text-6xl font-black">A promise garden for Sanzu.</h1><div className="mx-auto mt-12 grid max-w-3xl gap-4 sm:grid-cols-2">{promises.map((promise) => <button key={promise} onClick={() => !kept.includes(promise) && setKept([...kept, promise])} className={"min-h-40 rounded-[50%] border-2 p-6 font-black " + (kept.includes(promise) ? 'border-pink-600 bg-pink-300' : 'border-pink-200 bg-white')}>{kept.includes(promise) ? <Heart className="mx-auto fill-rose-600 text-rose-600" /> : <Sparkles className="mx-auto text-pink-600" />}<span className="mt-6 block text-xl">{promise}</span></button>)}</div>{kept.length === promises.length && <p className="mt-9 text-xl font-bold">Abu planted these in words, but he plans to prove them in days.</p>}</div></main>; }

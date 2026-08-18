@@ -7,7 +7,7 @@ export const birthdayData = {
   person: {
     name: "Bhuntu (Bhuntu..!!👀🤍✨)",
     nepaliName: "Mero Bhuntu / Sanuu (Bebo)",
-    nickname: "Bhuntu..!!👀🤍✨, Sanuu, Bebo, Fuchee, Runchee, Bacha, Babe, Mero Budi ❤️",
+    nickname: "Bhuntu..!!👀🤍✨, Sanuu, Bebo, Fuchee, Runchee, Bacha, Babe, Bhuntu ❤️",
     birthdateBS: "2061/05/04", // Bikram Sambat
     birthdateGregorian: "2004-08-20", // Gregorian conversion
     favoriteFoods: ["Chau-Chau 🍜", "Panipuri 🥟", "Momo 🥟", "Current Spicy Noodles 🍜", "Chiya ☕", "Chocolates 🍫"],
@@ -421,7 +421,7 @@ export const birthdayData = {
       { id: 2, nepali: "Duri jati bhaye pani temra aakha ma sadhai mero maya xa! 👀💖", english: "Across every mile, my eyes and heart are always fixed on you." },
       { id: 3, nepali: "Temi nai mero sabai bhanda cute, pyaro, ra sweet partner hou! 🥰", english: "You are the cutest, sweetest, and most precious human to exist." },
       { id: 4, nepali: "Raat bhar video call ma temlai herna pauda dherai khusi lagxa! 🌙", english: "Falling asleep on video call while looking at your face is pure bliss." },
-      { id: 5, nepali: "Bihe paxi temlai dherai maya garera budi banayera rakhnexam! 💍", english: "I cannot wait for the day I marry you and hold your hand forever." },
+      { id: 5, nepali: "Bihe paxi temlai dherai maya garera sadhai khusi rakhnechhu! 💍", english: "I cannot wait for the day I marry you and hold your hand forever." },
       { id: 6, nepali: "Mero Fuchhee, temro bolne dhang ra bani sabai bhanda pyaro xa! 🌸", english: "Everything about your voice, tone, and character makes me love you more." },
       { id: 7, nepali: "Temi thakeko bela deep breath leu, ma sadhai temro pachhi chhu! 🌿", english: "Whenever you feel tired, take a deep breath — I will always be right behind you." }
     ]

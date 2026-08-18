@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "routes": 263,
+    "sourceMissing": 0,
+    "thinCandidates": 0,
+    "noImages": 17,
+    "lowInteraction": 0,
+    "sharedTemplates": 237,
+    "repeatedFingerprints": 0,
+    "missingGifts": 0
+  },
+  "outputs": [
+    "audit/full_sequence_page_audit.csv",
+    "audit/full_sequence_page_audit.md"
+  ]
+}

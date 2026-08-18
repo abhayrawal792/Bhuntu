@@ -1,6 +1,3 @@
-import React from 'react';
-import LoveDoodleCanvas from '../components/LoveDoodleCanvas';
-
-export default function LoveDoodleCanvasPage() {
-  return <LoveDoodleCanvas />;
-}
+import React, { useState } from 'react';
+import { PenTool, Eraser, Heart } from 'lucide-react';
+export default function LoveDoodleCanvasPage() { const [marks, setMarks] = useState([]); const colors = ['#f43f5e', '#f59e0b', '#0ea5e9', '#8b5cf6']; return <main className="min-h-dvh bg-[#fff8f0] px-5 py-16 text-[#33201c]"><div className="mx-auto max-w-5xl"><div className="flex items-center gap-3 text-rose-600"><PenTool /><span className="text-xs font-black uppercase tracking-[.3em]">One-line dedication</span></div><h1 className="mt-5 text-6xl font-black">Draw a tiny heart for Bhuntu.</h1><p className="mt-4 max-w-xl text-lg leading-8">Leave Abu one shape. There is no undo because even a wobbly heart is still yours.</p><div className="mt-10 grid gap-6 lg:grid-cols-[1fr_.35fr]"><div onClick={(event) => { const rect = event.currentTarget.getBoundingClientRect(); setMarks([...marks, {x: event.clientX - rect.left, y: event.clientY - rect.top, color: colors[marks.length % colors.length]}]); }} className="relative min-h-[30rem] cursor-crosshair overflow-hidden rounded-[2rem] border-4 border-dashed border-rose-200 bg-white">{marks.map((mark, i) => <Heart key={i} style={{left: mark.x - 12, top: mark.y - 12, color: mark.color}} className="absolute h-6 w-6 fill-current" />)}<span className="absolute bottom-5 left-5 text-sm text-rose-300">Tap the paper.</span></div><aside className="rounded-[2rem] bg-rose-100 p-6"><Eraser className="h-7 w-7 text-rose-600" /><p className="mt-7 text-2xl font-black">{marks.length ? 'Abu will frame this.' : 'Your dedication waits here.'}</p><button onClick={() => setMarks([])} className="mt-8 rounded-full bg-rose-600 px-4 py-2 font-bold text-white">Start again</button></aside></div></div></main>; }

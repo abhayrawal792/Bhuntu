@@ -25,7 +25,7 @@ const EMOTIONS = [
     name: 'Eternal Marriage Vows 💍',
     opening: 'My Queen Bhuntu,',
     body: 'The day I get to hold your hand forever without a screen between us will be the happiest day of my life. I love you more and more each day.',
-    closing: 'Your future husband, Abu 💍',
+    closing: 'Your future together, Abu 💍',
   },
 ];
 

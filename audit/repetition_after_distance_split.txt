@@ -1,0 +1,14 @@
+{
+  "registered": 311,
+  "sequential": 263,
+  "sharedPrimaryGroups": 1,
+  "repeatedInteractionGroups": 13,
+  "repeatedVisualGroups": 19,
+  "boring": 232,
+  "roulette": 0,
+  "games": 74,
+  "outputs": [
+    "audit/repetition_and_boring_games.csv",
+    "audit/repetition_and_boring_games.md"
+  ]
+}

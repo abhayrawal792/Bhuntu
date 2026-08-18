@@ -26,7 +26,14 @@ export const useAppStore = create(
       setCurrentRoomIndex: (index) => {
         const TOTAL = ROOM_SEQUENCE.length;
         if (index < 0 || index >= TOTAL) return;
-        set({ currentRoomIndex: index });
+        set((state) => {
+          const furthestAllowed = Math.min(TOTAL - 1, state.maxUnlockedIndex + 1);
+          if (index > furthestAllowed) return state;
+          return {
+            currentRoomIndex: index,
+            maxUnlockedIndex: Math.max(state.maxUnlockedIndex, index),
+          };
+        });
       },
 
       /* Advance one step forward — only callable from the footer Next button */

@@ -1,0 +1,20 @@
+src/components/BubblePopGame.jsx:15:  "You are Abu's forever dream & wife-to-be! 💍",
+src/components/LoveAnagramSolver.jsx:12:  { word: "SANZU", scrambled: ['Z', 'A', 'N', 'S', 'U'], clue: "The royal name of Abu's wife 👑" },
+src/components/LoveCrossword.jsx:15:  { id: 'D3', dir: 'Down', num: 3, text: 'Nepali word for beloved wife (6 letters)', answer: 'MAYALU' }
+src/components/LoveCrosswordPuzzle.jsx:23:  { num: "1 Down", clue: "The royal name of Abu's wife 👑 (SANZU)" }
+src/components/LoveEnvelope.jsx:15:  { id: 'crown', name: 'Royal Wifey Seal', icon: '👸', color: 'from-purple-500 to-indigo-600' }
+src/components/LoveLetterGenerator.jsx:28:    closing: 'Your future husband, Abu 💍',
+src/components/LoveReview.jsx:14:  { name: 'Honeymoon & Future Husband 🏔️💍', emoji: '🏔️', desc: 'How excited are you for your honeymoon trip to Pokhara, Manang & Mustang with Abu?' },
+src/components/LoveReview.jsx:15:  { name: 'Overall Boyfriend Score 💖👑', emoji: '💕', desc: 'Rate Abu as your overall boyfriend, best friend & future husband!' }
+src/components/LoveReview.jsx:26:    'Honeymoon & Future Husband 🏔️💍': 5,
+src/components/LoveReview.jsx:53:      subtitle="Rate Abu as Your Boyfriend & Future Husband!"
+src/components/LoveReview.jsx:103:            Certified: World's Best Boyfriend & Future Husband for Sanzu! 💕
+src/components/LoveReview.jsx:107:            href={`https://wa.me/9779708349123?text=${encodeURIComponent(`Hey Abu! ⭐ I just rated you as my boyfriend on our website:\n\nYou got a PERFECT ${avg}/5 STAR RATING as my partner & future husband! 🏆❤️`)}`}
+src/components/LoveWordle.jsx:12:  { word: "SANZU", hint: "The royal name of Abu's wife 👑" },
+src/components/LoveWordSearch.jsx:14:    words: ['BHUNTU', 'BEBO', 'SANZU', 'KANXU', 'MAYALU', 'FUCHHU', 'BUDI']
+src/components/TwoTruthsGame.jsx:34:      { text: "2. Abu calls you 'Mero Budi', 'Sanuu', and 'Runchee'.", isLie: false, explanation: "Sachho ho! Maya le sabai naam le bolauxu!" },
+src/data/birthdayData.js:10:    nickname: "Bhuntu..!!👀🤍✨, Sanuu, Bebo, Fuchee, Runchee, Bacha, Babe, Mero Budi ❤️",
+src/data/birthdayData.js:424:      { id: 5, nepali: "Bihe paxi temlai dherai maya garera budi banayera rakhnexam! 💍", english: "I cannot wait for the day I marry you and hold your hand forever." },
+src/data/whatsappChatData.js:6:    husband: "Abu (Abhay)",
+src/data/whatsappChatData.js:7:    wife: "Bhuntu (Sanzu Rawal / Bebo)",
+src/data/whatsappChatData.js:21:    { name: "Mero Budi (Wifey)", meaning: "Abu's eternal title for her 💍" }

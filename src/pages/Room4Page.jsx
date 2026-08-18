@@ -1,10 +1,4 @@
-import React from 'react';
-import BhuntuTriviaShowdown from '../components/BhuntuTriviaShowdown';
-
-export default function Room4Page() {
-  return (
-    <div className="min-h-dvh">
-      <BhuntuTriviaShowdown />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { BookHeart, ChevronRight } from 'lucide-react';
+const details = [['Her “Huss”', 'Abu hears an entire paragraph in one little word.'], ['Her nicknames', 'Sanzu, Bhoot, Bhuntu, Sanu, Babe, Runchi, Bebo, Fuchee — every name is a different doorway.'], ['Her care', 'Samjhana makes love feel like a daily practice, not a grand speech.']];
+export default function Room4Page() { const [detail, setDetail] = useState(0); return <main className="min-h-dvh bg-[#fffaf1] px-5 py-16 text-[#3b2b1f]"><div className="mx-auto max-w-5xl"><BookHeart className="h-12 w-12 text-amber-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-amber-700">Room 4 / the little details</p><h1 className="mt-4 text-6xl font-black">The things Abu knows without asking.</h1><div className="mt-12 grid gap-4 md:grid-cols-3">{details.map(([title], i) => <button key={title} onClick={() => setDetail(i)} className={"rounded-[2rem] border-2 p-6 text-left " + (detail === i ? 'border-amber-700 bg-amber-200' : 'border-amber-100 bg-white')}><span className="font-mono text-xs">0{i + 1}</span><h2 className="mt-20 text-2xl font-black">{title}</h2></button>)}</div><article className="mt-8 rounded-[2rem] bg-[#3b2b1f] p-8 text-amber-50"><p className="text-3xl font-black">{details[detail][1]}</p><button onClick={() => setDetail((detail + 1) % details.length)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-amber-300 px-5 py-3 font-black text-[#3b2b1f]">Open another page <ChevronRight className="h-4 w-4" /></button></article></div></main>; }

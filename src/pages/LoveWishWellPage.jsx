@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveWishWell from '../components/LoveWishWell';
-
-export default function LoveWishWellPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveWishWell />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Droplets, Heart, ArrowRight } from 'lucide-react';
+const wishes = ['A light-blue scooter day', 'Bardiya sunset', 'Pokhara morning', 'Manang tea', 'Mustang road'];
+export default function LoveWishWellPage() { const [wish, setWish] = useState(null); return <main className="min-h-dvh bg-[#e5f4f7] px-5 py-16 text-[#12343d]"><div className="mx-auto max-w-5xl"><Droplets className="h-12 w-12 text-cyan-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-cyan-700">A future-plan wishing well</p><h1 className="mt-4 text-6xl font-black">Choose the wish Abu will help make real.</h1><div className="mt-10 grid gap-8 lg:grid-cols-[.8fr_1.2fr]"><div className="rounded-[50%] border-8 border-cyan-700 bg-[radial-gradient(circle,#b6eff3,#247d8b)] p-10 text-center shadow-2xl"><Heart className="mx-auto h-10 w-10 fill-pink-300 text-pink-300" /><p className="mt-16 text-2xl font-black text-white">{wish || 'The well is waiting.'}</p></div><section className="space-y-3">{wishes.map((item) => <button key={item} onClick={() => setWish(item)} className="flex w-full items-center justify-between rounded-2xl bg-white p-5 text-left font-bold shadow-sm"><span>{item}</span><ArrowRight className="text-cyan-700" /></button>)}</section></div>{wish && <p className="mt-9 text-center text-xl font-bold">Abu has heard it. One day, Samjhana, we will stand there together.</p>}</div></main>; }

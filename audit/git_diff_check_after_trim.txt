@@ -1,0 +1,6 @@
+audit/full_sequence_page_audit.md:24: trailing whitespace.
+[32m+[m[32m**Implementation:** `HomePage` / `src/pages/HomePage.jsx + src/data/personalVoice.js + src/data/roomSequence.js`[m[41m  [m
+audit/full_sequence_page_audit.md:27: trailing whitespace.
+[32m+[m[32m**Photos/media:** 0 image signals, 0 media signals. **Interaction:** 8 signals. **Narrative:** 228 signals. **Gift layer:** 36 signals.[m[41m  [m
+audit/full_sequence_page_audit.md:36: trailing whitespace.
+[32m+[m[32m**Photos/media:** 24 image signals, 46 media signals. **Interaction:** 79 signals. **Narrative:** 192 signals. **Gift layer:** 67 signals.[m[41m  [m

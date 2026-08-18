@@ -1,0 +1,94 @@
+
+> bhuntu@0.0.0 build
+> node scripts/build-production.mjs
+
+Uniqueness audit passed for 323 pages.
+{
+  "routes": 311,
+  "pages": 311,
+  "gameOnly": 5,
+  "weak": 275,
+  "duplicateFingerprints": 5,
+  "mechanicCounts": {
+    "memory-reveal": 62,
+    "decorator": 14,
+    "choice-reveal": 17,
+    "quiz": 11,
+    "scratch": 7,
+    "puzzle": 16,
+    "photo-game": 8,
+    "audio-game": 7
+  }
+}
+# Experience System Validation
+
+| Check | Result |
+|---|---:|
+| Page gift records | 311 |
+| Unique routes | 311 |
+| Complete gift/message/compliment/memory/surprise records | 311 |
+| Retained game records | 1 |
+| Unique page messages | 311 |
+| Errors | 0 |
+
+All experience-system checks passed.
+
+# First-Birthday Game Policy
+
+| Measure | Result |
+|---|---:|
+| Curated sequence routes | 263 |
+| Detected game routes in curated sequence | 20 |
+| Approved game routes | 20 |
+| Removed game routes | 41 |
+| Errors | 0 |
+
+## Approved games
+
+1. /quiz
+2. /cooking-game
+3. /photo-puzzle-3d
+4. /love-maze
+5. /couple-bingo
+6. /love-crossword
+7. /love-languages-quiz
+8. /love-constellation-painter
+9. /romantic-karaoke
+10. /love-rhythm-game
+11. /love-butterfly-catcher
+12. /love-tetris-block-puzzle
+13. /heartbeat-drum-pad
+14. /sweet-proposal-simulator
+15. /love-doodle-canvas
+16. /love-firework-painter
+17. /love-wordle
+18. /emoji-art-canvas
+19. /love-scratch-card
+20. /love-tetris
+
+The curated sequence contains exactly twenty approved games. All other detected game routes are excluded.
+
+vite v8.2.0 building client environment for production...
+[2Ktransforming...[32m✓[0m 3331 modules transformed.
+rendering chunks...
+✗ Build failed in 2.88s
+error during build:
+Build failed with 1 error:
+
+[31m[MISSING_EXPORT] [0m"Butterfly" is not exported by "node_modules/lucide-react/dist/esm/lucide-react.mjs".
+   [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/LoveButterflyCatcherPage.jsx:2:10 [38;5;246m][0m
+   [38;5;246m│[0m
+ [38;5;246m2 │[0m [38;5;249mi[0m[38;5;249mm[0m[38;5;249mp[0m[38;5;249mo[0m[38;5;249mr[0m[38;5;249mt[0m[38;5;249m [0m[38;5;249m{[0m[38;5;249m [0mButterfly[38;5;249m,[0m[38;5;249m [0m[38;5;249mM[0m[38;5;249ma[0m[38;5;249mp[0m[38;5;249mP[0m[38;5;249mi[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249md[0m[38;5;249m,[0m[38;5;249m [0m[38;5;249mC[0m[38;5;249mh[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mk[0m[38;5;249m [0m[38;5;249m}[0m[38;5;249m [0m[38;5;249mf[0m[38;5;249mr[0m[38;5;249mo[0m[38;5;249mm[0m[38;5;249m [0m[38;5;249m"[0m[38;5;249ml[0m[38;5;249mu[0m[38;5;249mc[0m[38;5;249mi[0m[38;5;249md[0m[38;5;249me[0m[38;5;249m-[0m[38;5;249mr[0m[38;5;249me[0m[38;5;249ma[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249m"[0m[38;5;249m;[0m
+ [38;5;240m  │[0m          ────┬────  
+ [38;5;240m  │[0m              ╰────── Missing export
+[38;5;246m───╯[0m
+
+    at aggregateBindingErrorsIntoJsError (file:///home/ubuntu/bhuntu-github/node_modules/rolldown/dist/shared/error-BgfXq0Tb.mjs:48:18)
+    at unwrapBindingResult (file:///home/ubuntu/bhuntu-github/node_modules/rolldown/dist/shared/error-BgfXq0Tb.mjs:18:128)
+    at #build (file:///home/ubuntu/bhuntu-github/node_modules/rolldown/dist/shared/rolldown-DP_p9pd3.mjs:132:34)
+    at async buildEnvironment (file:///home/ubuntu/bhuntu-github/node_modules/vite/dist/node/chunks/node.js:33669:66)
+    at async Object.build (file:///home/ubuntu/bhuntu-github/node_modules/vite/dist/node/chunks/node.js:34091:19)
+    at async Object.buildApp (file:///home/ubuntu/bhuntu-github/node_modules/vite/dist/node/chunks/node.js:34088:153)
+    at async CAC.<anonymous> (file:///home/ubuntu/bhuntu-github/node_modules/vite/dist/node/cli.js:776:3) {
+  errors: [Getter/Setter]
+}

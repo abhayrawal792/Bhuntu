@@ -1,0 +1,7 @@
+{
+  "exactDuplicateGroups": 0,
+  "duplicatePages": 0,
+  "lowMedia": 17,
+  "thin": 0,
+  "output": "audit/full_sequence_comparison_findings.md"
+}

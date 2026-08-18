@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveRadio from '../components/LoveRadio';
-
-export default function LoveRadioPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveRadio />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Radio, Volume2, Heart } from 'lucide-react';
+const stations = [['Dhamboji FM', 'A bright morning from Abu’s side of the map.'], ['Sakai After Dark', 'A quiet frequency for the hour Samjhana should be sleeping.'], ['Future Road Radio', 'A travel segment for the scooter and the mountains ahead.']];
+export default function LoveRadioPage() { const [station, setStation] = useState(0); return <main className="min-h-dvh bg-[#111827] px-5 py-16 text-amber-50"><div className="mx-auto max-w-6xl"><div className="grid gap-10 lg:grid-cols-[.8fr_1.2fr]"><aside className="rounded-[2rem] border border-amber-200/20 bg-amber-100/10 p-8"><Radio className="h-12 w-12 text-amber-300" /><p className="mt-6 text-xs font-black uppercase tracking-[.3em] text-amber-300">Abu’s late-night station</p><h1 className="mt-4 text-5xl font-black">A frequency for Sakai nights.</h1><p className="mt-5 leading-8 text-amber-100/70">Tune in to a small broadcast made from places, plans, and the person Abu loves.</p></aside><section><div className="space-y-3">{stations.map(([title], i) => <button key={title} onClick={() => setStation(i)} className={"flex w-full items-center gap-4 rounded-2xl p-5 text-left " + (station === i ? 'bg-amber-300 text-[#111827]' : 'bg-white/5')}><Volume2 className="h-5 w-5" /><span className="font-black">{title}</span></button>)}</div><article className="mt-6 rounded-[2rem] bg-amber-50 p-8 text-[#111827]"><p className="font-mono text-xs uppercase tracking-[.3em]">ON AIR / 20:04</p><h2 className="mt-6 text-4xl font-black">{stations[station][0]}</h2><p className="mt-5 text-xl leading-8">{stations[station][1]}</p><Heart className="mt-10 fill-rose-500 text-rose-500" /></article></section></div></div></main>; }

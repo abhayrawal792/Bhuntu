@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveEnvelope from '../components/LoveEnvelope';
-
-export default function Room7Page() {
-  return (
-    <div className="min-h-dvh">
-      <LoveEnvelope />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Mail, Heart, ArrowRight } from 'lucide-react';
+const letters = [['Open when you miss Abu', 'The distance is real, but so is the part of me that reaches for you every day.'], ['Open when you doubt yourself', 'Samjhana, you are doing better than you think. Abu sees the courage in your ordinary days.'], ['Open on your birthday', 'Happy birthday, Bhuntu. This first present is small beside the love it carries.']];
+export default function Room7Page() { const [letter, setLetter] = useState(0); return <main className="min-h-dvh bg-[#f7efe5] px-5 py-16 text-[#3f2b24]"><div className="mx-auto max-w-5xl"><Mail className="h-12 w-12 text-rose-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-rose-700">Room 7 / open-when letters</p><h1 className="mt-4 text-6xl font-black">One envelope for each feeling.</h1><div className="mt-12 space-y-4">{letters.map(([title], i) => <button key={title} onClick={() => setLetter(i)} className={"flex w-full items-center gap-5 rounded-[2rem] border-2 p-6 text-left " + (letter === i ? 'border-rose-700 bg-rose-100' : 'border-rose-100 bg-white')}><span className="grid h-12 w-12 place-items-center rounded-full bg-rose-700 text-white">0{i + 1}</span><span className="flex-1 text-2xl font-black">{title}</span><ArrowRight /></button>)}</div><article className="mt-8 rounded-[2rem] bg-white p-8 shadow-xl"><Heart className="h-7 w-7 fill-rose-500 text-rose-500" /><p className="mt-6 text-3xl font-black leading-tight">{letters[letter][1]}</p></article></div></main>; }

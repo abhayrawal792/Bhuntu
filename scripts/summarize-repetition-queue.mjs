@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const parseCsv = (text) => text.split(/\r?\n/).filter(Boolean).map((line) => { const out=[]; let value=''; let quoted=false; for (let i=0;i<line.length;i+=1) { const ch=line[i]; if (ch==='"' && line[i+1]==='"') { value+='"'; i+=1; } else if (ch==='"') quoted=!quoted; else if (ch===',' && !quoted) { out.push(value); value=''; } else value+=ch; } out.push(value); return out; });
+const rows=parseCsv(fs.readFileSync('audit/repetition_and_boring_games.csv','utf8')); const header=rows.shift(); const idx=Object.fromEntries(header.map((key,i)=>[key,i])); const data=rows.map(row=>Object.fromEntries(header.map((key,i)=>[key,row[i]])));
+const inSeq=data.filter(row=>row.inSequence==='true');
+const retained=new Set(['/quiz','/cooking-game','/photo-puzzle-3d','/love-maze','/couple-bingo','/love-crossword','/love-languages-quiz','/love-constellation-painter','/romantic-karaoke','/love-rhythm-game','/love-butterfly-catcher','/love-tetris-block-puzzle','/heartbeat-drum-pad','/sweet-proposal-simulator','/love-doodle-canvas','/love-firework-painter','/love-wordle','/emoji-art-canvas','/love-scratch-card','/love-tetris']);
+const group=(items,key)=>Object.entries(Object.groupBy(items,row=>row[key])).filter(([,group])=>group.length>1).sort((a,b)=>b[1].length-a[1].length);
+const lines=[]; lines.push('Sequential shared primary groups:'); for (const [key,groupRows] of group(inSeq,'sharedPrimary')) lines.push(`${key} (${groupRows.length}): ${groupRows.map(row=>`${row.route} [${row.component}]`).join(', ')}`);
+lines.push('\nSequential repeated interaction ideas:'); for (const [key,groupRows] of group(inSeq,'interactionIdea')) lines.push(`${key} (${groupRows.length}): ${groupRows.map(row=>row.route).join(', ')}`);
+lines.push('\nRetained games:'); for (const row of inSeq.filter(row=>retained.has(row.route))) lines.push(`${row.route} | ${row.component} | ${row.sharedPrimary} | ${row.interactionIdea} | ${row.visual} | ${row.interactionShape} | signals=${row.signals} | boring=${row.boringReasons}`);
+fs.writeFileSync('audit/sequential_repetition_queue.txt', lines.join('\n')+'\n'); console.log(lines.join('\n'));

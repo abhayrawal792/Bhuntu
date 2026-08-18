@@ -1,0 +1,17 @@
+{
+  "routes": 311,
+  "pages": 311,
+  "gameOnly": 5,
+  "weak": 266,
+  "duplicateFingerprints": 4,
+  "mechanicCounts": {
+    "memory-reveal": 71,
+    "decorator": 14,
+    "choice-reveal": 19,
+    "quiz": 10,
+    "scratch": 7,
+    "puzzle": 16,
+    "photo-game": 8,
+    "audio-game": 8
+  }
+}

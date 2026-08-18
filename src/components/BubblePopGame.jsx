@@ -12,7 +12,7 @@ const LOVE_MESSAGES = [
   "Abu is so infinitely proud of you, my Bebo! 🌟",
   "No matter how hard today was, Abu loves you forever! ❤️",
   "Your smile instantly brightens up my whole day! 😊",
-  "You are Abu's forever dream & wife-to-be! 💍",
+  "You are Abu's forever dream & favorite person! 💍",
   "Sending you 1,000 tight, warm virtual hugs! 🫂",
   "Dhamboji ↔️ Sakai love is unbreakable! ✈️",
   "You make my heart beat faster every single day! 💓",

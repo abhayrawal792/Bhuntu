@@ -1,10 +1,5 @@
-import React from 'react';
-import VIPTreasureChest from '../components/VIPTreasureChest';
-
-export default function TreasureChestPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <VIPTreasureChest />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Gift, Heart, MapPin } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+const keepsakes = [['The beginning', 'October 28, 2025 — the day Samjhana said yes.', 21], ['The taste', 'Chau-Chau, Panipuri, and the small joys that became ours.', 31], ['The distance', 'Nepalgunj to Sakai, and every call that crossed it.', 41]];
+export default function TreasureChestPage() { const [open, setOpen] = useState(null); return <main className="min-h-dvh bg-[#2a160d] px-5 py-16 text-amber-50"><div className="mx-auto max-w-6xl"><Gift className="h-12 w-12 text-amber-300" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-amber-300">Abu’s keepsake chest</p><h1 className="mt-4 text-6xl font-black">Three things he refuses to forget.</h1><div className="mt-12 grid gap-6 md:grid-cols-3">{keepsakes.map(([title, copy, index]) => <button key={title} onClick={() => setOpen(title)} className="overflow-hidden rounded-[2rem] border border-amber-200/20 bg-amber-100/10 text-left"><img src={getAssetUrl(ALL_MEDIA_PHOTOS[index])} alt={title} className="h-52 w-full object-cover" /><div className="p-6"><Heart className="h-6 w-6 text-rose-300" /><h2 className="mt-6 text-2xl font-black">{title}</h2>{open === title ? <p className="mt-3 leading-7 text-amber-100/80">{copy}</p> : <p className="mt-3 text-amber-300">Lift this keepsake</p>}</div></button>)}</div><div className="mt-9 flex items-center gap-3 text-amber-200"><MapPin className="h-5 w-5" />Every box is labelled: for Samjhana, from Abu.</div></div></main>; }

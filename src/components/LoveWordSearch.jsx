@@ -11,7 +11,7 @@ const PUZZLE_LEVELS = [
   {
     id: 1,
     name: "Cute Nicknames 👑",
-    words: ['BHUNTU', 'BEBO', 'SANZU', 'KANXU', 'MAYALU', 'FUCHHU', 'BUDI']
+    words: ['BHUNTU', 'BEBO', 'SANZU', 'KANXU', 'MAYALU', 'FUCHHU', 'BABE']
   },
   {
     id: 2,

@@ -1,6 +1,4 @@
-import React from 'react';
-import LoveTetrisBlockPuzzle from '../components/LoveTetrisBlockPuzzle';
-
-export default function LoveTetrisBlockPuzzlePage() {
-  return <LoveTetrisBlockPuzzle />;
-}
+import React, { useState } from 'react';
+import { Home, Plus, Check } from 'lucide-react';
+const rooms = ['A morning kitchen', 'A call corner', 'A balcony for Osaka rain', 'A shelf for our photos'];
+export default function LoveTetrisBlockPuzzlePage() { const [built, setBuilt] = useState([]); return <main className="min-h-dvh bg-[#f3f0e8] px-5 py-16 text-[#27352b]"><div className="mx-auto max-w-6xl"><div className="flex items-center gap-3 text-emerald-800"><Home /><span className="text-xs font-black uppercase tracking-[.3em]">Build the home we keep making</span></div><h1 className="mt-5 max-w-3xl text-6xl font-black">Stack four rooms from Abu’s future.</h1><div className="mt-10 grid gap-8 lg:grid-cols-[1fr_.8fr]"><div className="grid grid-cols-2 gap-4">{rooms.map((room, i) => <button key={room} onClick={() => !built.includes(room) && setBuilt([...built, room])} className={"min-h-44 border-4 p-5 text-left " + (built.includes(room) ? 'border-emerald-700 bg-emerald-200' : 'border-[#27352b] bg-[#fffdf4]')}><span className="font-mono text-xs">BLOCK 0{i + 1}</span><h2 className="mt-10 text-2xl font-black">{room}</h2>{built.includes(room) && <Check className="mt-3 h-5 w-5" />}</button>)}</div><aside className="rounded-[2rem] bg-[#27352b] p-8 text-emerald-50"><p className="text-xs font-black uppercase tracking-[.25em] text-emerald-300">The little home</p><div className="mt-7 space-y-3">{built.map((room) => <p key={room} className="flex items-center gap-2"><Plus className="h-4 w-4 text-amber-300" />{room}</p>)}</div>{built.length === rooms.length && <p className="mt-8 border-t border-white/15 pt-6 text-xl font-bold">One day, Sanu, Abu will make this real.</p>}</aside></div></div></main>; }

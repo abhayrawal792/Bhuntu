@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveMeterDeluxe from '../components/LoveMeterDeluxe';
-
-export default function LoveMeterDeluxePage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveMeterDeluxe />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Gauge, Heart, Check } from 'lucide-react';
+const measures = [['Distance crossed', 'Nepalgunj to Sakai'], ['Names remembered', 'Sanzu, Bhuntu, Sanu, Babe, Runchi, Bhoot, Bebo, Fuchee'], ['Plans kept', 'Bardiya, Pokhara, Manang, Mustang'], ['Days chosen', 'Every ordinary day since October 28, 2025']];
+export default function LoveMeterDeluxePage() { const [checked, setChecked] = useState([]); const complete = checked.length === measures.length; return <main className="min-h-dvh bg-[#f5f2ff] px-5 py-16 text-[#2f2453]"><div className="mx-auto max-w-5xl"><Gauge className="h-12 w-12 text-violet-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-violet-700">A real measure of Abu’s love</p><h1 className="mt-4 text-6xl font-black">Not a percentage. A record.</h1><p className="mt-5 max-w-2xl text-lg leading-8">Love is measured here by what Abu remembers, crosses, plans, and keeps choosing.</p><div className="mt-12 space-y-4">{measures.map(([title, copy]) => <button key={title} onClick={() => setChecked(checked.includes(title) ? checked.filter((x) => x !== title) : [...checked, title])} className={"flex w-full items-center gap-5 rounded-[2rem] border-2 p-6 text-left " + (checked.includes(title) ? 'border-violet-700 bg-violet-200' : 'border-violet-100 bg-white')}><span className="grid h-12 w-12 place-items-center rounded-full bg-violet-700 text-white">{checked.includes(title) ? <Check /> : <Heart />}</span><span><b className="block text-2xl">{title}</b><small className="mt-1 block text-slate-600">{copy}</small></span></button>)}</div>{complete && <div className="mt-9 rounded-[2rem] bg-violet-700 p-8 text-white"><p className="text-4xl font-black">The meter says: immeasurable.</p><p className="mt-4 text-lg">Happy birthday, Samjhana. Abu’s answer is always more.</p></div>}</div></main>; }

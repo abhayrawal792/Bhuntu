@@ -1,10 +1,3 @@
-import React from 'react';
-import CakeBakingGame from '../components/CakeBakingGame';
-
-export default function CookingGamePage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <CakeBakingGame />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { ChefHat, Utensils, CheckCircle2 } from 'lucide-react';
+export default function CookingGamePage() { const [plate, setPlate] = useState([]); const ingredients = ['Chau-Chau', 'Panipuri', 'Momo', 'Late-night call']; const done = plate.length === ingredients.length; return <main className="min-h-dvh bg-[#fff4df] px-5 py-16 text-[#3f2418]"><div className="mx-auto max-w-5xl"><header className="mb-10 max-w-2xl"><ChefHat className="h-12 w-12 text-orange-600" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-orange-700">A birthday table for Sanu</p><h1 className="mt-3 text-6xl font-black tracking-tight">Cook the story Abu misses.</h1><p className="mt-5 text-lg leading-8">Choose the ingredients that belong on our Nepalgunj-to-Sakai table. This is not a recipe; it is the taste of us.</p></header><div className="grid gap-8 lg:grid-cols-[1fr_.8fr]"><div className="grid gap-4 sm:grid-cols-2">{ingredients.map((item, i) => <button key={item} disabled={plate.includes(item)} onClick={() => setPlate([...plate, item])} className={"min-h-36 rounded-3xl border-2 p-5 text-left transition " + (plate.includes(item) ? 'border-orange-500 bg-orange-200' : 'border-orange-200 bg-white hover:-translate-y-1')}><Utensils className="h-6 w-6 text-orange-600" /><span className="mt-8 block text-2xl font-black">{item}</span></button>)}</div><aside className="rounded-[2rem] bg-[#3f2418] p-7 text-orange-50"><p className="text-xs font-black uppercase tracking-[.25em] text-orange-300">The plate Abu would serve</p>{plate.map((item) => <div key={item} className="mt-5 flex items-center gap-3 text-lg"><CheckCircle2 className="h-5 w-5 text-orange-300" />{item}</div>)}{done && <p className="mt-10 border-t border-orange-100/20 pt-6 text-xl font-bold">Samjhana, every bite would come with a kiss from Abu.</p>}</aside></div></div></main>; }

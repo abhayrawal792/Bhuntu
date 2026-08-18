@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveMaze from '../components/LoveMaze';
-
-export default function LoveMazePage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveMaze />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Footprints, MapPin, ArrowUpRight } from 'lucide-react';
+const stops = [['Dhamboji', 'Where Abu’s ordinary day first started looking for Samjhana.'], ['Bageshwori', 'A place that still feels like it knows our names.'], ['Water Park', 'The kind of day that makes distance unfair.'], ['Sakai', 'Where every late-night call becomes a bridge.']];
+export default function LoveMazePage() { const [at, setAt] = useState(0); const finish = at === stops.length - 1; return <main className="min-h-dvh bg-[#eef6f2] px-5 py-16 text-[#17372e]"><div className="mx-auto max-w-6xl"><div className="grid gap-12 lg:grid-cols-[.7fr_1.3fr]"><aside className="rounded-[2.5rem] bg-[#17372e] p-8 text-emerald-50"><Footprints className="h-10 w-10 text-amber-300" /><p className="mt-8 text-xs font-black uppercase tracking-[.3em] text-emerald-300">Finding the way back to you</p><h1 className="mt-4 text-5xl font-black">A map made of real places.</h1><p className="mt-6 leading-8 text-emerald-100/70">Abu never needed a compass. Every road eventually points to Samjhana.</p></aside><section><div className="flex flex-wrap gap-3">{stops.map((stop, i) => <button key={stop[0]} onClick={() => setAt(i)} className={"rounded-full border px-4 py-2 text-sm font-bold " + (i === at ? 'border-emerald-700 bg-emerald-700 text-white' : 'border-emerald-200 bg-white')}>{i + 1}. {stop[0]}</button>)}</div><article className="mt-8 rounded-[2rem] border border-emerald-100 bg-white p-8 shadow-xl"><MapPin className="h-8 w-8 text-emerald-600" /><p className="mt-6 text-xs font-black uppercase tracking-[.25em] text-emerald-700">Stop {at + 1}</p><h2 className="mt-3 text-5xl font-black">{stops[at][0]}</h2><p className="mt-5 max-w-2xl text-xl leading-8">{stops[at][1]}</p>{!finish ? <button onClick={() => setAt(at + 1)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-amber-400 px-5 py-3 font-black">Walk to the next memory <ArrowUpRight className="h-4 w-4" /></button> : <p className="mt-8 border-t border-emerald-100 pt-6 text-lg font-bold text-emerald-800">You arrived where Abu always wanted to be: beside you.</p>}</article></section></div></div></main>; }

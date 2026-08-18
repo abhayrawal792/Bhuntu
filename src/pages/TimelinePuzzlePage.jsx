@@ -1,10 +1,4 @@
-import React from 'react';
-import TimelinePuzzle from '../components/TimelinePuzzle';
-
-export default function TimelinePuzzlePage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <TimelinePuzzle />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Clock, ArrowRight, Check } from 'lucide-react';
+const memories = [['The yes', 'October 28, 2025', 'Samjhana accepted Abu’s proposal.'], ['The tastes', 'After the beginning', 'Chau-Chau and Panipuri became tiny celebrations.'], ['The calls', 'Across two countries', 'Nepalgunj and Sakai learned how to share a night.'], ['The next', 'Still unfolding', 'Bardiya, Pokhara, Manang, and Mustang are waiting.']];
+export default function TimelinePuzzlePage() { const [step, setStep] = useState(0); return <main className="min-h-dvh bg-[#f1f5f9] px-5 py-16 text-[#1e293b]"><div className="mx-auto max-w-4xl"><Clock className="h-10 w-10 text-indigo-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-indigo-700">Our timeline, told properly</p><h1 className="mt-4 text-6xl font-black">One story. Four rooms in time.</h1><div className="mt-12 rounded-[2rem] bg-white p-8 shadow-xl"><div className="flex gap-2">{memories.map((_, i) => <div key={i} className={"h-2 flex-1 rounded-full " + (i <= step ? 'bg-indigo-600' : 'bg-slate-200')} />)}</div><p className="mt-10 font-mono text-sm text-indigo-600">{memories[step][1]}</p><h2 className="mt-4 text-5xl font-black">{memories[step][0]}</h2><p className="mt-5 text-xl leading-8 text-slate-600">{memories[step][2]}</p>{step < memories.length - 1 ? <button onClick={() => setStep(step + 1)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-indigo-700 px-5 py-3 font-bold text-white">Continue the story <ArrowRight className="h-4 w-4" /></button> : <p className="mt-8 flex items-center gap-2 font-bold text-emerald-700"><Check /> Abu still chooses the next chapter with you.</p>}</div></div></main>; }

@@ -9,7 +9,7 @@ import { BHUNTU_PHOTOS, handlePhotoError } from '../utils/mediaUtils';
 import { sendWhatsAppMessage } from '../utils/whatsappHelper';
 
 const ANAGRAMS = [
-  { word: "SANZU", scrambled: ['Z', 'A', 'N', 'S', 'U'], clue: "The royal name of Abu's wife 👑" },
+  { word: "SANZU", scrambled: ['Z', 'A', 'N', 'S', 'U'], clue: "The royal name of Samjhana's special name 👑" },
   { word: "BEBO", scrambled: ['O', 'B', 'E', 'B'], clue: "Abu's sweetest nickname for Sanzu 🍯" },
   { word: "SAKAI", scrambled: ['I', 'A', 'K', 'A', 'S'], clue: "City in Osaka where Sanzu lives 🇯🇵" }
 ];

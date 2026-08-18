@@ -1,10 +1,4 @@
-import React from 'react';
-import SkyLanterns from '../components/SkyLanterns';
-
-export default function LanternsPage() {
-  return (
-    <div className="min-h-dvh py-6 bg-gradient-to-b from-[#090D16] to-[#1A1423]">
-      <SkyLanterns />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Sun, Sparkles, ArrowRight } from 'lucide-react';
+const wishes = [['For your heart', 'May you always feel how deeply Abu is proud of you.'], ['For your work', 'May Sakai open kind doors and gentle mornings.'], ['For our future', 'May every road from Nepalgunj lead to a shared view.']];
+export default function LanternsPage() { const [lit, setLit] = useState([]); return <main className="min-h-dvh bg-gradient-to-b from-[#172554] to-[#fb923c] px-5 py-16 text-white"><div className="mx-auto max-w-5xl text-center"><Sun className="mx-auto h-12 w-12 text-amber-200" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-amber-200">A sky letter for Bhuntu</p><h1 className="mt-4 text-6xl font-black">Light one promise at a time.</h1><p className="mx-auto mt-5 max-w-xl text-lg text-orange-50/80">Tap a lantern and let Abu’s birthday wishes rise toward Samjhana.</p><div className="mt-12 grid gap-5 md:grid-cols-3">{wishes.map(([title, copy]) => <button key={title} onClick={() => !lit.includes(title) && setLit([...lit, title])} className={"min-h-72 rounded-t-[50%] border-2 p-7 transition " + (lit.includes(title) ? 'border-amber-200 bg-amber-300 text-orange-950 shadow-[0_0_55px_#fde68a]' : 'border-orange-100/30 bg-orange-100/10 hover:bg-orange-100/20')}><Sparkles className="mx-auto h-8 w-8" /><h2 className="mt-16 text-2xl font-black">{title}</h2>{lit.includes(title) ? <p className="mt-3 leading-7">{copy}</p> : <ArrowRight className="mx-auto mt-5" />}</button>)}</div></div></main>; }

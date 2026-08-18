@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveScratchCard from '../components/LoveScratchCard';
-
-export default function LoveScratchCardPage() {
-  return (
-    <div className="min-h-dvh">
-      <LoveScratchCard />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { MailOpen, Stamp, Heart } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+export default function LoveScratchCardPage() { const [opened, setOpened] = useState(false); const photo = getAssetUrl(ALL_MEDIA_PHOTOS[74]); return <main className="min-h-dvh bg-[#e9e0d3] px-5 py-16 text-[#34241f]"><div className="mx-auto max-w-5xl"><div className="grid gap-10 lg:grid-cols-[.8fr_1.2fr] lg:items-center"><img src={photo} alt="A sealed memory for Samjhana" className="h-[28rem] w-full rounded-[2rem] object-cover shadow-xl" /><section><Stamp className="h-10 w-10 text-rose-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-rose-700">The scratch-card is gone</p><h1 className="mt-4 text-6xl font-black">Open Abu’s actual birthday envelope.</h1><p className="mt-5 text-lg leading-8">A real gift should not make you scratch for a surprise. It should ask you to pause, lift the seal, and read slowly.</p><button onClick={() => setOpened(true)} className="mt-9 inline-flex items-center gap-3 rounded-full bg-rose-700 px-6 py-4 font-black text-white"><MailOpen className="h-5 w-5" /> Lift the seal</button>{opened && <div className="mt-8 rounded-[2rem] border-2 border-rose-200 bg-[#fffaf4] p-7 shadow-xl"><Heart className="h-8 w-8 fill-rose-500 text-rose-500" /><p className="mt-5 text-2xl font-black">Samjhana, you are Abu’s favorite thing to come home to.</p><p className="mt-4 leading-7">From Nepalgunj to Sakai, this is the promise inside the envelope: no distance can make me stop choosing you.</p></div>}</section></div></div></main>; }

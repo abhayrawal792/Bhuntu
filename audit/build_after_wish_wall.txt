@@ -1,0 +1,493 @@
+
+> bhuntu@0.0.0 build
+> node scripts/build-production.mjs
+
+Uniqueness audit passed for 323 pages.
+{
+  "routes": 311,
+  "pages": 311,
+  "gameOnly": 5,
+  "weak": 268,
+  "duplicateFingerprints": 4,
+  "mechanicCounts": {
+    "memory-reveal": 68,
+    "decorator": 14,
+    "choice-reveal": 18,
+    "quiz": 11,
+    "scratch": 7,
+    "puzzle": 16,
+    "photo-game": 8,
+    "audio-game": 7
+  }
+}
+# Experience System Validation
+
+| Check | Result |
+|---|---:|
+| Page gift records | 311 |
+| Unique routes | 311 |
+| Complete gift/message/compliment/memory/surprise records | 311 |
+| Retained game records | 1 |
+| Unique page messages | 311 |
+| Errors | 0 |
+
+All experience-system checks passed.
+
+# First-Birthday Game Policy
+
+| Measure | Result |
+|---|---:|
+| Curated sequence routes | 263 |
+| Detected game routes in curated sequence | 20 |
+| Approved game routes | 20 |
+| Removed game routes | 41 |
+| Errors | 0 |
+
+## Approved games
+
+1. /quiz
+2. /cooking-game
+3. /photo-puzzle-3d
+4. /love-maze
+5. /couple-bingo
+6. /love-crossword
+7. /love-languages-quiz
+8. /love-constellation-painter
+9. /romantic-karaoke
+10. /love-rhythm-game
+11. /love-butterfly-catcher
+12. /love-tetris-block-puzzle
+13. /heartbeat-drum-pad
+14. /sweet-proposal-simulator
+15. /love-doodle-canvas
+16. /love-firework-painter
+17. /love-wordle
+18. /emoji-art-canvas
+19. /love-scratch-card
+20. /love-tetris
+
+The curated sequence contains exactly twenty approved games. All other detected game routes are excluded.
+
+vite v8.2.0 building client environment for production...
+[2Ktransforming...[32m✓[0m 3314 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[0m[32mindex.html                                           [0m[1;2m  1.97 kB[0m[2m │ gzip:   0.93 kB[0m
+[2mdist/[0m[2massets/[0m[35mindex-CxkZwRIk.css                            [0m[1;2m358.80 kB[0m[2m │ gzip:  39.29 kB[0m
+[2mdist/[0m[2massets/[0m[36mcheck-OmyrtjBS.js                             [0m[1;2m  0.11 kB[0m[2m │ gzip:   0.13 kB[0m
+[2mdist/[0m[2massets/[0m[36mplus-Ctky24fH.js                              [0m[1;2m  0.14 kB[0m[2m │ gzip:   0.14 kB[0m
+[2mdist/[0m[2massets/[0m[36mcloud-Drm5sMNa.js                             [0m[1;2m  0.14 kB[0m[2m │ gzip:   0.15 kB[0m
+[2mdist/[0m[2massets/[0m[36marrow-down-B2DPxIvn.js                        [0m[1;2m  0.15 kB[0m[2m │ gzip:   0.15 kB[0m
+[2mdist/[0m[2massets/[0m[36marrow-left-DYJNvGOE.js                        [0m[1;2m  0.15 kB[0m[2m │ gzip:   0.15 kB[0m
+[2mdist/[0m[2massets/[0m[36marrow-right-Baa3rwEZ.js                       [0m[1;2m  0.15 kB[0m[2m │ gzip:   0.15 kB[0m
+[2mdist/[0m[2massets/[0m[36mclock-BWNAb2Op.js                             [0m[1;2m  0.15 kB[0m[2m │ gzip:   0.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mcircle-check-baM7lVJ8.js                      [0m[1;2m  0.16 kB[0m[2m │ gzip:   0.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mplay-CpGZ6OuP.js                              [0m[1;2m  0.17 kB[0m[2m │ gzip:   0.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mcircle-check-big-ysrcdXQa.js                  [0m[1;2m  0.18 kB[0m[2m │ gzip:   0.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mflame-DXs80OfB.js                             [0m[1;2m  0.18 kB[0m[2m │ gzip:   0.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mrotate-ccw-D-IAKu8n.js                        [0m[1;2m  0.18 kB[0m[2m │ gzip:   0.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mlock-DCSeHjib.js                              [0m[1;2m  0.19 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mcircle-x-bh5INUAI.js                          [0m[1;2m  0.19 kB[0m[2m │ gzip:   0.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mlock-open-hZFIOn9M.js                         [0m[1;2m  0.19 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mpause-Cbsc8kCR.js                             [0m[1;2m  0.20 kB[0m[2m │ gzip:   0.15 kB[0m
+[2mdist/[0m[2massets/[0m[36mmail-GS3DJQye.js                              [0m[1;2m  0.20 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mmoon-DN0WDvyr.js                              [0m[1;2m  0.20 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveEnvelopePage-CSiWucL1.js                  [0m[1;2m  0.21 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom7Page-CSiWucL1.js                         [0m[1;2m  0.21 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveGrandFinalePage-yXDAN_NX.js               [0m[1;2m  0.21 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom12Page-yXDAN_NX.js                        [0m[1;2m  0.21 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mBucketListPage-D2122UTk.js                    [0m[1;2m  0.21 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom8Page-D2122UTk.js                         [0m[1;2m  0.21 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mPromiseTreePage-CV-__epu.js                   [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom9Page-CV-__epu.js                         [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuLovePolaroidsPage-Wd5SeTBG.js           [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom3Page-Wd5SeTBG.js                         [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mmessage-square-Cjib0NfH.js                    [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuTriviaShowdownPage-C3aB4yJG.js          [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mFirstMomentsTimelinePage-C6OtlDqv.js          [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom4Page-C3aB4yJG.js                         [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom6Page-C6OtlDqv.js                         [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mactivity-DWslMwoS.js                          [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mmic-C0dE80gz.js                               [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuVoiceNoteArchivePage-BLjEn7_A.js        [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCoronationCeremonyPage-DVp2EIWy.js        [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom10Page-BLjEn7_A.js                        [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom11Page-DVp2EIWy.js                        [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLoveStoryComicStripPage-k3csB25p.js       [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom5Page-k3csB25p.js                         [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mmaximize-2-x7sbH91G.js                        [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mtimer-CPGnkZ3d.js                             [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mDistancePage-CHzRzrSu.js                      [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mNepalgunjToOsakaFlightSimPage-CHzRzrSu.js     [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom2Page-CHzRzrSu.js                         [0m[1;2m  0.22 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mmessage-circle-yfqik1cP.js                    [0m[1;2m  0.23 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mglobe-ClRBx8FI.js                             [0m[1;2m  0.23 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mwind-CGxg_GRN.js                              [0m[1;2m  0.23 kB[0m[2m │ gzip:   0.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mcircle-question-mark-D5x41Z9A.js              [0m[1;2m  0.23 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mcompass-dNbyu2wu.js                           [0m[1;2m  0.24 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36marchive-Cwjy90Ov.js                           [0m[1;2m  0.24 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mflag-BMoPm8hl.js                              [0m[1;2m  0.24 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mcalendar-7sxaCOOl.js                          [0m[1;2m  0.24 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36meye-QKWQDdWv.js                               [0m[1;2m  0.24 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mwaves-horizontal-BbRsBfYX.js                  [0m[1;2m  0.24 kB[0m[2m │ gzip:   0.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mutensils-DmErflb2.js                          [0m[1;2m  0.25 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mkey-DQACl8Te.js                               [0m[1;2m  0.25 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mimage-Cj_q9RyO.js                             [0m[1;2m  0.25 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mzap-DqAaxhWt.js                               [0m[1;2m  0.26 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36maward-C61lP1MV.js                             [0m[1;2m  0.26 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mpen-line-BoIXkgZM.js                          [0m[1;2m  0.26 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mfeather-gzxLunKT.js                           [0m[1;2m  0.26 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mhouse-CEdeC0yM.js                             [0m[1;2m  0.27 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mbook-open-DgpizDAf.js                         [0m[1;2m  0.27 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mmail-open-DFct-QNH.js                         [0m[1;2m  0.27 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36msend-BuXNAK5B.js                              [0m[1;2m  0.27 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36msmile-DW4yRRB5.js                             [0m[1;2m  0.28 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mgrid-3x3-BoKnuCfp.js                          [0m[1;2m  0.28 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mwhatsappHelper-C-BTVrT0.js                    [0m[1;2m  0.28 kB[0m[2m │ gzip:   0.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mflask-conical-DTTVtVvz.js                     [0m[1;2m  0.29 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mzoom-in-JYbyEKEg.js                           [0m[1;2m  0.29 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mcoffee-Ce2lcU-v.js                            [0m[1;2m  0.29 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mplane-CBCBG_n4.js                             [0m[1;2m  0.29 kB[0m[2m │ gzip:   0.24 kB[0m
+[2mdist/[0m[2massets/[0m[36mchef-hat-01Str9V5.js                          [0m[1;2m  0.29 kB[0m[2m │ gzip:   0.23 kB[0m
+[2mdist/[0m[2massets/[0m[36mtree-pine-Dc4Mg8rI.js                         [0m[1;2m  0.29 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mrefresh-cw-BnnW9n_f.js                        [0m[1;2m  0.31 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mstamp-Sim9E5hF.js                             [0m[1;2m  0.31 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mticket-C5gMV5t9.js                            [0m[1;2m  0.31 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mtrash-2-LIDyFWIR.js                           [0m[1;2m  0.31 kB[0m[2m │ gzip:   0.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mshare-2-C9_wbMO6.js                           [0m[1;2m  0.34 kB[0m[2m │ gzip:   0.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mcookie-Cv9W6FcW.js                            [0m[1;2m  0.34 kB[0m[2m │ gzip:   0.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mclapperboard-DZvQnT0E.js                      [0m[1;2m  0.34 kB[0m[2m │ gzip:   0.25 kB[0m
+[2mdist/[0m[2massets/[0m[36mmic-vocal-mGflcSSK.js                         [0m[1;2m  0.34 kB[0m[2m │ gzip:   0.27 kB[0m
+[2mdist/[0m[2massets/[0m[36mcrown-Cfr-J_wF.js                             [0m[1;2m  0.35 kB[0m[2m │ gzip:   0.25 kB[0m
+[2mdist/[0m[2massets/[0m[36mdroplets-B9gsIVn0.js                          [0m[1;2m  0.36 kB[0m[2m │ gzip:   0.27 kB[0m
+[2mdist/[0m[2massets/[0m[36mradio-Dnecj-_i.js                             [0m[1;2m  0.36 kB[0m[2m │ gzip:   0.24 kB[0m
+[2mdist/[0m[2massets/[0m[36mshuffle-CfGO4uK5.js                           [0m[1;2m  0.37 kB[0m[2m │ gzip:   0.23 kB[0m
+[2mdist/[0m[2massets/[0m[36mquote-BEe9AB3S.js                             [0m[1;2m  0.37 kB[0m[2m │ gzip:   0.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mmap-pinned-BoWMgDWN.js                        [0m[1;2m  0.38 kB[0m[2m │ gzip:   0.28 kB[0m
+[2mdist/[0m[2massets/[0m[36mfilm-B5Y3nQZH.js                              [0m[1;2m  0.39 kB[0m[2m │ gzip:   0.23 kB[0m
+[2mdist/[0m[2massets/[0m[36mlayers-CKEv2dHp.js                            [0m[1;2m  0.41 kB[0m[2m │ gzip:   0.23 kB[0m
+[2mdist/[0m[2massets/[0m[36mphone-call-D006om94.js                        [0m[1;2m  0.41 kB[0m[2m │ gzip:   0.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mflower-2-VhMF2CoI.js                          [0m[1;2m  0.43 kB[0m[2m │ gzip:   0.27 kB[0m
+[2mdist/[0m[2massets/[0m[36mpen-tool-AHr1_vVD.js                          [0m[1;2m  0.46 kB[0m[2m │ gzip:   0.29 kB[0m
+[2mdist/[0m[2massets/[0m[36mstar-CbdmErQT.js                              [0m[1;2m  0.46 kB[0m[2m │ gzip:   0.28 kB[0m
+[2mdist/[0m[2massets/[0m[36msun-DJfkzOPc.js                               [0m[1;2m  0.46 kB[0m[2m │ gzip:   0.25 kB[0m
+[2mdist/[0m[2massets/[0m[36mcake-DDvKf_sD.js                              [0m[1;2m  0.47 kB[0m[2m │ gzip:   0.25 kB[0m
+[2mdist/[0m[2massets/[0m[36mtrophy-DiE_M0VB.js                            [0m[1;2m  0.49 kB[0m[2m │ gzip:   0.28 kB[0m
+[2mdist/[0m[2massets/[0m[36mpalette-BLUFiKgp.js                           [0m[1;2m  0.49 kB[0m[2m │ gzip:   0.27 kB[0m
+[2mdist/[0m[2massets/[0m[36mwand-sparkles-CU67Ek9K.js                     [0m[1;2m  0.50 kB[0m[2m │ gzip:   0.28 kB[0m
+[2mdist/[0m[2massets/[0m[36mpuzzle-DHPKPXYj.js                            [0m[1;2m  0.56 kB[0m[2m │ gzip:   0.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mflower--RD1dNi4.js                            [0m[1;2m  0.57 kB[0m[2m │ gzip:   0.29 kB[0m
+[2mdist/[0m[2massets/[0m[36mfingerprint-pattern-c6HBFZi9.js               [0m[1;2m  0.60 kB[0m[2m │ gzip:   0.34 kB[0m
+[2mdist/[0m[2massets/[0m[36mgamepad-2-CASGpo98.js                         [0m[1;2m  0.61 kB[0m[2m │ gzip:   0.38 kB[0m
+[2mdist/[0m[2massets/[0m[36mparty-popper-C3iRy5fV.js                      [0m[1;2m  0.71 kB[0m[2m │ gzip:   0.40 kB[0m
+[2mdist/[0m[2massets/[0m[36mMoodRingPage-2lbFbj60.js                      [0m[1;2m  1.53 kB[0m[2m │ gzip:   0.79 kB[0m
+[2mdist/[0m[2massets/[0m[36mSecretVaultPage-CLAIwIGB.js                   [0m[1;2m  1.58 kB[0m[2m │ gzip:   0.77 kB[0m
+[2mdist/[0m[2massets/[0m[36mFireworksPage-Bu_NhlwN.js                     [0m[1;2m  1.59 kB[0m[2m │ gzip:   0.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCrosswordPage-BHi7Jcce.js                 [0m[1;2m  1.63 kB[0m[2m │ gzip:   0.80 kB[0m
+[2mdist/[0m[2massets/[0m[36mHoroscopePage-BKmEcnkH.js                     [0m[1;2m  1.63 kB[0m[2m │ gzip:   0.82 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveWishWellPage-CU8LDUST.js                  [0m[1;2m  1.67 kB[0m[2m │ gzip:   0.83 kB[0m
+[2mdist/[0m[2massets/[0m[36mTreasureChestPage-213GBsqX.js                 [0m[1;2m  1.68 kB[0m[2m │ gzip:   0.84 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveFireworkPainterPage-DjxadLZk.js           [0m[1;2m  1.68 kB[0m[2m │ gzip:   0.87 kB[0m
+[2mdist/[0m[2massets/[0m[36mBentoBoxPage-BdE6gFZa.js                      [0m[1;2m  1.70 kB[0m[2m │ gzip:   0.85 kB[0m
+[2mdist/[0m[2massets/[0m[36mLanternsPage-DDA4dn0X.js                      [0m[1;2m  1.72 kB[0m[2m │ gzip:   0.88 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLotteryPage-gf033uZw.js                   [0m[1;2m  1.73 kB[0m[2m │ gzip:   0.89 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveButterflyCatcherPage-DSVwSoU3.js          [0m[1;2m  1.75 kB[0m[2m │ gzip:   0.89 kB[0m
+[2mdist/[0m[2massets/[0m[36mBlessingTreePage-DSK78ArA.js                  [0m[1;2m  1.77 kB[0m[2m │ gzip:   0.90 kB[0m
+[2mdist/[0m[2massets/[0m[36mHeartbeatDrumPadPage-BfIKxQP6.js              [0m[1;2m  1.77 kB[0m[2m │ gzip:   0.96 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveWordlePage-EaCPAzpX.js                    [0m[1;2m  1.79 kB[0m[2m │ gzip:   0.93 kB[0m
+[2mdist/[0m[2massets/[0m[36mVoiceSoundboardPage-Bc86VsmO.js               [0m[1;2m  1.81 kB[0m[2m │ gzip:   0.88 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticKaraokePage-C2ejwiik.js               [0m[1;2m  1.82 kB[0m[2m │ gzip:   0.85 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetProposalSimulatorPage-SuV43vbD.js        [0m[1;2m  1.84 kB[0m[2m │ gzip:   0.87 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveScratchCardPage-BKtYD7YD.js               [0m[1;2m  1.84 kB[0m[2m │ gzip:   0.90 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveRhythmGamePage-BoG2HPz4.js                [0m[1;2m  1.91 kB[0m[2m │ gzip:   0.96 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleBingoPage-vH_Po-BV.js                   [0m[1;2m  1.91 kB[0m[2m │ gzip:   1.00 kB[0m
+[2mdist/[0m[2massets/[0m[36mTimelinePuzzlePage-C5EMvd1D.js                [0m[1;2m  1.92 kB[0m[2m │ gzip:   0.95 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTetrisBlockPuzzlePage-BBYnxDdz.js         [0m[1;2m  1.95 kB[0m[2m │ gzip:   0.89 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveRadioPage--gSsWCIu.js                     [0m[1;2m  2.00 kB[0m[2m │ gzip:   0.91 kB[0m
+[2mdist/[0m[2massets/[0m[36mSecretVaultSecondPage-DOGcTy-F.js             [0m[1;2m  2.02 kB[0m[2m │ gzip:   0.93 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLanguagesQuizPage-DUFsSgl8.js             [0m[1;2m  2.08 kB[0m[2m │ gzip:   1.06 kB[0m
+[2mdist/[0m[2massets/[0m[36mCookingGamePage-CIXO7f1y.js                   [0m[1;2m  2.09 kB[0m[2m │ gzip:   0.96 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveDoodleCanvasPage-DKA5op1k.js              [0m[1;2m  2.09 kB[0m[2m │ gzip:   1.07 kB[0m
+[2mdist/[0m[2massets/[0m[36mPassportPage-B5CCTItI.js                      [0m[1;2m  2.10 kB[0m[2m │ gzip:   1.01 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveConstellationPainterPage-DZ07IC4d.js      [0m[1;2m  2.12 kB[0m[2m │ gzip:   1.10 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMeterDeluxePage-B9WGrt5Y.js               [0m[1;2m  2.13 kB[0m[2m │ gzip:   1.06 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveScratchOffGallerySecondPage-BHDmnsMx.js   [0m[1;2m  2.14 kB[0m[2m │ gzip:   0.98 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePetPage-BIju9zUE.js                       [0m[1;2m  2.19 kB[0m[2m │ gzip:   1.00 kB[0m
+[2mdist/[0m[2massets/[0m[36mFireworkMakerPage-lwJozBld.js                 [0m[1;2m  2.21 kB[0m[2m │ gzip:   1.05 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTarotPage-Cs22KfT4.js                     [0m[1;2m  2.28 kB[0m[2m │ gzip:   1.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTetrisPage-C8Iosior.js                    [0m[1;2m  2.29 kB[0m[2m │ gzip:   1.08 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveSpellCasterStudioPage-BtVfnYOa.js         [0m[1;2m  2.34 kB[0m[2m │ gzip:   1.05 kB[0m
+[2mdist/[0m[2massets/[0m[36mBirthdayWishLetterPage-DN1BxYSU.js            [0m[1;2m  2.37 kB[0m[2m │ gzip:   1.07 kB[0m
+[2mdist/[0m[2massets/[0m[36mBouquetReasonsPage-BG2wn_eN.js                [0m[1;2m  2.37 kB[0m[2m │ gzip:   1.08 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLetterArchiveVaultPage-Cy8yesdt.js        [0m[1;2m  2.38 kB[0m[2m │ gzip:   1.09 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveSlotsPage-zt7VHI4l.js                     [0m[1;2m  2.39 kB[0m[2m │ gzip:   1.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mEmojiArtCanvasPage-D_UQfPOX.js                [0m[1;2m  2.42 kB[0m[2m │ gzip:   1.14 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTreeGrowthPage-BkUSBKOg.js                [0m[1;2m  2.42 kB[0m[2m │ gzip:   1.13 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveJarNotesPage-CWcV7HFd.js                  [0m[1;2m  2.44 kB[0m[2m │ gzip:   1.09 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleQuiz2Page-ClralDN6.js                   [0m[1;2m  2.46 kB[0m[2m │ gzip:   1.10 kB[0m
+[2mdist/[0m[2massets/[0m[36mLetterTonightPage-DqW6Ee13.js                 [0m[1;2m  2.47 kB[0m[2m │ gzip:   1.07 kB[0m
+[2mdist/[0m[2massets/[0m[36mPhotoPuzzle3DPage-CTHqxeaI.js                 [0m[1;2m  2.52 kB[0m[2m │ gzip:   1.12 kB[0m
+[2mdist/[0m[2massets/[0m[36mQuoteGeneratorPage-DdvxFQHO.js                [0m[1;2m  2.55 kB[0m[2m │ gzip:   1.10 kB[0m
+[2mdist/[0m[2massets/[0m[36mQuizPage-DMFtDj3L.js                          [0m[1;2m  2.59 kB[0m[2m │ gzip:   1.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMemoryMatch3DPage-T7u_bd36.js             [0m[1;2m  2.62 kB[0m[2m │ gzip:   1.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mMemoryReplayPage-BHUtubIL.js                  [0m[1;2m  2.64 kB[0m[2m │ gzip:   1.13 kB[0m
+[2mdist/[0m[2massets/[0m[36mStarsPage-C1sWkyLm.js                         [0m[1;2m  2.64 kB[0m[2m │ gzip:   1.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveGrandFinaleSecondPage-QggH7Twl.js         [0m[1;2m  2.65 kB[0m[2m │ gzip:   1.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mSecretLanguagePage-sQF0dyNB.js                [0m[1;2m  2.68 kB[0m[2m │ gzip:   1.20 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleBucketList2Page-BjO3iH5o.js             [0m[1;2m  2.70 kB[0m[2m │ gzip:   1.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePotionBreweryPage-CNj6IxGd.js             [0m[1;2m  2.72 kB[0m[2m │ gzip:   1.25 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMazePage-Cs7zEwi-.js                      [0m[1;2m  2.76 kB[0m[2m │ gzip:   1.28 kB[0m
+[2mdist/[0m[2massets/[0m[36mMemoryMatchPage-BVf57a81.js                   [0m[1;2m  2.77 kB[0m[2m │ gzip:   1.35 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetHeartBalloonAscentPage-BXGsH8q0.js       [0m[1;2m  2.80 kB[0m[2m │ gzip:   1.34 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetComplimentsPage-Clnc6Xx_.js              [0m[1;2m  2.85 kB[0m[2m │ gzip:   1.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleMilestoneMap2Page-Cd33pVjp.js           [0m[1;2m  2.85 kB[0m[2m │ gzip:   1.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mBirthdaySkyLetterPage-BXKRXCVX.js             [0m[1;2m  2.86 kB[0m[2m │ gzip:   1.32 kB[0m
+[2mdist/[0m[2massets/[0m[36mEmojiStoryPage-DcIZ8gmG.js                    [0m[1;2m  2.86 kB[0m[2m │ gzip:   1.39 kB[0m
+[2mdist/[0m[2massets/[0m[36mNewYearLoveFireworksPage-CVfUQkcG.js          [0m[1;2m  2.89 kB[0m[2m │ gzip:   1.35 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePotionLab2Page-eYGg-ZxT.js                [0m[1;2m  2.90 kB[0m[2m │ gzip:   1.29 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMemoryTree3DPage-DUNBtX3X.js              [0m[1;2m  2.91 kB[0m[2m │ gzip:   1.36 kB[0m
+[2mdist/[0m[2massets/[0m[36mFutureNightRidePage-87-bCCVn.js               [0m[1;2m  2.91 kB[0m[2m │ gzip:   1.25 kB[0m
+[2mdist/[0m[2massets/[0m[36mBalloonPopPage-BKMLNGVM.js                    [0m[1;2m  2.93 kB[0m[2m │ gzip:   1.55 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveQuizAdvancedPage-DpSxT1tW.js              [0m[1;2m  2.93 kB[0m[2m │ gzip:   1.28 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePassportStampsPage-CFl2I7AU.js            [0m[1;2m  2.95 kB[0m[2m │ gzip:   1.38 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetDreamCatcherPage-B-JCziIM.js             [0m[1;2m  2.96 kB[0m[2m │ gzip:   1.46 kB[0m
+[2mdist/[0m[2massets/[0m[36mLittleThingsPage-5qPwvbwD.js                  [0m[1;2m  2.98 kB[0m[2m │ gzip:   1.35 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveEnchantedGlassTerrariumPage-CF7CUD1t.js   [0m[1;2m  2.99 kB[0m[2m │ gzip:   1.39 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveKeychainCustomizerPage-D5yLrOFl.js        [0m[1;2m  2.99 kB[0m[2m │ gzip:   1.44 kB[0m
+[2mdist/[0m[2massets/[0m[36mCatcherGamePage-fZJB7Ol9.js                   [0m[1;2m  3.00 kB[0m[2m │ gzip:   1.33 kB[0m
+[2mdist/[0m[2massets/[0m[36mFutureHouseBuilderSecondPage-C5P315pm.js      [0m[1;2m  3.01 kB[0m[2m │ gzip:   1.40 kB[0m
+[2mdist/[0m[2massets/[0m[36mBonusArcadePage-BoVeUDHL.js                   [0m[1;2m  3.09 kB[0m[2m │ gzip:   1.49 kB[0m
+[2mdist/[0m[2massets/[0m[36mCherryBlossomWishTreePage-C2qBhByU.js         [0m[1;2m  3.10 kB[0m[2m │ gzip:   1.46 kB[0m
+[2mdist/[0m[2massets/[0m[36mEnchantedCrystalBallPage-CTjAldxQ.js          [0m[1;2m  3.10 kB[0m[2m │ gzip:   1.50 kB[0m
+[2mdist/[0m[2massets/[0m[36mSakuraPromiseTree-CZLs4RKa.js                 [0m[1;2m  3.11 kB[0m[2m │ gzip:   1.35 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePoetryFridgePage-bRRZjTKt.js              [0m[1;2m  3.11 kB[0m[2m │ gzip:   1.47 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveArcadeDanceMachinePage-JNe-aWiU.js        [0m[1;2m  3.16 kB[0m[2m │ gzip:   1.50 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveSweetConfectioneryBakeryPage-uL9h4Jru.js  [0m[1;2m  3.17 kB[0m[2m │ gzip:   1.52 kB[0m
+[2mdist/[0m[2massets/[0m[36mMemoryLanePage-B2ElsLJj.js                    [0m[1;2m  3.20 kB[0m[2m │ gzip:   1.39 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticPetalRainPage-vLLPdGK-.js             [0m[1;2m  3.21 kB[0m[2m │ gzip:   1.53 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveRecipePage-BieCubKy.js                    [0m[1;2m  3.25 kB[0m[2m │ gzip:   1.39 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAdventCalendarPage-jBv0rZce.js            [0m[1;2m  3.26 kB[0m[2m │ gzip:   1.55 kB[0m
+[2mdist/[0m[2massets/[0m[36mPromiseTrioPage-Cpmnmoij.js                   [0m[1;2m  3.27 kB[0m[2m │ gzip:   1.51 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleCookbookPage-B7j1EoUC.js                [0m[1;2m  3.28 kB[0m[2m │ gzip:   1.51 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleBucketListPage-Czi7T7tY.js              [0m[1;2m  3.29 kB[0m[2m │ gzip:   1.57 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleNicknameGeneratorPage-B0y9w3oP.js       [0m[1;2m  3.30 kB[0m[2m │ gzip:   1.47 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTamagotchiPage-DauppTOu.js                [0m[1;2m  3.32 kB[0m[2m │ gzip:   1.21 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveScratchOffGalleryPage-ooQfF382.js         [0m[1;2m  3.33 kB[0m[2m │ gzip:   1.63 kB[0m
+[2mdist/[0m[2massets/[0m[36mValentineCardCreatorPage-D7HoAIWm.js          [0m[1;2m  3.35 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuLovePolaroids-CqL9Rm0S.js               [0m[1;2m  3.36 kB[0m[2m │ gzip:   1.52 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticMessageGridPage-R0LNZPmW.js           [0m[1;2m  3.36 kB[0m[2m │ gzip:   1.58 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMusicBoxCarouselPage-CmNXgQ-_.js          [0m[1;2m  3.37 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveQuizPersonalityPage-CUT7qSv1.js           [0m[1;2m  3.39 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveHeartNebula3DPage-Cje-ddE7.js             [0m[1;2m  3.40 kB[0m[2m │ gzip:   1.61 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveNeonSignGalleryPage-CQ-92V8u.js           [0m[1;2m  3.41 kB[0m[2m │ gzip:   1.65 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveRhythmDrumPadPage-CO6OD6UH.js             [0m[1;2m  3.42 kB[0m[2m │ gzip:   1.63 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleQuestionsDeepPage-CB4uFIxi.js           [0m[1;2m  3.43 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAudioVisualizer2Page-DY451WtE.js          [0m[1;2m  3.44 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticFlowerGardenPage-Dmx4lfBp.js          [0m[1;2m  3.45 kB[0m[2m │ gzip:   1.62 kB[0m
+[2mdist/[0m[2massets/[0m[36mFairyTaleGeneratorPage-FEeJDsP_.js            [0m[1;2m  3.46 kB[0m[2m │ gzip:   1.68 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleAnniversaryClockPage-DidML0__.js        [0m[1;2m  3.47 kB[0m[2m │ gzip:   1.68 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleStarryPlanetariumPage-Dhzszve5.js       [0m[1;2m  3.48 kB[0m[2m │ gzip:   1.71 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLanguageTestPage-B31K0j4Y.js              [0m[1;2m  3.49 kB[0m[2m │ gzip:   1.67 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveWishBottleOceanPage-CSvskusT.js           [0m[1;2m  3.50 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleFutureHome3DPage-lmuU1ACb.js            [0m[1;2m  3.50 kB[0m[2m │ gzip:   1.69 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePotionBrewery2Page-BXDOLkUq.js            [0m[1;2m  3.52 kB[0m[2m │ gzip:   1.69 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLoveStoryComicStrip-CMtvDu7B.js           [0m[1;2m  3.54 kB[0m[2m │ gzip:   1.70 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuPhotoMosaic2Page-D1bz8Nzb.js            [0m[1;2m  3.54 kB[0m[2m │ gzip:   1.65 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveDiaryPage-KTmYLwv0.js                     [0m[1;2m  3.55 kB[0m[2m │ gzip:   1.76 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCandleLightDinnerPage-C4WGPgJN.js         [0m[1;2m  3.55 kB[0m[2m │ gzip:   1.69 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuVoiceNoteArchive-DD0ouUvN.js            [0m[1;2m  3.55 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLetterInBalloonPage-CWiUOkVI.js           [0m[1;2m  3.58 kB[0m[2m │ gzip:   1.64 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePotionLaboratoryPage-mbbTWicC.js          [0m[1;2m  3.58 kB[0m[2m │ gzip:   1.51 kB[0m
+[2mdist/[0m[2massets/[0m[36mVirtualCatCafePage-mgZUaXAC.js                [0m[1;2m  3.59 kB[0m[2m │ gzip:   1.63 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveDatedCalendarPage-B2d0fc1U.js             [0m[1;2m  3.59 kB[0m[2m │ gzip:   1.72 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleRelationshipCertPage-BD8xzaF4.js        [0m[1;2m  3.60 kB[0m[2m │ gzip:   1.68 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuComicStrip2Page-B16eiXme.js             [0m[1;2m  3.62 kB[0m[2m │ gzip:   1.72 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMeteorShowerPage-BMF1HMRa.js              [0m[1;2m  3.62 kB[0m[2m │ gzip:   1.66 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetDessertTowerPage-BVUAWBKs.js             [0m[1;2m  3.63 kB[0m[2m │ gzip:   1.59 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleSuperlativesPage-BrYQMxi4.js            [0m[1;2m  3.64 kB[0m[2m │ gzip:   1.68 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetComplimentsFountainPage-DIPFwyev.js      [0m[1;2m  3.64 kB[0m[2m │ gzip:   1.63 kB[0m
+[2mdist/[0m[2massets/[0m[36mBottlePage-D-kmVZ_t.js                        [0m[1;2m  3.64 kB[0m[2m │ gzip:   1.55 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticPlaylistMixerPage-CQyZgarb.js         [0m[1;2m  3.65 kB[0m[2m │ gzip:   1.74 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleSoundtrackPage-DvnXipUW.js              [0m[1;2m  3.65 kB[0m[2m │ gzip:   1.72 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleYearbookPage-PrHgnGk_.js                [0m[1;2m  3.66 kB[0m[2m │ gzip:   1.71 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuPersonalityQuizPage-Cdh7-4BK.js         [0m[1;2m  3.66 kB[0m[2m │ gzip:   1.78 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleAnniversaryTimelinePage-CJIcNiTg.js     [0m[1;2m  3.72 kB[0m[2m │ gzip:   1.79 kB[0m
+[2mdist/[0m[2massets/[0m[36mAnniversaryCountdownClockPage-D9f9duzZ.js     [0m[1;2m  3.72 kB[0m[2m │ gzip:   1.72 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetMemoryScrapbookPage-PKZvPGB2.js          [0m[1;2m  3.74 kB[0m[2m │ gzip:   1.76 kB[0m
+[2mdist/[0m[2massets/[0m[36mFourSeasonsOfLovePage-hxddU3s4.js             [0m[1;2m  3.77 kB[0m[2m │ gzip:   1.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTriviaQuizPage-DjRwrlCP.js                [0m[1;2m  3.77 kB[0m[2m │ gzip:   1.86 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleMovieNightPage-DnEKkvAZ.js              [0m[1;2m  3.79 kB[0m[2m │ gzip:   1.75 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveNotesWallPage-CP4x4_xN.js                 [0m[1;2m  3.79 kB[0m[2m │ gzip:   1.78 kB[0m
+[2mdist/[0m[2massets/[0m[36mFortuneCookieLovePage-x7kzNWT1.js             [0m[1;2m  3.80 kB[0m[2m │ gzip:   1.64 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLetterGeneratorPage-B4Hd16pZ.js           [0m[1;2m  3.81 kB[0m[2m │ gzip:   1.83 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveHoroscopeDailyPage-CEPnN0hL.js            [0m[1;2m  3.86 kB[0m[2m │ gzip:   1.62 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetVoicemailInboxPage-BFX7qVDD.js           [0m[1;2m  3.86 kB[0m[2m │ gzip:   1.79 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticMusicBox2Page-BZbLmk26.js             [0m[1;2m  3.86 kB[0m[2m │ gzip:   1.68 kB[0m
+[2mdist/[0m[2massets/[0m[36mHeartShapeTangramPage-CmxFfscs.js             [0m[1;2m  3.91 kB[0m[2m │ gzip:   1.69 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCoronationCeremony-Cs4BKK_x.js            [0m[1;2m  3.91 kB[0m[2m │ gzip:   1.67 kB[0m
+[2mdist/[0m[2massets/[0m[36mDragonPrincessAdventurePage-BuVOR6F4.js       [0m[1;2m  3.91 kB[0m[2m │ gzip:   1.83 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleMilestoneMapPage-Ap-0SczZ.js            [0m[1;2m  3.92 kB[0m[2m │ gzip:   1.92 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLetterPopUp3DPage-CTVcEwgJ.js             [0m[1;2m  3.94 kB[0m[2m │ gzip:   1.71 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoyalCrownPage-BQYtU4QV.js                    [0m[1;2m  3.95 kB[0m[2m │ gzip:   1.75 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveScratchVoucherBookPage-xfNcPLCX.js        [0m[1;2m  3.95 kB[0m[2m │ gzip:   1.71 kB[0m
+[2mdist/[0m[2massets/[0m[36mPhotoBoothPage-C32TZ1Iv.js                    [0m[1;2m  3.95 kB[0m[2m │ gzip:   1.67 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveVaultCombinationPage-DBNCrU5H.js          [0m[1;2m  3.97 kB[0m[2m │ gzip:   1.70 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveEnvelopeCollectionPage-CXvflaKr.js        [0m[1;2m  3.98 kB[0m[2m │ gzip:   1.73 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetGardenBloomsPage-Bp0al1Ax.js             [0m[1;2m  3.99 kB[0m[2m │ gzip:   1.69 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticCookingRecipePage-CEm5jOtf.js         [0m[1;2m  4.02 kB[0m[2m │ gzip:   1.76 kB[0m
+[2mdist/[0m[2massets/[0m[36mCouponVaultPage-UvNwLCCS.js                   [0m[1;2m  4.03 kB[0m[2m │ gzip:   1.85 kB[0m
+[2mdist/[0m[2massets/[0m[36mStoryPage-EcfgCbRs.js                         [0m[1;2m  4.06 kB[0m[2m │ gzip:   1.56 kB[0m
+[2mdist/[0m[2massets/[0m[36mGrandLoveGalaxy3DPage-NenFzTXG.js             [0m[1;2m  4.11 kB[0m[2m │ gzip:   1.91 kB[0m
+[2mdist/[0m[2massets/[0m[36mCouplesSecretHandshakePage-8-4oS8S4.js        [0m[1;2m  4.12 kB[0m[2m │ gzip:   1.74 kB[0m
+[2mdist/[0m[2massets/[0m[36mScratchSurprisePage-6plMJBVK.js               [0m[1;2m  4.13 kB[0m[2m │ gzip:   1.79 kB[0m
+[2mdist/[0m[2massets/[0m[36mBubbleWrapPage-BLndfCAa.js                    [0m[1;2m  4.15 kB[0m[2m │ gzip:   1.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mStarryNightSkywriterPage-DzwsMjmZ.js          [0m[1;2m  4.17 kB[0m[2m │ gzip:   1.80 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleTravelPassportStampsPage-SJnD2_UC.js    [0m[1;2m  4.20 kB[0m[2m │ gzip:   1.84 kB[0m
+[2mdist/[0m[2massets/[0m[36mUltimate300thLoveCoronationPage-CwgGRxks.js   [0m[1;2m  4.20 kB[0m[2m │ gzip:   1.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mPolaroidDesignerPage-1XDvwJ7I.js              [0m[1;2m  4.20 kB[0m[2m │ gzip:   1.79 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetPromisesJarPage-DpFHf8-J.js              [0m[1;2m  4.25 kB[0m[2m │ gzip:   1.85 kB[0m
+[2mdist/[0m[2massets/[0m[36mSweetTeaCeremonyPage-B8aejlXZ.js              [0m[1;2m  4.26 kB[0m[2m │ gzip:   1.79 kB[0m
+[2mdist/[0m[2massets/[0m[36mBirthdayTimeCapsule2Page-D-cL6PX3.js          [0m[1;2m  4.27 kB[0m[2m │ gzip:   1.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePuzzleSliderPage-C41dJBKU.js              [0m[1;2m  4.29 kB[0m[2m │ gzip:   1.92 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCoupleTimeCapsuleLockBoxPage-5Q4PROFr.js  [0m[1;2m  4.31 kB[0m[2m │ gzip:   1.97 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleDailyHoroscopePage-BDByxZbj.js          [0m[1;2m  4.40 kB[0m[2m │ gzip:   1.89 kB[0m
+[2mdist/[0m[2massets/[0m[36mVideoPage-COiV6xMZ.js                         [0m[1;2m  4.42 kB[0m[2m │ gzip:   1.58 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveFortuneTellerOrigamiPage-BVv4kvXu.js      [0m[1;2m  4.45 kB[0m[2m │ gzip:   1.95 kB[0m
+[2mdist/[0m[2massets/[0m[36mHeartBubbleTeaMakerPage-QVLN4tiP.js           [0m[1;2m  4.46 kB[0m[2m │ gzip:   1.86 kB[0m
+[2mdist/[0m[2massets/[0m[36mCandleBlowerPage-DwXWMfC8.js                  [0m[1;2m  4.51 kB[0m[2m │ gzip:   1.90 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAnagramSolverPage-Dy893cVN.js             [0m[1;2m  4.53 kB[0m[2m │ gzip:   1.97 kB[0m
+[2mdist/[0m[2massets/[0m[36mFortuneCookiePage-DcM6m_lP.js                 [0m[1;2m  4.53 kB[0m[2m │ gzip:   1.96 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePhotoMosaicBuilderPage-BNjvLORj.js        [0m[1;2m  4.57 kB[0m[2m │ gzip:   1.83 kB[0m
+[2mdist/[0m[2massets/[0m[36mStarProjectorPage-_1bD9MsY.js                 [0m[1;2m  4.58 kB[0m[2m │ gzip:   1.87 kB[0m
+[2mdist/[0m[2massets/[0m[36mMagneticPoetryPage-BSIEBbRw.js                [0m[1;2m  4.62 kB[0m[2m │ gzip:   1.93 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanceWordJumblePage-CbDwO7zq.js             [0m[1;2m  4.65 kB[0m[2m │ gzip:   2.07 kB[0m
+[2mdist/[0m[2massets/[0m[36mOrigamiBoatPage-8f2aEPRD.js                   [0m[1;2m  4.68 kB[0m[2m │ gzip:   2.08 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveReviewPage-B3aLKTao.js                    [0m[1;2m  4.70 kB[0m[2m │ gzip:   2.13 kB[0m
+[2mdist/[0m[2massets/[0m[36mMysteryGiftsPage-BmlJ-MGc.js                  [0m[1;2m  4.77 kB[0m[2m │ gzip:   1.86 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTarotOracle2Page-BFeVf9N7.js              [0m[1;2m  4.77 kB[0m[2m │ gzip:   2.06 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveWizardTowerPage-DFJ4za9A.js               [0m[1;2m  4.82 kB[0m[2m │ gzip:   2.07 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticLocketChangerPage-DTWJFsGT.js         [0m[1;2m  4.83 kB[0m[2m │ gzip:   1.92 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticNightSkyWriterPage-KoIsIEnn.js        [0m[1;2m  4.84 kB[0m[2m │ gzip:   2.08 kB[0m
+[2mdist/[0m[2massets/[0m[36mMusicBoxPage-KG7AWeOM.js                      [0m[1;2m  4.84 kB[0m[2m │ gzip:   2.14 kB[0m
+[2mdist/[0m[2massets/[0m[36mTimeCapsulePage-D_GeHd71.js                   [0m[1;2m  4.87 kB[0m[2m │ gzip:   1.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mLetterPage-DC_8gjXH.js                        [0m[1;2m  4.87 kB[0m[2m │ gzip:   1.73 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveChimesPage-D5TQxHMI.js                    [0m[1;2m  4.91 kB[0m[2m │ gzip:   2.13 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveStampCollectionPage-CjLUdwdS.js           [0m[1;2m  4.92 kB[0m[2m │ gzip:   2.10 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveConstellationMakerPage-Dxtfjarw.js        [0m[1;2m  4.96 kB[0m[2m │ gzip:   2.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMirrorOraclePage-DAds88Bh.js              [0m[1;2m  4.98 kB[0m[2m │ gzip:   2.24 kB[0m
+[2mdist/[0m[2massets/[0m[36mKissCollectorPage-Cdh-MFwq.js                 [0m[1;2m  4.99 kB[0m[2m │ gzip:   2.14 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCrosswordPuzzlePage-DjewVuLB.js           [0m[1;2m  4.99 kB[0m[2m │ gzip:   2.09 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAwardsNightPage-k0vkYJZc.js               [0m[1;2m  5.01 kB[0m[2m │ gzip:   2.14 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveConstellationStargazerPage-CBnj3qUr.js    [0m[1;2m  5.03 kB[0m[2m │ gzip:   2.17 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveSpellCasterPage-BaGg5p_Q.js               [0m[1;2m  5.08 kB[0m[2m │ gzip:   2.04 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleQuizMasterPage-CnOdMFRm.js              [0m[1;2m  5.10 kB[0m[2m │ gzip:   2.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveSweetHeartPaperCraftPage-_bc0nZXE.js      [0m[1;2m  5.13 kB[0m[2m │ gzip:   2.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLetterArchivePage-YX2Sn6U0.js             [0m[1;2m  5.19 kB[0m[2m │ gzip:   2.30 kB[0m
+[2mdist/[0m[2massets/[0m[36mSanzuPhotoGalleryGridPage-B-hsqHGk.js         [0m[1;2m  5.23 kB[0m[2m │ gzip:   1.89 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleRecipeBookPage-CaM52sCK.js              [0m[1;2m  5.27 kB[0m[2m │ gzip:   2.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePixelArtCreatorPage-Ddy8DFa3.js           [0m[1;2m  5.29 kB[0m[2m │ gzip:   1.97 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuTriviaShowdown-DAqyDw7C.js              [0m[1;2m  5.32 kB[0m[2m │ gzip:   2.29 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCompassPage-DR98Pt-c.js                   [0m[1;2m  5.33 kB[0m[2m │ gzip:   2.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mCupcakeDecoratorPage-CDj4Hv2i.js              [0m[1;2m  5.40 kB[0m[2m │ gzip:   2.03 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleMovieMarathonPage-Dk-jHqT5.js           [0m[1;2m  5.41 kB[0m[2m │ gzip:   2.34 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveTimeMachinePage-DQwJwlZH.js               [0m[1;2m  5.43 kB[0m[2m │ gzip:   2.31 kB[0m
+[2mdist/[0m[2massets/[0m[36mCuratedJourneyPage-D2vbwEzX.js                [0m[1;2m  5.48 kB[0m[2m │ gzip:   2.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mNepalgunjToOsakaFlightSim-GCcgNZd1.js         [0m[1;2m  5.49 kB[0m[2m │ gzip:   2.24 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveGraffitiWallPage-BtCJ1DOx.js              [0m[1;2m  5.51 kB[0m[2m │ gzip:   2.42 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMadLibsPage-VGbVC9wl.js                   [0m[1;2m  5.58 kB[0m[2m │ gzip:   2.54 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCalculatorPage-C50btOLe.js                [0m[1;2m  5.61 kB[0m[2m │ gzip:   1.95 kB[0m
+[2mdist/[0m[2massets/[0m[36mHeartMailboxPage-OgYc-kSM.js                  [0m[1;2m  5.63 kB[0m[2m │ gzip:   2.35 kB[0m
+[2mdist/[0m[2massets/[0m[36mSnowGlobeShakerPage-m_t7c0Bi.js               [0m[1;2m  5.67 kB[0m[2m │ gzip:   2.42 kB[0m
+[2mdist/[0m[2massets/[0m[36mStarDrawerPage-CRzPOTep.js                    [0m[1;2m  5.70 kB[0m[2m │ gzip:   2.33 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePianoPage-B7N5_zAU.js                     [0m[1;2m  5.71 kB[0m[2m │ gzip:   2.35 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticAudioPlayerPage-DrWdrSMP.js           [0m[1;2m  5.75 kB[0m[2m │ gzip:   2.26 kB[0m
+[2mdist/[0m[2massets/[0m[36mRoom1Page-BGn1j_uu.js                         [0m[1;2m  5.86 kB[0m[2m │ gzip:   2.15 kB[0m
+[2mdist/[0m[2massets/[0m[36mScratchMemoryPage-g2drjPUD.js                 [0m[1;2m  5.87 kB[0m[2m │ gzip:   2.33 kB[0m
+[2mdist/[0m[2massets/[0m[36mOrigamiPage-BP8nB-az.js                       [0m[1;2m  5.89 kB[0m[2m │ gzip:   2.41 kB[0m
+[2mdist/[0m[2massets/[0m[36mJigsawPage-BYt_TVP1.js                        [0m[1;2m  5.99 kB[0m[2m │ gzip:   2.31 kB[0m
+[2mdist/[0m[2massets/[0m[36mHugCounterPage-BwLlUivx.js                    [0m[1;2m  6.00 kB[0m[2m │ gzip:   2.60 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePotionPage-q-700N7U.js                    [0m[1;2m  6.01 kB[0m[2m │ gzip:   2.45 kB[0m
+[2mdist/[0m[2massets/[0m[36mBubblePopPage-LeH1dBj6.js                     [0m[1;2m  6.15 kB[0m[2m │ gzip:   2.69 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCompatibilityMatrixPage-DEJIuiCj.js       [0m[1;2m  6.17 kB[0m[2m │ gzip:   2.52 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveFirefliesPage-CW1ZF3_H.js                 [0m[1;2m  6.18 kB[0m[2m │ gzip:   2.52 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveFortuneCookiePage-BIv3qV8x.js             [0m[1;2m  6.21 kB[0m[2m │ gzip:   2.45 kB[0m
+[2mdist/[0m[2massets/[0m[36mCupidArcheryPage-oBY-eFyS.js                  [0m[1;2m  6.23 kB[0m[2m │ gzip:   2.64 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAquariumPage-Dk9U7GUb.js                  [0m[1;2m  6.30 kB[0m[2m │ gzip:   2.40 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveClockPage-DQ8kBrEv.js                     [0m[1;2m  6.35 kB[0m[2m │ gzip:   2.59 kB[0m
+[2mdist/[0m[2massets/[0m[36mTicTacToePage-CeFpt_Hn.js                     [0m[1;2m  6.37 kB[0m[2m │ gzip:   2.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mOrigamiCranePage-BoN-YI8Q.js                  [0m[1;2m  6.38 kB[0m[2m │ gzip:   2.46 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveWishesSkyPage-BHRtj5AT.js                 [0m[1;2m  6.43 kB[0m[2m │ gzip:   2.70 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticPhotoSlider3DPage-Bp59fd1R.js         [0m[1;2m  6.49 kB[0m[2m │ gzip:   2.73 kB[0m
+[2mdist/[0m[2massets/[0m[36mHallOfFamePage-DDPqyWxR.js                    [0m[1;2m  6.50 kB[0m[2m │ gzip:   2.56 kB[0m
+[2mdist/[0m[2massets/[0m[36mMemoryConstellationMapPage-WB0XzM4M.js        [0m[1;2m  6.59 kB[0m[2m │ gzip:   2.92 kB[0m
+[2mdist/[0m[2massets/[0m[36mQuizDuelPage-5vlJbOIV.js                      [0m[1;2m  6.62 kB[0m[2m │ gzip:   2.52 kB[0m
+[2mdist/[0m[2massets/[0m[36mFutureHouseBuilderPage-DxVaqvXs.js            [0m[1;2m  6.68 kB[0m[2m │ gzip:   2.39 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAchievementBadgesPage-U4thsHXC.js         [0m[1;2m  6.69 kB[0m[2m │ gzip:   2.64 kB[0m
+[2mdist/[0m[2massets/[0m[36mWaxSealerPage-oXVNLAaL.js                     [0m[1;2m  6.87 kB[0m[2m │ gzip:   2.59 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveJournalPromptPage-DiIAH8q0.js             [0m[1;2m  6.98 kB[0m[2m │ gzip:   2.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveVibePage-CZ3Dr0On.js                      [0m[1;2m  7.00 kB[0m[2m │ gzip:   2.65 kB[0m
+[2mdist/[0m[2massets/[0m[36mBouquetPage-CP9i-UFK.js                       [0m[1;2m  7.02 kB[0m[2m │ gzip:   2.25 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMemoryCube3DPage-BNoc5mM1.js              [0m[1;2m  7.04 kB[0m[2m │ gzip:   2.40 kB[0m
+[2mdist/[0m[2massets/[0m[36mGrandLoveUniversePage-BZnvkwc7.js             [0m[1;2m  7.09 kB[0m[2m │ gzip:   3.02 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAudioVisualizerPage-BUkAssh9.js           [0m[1;2m  7.10 kB[0m[2m │ gzip:   2.80 kB[0m
+[2mdist/[0m[2massets/[0m[36mInfiniteReasonsMachinePage-CQQED1TZ.js        [0m[1;2m  7.14 kB[0m[2m │ gzip:   2.95 kB[0m
+[2mdist/[0m[2massets/[0m[36mAffirmationsPage-ComBPyne.js                  [0m[1;2m  7.17 kB[0m[2m │ gzip:   3.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mFirstMomentsTimeline-BajRVzfU.js              [0m[1;2m  7.18 kB[0m[2m │ gzip:   2.95 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveAlarmPage-JhkWUhQJ.js                     [0m[1;2m  7.28 kB[0m[2m │ gzip:   2.70 kB[0m
+[2mdist/[0m[2massets/[0m[36mWordSearchPage-BTUKUF1p.js                    [0m[1;2m  7.32 kB[0m[2m │ gzip:   2.89 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuNicknamesGalaxyPage-s6lHsRBJ.js         [0m[1;2m  7.34 kB[0m[2m │ gzip:   3.02 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMemoryFilmStripPage-D9ToZP-a.js           [0m[1;2m  7.35 kB[0m[2m │ gzip:   2.75 kB[0m
+[2mdist/[0m[2massets/[0m[36mCupidRadioDJStationPage-BX45iqiD.js           [0m[1;2m  7.41 kB[0m[2m │ gzip:   2.76 kB[0m
+[2mdist/[0m[2massets/[0m[36mEnchantedRoseGardenPage-DvTa1z7H.js           [0m[1;2m  7.45 kB[0m[2m │ gzip:   2.64 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveScrabblePage-CFdKsyYQ.js                  [0m[1;2m  7.47 kB[0m[2m │ gzip:   2.80 kB[0m
+[2mdist/[0m[2massets/[0m[36mWorldShell-Dio4I5uU.js                        [0m[1;2m  7.47 kB[0m[2m │ gzip:   2.38 kB[0m
+[2mdist/[0m[2massets/[0m[36mTwoTruthsPage-BI3RRXpQ.js                     [0m[1;2m  7.68 kB[0m[2m │ gzip:   3.06 kB[0m
+[2mdist/[0m[2massets/[0m[36mRomanticCharadesPage-BUHaF69x.js              [0m[1;2m  7.71 kB[0m[2m │ gzip:   3.29 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveFortuneCookieJarPage-ChX8X55T.js          [0m[1;2m  7.82 kB[0m[2m │ gzip:   3.07 kB[0m
+[2mdist/[0m[2massets/[0m[36mWishingWellPage-NDKrNW0n.js                   [0m[1;2m  7.89 kB[0m[2m │ gzip:   3.30 kB[0m
+[2mdist/[0m[2massets/[0m[36mPixelHeartPainterPage-hwj-d3tD.js             [0m[1;2m  7.94 kB[0m[2m │ gzip:   2.79 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveThermometerPage-Tl8zHb5L.js               [0m[1;2m  7.95 kB[0m[2m │ gzip:   3.08 kB[0m
+[2mdist/[0m[2massets/[0m[36mLovePhotoBoothPage-DGX0NfW8.js                [0m[1;2m  7.99 kB[0m[2m │ gzip:   3.27 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveDicePage-DrHPcdCw.js                      [0m[1;2m  8.11 kB[0m[2m │ gzip:   2.93 kB[0m
+[2mdist/[0m[2massets/[0m[36mWishDandelionPage-Btan3Shq.js                 [0m[1;2m  8.11 kB[0m[2m │ gzip:   3.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMemoryMatchPage-Dzs-BMKk.js               [0m[1;2m  8.13 kB[0m[2m │ gzip:   3.16 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveConstellationConnectPage-DL9w8NyB.js      [0m[1;2m  8.15 kB[0m[2m │ gzip:   3.18 kB[0m
+[2mdist/[0m[2massets/[0m[36mMagic8BallLovePage-DxWutFoJ.js                [0m[1;2m  8.16 kB[0m[2m │ gzip:   3.33 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMessageInABottleOceanPage-vSgeTn3j.js     [0m[1;2m  8.38 kB[0m[2m │ gzip:   3.04 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuEmojiArcadePage-CfWkbp5H.js             [0m[1;2m  8.50 kB[0m[2m │ gzip:   3.24 kB[0m
+[2mdist/[0m[2massets/[0m[36mMovieTicketCreatorPage-DgPF1Hx_.js            [0m[1;2m  8.52 kB[0m[2m │ gzip:   3.03 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveFrequencyTunerPage-QxIRxJlw.js            [0m[1;2m  8.55 kB[0m[2m │ gzip:   3.40 kB[0m
+[2mdist/[0m[2massets/[0m[36mHomePage-DJaMjB2K.js                          [0m[1;2m  8.64 kB[0m[2m │ gzip:   2.87 kB[0m
+[2mdist/[0m[2massets/[0m[36mSoundWavePage-B2ajHukx.js                     [0m[1;2m  8.71 kB[0m[2m │ gzip:   3.59 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleEscapeRoomPage-C42oTVQy.js              [0m[1;2m  8.74 kB[0m[2m │ gzip:   3.27 kB[0m
+[2mdist/[0m[2massets/[0m[36mjsx-runtime-B5yqYJvp.js                       [0m[1;2m  8.74 kB[0m[2m │ gzip:   3.34 kB[0m
+[2mdist/[0m[2massets/[0m[36mCoupleBucketListGlobePage-BciXKboq.js         [0m[1;2m  8.84 kB[0m[2m │ gzip:   3.61 kB[0m
+[2mdist/[0m[2massets/[0m[36mSurprisePage-OlZKdhLD.js                      [0m[1;2m  9.10 kB[0m[2m │ gzip:   2.81 kB[0m
+[2mdist/[0m[2massets/[0m[36mCloudSkywriterPage-Dsf5Otlg.js                [0m[1;2m  9.19 kB[0m[2m │ gzip:   3.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveOrigamiHeartPage-BUTz-_xP.js              [0m[1;2m  9.41 kB[0m[2m │ gzip:   3.39 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMemoryFlipPage-BNwm9Qzk.js                [0m[1;2m  9.74 kB[0m[2m │ gzip:   3.49 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveLockBridgePage-BVnhrOI2.js                [0m[1;2m  9.79 kB[0m[2m │ gzip:   3.38 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveEnvelope-lrr5Tbx3.js                      [0m[1;2m 10.30 kB[0m[2m │ gzip:   3.68 kB[0m
+[2mdist/[0m[2massets/[0m[36mWhatsApp10kLovePage-CcyfkJnU.js               [0m[1;2m 10.33 kB[0m[2m │ gzip:   3.80 kB[0m
+[2mdist/[0m[2massets/[0m[36mconfetti.module-Uxh4CK4s.js                   [0m[1;2m 10.56 kB[0m[2m │ gzip:   4.19 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveGrandFinale-CuNBwHaz.js                   [0m[1;2m 10.66 kB[0m[2m │ gzip:   3.76 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveKaleidoscopePage-B-bRVheU.js              [0m[1;2m 10.69 kB[0m[2m │ gzip:   3.51 kB[0m
+[2mdist/[0m[2massets/[0m[36mTravelBucketList-CGpe3GJo.js                  [0m[1;2m 10.70 kB[0m[2m │ gzip:   4.04 kB[0m
+[2mdist/[0m[2massets/[0m[36mRingSurprisePage-CeA3Meg0.js                  [0m[1;2m 12.09 kB[0m[2m │ gzip:   3.93 kB[0m
+[2mdist/[0m[2massets/[0m[36mComplimentJarPage-BZ9aARV_.js                 [0m[1;2m 12.35 kB[0m[2m │ gzip:   4.57 kB[0m
+[2mdist/[0m[2massets/[0m[36mPaperAirplaneMessengerPage-BYoIzXS0.js        [0m[1;2m 12.48 kB[0m[2m │ gzip:   4.35 kB[0m
+[2mdist/[0m[2massets/[0m[36mStarNamerPage-DzUUnBlx.js                     [0m[1;2m 12.53 kB[0m[2m │ gzip:   4.60 kB[0m
+[2mdist/[0m[2massets/[0m[36mGalleryPage-DWKbYgxu.js                       [0m[1;2m 12.97 kB[0m[2m │ gzip:   4.97 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveCouponGeneratorPage-BwXbbywC.js           [0m[1;2m 13.04 kB[0m[2m │ gzip:   4.41 kB[0m
+[2mdist/[0m[2massets/[0m[36mBhuntuEmojiComicPage-D5gJsIJC.js              [0m[1;2m 13.37 kB[0m[2m │ gzip:   4.22 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveNeonSignDesignerPage-C_jXGrKi.js          [0m[1;2m 14.36 kB[0m[2m │ gzip:   4.33 kB[0m
+[2mdist/[0m[2massets/[0m[36mLoveMapCanvasPage-C3JAS6QQ.js                 [0m[1;2m 16.11 kB[0m[2m │ gzip:   5.59 kB[0m
+[2mdist/[0m[2massets/[0m[36mindex-DVkZgRot.js                             [0m[33;1m785.41 kB[0m[2m │ gzip: 190.76 kB[0m
+
+✓ built in 1.46s
+[plugin builtin:vite-reporter] [33;1m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[0m
+Production artifacts refreshed at repository root for legacy GitHub Pages.

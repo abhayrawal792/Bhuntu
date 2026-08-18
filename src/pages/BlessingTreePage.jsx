@@ -1,10 +1,4 @@
-import React from 'react';
-import BlessingTree from '../components/BlessingTree';
-
-export default function BlessingTreePage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <BlessingTree />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { TreePine, Sparkles } from 'lucide-react';
+const blessings = ['May your work feel lighter', 'May your laughter stay loud', 'May every road bring us closer', 'May you never doubt Abu’s love'];
+export default function BlessingTreePage() { const [leaves, setLeaves] = useState([]); return <main className="min-h-dvh bg-[#effbea] px-5 py-16 text-[#173b28]"><div className="mx-auto max-w-6xl"><TreePine className="h-12 w-12 text-emerald-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-emerald-700">A Bageshwori blessing garden</p><h1 className="mt-4 text-6xl font-black">Hang Abu’s wishes on the tree.</h1><div className="mt-10 grid gap-8 lg:grid-cols-[1.2fr_.8fr]"><div className="relative min-h-[30rem] overflow-hidden rounded-[2.5rem] bg-[#173b28] p-8"><div className="absolute bottom-0 left-1/2 h-44 w-10 -translate-x-1/2 rounded-t-full bg-amber-700" />{leaves.map((leaf, i) => <span key={leaf} style={{left: (18 + ((i * 31) % 66)) + '%', top: (16 + ((i * 47) % 55)) + '%'}} className="absolute rounded-full bg-emerald-300 px-3 py-2 text-xs font-bold text-[#173b28]">{leaf}</span>)}<p className="absolute bottom-6 left-6 text-emerald-100/60">{leaves.length ? 'The tree is growing around your wishes.' : 'Choose a blessing to begin.'}</p></div><aside className="space-y-3">{blessings.map((blessing) => <button key={blessing} onClick={() => !leaves.includes(blessing) && setLeaves([...leaves, blessing])} className="flex w-full items-center gap-3 rounded-2xl border border-emerald-100 bg-white p-4 text-left font-bold"><Sparkles className="h-5 w-5 text-emerald-600" />{blessing}</button>)}</aside></div></div></main>; }

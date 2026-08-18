@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveHoroscope from '../components/LoveHoroscope';
-
-export default function HoroscopePage() {
-  return (
-    <div className="min-h-dvh py-6 bg-slate-950">
-      <LoveHoroscope />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Star, Sun } from 'lucide-react';
+const skies = [['The courage sky', 'Your kindness is not softness; it is the brave thing Abu admires most.'], ['The distance sky', 'Even Nepalgunj and Sakai share one moon when Abu looks for you.'], ['The birthday sky', 'Your next year is allowed to be joyful before it is productive.']];
+export default function HoroscopePage() { const [reading, setReading] = useState(0); return <main className="min-h-dvh bg-[#080b23] px-5 py-16 text-white"><div className="mx-auto max-w-5xl"><Star className="h-12 w-12 fill-amber-300 text-amber-300" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-indigo-300">Abu’s birthday sky reading</p><h1 className="mt-4 text-6xl font-black">No fortune telling. Just truths about Samjhana.</h1><div className="mt-12 grid gap-4 md:grid-cols-3">{skies.map(([title], i) => <button key={title} onClick={() => setReading(i)} className={"rounded-[2rem] border p-6 text-left " + (i === reading ? 'border-amber-300 bg-amber-300 text-[#080b23]' : 'border-white/15 bg-white/5')}><Sun className="h-7 w-7" /><p className="mt-20 text-2xl font-black">{title}</p></button>)}</div><div className="mt-8 rounded-[2rem] border border-indigo-200/20 bg-indigo-100/10 p-8"><p className="text-3xl font-black text-amber-200">{skies[reading][1]}</p><p className="mt-5 text-indigo-100/70">Signed beneath the stars by Abu, for his Sanzu.</p></div></div></main>; }

@@ -1,10 +1,4 @@
-import React from 'react';
-import VoiceSoundboard from '../components/VoiceSoundboard';
-
-export default function VoiceSoundboardPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <VoiceSoundboard />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Mic2, Heart, Volume2 } from 'lucide-react';
+const notes = [['When you wake', 'Good morning, Babe. Abu hopes today is kind to you.'], ['When you miss me', 'Put your hand on your heart; that is where I am trying to reach.'], ['Before sleep', 'Goodnight, Sanu. Dream of the next place we will stand together.']];
+export default function VoiceSoundboardPage() { const [note, setNote] = useState(0); return <main className="min-h-dvh bg-[#21152b] px-5 py-16 text-white"><div className="mx-auto max-w-5xl"><div className="flex items-center gap-3 text-fuchsia-300"><Mic2 /><span className="text-xs font-black uppercase tracking-[.3em]">A voice-note room from Abu</span></div><h1 className="mt-5 text-6xl font-black">Choose the moment you need him.</h1><div className="mt-12 grid gap-8 lg:grid-cols-[.7fr_1.3fr]"><nav className="space-y-3">{notes.map(([title], i) => <button key={title} onClick={() => setNote(i)} className={"w-full rounded-2xl p-5 text-left font-bold " + (note === i ? 'bg-fuchsia-300 text-[#21152b]' : 'bg-white/10')}>{title}</button>)}</nav><section className="rounded-[2rem] bg-fuchsia-100 p-8 text-[#21152b]"><Volume2 className="h-10 w-10 text-fuchsia-700" /><p className="mt-8 text-xs font-black uppercase tracking-[.25em] text-fuchsia-700">Note 0{note + 1}</p><p className="mt-4 text-4xl font-black leading-tight">{notes[note][1]}</p><Heart className="mt-12 h-7 w-7 fill-fuchsia-600 text-fuchsia-600" /><p className="mt-4 font-bold">Abu’s voice may be far away, but the message is right here.</p></section></div></div></main>; }

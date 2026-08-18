@@ -21,11 +21,11 @@ A **thin candidate** is a page implementation below 7,000 aggregated local-sourc
 ### Page 001 — Samjhana’s Birthday Door from Abu
 
 **Route:** `/`  
-**Implementation:** `HomePage` / `src/pages/HomePage.jsx + src/data/personalVoice.js`  
+**Implementation:** `HomePage` / `src/pages/HomePage.jsx + src/data/personalVoice.js + src/data/roomSequence.js`
 **Design signals:** from-rose-200 via-orange-100 to-amber-100 from-sky-200 via-indigo-100 to-violet-100 from-emerald-200 via-teal-100 to-cyan-100 bg-[ text-[ bg-[radial-gradient.  
 **Idea and voice:** Samjhana’s Birthday Door from Abu uses HomePage. Memory: Chau-Chau, Panipuri, momo, and the foods that became our language. Gift: a private letter from Abu. Voice: Samjhana, my Fuchee, Abu made the Abu’s birthday doorway room around Chau-Chau, Panipuri, momo, and the foods that became our language. This is a remi.  
-**Photos/media:** 0 image signals, 0 media signals. **Interaction:** 8 signals. **Narrative:** 94 signals. **Gift layer:** 13 signals.  
-**Shared implementation:** page-specific source. **Thin candidate:** NO. **Broken candidate:** NO. **Fingerprint:** `594d7cf063`.
+**Photos/media:** 0 image signals, 0 media signals. **Interaction:** 8 signals. **Narrative:** 228 signals. **Gift layer:** 36 signals.
+**Shared implementation:** page-specific source. **Thin candidate:** NO. **Broken candidate:** NO. **Fingerprint:** `d79d0a63d5`.
 
 ### Page 002 — The Faces Abu Keeps Close
 
@@ -33,8 +33,8 @@ A **thin candidate** is a page implementation below 7,000 aggregated local-sourc
 **Implementation:** `GalleryPage` / `src/pages/GalleryPage.jsx + src/components/GallerySection.jsx + src/data/allMediaData.js + src/utils/mediaUtils.js + src/data/complimentsData.js + src/data/couplePhotosData.js + src/hooks/useDeviceGyro.js + src/components/AudioController.jsx + src/store/useAppStore.js + src/data/roomSequence.js + src/utils/assetHelper.js`  
 **Design signals:** bg-gradient-to-b from-[ via-[ to-[ text-center rounded-full bg-pink-100 border-pink-200 text-rose-600 text-xs font-bold shadow-sm.  
 **Idea and voice:** The Faces Abu Keeps Close uses GalleryPage. Memory: the day “Abhay” became “Abu” because you made it yours. Gift: a tiny memory ticket from Nepalgunj. Voice: Samjhana, my Bebo, Abu made the Gallery room around the day “Abhay” became “Abu” because you made it yours. A small surprise: Abu remembers more than .  
-**Photos/media:** 24 image signals, 46 media signals. **Interaction:** 81 signals. **Narrative:** 192 signals. **Gift layer:** 68 signals.  
-**Shared implementation:** GallerySection. **Thin candidate:** NO. **Broken candidate:** NO. **Fingerprint:** `e218b10e2e`.
+**Photos/media:** 24 image signals, 46 media signals. **Interaction:** 79 signals. **Narrative:** 192 signals. **Gift layer:** 67 signals.
+**Shared implementation:** GallerySection. **Thin candidate:** NO. **Broken candidate:** NO. **Fingerprint:** `1266a9fef3`.
 
 ### Page 003 — Samjhana in Motion
 

@@ -4,4 +4,3 @@ import LoveLetterArchive from '../components/LoveLetterArchive';
 export default function LoveLetterArchivePage() {
   return <LoveLetterArchive />;
 }
-

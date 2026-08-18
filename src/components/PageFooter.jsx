@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Heart } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
@@ -14,18 +14,8 @@ export default function PageFooter() {
   const totalRooms = ROOM_SEQUENCE.length;
   const activePage = pageNameByRoute[location.pathname];
 
-  // Find exact index of current URL route in ROOM_SEQUENCE safely
-  const rawIdx = ROOM_SEQUENCE.indexOf(location.pathname);
-  const activeIndex = (ROOM_SEQUENCE[currentRoomIndex] === location.pathname)
-    ? currentRoomIndex
-    : (rawIdx >= 0 ? rawIdx : currentRoomIndex);
-
-  // Keep store synchronized with active route
-  useEffect(() => {
-    if (rawIdx >= 0 && rawIdx !== currentRoomIndex && ROOM_SEQUENCE[currentRoomIndex] !== location.pathname) {
-      setCurrentRoomIndex(rawIdx);
-    }
-  }, [location.pathname, rawIdx, currentRoomIndex, setCurrentRoomIndex]);
+  // RouteGuard owns route validation; the footer never promotes a URL into progress state.
+  const activeIndex = currentRoomIndex;
 
   const handlePrev = () => {
     if (activeIndex > 0) {

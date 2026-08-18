@@ -1,7 +1,4 @@
-﻿import React from 'react';
-import LoveWordle from '../components/LoveWordle';
-
-export default function LoveWordlePage() {
-  return <LoveWordle />;
-}
-
+import React, { useState } from 'react';
+import { Type, UnlockKeyhole } from 'lucide-react';
+const words = ['ABU', 'SANZU', 'BHOOT', 'SAKAI', 'BABE'];
+export default function LoveWordlePage() { const [found, setFound] = useState([]); return <main className="min-h-dvh bg-[#efece5] px-5 py-16 text-[#27251f]"><div className="mx-auto max-w-5xl"><Type className="h-10 w-10 text-indigo-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-indigo-700">Words Abu saves</p><h1 className="mt-4 text-6xl font-black">Unlock the words he says softly.</h1><p className="mt-5 text-lg">Each word opens a sentence that belongs to Samjhana.</p><div className="mt-12 grid gap-4 sm:grid-cols-5">{words.map((word) => <button key={word} onClick={() => !found.includes(word) && setFound([...found, word])} className={"aspect-square rounded-2xl border-4 font-mono text-xl font-black transition " + (found.includes(word) ? 'border-indigo-700 bg-indigo-700 text-white' : 'border-[#27251f] bg-white hover:-rotate-2')}>{found.includes(word) ? word : '•••'}</button>)}</div><div className="mt-10 rounded-[2rem] bg-white p-7 shadow-xl"><UnlockKeyhole className="h-7 w-7 text-indigo-700" /><p className="mt-5 text-2xl font-black">{found.length === words.length ? 'You are every word Abu was trying to say.' : found.length + ' of ' + words.length + ' words opened'}</p></div></div></main>; }

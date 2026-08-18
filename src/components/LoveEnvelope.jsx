@@ -12,7 +12,7 @@ import { sendWhatsAppMessage } from '../utils/whatsappHelper';
 const STAMPS = [
   { id: 'initial', name: 'A ❤️ S Gold Seal', icon: '👑', color: 'from-amber-400 to-amber-600' },
   { id: 'heart', name: 'Pink Twin Hearts', icon: '💖', color: 'from-rose-500 to-pink-600' },
-  { id: 'crown', name: 'Royal Wifey Seal', icon: '👸', color: 'from-purple-500 to-indigo-600' }
+  { id: 'crown', name: 'Royal Bebo Seal', icon: '👸', color: 'from-purple-500 to-indigo-600' }
 ];
 
 const LETTER_PRESETS = [

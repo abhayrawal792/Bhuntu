@@ -1,10 +1,4 @@
-import React from 'react';
-import MoodRing from '../components/MoodRing';
-
-export default function MoodRingPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <MoodRing />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Heart, Sun, Cloud, Star } from 'lucide-react';
+const moods = [['Soft', 'When Samjhana says “Huss” and Abu hears home.', 'bg-rose-300'], ['Brave', 'When Bhoot keeps going even on a difficult day.', 'bg-amber-300'], ['Dreaming', 'When Sanu imagines the trips waiting ahead.', 'bg-indigo-300']];
+export default function MoodRingPage() { const [mood, setMood] = useState(0); const icons = [Heart, Sun, Cloud]; const Icon = icons[mood]; return <main className={"min-h-dvh px-5 py-16 text-[#2e1c2b] " + moods[mood][2]}><div className="mx-auto max-w-5xl"><p className="text-xs font-black uppercase tracking-[.3em]">A mood memory, not a prediction</p><h1 className="mt-4 text-6xl font-black">Abu knows more than one color of you.</h1><div className="mt-12 grid gap-8 md:grid-cols-3">{moods.map(([label], i) => <button key={label} onClick={() => setMood(i)} className={"rounded-[2rem] border-4 p-6 text-left " + (i === mood ? 'border-[#2e1c2b] bg-white/40' : 'border-transparent bg-white/20')}><Icon className="h-9 w-9" /><h2 className="mt-16 text-3xl font-black">{label}</h2></button>)}</div><article className="mt-9 rounded-[2rem] bg-white/70 p-8"><Icon className="h-10 w-10" /><p className="mt-6 text-3xl font-black">{moods[mood][1]}</p><p className="mt-4 font-bold">Whichever mood arrives, Abu is still here.</p></article></div></main>; }

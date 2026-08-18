@@ -1,10 +1,4 @@
-import React from 'react';
-import SecretVault from '../components/SecretVault';
-
-export default function SecretVaultPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <SecretVault />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { KeyRound, LockKeyhole, Check } from 'lucide-react';
+const locks = [['The date', '28 / 10 / 2025'], ['The place', 'Bageshwori'], ['The name', 'Bhuntu']];
+export default function SecretVaultPage() { const [open, setOpen] = useState([]); return <main className="min-h-dvh bg-[#151515] px-5 py-16 text-lime-50"><div className="mx-auto max-w-5xl"><LockKeyhole className="h-12 w-12 text-lime-300" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-lime-300">A secret room for Samjhana</p><h1 className="mt-4 text-6xl font-black">Three clues Abu never wants to lose.</h1><div className="mt-12 grid gap-4 md:grid-cols-3">{locks.map(([label, answer]) => <button key={label} onClick={() => !open.includes(label) && setOpen([...open, label])} className={"rounded-[2rem] border p-7 text-left " + (open.includes(label) ? 'border-lime-300 bg-lime-300 text-[#151515]' : 'border-lime-100/20 bg-white/5')}><KeyRound className="h-7 w-7" /><p className="mt-16 text-xs font-black uppercase tracking-[.25em]">{label}</p>{open.includes(label) ? <p className="mt-3 text-3xl font-black">{answer}</p> : <p className="mt-3 text-lime-200">Turn the key</p>}</button>)}</div>{open.length === locks.length && <div className="mt-10 rounded-2xl border border-lime-300/40 p-6 text-xl font-bold"><Check className="mb-3" />Vault opened: Abu’s most protected secret is how completely he loves his Sanzu.</div>}</div></main>; }

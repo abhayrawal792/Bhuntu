@@ -20,7 +20,7 @@ const GRID_CELLS = [
 const CLUES = [
   { num: "1 Across", clue: "City in Osaka where Queen Sanzu lives & works 🇯🇵 (SAKAI)" },
   { num: "3 Across", clue: "Endearing nicknames Abu calls his girl 💕 (NICKS)" },
-  { num: "1 Down", clue: "The royal name of Abu's wife 👑 (SANZU)" }
+  { num: "1 Down", clue: "The royal name of Samjhana's special name 👑 (SANZU)" }
 ];
 
 export default function LoveCrosswordPuzzle() {

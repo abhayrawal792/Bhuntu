@@ -12,7 +12,7 @@ const CROSSWORD_CLUES = [
   { id: 'A2', dir: 'Across', num: 2, text: 'City in Japan where Abu lives (5 letters)', answer: 'OSAKA' },
   { id: 'D1', dir: 'Down', num: 1, text: 'Sweetest nickname for Sanzu (4 letters)', answer: 'BEBO' },
   { id: 'D2', dir: 'Down', num: 2, text: 'Honeymoon destination in Nepal (7 letters)', answer: 'POKHARA' },
-  { id: 'D3', dir: 'Down', num: 3, text: 'Nepali word for beloved wife (6 letters)', answer: 'MAYALU' }
+  { id: 'D3', dir: 'Down', num: 3, text: 'Nepali word for beloved person (6 letters)', answer: 'MAYALU' }
 ];
 
 export default function LoveCrossword() {

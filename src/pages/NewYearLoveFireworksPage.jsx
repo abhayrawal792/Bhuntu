@@ -4,4 +4,3 @@ import NewYearLoveFireworks from '../components/NewYearLoveFireworks';
 export default function NewYearLoveFireworksPage() {
   return <NewYearLoveFireworks />;
 }
-

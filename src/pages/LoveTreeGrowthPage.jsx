@@ -1,10 +1,4 @@
-import React from 'react';
-import LoveTreeGrowth from '../components/LoveTreeGrowth';
-
-export default function LoveTreeGrowthPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveTreeGrowth />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Sprout, Heart, ArrowRight } from 'lucide-react';
+const eras = [['Seed', 'A yes on October 28, 2025', 'The first small beginning.'], ['Stem', 'The everyday details', 'The food, teasing, and “Huss” that made us steady.'], ['Branches', 'Nepalgunj ↔ Sakai', 'Distance became something love could cross.'], ['Canopy', 'The future', 'A scooter, a journey, and a life with room for both of us.']];
+export default function LoveTreeGrowthPage() { const [era, setEra] = useState(0); return <main className="min-h-dvh bg-[#eaf7ec] px-5 py-16 text-[#1b3d2c]"><div className="mx-auto max-w-6xl"><div className="grid gap-10 lg:grid-cols-[.6fr_1.4fr]"><aside><Sprout className="h-12 w-12 text-emerald-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-emerald-700">The growth of us</p><h1 className="mt-4 text-6xl font-black">A relationship timeline with roots.</h1></aside><section><div className="relative border-l-4 border-emerald-200 pl-8">{eras.map(([title], i) => <button key={title} onClick={() => setEra(i)} className={"relative mb-8 block w-full rounded-2xl p-5 text-left " + (era === i ? 'bg-emerald-700 text-white' : 'bg-white')}><span className="absolute -left-[3.1rem] top-6 h-5 w-5 rounded-full border-4 border-emerald-100 bg-emerald-500" /><p className="text-xs font-black uppercase tracking-[.25em]">Stage 0{i + 1}</p><h2 className="mt-2 text-3xl font-black">{title}</h2></button>)}</div><article className="rounded-[2rem] bg-white p-8 shadow-xl"><p className="text-sm font-black uppercase tracking-[.25em] text-emerald-700">{eras[era][1]}</p><h2 className="mt-4 text-4xl font-black">{eras[era][2]}</h2><button onClick={() => setEra((era + 1) % eras.length)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-emerald-700 px-5 py-3 font-bold text-white">Watch us grow <ArrowRight className="h-4 w-4" /></button></article></section></div></div></main>; }

@@ -1,0 +1,7 @@
+all_registered=0
+page_experiences=0
+uniqueness=0
+experience_system=0
+game_policy=0
+repetition=0
+lint_src=0

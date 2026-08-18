@@ -1,10 +1,4 @@
-import React from 'react';
-import TravelBucketList from '../components/TravelBucketList';
-
-export default function Room8Page() {
-  return (
-    <div className="min-h-dvh">
-      <TravelBucketList />
-    </div>
-  );
-}
+import React, { useState } from 'react';
+import { Map, Mountain, Check } from 'lucide-react';
+const trips = [['Bardiya', 'The first long ride on the light-blue scooter.'], ['Pokhara', 'A morning with water, sky, and Samjhana’s hand.'], ['Manang', 'Cold mountain air and warm tea for two.'], ['Mustang', 'A road wide enough for every plan we have.']];
+export default function Room8Page() { const [trip, setTrip] = useState(0); return <main className="min-h-dvh bg-[#ecf4ea] px-5 py-16 text-[#25412b]"><div className="mx-auto max-w-6xl"><Map className="h-11 w-11 text-emerald-700" /><p className="mt-5 text-xs font-black uppercase tracking-[.3em] text-emerald-700">Room 8 / postcards from later</p><h1 className="mt-4 text-6xl font-black">The trips Abu wants to owe you.</h1><div className="mt-12 grid gap-5 md:grid-cols-4">{trips.map(([place], i) => <button key={place} onClick={() => setTrip(i)} className={"min-h-48 rounded-[2rem] border-2 p-6 text-left " + (trip === i ? 'border-emerald-700 bg-emerald-200' : 'border-emerald-100 bg-white')}><Mountain className="h-7 w-7" /><h2 className="mt-16 text-3xl font-black">{place}</h2></button>)}</div><article className="mt-8 rounded-[2rem] bg-emerald-700 p-8 text-white"><p className="text-xs font-black uppercase tracking-[.25em]">Postcard from {trips[trip][0]}</p><p className="mt-5 text-3xl font-black">{trips[trip][1]}</p>{trip === 3 && <p className="mt-5 flex items-center gap-2 font-bold"><Check /> Abu is saving this road for you.</p>}</article></div></main>; }
