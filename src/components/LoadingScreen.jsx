@@ -10,7 +10,7 @@ export default function LoadingScreen({ onStart }) {
   const [showContent, setShowContent] = useState(false);
   const [password, setPassword] = useState('');
   const [wrongAttempts, setWrongAttempts] = useState(0);
-  const [feedback, setFeedback] = useState('The first door opens only for the name you gave Abu.');
+  const [feedback, setFeedback] = useState('A private birthday door is waiting for you.');
   const [isChecking, setIsChecking] = useState(false);
 
   const handlePasswordSubmit = (event) => {

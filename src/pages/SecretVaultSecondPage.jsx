@@ -1,0 +1,10 @@
+import React, { useState } from 'react';
+import { Archive, KeyRound, Unlock } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+import { pageGiftByRoute, pageNameByRoute } from '../data/pageGiftData';
+import { useLocation } from 'react-router-dom';
+
+export default function SecretVaultSecondPage() {
+  const { pathname } = useLocation(); const gift = pageGiftByRoute[pathname] || {}; const page = pageNameByRoute[pathname] || {}; const [open, setOpen] = useState(false); const photo = getAssetUrl(ALL_MEDIA_PHOTOS[188 % ALL_MEDIA_PHOTOS.length]);
+  return <main className="min-h-[76dvh] bg-[#0d1020] px-5 py-12 text-indigo-50 sm:px-10"><div className="mx-auto max-w-5xl"><p className="text-xs font-black uppercase tracking-[.3em] text-indigo-300/70">Archive 02 · private access</p><h1 className="mt-5 text-6xl font-black leading-[.88] tracking-[-.08em] sm:text-8xl">{page.title}</h1><div className="mt-12 grid gap-8 lg:grid-cols-[.9fr_1.1fr]"><img src={photo} alt="A protected memory" className="h-[30rem] w-full rounded-[2.5rem] object-cover shadow-2xl" loading="lazy" /><section className="rounded-[2.5rem] border border-indigo-200/15 bg-white/[.06] p-8"><Archive className="h-7 w-7 text-indigo-300" /><p className="mt-8 text-xs font-black uppercase tracking-[.2em] text-indigo-200/60">One record Abu never wants to lose</p><h2 className="mt-5 text-3xl font-black">{gift.memory}</h2><p className="mt-5 leading-8 text-indigo-100/60">{gift.compliment}</p><button type="button" onClick={() => setOpen(!open)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-indigo-300 px-6 py-3 text-sm font-black text-[#0d1020]">{open ? <Unlock className="h-4 w-4" /> : <KeyRound className="h-4 w-4" />}{open ? 'Archive opened' : 'Use Samjhana’s key'}</button>{open && <div className="mt-8 border-t border-indigo-200/15 pt-6 text-lg font-bold leading-8 text-indigo-100">{gift.message}<p className="mt-4 text-sm font-semibold leading-7 text-indigo-100/55">{gift.gift} {gift.surprise}</p></div>}</section></div></div></main>;
+}

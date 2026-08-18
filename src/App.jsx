@@ -312,19 +312,23 @@ const Ultimate300thLoveCoronationPage = lazy(() => import('./pages/Ultimate300th
 
 
 import AudioController, { playSparkle } from './components/AudioController';
+import { ROOM_SEQUENCE } from './data/roomSequence';
 
 import { useAppStore } from './store/useAppStore';
 
 function MainAppContent() {
-  const { hasEntered, setHasEntered } = useAppStore();
+  const { hasEntered, setHasEntered, setCurrentRoomIndex } = useAppStore();
   const navigate = useNavigate();
   const [isAudioStarted, setIsAudioStarted] = useState(false);
 
   const handleStart = () => {
     playSparkle();
+    // Page 1 is the doorway; the first unlocked destination is page 2.
+    const firstBirthdayRoomIndex = 1;
+    setCurrentRoomIndex(firstBirthdayRoomIndex);
     setHasEntered(true);
     setIsAudioStarted(true);
-    navigate('/curated-journey', { replace: true });
+    navigate(ROOM_SEQUENCE[firstBirthdayRoomIndex], { replace: true });
   };
 
   return (
@@ -388,7 +392,7 @@ function MainAppContent() {
               <Route path="/memory-match"      element={<MemoryMatchPage />} />
               <Route path="/quote-generator"   element={<QuoteGeneratorPage />} />
               <Route path="/mystery-gifts"     element={<MysteryGiftsPage />} />
-              <Route path="/bouquet-reasons"        element={<RomanticReplacementPage />} />
+              <Route path="/bouquet-reasons"        element={<BouquetReasonsPage />} />
               <Route path="/passport"          element={<PassportPage />} />
               <Route path="/message-bottle"    element={<BottlePage />} />
               <Route path="/music-box"         element={<MusicBoxPage />} />
@@ -401,7 +405,7 @@ function MainAppContent() {
               <Route path="/love-calculator"   element={<LoveCalculatorPage />} />
               <Route path="/cooking-game"      element={<CookingGamePage />} />
               <Route path="/love-pet"          element={<LovePetPage />} />
-              <Route path="/future-night-ride"      element={<RomanticReplacementPage />} />
+              <Route path="/future-night-ride"      element={<FutureNightRidePage />} />
               <Route path="/two-truths"        element={<TwoTruthsPage />} />
               <Route path="/word-search"       element={<WordSearchPage />} />
               <Route path="/wishing-well"      element={<WishingWellPage />} />
@@ -437,9 +441,9 @@ function MainAppContent() {
               <Route path="/blessing-tree"     element={<BlessingTreePage />} />
               <Route path="/love-vibe"         element={<LoveVibePage />} />
               <Route path="/couple-quiz-2"     element={<CoupleQuiz2Page />} />
-              <Route path="/promise-trio"   element={<RomanticReplacementPage />} />
+              <Route path="/promise-trio"   element={<PromiseTrioPage />} />
               <Route path="/bento-box"         element={<BentoBoxPage />} />
-              <Route path="/letter-tonight" element={<RomanticReplacementPage />} />
+              <Route path="/letter-tonight" element={<LetterTonightPage />} />
               <Route path="/love-coupon-generator" element={<LoveCouponGeneratorPage />} />
               <Route path="/star-namer"        element={<StarNamerPage />} />
               <Route path="/love-jar-notes"    element={<LoveJarNotesPage />} />
@@ -483,7 +487,7 @@ function MainAppContent() {
               <Route path="/emoji-art-canvas" element={<EmojiArtCanvasPage />} />
               <Route path="/magic-8-ball-love" element={<Magic8BallLovePage />} />
               <Route path="/love-lock-bridge" element={<LoveLockBridgePage />} />
-              <Route path="/secret-language" element={<RomanticReplacementPage />} />
+              <Route path="/secret-language" element={<SecretLanguagePage />} />
               <Route path="/cloud-skywriter" element={<CloudSkywriterPage />} />
               <Route path="/love-thermometer" element={<LoveThermometerPage />} />
               <Route path="/movie-ticket-creator" element={<MovieTicketCreatorPage />} />
@@ -501,7 +505,7 @@ function MainAppContent() {
               {/* ── 19 NEW Unique Interactive Pages ── */}
               <Route path="/origami-crane" element={<OrigamiCranePage />} />
               <Route path="/star-drawer" element={<StarDrawerPage />} />
-              <Route path="/birthday-wish-letter" element={<RomanticReplacementPage />} />
+              <Route path="/birthday-wish-letter" element={<BirthdayWishLetterPage />} />
               <Route path="/bubble-wrap" element={<BubbleWrapPage />} />
               <Route path="/scratch-memory" element={<ScratchMemoryPage />} />
               <Route path="/quiz-duel" element={<QuizDuelPage />} />
@@ -535,7 +539,7 @@ function MainAppContent() {
               <Route path="/heart-bubble-tea-maker" element={<HeartBubbleTeaMakerPage />} />
               <Route path="/love-notes-wall" element={<LoveNotesWallPage />} />
               <Route path="/virtual-cat-cafe" element={<VirtualCatCafePage />} />
-              <Route path="/memory-replay" element={<RomanticReplacementPage />} />
+              <Route path="/memory-replay" element={<MemoryReplayPage />} />
               <Route path="/love-quiz-personality" element={<LoveQuizPersonalityPage />} />
               <Route path="/sweet-proposal-simulator" element={<SweetProposalSimulatorPage />} />
               <Route path="/love-frequency-tuner" element={<LoveFrequencyTunerPage />} />
@@ -626,7 +630,7 @@ function MainAppContent() {
               <Route path="/love-scratch-voucher-book" element={<LoveScratchVoucherBookPage />} />
               <Route path="/bhuntu-voice-note-archive" element={<BhuntuVoiceNoteArchivePage />} />
               <Route path="/couple-milestone-map" element={<CoupleMilestoneMapPage />} />
-              <Route path="/birthday-sky-letter" element={<RomanticReplacementPage />} />
+              <Route path="/birthday-sky-letter" element={<BirthdaySkyLetterPage />} />
               <Route path="/romantic-petal-rain" element={<RomanticPetalRainPage />} />
               <Route path="/love-letter-popup-3d" element={<LoveLetterPopUp3DPage />} />
               <Route path="/couple-quiz-master" element={<CoupleQuizMasterPage />} />
@@ -659,7 +663,7 @@ function MainAppContent() {
               <Route path="/love-wish-bottle-ocean" element={<LoveWishBottleOceanPage />} />
               <Route path="/couple-superlatives" element={<CoupleSuperlativesPage />} />
               <Route path="/love-memory-cube-3d" element={<LoveMemoryCube3DPage />} />
-              <Route path="/little-things-abu-notices" element={<RomanticReplacementPage />} />
+              <Route path="/little-things-abu-notices" element={<LittleThingsPage />} />
               <Route path="/love-envelope-collection" element={<LoveEnvelopeCollectionPage />} />
               <Route path="/romantic-music-box-2" element={<RomanticMusicBox2Page />} />
               <Route path="/couple-future-home-3d" element={<CoupleFutureHome3DPage />} />
@@ -668,15 +672,15 @@ function MainAppContent() {
               <Route path="/love-tetris-block-puzzle" element={<LoveTetrisBlockPuzzlePage />} />
               <Route path="/couple-relationship-cert" element={<CoupleRelationshipCertPage />} />
               <Route path="/grand-love-galaxy-3d" element={<GrandLoveGalaxy3DPage />} />
-              <Route path="/love-memory-match-3d" element={<LoveMemoryMatchPage />} />
-              <Route path="/love-scratch-off-gallery-2" element={<LoveScratchOffGalleryPage />} />
-              <Route path="/love-letter-archive-vault" element={<LoveLetterArchivePage />} />
-              <Route path="/love-spell-caster-studio" element={<LoveSpellCasterPage />} />
-              <Route path="/love-potion-lab-2" element={<LovePotionLaboratoryPage />} />
-              <Route path="/couple-milestone-map-2" element={<CoupleAnniversaryTimelinePage />} />
-              <Route path="/secret-vault-2" element={<SecretVaultPage />} />
-              <Route path="/love-grand-finale-2" element={<LoveGrandFinalePage />} />
-              <Route path="/future-house-builder-2" element={<FutureHouseBuilderPage />} />
+              <Route path="/love-memory-match-3d" element={<LoveMemoryMatch3DPage />} />
+              <Route path="/love-scratch-off-gallery-2" element={<LoveScratchOffGallerySecondPage />} />
+              <Route path="/love-letter-archive-vault" element={<LoveLetterArchiveVaultPage />} />
+              <Route path="/love-spell-caster-studio" element={<LoveSpellCasterStudioPage />} />
+              <Route path="/love-potion-lab-2" element={<LovePotionLab2Page />} />
+              <Route path="/couple-milestone-map-2" element={<CoupleMilestoneMap2Page />} />
+              <Route path="/secret-vault-2" element={<SecretVaultSecondPage />} />
+              <Route path="/love-grand-finale-2" element={<LoveGrandFinaleSecondPage />} />
+              <Route path="/future-house-builder-2" element={<FutureHouseBuilderSecondPage />} />
               <Route path="/ultimate-300th-love-coronation" element={<Ultimate300thLoveCoronationPage />} />
 
 

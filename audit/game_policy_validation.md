@@ -2,10 +2,10 @@
 
 | Measure | Result |
 |---|---:|
-| Curated sequence routes | 262 |
+| Curated sequence routes | 263 |
 | Detected game routes in curated sequence | 20 |
 | Approved game routes | 20 |
-| Removed game routes | 49 |
+| Removed game routes | 41 |
 | Errors | 0 |
 
 ## Approved games
@@ -21,7 +21,7 @@
 9. /romantic-karaoke
 10. /love-rhythm-game
 11. /love-butterfly-catcher
-12. /birthday-wish-letter
+12. /love-tetris-block-puzzle
 13. /heartbeat-drum-pad
 14. /sweet-proposal-simulator
 15. /love-doodle-canvas
@@ -29,6 +29,6 @@
 17. /love-wordle
 18. /emoji-art-canvas
 19. /love-scratch-card
-20. /love-memory-match-3d
+20. /love-tetris
 
 The curated sequence contains exactly twenty approved games. All other detected game routes are excluded.

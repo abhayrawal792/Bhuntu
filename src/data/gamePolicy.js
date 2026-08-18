@@ -11,7 +11,7 @@ export const RETAINED_GAMES = [
   { route: '/romantic-karaoke', title: 'Karaoke Night for Bhuntu', mechanic: 'romantic karaoke' },
   { route: '/love-rhythm-game', title: 'The Rhythm of Our Calls', mechanic: 'rhythm game' },
   { route: '/love-butterfly-catcher', title: 'Catch a Wish for Babe', mechanic: 'butterfly catcher' },
-  { route: '/birthday-wish-letter', title: 'A Sealed Birthday Letter from Abu', mechanic: 'letter reveal' },
+  { route: '/love-tetris-block-puzzle', title: 'Build Another Little Memory Tower', mechanic: 'romantic block puzzle' },
   { route: '/heartbeat-drum-pad', title: 'The Rhythm of Abu Missing You', mechanic: 'rhythm memory' },
   { route: '/sweet-proposal-simulator', title: 'The Future Abu Keeps Imagining', mechanic: 'future simulator' },
   { route: '/love-doodle-canvas', title: 'Draw a Little Heart for Bhuntu', mechanic: 'doodle canvas' },
@@ -19,7 +19,7 @@ export const RETAINED_GAMES = [
   { route: '/love-wordle', title: 'Words Abu Saves for Samjhana', mechanic: 'word puzzle' },
   { route: '/emoji-art-canvas', title: 'Draw the Feeling Abu Cannot Say', mechanic: 'romantic art canvas' },
   { route: '/love-scratch-card', title: 'Scratch Open a Note from Abu', mechanic: 'scratch reveal' },
-  { route: '/love-memory-match-3d', title: 'Match the Memory to the Feeling', mechanic: 'memory match' },
+  { route: '/love-tetris', title: 'Build a Tower from Our Little Memories', mechanic: 'romantic block puzzle' },
 ];
 
 export const RETAINED_GAME_ROUTES = RETAINED_GAMES.map((game) => game.route);

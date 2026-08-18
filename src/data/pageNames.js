@@ -117,7 +117,7 @@ export const pageNames = [
   {
     "pageNumber": "020",
     "route": "/bouquet-reasons",
-    "component": "RomanticReplacementPage",
+    "component": "BouquetReasonsPage",
     "title": "A Bouquet of Reasons Abu Loves You"
   },
   {
@@ -195,7 +195,7 @@ export const pageNames = [
   {
     "pageNumber": "033",
     "route": "/future-night-ride",
-    "component": "RomanticReplacementPage",
+    "component": "FutureNightRidePage",
     "title": "The Night Ride We Still Owe Ourselves"
   },
   {
@@ -411,7 +411,7 @@ export const pageNames = [
   {
     "pageNumber": "069",
     "route": "/promise-trio",
-    "component": "RomanticReplacementPage",
+    "component": "PromiseTrioPage",
     "title": "Three Little Promises for Our Future"
   },
   {
@@ -423,7 +423,7 @@ export const pageNames = [
   {
     "pageNumber": "071",
     "route": "/letter-tonight",
-    "component": "RomanticReplacementPage",
+    "component": "LetterTonightPage",
     "title": "The Letter Abu Would Send Tonight"
   },
   {
@@ -675,7 +675,7 @@ export const pageNames = [
   {
     "pageNumber": "113",
     "route": "/secret-language",
-    "component": "RomanticReplacementPage",
+    "component": "SecretLanguagePage",
     "title": "The Secret Language of Us"
   },
   {
@@ -771,7 +771,7 @@ export const pageNames = [
   {
     "pageNumber": "129",
     "route": "/birthday-wish-letter",
-    "component": "RomanticReplacementPage",
+    "component": "BirthdayWishLetterPage",
     "title": "A Sealed Birthday Letter from Abu"
   },
   {
@@ -963,7 +963,7 @@ export const pageNames = [
   {
     "pageNumber": "162",
     "route": "/memory-replay",
-    "component": "RomanticReplacementPage",
+    "component": "MemoryReplayPage",
     "title": "The Memory Abu Keeps Replaying"
   },
   {
@@ -1473,7 +1473,7 @@ export const pageNames = [
   {
     "pageNumber": "248",
     "route": "/birthday-sky-letter",
-    "component": "RomanticReplacementPage",
+    "component": "BirthdaySkyLetterPage",
     "title": "Your Birthday Sky Letter"
   },
   {
@@ -1671,7 +1671,7 @@ export const pageNames = [
   {
     "pageNumber": "281",
     "route": "/little-things-abu-notices",
-    "component": "RomanticReplacementPage",
+    "component": "LittleThingsPage",
     "title": "The Little Things Abu Notices"
   },
   {
@@ -1725,55 +1725,55 @@ export const pageNames = [
   {
     "pageNumber": "290",
     "route": "/love-memory-match-3d",
-    "component": "LoveMemoryMatchPage",
+    "component": "LoveMemoryMatch3DPage",
     "title": "Three Dimensions of Our Memory"
   },
   {
     "pageNumber": "291",
     "route": "/love-scratch-off-gallery-2",
-    "component": "LoveScratchOffGalleryPage",
+    "component": "LoveScratchOffGallerySecondPage",
     "title": "A Second Gallery of Hidden Notes"
   },
   {
     "pageNumber": "292",
     "route": "/love-letter-archive-vault",
-    "component": "LoveLetterArchivePage",
+    "component": "LoveLetterArchiveVaultPage",
     "title": "The Archive Abu Locked for You"
   },
   {
     "pageNumber": "293",
     "route": "/love-spell-caster-studio",
-    "component": "LoveSpellCasterPage",
+    "component": "LoveSpellCasterStudioPage",
     "title": "Words That Make a Day Softer"
   },
   {
     "pageNumber": "294",
     "route": "/love-potion-lab-2",
-    "component": "LovePotionLaboratoryPage",
+    "component": "LovePotionLab2Page",
     "title": "The Lab of Abu’s Feelings"
   },
   {
     "pageNumber": "295",
     "route": "/couple-milestone-map-2",
-    "component": "CoupleAnniversaryTimelinePage",
+    "component": "CoupleMilestoneMap2Page",
     "title": "A Second Map of Our Story"
   },
   {
     "pageNumber": "296",
     "route": "/secret-vault-2",
-    "component": "SecretVaultPage",
+    "component": "SecretVaultSecondPage",
     "title": "Secret Vault 2"
   },
   {
     "pageNumber": "297",
     "route": "/love-grand-finale-2",
-    "component": "LoveGrandFinalePage",
+    "component": "LoveGrandFinaleSecondPage",
     "title": "Love Grand Finale 2"
   },
   {
     "pageNumber": "298",
     "route": "/future-house-builder-2",
-    "component": "FutureHouseBuilderPage",
+    "component": "FutureHouseBuilderSecondPage",
     "title": "Another Window into Our Future"
   },
   {

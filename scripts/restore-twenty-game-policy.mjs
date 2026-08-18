@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const policy = 'src/data/gamePolicy.js';
+let text = fs.readFileSync(policy, 'utf8');
+text = text.replace("{ route: '/birthday-wish-letter', title: 'A Sealed Birthday Letter from Abu', mechanic: 'letter reveal' }", "{ route: '/love-tetris-block-puzzle', title: 'Build Another Little Memory Tower', mechanic: 'romantic block puzzle' }");
+fs.writeFileSync(policy, text);
+const sequence = 'src/data/roomSequence.js';
+let sequenceText = fs.readFileSync(sequence, 'utf8');
+sequenceText = sequenceText.replace('  "/love-tetris",', '  "/love-tetris",\n  "/love-tetris-block-puzzle",');
+fs.writeFileSync(sequence, sequenceText);
+console.log('Restored exactly twenty approved games with /love-tetris replacing the redesigned memory-match route.');

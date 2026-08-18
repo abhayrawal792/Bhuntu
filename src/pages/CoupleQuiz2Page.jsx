@@ -1,10 +1,10 @@
-import React from 'react';
-import CoupleQuiz2 from '../components/CoupleQuiz2';
+import React, { useState } from 'react';
+import { Check, HelpCircle, X } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+import { pageGiftByRoute, pageNameByRoute } from '../data/pageGiftData';
+import { useLocation } from 'react-router-dom';
 
 export default function CoupleQuiz2Page() {
-  return (
-    <div className="min-h-dvh py-6">
-      <CoupleQuiz2 />
-    </div>
-  );
+  const { pathname } = useLocation(); const gift = pageGiftByRoute[pathname] || {}; const page = pageNameByRoute[pathname] || {}; const [answer, setAnswer] = useState(null); const photo = getAssetUrl(ALL_MEDIA_PHOTOS[83 % ALL_MEDIA_PHOTOS.length]); const options = ['Bageshwori Temple', 'A random movie set', 'A city Abu has never visited'];
+  return <main className="min-h-[76dvh] bg-[#f2eef8] px-5 py-12 text-[#302641] sm:px-10"><div className="mx-auto max-w-5xl"><p className="text-xs font-black uppercase tracking-[.3em] text-violet-700/70">One question with a real answer</p><h1 className="mt-5 max-w-4xl text-6xl font-black leading-[.88] tracking-[-.08em] sm:text-8xl">{page.title}</h1><div className="mt-12 grid gap-8 lg:grid-cols-[.9fr_1.1fr]"><section><img src={photo} alt="A memory from Abu and Samjhana" className="h-80 w-full rounded-[2rem] object-cover shadow-xl" loading="lazy" /><p className="mt-6 text-lg leading-8 text-[#6f6380]">Abu made this question from a detail he does not want to lose.</p></section><section className="rounded-[2rem] border border-violet-200 bg-white p-7 shadow-xl"><div className="flex items-center gap-3 text-violet-700"><HelpCircle className="h-6 w-6" /><p className="text-xs font-black uppercase tracking-[.2em]">Where did Abu want to carry his prayers with you?</p></div><div className="mt-7 space-y-3">{options.map((option, i) => <button type="button" key={option} onClick={() => setAnswer(i)} className={answer === i ? 'flex w-full items-center gap-3 rounded-2xl border border-violet-500 bg-violet-50 p-4 text-left font-bold' : 'flex w-full items-center gap-3 rounded-2xl border border-violet-100 p-4 text-left font-bold'}>{answer === i ? (i === 0 ? <Check className="h-5 w-5 text-emerald-600" /> : <X className="h-5 w-5 text-rose-500" />) : <span className="grid h-5 w-5 place-items-center rounded-full bg-violet-100 text-xs">{i + 1}</span>}{option}</button>)}</div><p className="mt-7 border-t border-violet-100 pt-6 text-sm leading-7 text-[#6f6380]">{answer === 0 ? gift.message : answer === null ? gift.compliment : 'The answer is Bageshwori Temple. Abu remembers the places that became ours.'} {gift.surprise}</p></section></div></div></main>;
 }

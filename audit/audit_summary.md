@@ -2,8 +2,8 @@
 
 | Metric | Value |
 |---|---:|
-| Page files audited | 305 |
-| Unique page ideas | 305 |
+| Page files audited | 323 |
+| Unique page ideas | 323 |
 | Duplicate page ideas | 0 |
 | Media assets audited | 187 |
 | Referenced assets | 1 |
@@ -17,7 +17,7 @@ The audit fails when any two page files resolve to the same idea slug. A page ca
 
 - `BhuntuLovePolaroids`: 2 pages (bhuntu-love-polaroids, room3)
 - `BhuntuTriviaShowdown`: 2 pages (bhuntu-trivia-showdown, room4)
-- `page-local`: 16 pages (bhuntu-trivia-wheel, curated-journey, ferris-wheel, home, love-horoscope-wheel, love-spinner3-d, love-wheel-fortune, quiz, romantic-memory-wheel, romantic-replacement, secret-cipher-wheel, spin-wheel, stars, story, video, wish-wheel)
+- `page-local`: 39 pages (bhuntu-trivia-wheel, birthday-sky-letter, birthday-wish-letter, bouquet-reasons, couple-bucket-list2, couple-milestone-map2, couple-quiz2, curated-journey, ferris-wheel, future-house-builder-second, future-night-ride, home, letter-tonight, little-things, love-grand-finale-second, love-horoscope-wheel, love-jar-notes, love-letter-archive-vault, love-memory-match3-d, love-potion-lab2, love-quiz-advanced, love-scratch-off-gallery-second, love-spell-caster-studio, love-spinner3-d, love-wheel-fortune, memory-lane, memory-replay, promise-trio, quiz, romantic-memory-wheel, romantic-replacement, secret-cipher-wheel, secret-language, secret-vault-second, spin-wheel, stars, story, video, wish-wheel)
 - `BhuntuVoiceNoteArchive`: 2 pages (bhuntu-voice-note-archive, room10)
 - `TravelBucketList`: 2 pages (bucket-list, room8)
 - `NepalgunjToOsakaFlightSim`: 3 pages (distance, nepalgunj-to-osaka-flight-sim, room2)

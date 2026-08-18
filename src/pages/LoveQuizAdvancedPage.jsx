@@ -1,10 +1,10 @@
-import React from 'react';
-import LoveQuizAdvanced from '../components/LoveQuizAdvanced';
+import React, { useState } from 'react';
+import { Brain, ChevronRight, Heart } from 'lucide-react';
+import { ALL_MEDIA_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
+import { pageGiftByRoute, pageNameByRoute } from '../data/pageGiftData';
+import { useLocation } from 'react-router-dom';
 
 export default function LoveQuizAdvancedPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveQuizAdvanced />
-    </div>
-  );
+  const { pathname } = useLocation(); const gift = pageGiftByRoute[pathname] || {}; const page = pageNameByRoute[pathname] || {}; const [step, setStep] = useState(0); const photo = getAssetUrl(ALL_MEDIA_PHOTOS[121 % ALL_MEDIA_PHOTOS.length]); const prompts = ['Which word did Samjhana give to Abhay?', 'Which future road belongs in Abu’s promise?', 'Which call makes the distance feel smaller?']; const answers = ['Abu', 'The light-blue scooter toward Bardiya', 'Nepalgunj to Sakai at night'];
+  return <main className="min-h-[76dvh] bg-[#18252b] px-5 py-12 text-[#edf8f7] sm:px-10"><div className="mx-auto max-w-6xl"><div className="flex items-center gap-3 text-teal-200"><Brain className="h-7 w-7" /><span className="text-xs font-black uppercase tracking-[.3em]">The details Abu keeps</span></div><h1 className="mt-5 max-w-4xl text-6xl font-black leading-[.88] tracking-[-.08em] sm:text-8xl">{page.title}</h1><div className="mt-12 grid gap-8 lg:grid-cols-[1.05fr_.95fr]"><section className="rounded-[2rem] border border-teal-100/15 bg-white/[.06] p-6"><img src={photo} alt="A detail Abu remembers" className="h-72 w-full rounded-[1.5rem] object-cover" loading="lazy" /><p className="mt-7 text-xs font-black uppercase tracking-[.2em] text-teal-200/60">Question {step + 1} of 3</p><h2 className="mt-4 text-3xl font-black leading-tight">{prompts[step]}</h2><button type="button" onClick={() => setStep((step + 1) % prompts.length)} className="mt-8 inline-flex items-center gap-2 rounded-full bg-teal-200 px-5 py-3 text-sm font-black text-[#18252b]">Reveal Abu’s answer <ChevronRight className="h-4 w-4" /></button></section><aside className="rounded-[2rem] bg-[#dff7f2] p-7 text-[#18252b]"><Heart className="h-6 w-6 fill-current text-teal-700" /><p className="mt-7 text-xs font-black uppercase tracking-[.2em] text-teal-800/60">The answer Abu would give</p><p className="mt-5 text-3xl font-black leading-tight">{answers[step]}</p><p className="mt-6 text-sm leading-7 text-teal-900/65">{gift.message} {gift.compliment}</p><p className="mt-6 border-t border-teal-200 pt-5 text-sm leading-7 text-teal-900/65">{gift.gift} {gift.surprise}</p></aside></div></div></main>;
 }
