@@ -59,7 +59,7 @@ couple-yearbook,Couple Yearbook,template_CoupleYearbook,guided-interaction,none,
 couples-secret-handshake,Couples Secret Handshake,template_CouplesSecretHandshake,guided-interaction,none,M-FIELD
 coupon-vault,Coupon Vault,template_CouponVault,guided-interaction,none,M-FROST
 cupcake-decorator,Cupcake Decorator,template_CupcakeDecorator,guided-interaction,none,M-AMBER
-cupid-archery,Cupid Archery,template_CupidArchery,guided-interaction,none,M-GOLD
+cupid-archery,Cupid Archery,template_page-local,audio,none,M-GOLD
 cupid-radio-djstation,Cupid Radio DJStation,template_CupidRadioDJStation,audio,none,M-NIGHT
 curated-journey,Curated Journey,template_page-local,audio,none,M-BLUSH
 distance,Distance,template_NepalgunjToOsakaFlightSim,guided-interaction,none,M-MONO
@@ -109,7 +109,7 @@ love-awards-night,Love Awards Night,template_LoveAwardsNight,guided-interaction,
 love-butterfly-catcher,Love Butterfly Catcher,template_page-local,guided-interaction,none,M-BLUSH
 love-calculator,Love Calculator,template_LoveCalculator,guided-interaction,none,M-MONO
 love-candle-light-dinner,Love Candle Light Dinner,template_LoveCandleLightDinner,grow-or-assemble,none,M-SEPIA
-love-chimes,Love Chimes,template_LoveChimes,guided-interaction,none,M-ELECT
+love-chimes,Love Chimes,template_page-local,message-sequence,none,M-ELECT
 love-clock,Love Clock,template_LoveClock,guided-interaction,none,M-WINE
 love-compass,Love Compass,template_LoveCompass,guided-interaction,none,M-PAPER
 love-compatibility-matrix,Love Compatibility Matrix,template_LoveCompatibilityMatrix,guided-interaction,none,M-DAWN
@@ -128,7 +128,7 @@ love-dice,Love Dice,template_LoveDice,randomized-choice,none,M-ELECT
 love-doodle-canvas,Love Doodle Canvas,template_page-local,letter-or-paper,none,M-WINE
 love-enchanted-glass-terrarium,Love Enchanted Glass Terrarium,template_LoveEnchantedGlassTerrarium,guided-interaction,none,M-PAPER
 love-envelope-collection,Love Envelope Collection,template_LoveEnvelopeCollection,letter-or-paper,none,M-DAWN
-love-envelope,Love Envelope,template_LoveEnvelope,letter-or-paper,none,M-GREY
+love-envelope,Love Envelope,template_page-local,message-sequence,none,M-GREY
 love-fireflies,Love Fireflies,template_LoveFireflies,guided-interaction,none,M-FOREST
 love-firework-painter,Love Firework Painter,template_page-local,reveal,none,M-DUSK
 love-fortune-cookie-jar,Love Fortune Cookie Jar,template_LoveFortuneCookieJar,randomized-choice,none,M-FIELD
@@ -139,10 +139,10 @@ love-graffiti-wall,Love Graffiti Wall,template_LoveGraffitiWall,guided-interacti
 love-grand-finale,Love Grand Finale,template_LoveGrandFinale,guided-interaction,none,M-BLUSH
 love-grand-finale-second,Love Grand Finale Second,template_page-local,message-sequence,none,M-MONO
 love-heart-nebula3-d,Love Heart Nebula3 D,template_LoveHeartNebula3D,spatial-exploration,none,M-SEPIA
-love-horoscope-daily,Love Horoscope Daily,template_LoveHoroscopeDaily,randomized-choice,none,M-ELECT
+love-horoscope-daily,Love Horoscope Daily,template_page-local,randomized-choice,none,M-ELECT
 love-horoscope-wheel,Love Horoscope Wheel,template_page-local,randomized-choice,none,M-WINE
 love-jar-notes,Love Jar Notes,template_page-local,message-sequence,none,M-PAPER
-love-journal-prompt,Love Journal Prompt,template_LoveJournalPrompt,letter-or-paper,none,M-DAWN
+love-journal-prompt,Love Journal Prompt,template_page-local,letter-or-paper,none,M-DAWN
 love-kaleidoscope,Love Kaleidoscope,template_LoveKaleidoscope,guided-interaction,none,M-GREY
 love-keychain-customizer,Love Keychain Customizer,template_LoveKeychainCustomizer,guided-interaction,none,M-FOREST
 love-language-test,Love Language Test,template_LoveLanguageTest,guided-interaction,none,M-DUSK

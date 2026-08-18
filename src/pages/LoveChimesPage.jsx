@@ -1,10 +1,15 @@
-import React from 'react';
-import LoveChimes from '../components/LoveChimes';
+import React, { useState } from 'react';
+import { Bell, Cloud, Heart, Moon, Sparkles } from 'lucide-react';
+
+const chimes = [
+  { label: 'The first message', copy: 'A small sound of your name arriving on Abu’s phone, turning an ordinary afternoon into a private celebration.', tone: 'bg-sky-50', icon: Cloud },
+  { label: 'The soft “huss”', copy: 'The little answer that makes distance feel less like a wall and more like a window we can keep open.', tone: 'bg-amber-50', icon: Sparkles },
+  { label: 'The goodnight pause', copy: 'The quiet after we say goodbye, when Abu keeps smiling because the call happened at all.', tone: 'bg-indigo-50', icon: Moon },
+];
 
 export default function LoveChimesPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveChimes />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const chime = chimes[selected];
+  const Icon = chime.icon;
+  return <main className="min-h-dvh bg-[#dbe8e8] px-5 py-12 text-[#183b42] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-cyan-900/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-cyan-700"><Bell className="h-4 w-4" /> The evening-window archive</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">The sounds I keep after you say goodbye.</h1></div><p className="max-w-xs text-sm leading-7 text-[#55747a]">A small collection of the sounds that make Abu feel close to Samjhana.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="space-y-3" aria-label="Choose an evening chime">{chimes.map((item, index) => <button key={item.label} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-cyan-700 bg-white shadow-xl' : 'border-cyan-900/10 bg-white/45 hover:bg-white/80'}`}><span className="flex items-center gap-3"><item.icon className="h-5 w-5 text-cyan-700" /><span className="text-xl font-black">{item.label}</span></span><span className="mt-3 block text-[10px] font-black uppercase tracking-[0.18em] text-[#55747a]">Chime 0{index + 1}</span></button>)}</nav><section className={`relative overflow-hidden rounded-[2rem] ${chime.tone} p-8 shadow-[15px_18px_0_rgba(24,59,66,.12)] sm:p-14`}><div className="absolute right-8 top-8 flex items-end gap-2"><span className="h-16 w-1 rounded-full bg-cyan-700/20" /><span className="h-24 w-1 rounded-full bg-cyan-700/20" /><span className="h-12 w-1 rounded-full bg-cyan-700/20" /></div><Icon className="h-10 w-10 text-cyan-700" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-cyan-700">Chime 0{selected + 1} · Abu remembers</p><h2 className="mt-5 text-5xl font-black tracking-[-0.08em] sm:text-8xl">{chime.label}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#55747a]">{chime.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-cyan-900/15 pt-6 text-sm font-black text-cyan-700"><Heart className="h-4 w-4 fill-current text-rose-400" /> Kept for my Bhuntu</div></section></div></div></main>;
 }

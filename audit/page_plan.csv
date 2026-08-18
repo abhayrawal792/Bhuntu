@@ -59,7 +59,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 058,couples-secret-handshake,LETTER,, ,Unique page idea: Couples Secret Handshake,guided-interaction,masonry-grid,M-FIELD,distinct,TYPE-A
 059,coupon-vault,CHAT,, ,Unique page idea: Coupon Vault,guided-interaction,editorial-two-column,M-FROST,distinct,TYPE-A
 060,cupcake-decorator,WHY_I_LOVE,, ,Unique page idea: Cupcake Decorator,guided-interaction,horizontal-scroll,M-AMBER,distinct,TYPE-A
-061,cupid-archery,FUTURE,, ,Unique page idea: Cupid Archery,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
+061,cupid-archery,FUTURE,, ,Unique page idea: Cupid Archery,audio,full-bleed-hero,M-GOLD,distinct,TYPE-A
 062,cupid-radio-djstation,SURPRISE,, ,Unique page idea: Cupid Radio DJStation,audio,single-column,M-NIGHT,distinct,TYPE-A
 063,curated-journey,MILESTONE,, ,Unique page idea: Curated Journey,audio,split-screen,M-BLUSH,distinct,TYPE-A
 064,distance,SENSORY,, ,Unique page idea: Distance,guided-interaction,typography-first,M-MONO,distinct,TYPE-A
@@ -109,7 +109,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 108,love-butterfly-catcher,WHY_I_LOVE,, ,Unique page idea: Love Butterfly Catcher,guided-interaction,masonry-grid,M-BLUSH,distinct,TYPE-A
 109,love-calculator,FUTURE,, ,Unique page idea: Love Calculator,guided-interaction,editorial-two-column,M-MONO,distinct,TYPE-A
 110,love-candle-light-dinner,SURPRISE,, ,Unique page idea: Love Candle Light Dinner,grow-or-assemble,horizontal-scroll,M-SEPIA,distinct,TYPE-A
-111,love-chimes,MILESTONE,, ,Unique page idea: Love Chimes,guided-interaction,full-bleed-hero,M-ELECT,distinct,TYPE-A
+111,love-chimes,MILESTONE,, ,Unique page idea: Love Chimes,message-sequence,full-bleed-hero,M-ELECT,distinct,TYPE-A
 112,love-clock,SENSORY,, ,Unique page idea: Love Clock,guided-interaction,single-column,M-WINE,distinct,TYPE-A
 113,love-compass,MEMORY,, ,Unique page idea: Love Compass,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
 114,love-compatibility-matrix,LETTER,, ,Unique page idea: Love Compatibility Matrix,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
@@ -128,7 +128,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 127,love-doodle-canvas,MILESTONE,, ,Unique page idea: Love Doodle Canvas,letter-or-paper,interactive-canvas,M-WINE,distinct,TYPE-A
 128,love-enchanted-glass-terrarium,SENSORY,, ,Unique page idea: Love Enchanted Glass Terrarium,guided-interaction,masonry-grid,M-PAPER,distinct,TYPE-A
 129,love-envelope-collection,MEMORY,, ,Unique page idea: Love Envelope Collection,letter-or-paper,editorial-two-column,M-DAWN,distinct,TYPE-A
-130,love-envelope,LETTER,, ,Unique page idea: Love Envelope,letter-or-paper,horizontal-scroll,M-GREY,distinct,TYPE-A
+130,love-envelope,LETTER,, ,Unique page idea: Love Envelope,message-sequence,horizontal-scroll,M-GREY,distinct,TYPE-A
 131,love-fireflies,CHAT,, ,Unique page idea: Love Fireflies,guided-interaction,full-bleed-hero,M-FOREST,distinct,TYPE-A
 132,love-firework-painter,WHY_I_LOVE,, ,Unique page idea: Love Firework Painter,reveal,single-column,M-DUSK,distinct,TYPE-A
 133,love-fortune-cookie-jar,FUTURE,, ,Unique page idea: Love Fortune Cookie Jar,randomized-choice,split-screen,M-FIELD,distinct,TYPE-A

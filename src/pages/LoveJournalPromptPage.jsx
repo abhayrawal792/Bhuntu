@@ -1,10 +1,14 @@
-import React from 'react';
-import LoveJournalPrompt from '../components/LoveJournalPrompt';
+import React, { useState } from 'react';
+import { BookHeart, Check, PenLine, Sparkles } from 'lucide-react';
+
+const prompts = [
+  'What is one ordinary moment with Abu that still feels secretly precious?',
+  'Which name—Sanzu, Bhuntu, Bebo, Sanu, or Runchi—feels most like today?',
+  'What future road would you like to take first when the distance becomes a memory?',
+];
 
 export default function LoveJournalPromptPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveJournalPrompt />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const [note, setNote] = useState('');
+  return <main className="min-h-dvh bg-[#f0ece4] px-5 py-12 text-[#302a25] sm:px-10 sm:py-16"><div className="mx-auto max-w-6xl"><header className="border-b border-[#6a5a47]/20 pb-8"><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-[#8a5f42]"><BookHeart className="h-4 w-4" /> The Bhuntu journal desk</p><h1 className="mt-5 max-w-4xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">A page for the feeling you do not want to rush.</h1><p className="mt-6 max-w-xl text-sm leading-7 text-[#766654]">Abu left three prompts. You can keep the answer in this browser, or simply let the question stay with you.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.85fr_1.15fr]"><nav className="space-y-3" aria-label="Journal prompts">{prompts.map((prompt, index) => <button key={prompt} type="button" onClick={() => setSelected(index)} className={`w-full rounded-2xl border p-5 text-left transition ${selected === index ? 'border-[#8a5f42] bg-white shadow-xl' : 'border-[#6a5a47]/10 bg-white/45 hover:bg-white/80'}`}><span className="block text-[10px] font-black uppercase tracking-[0.18em] text-[#8a5f42]">Prompt 0{index + 1}</span><span className="mt-3 block text-lg font-black leading-7">{prompt}</span></button>)}</nav><section className="rounded-[2rem] bg-[#fffaf1] p-7 shadow-[15px_18px_0_rgba(48,42,37,.12)] sm:p-12"><div className="flex items-center justify-between"><PenLine className="h-8 w-8 text-[#8a5f42]" /><span className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-[0.16em] text-[#8a5f42]"><Sparkles className="h-4 w-4" /> For Samjhana</span></div><p className="mt-12 text-[10px] font-black uppercase tracking-[0.2em] text-[#8a5f42]">Prompt 0{selected + 1}</p><h2 className="mt-4 text-3xl font-black leading-tight sm:text-5xl">{prompts[selected]}</h2><textarea value={note} onChange={(event) => setNote(event.target.value)} aria-label="Write a private journal note" placeholder="Write a few words, or leave it blank and keep the feeling..." className="mt-8 min-h-40 w-full resize-y rounded-2xl border border-[#6a5a47]/20 bg-white/70 p-5 text-base leading-7 outline-none ring-[#8a5f42]/30 focus:ring-2" /><div className="mt-5 flex items-center gap-3 text-sm font-bold text-[#766654]">{note.trim() ? <><Check className="h-4 w-4 text-emerald-700" /> Your note is held in this page for now.</> : 'A quiet page can still be a meaningful page.'}</div></section></div></div></main>;
 }

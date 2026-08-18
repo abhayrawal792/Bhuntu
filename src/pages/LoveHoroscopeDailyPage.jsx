@@ -1,10 +1,15 @@
-import React from 'react';
-import LoveHoroscopeDaily from '../components/LoveHoroscopeDaily';
+import React, { useState } from 'react';
+import { CloudSun, Heart, MoonStar, SunMedium } from 'lucide-react';
+
+const forecasts = [
+  { day: 'Today', icon: SunMedium, title: 'Let the small joy count.', copy: 'A message, a meal, a memory, or the sound of Abu saying your name can be enough to make today feel held.', color: 'bg-amber-50' },
+  { day: 'Tomorrow', icon: CloudSun, title: 'A soft conversation is near.', copy: 'The stars suggest making room for the kind of talk that starts with “how was your day?” and ends somewhere much more honest.', color: 'bg-sky-50' },
+  { day: 'One day soon', icon: MoonStar, title: 'The distance becomes a story we tell.', copy: 'Keep your heart ready for an ordinary day when the light-blue scooter, the mountain roads, and your hand are all in the same frame.', color: 'bg-indigo-50' },
+];
 
 export default function LoveHoroscopeDailyPage() {
-  return (
-    <div className="min-h-dvh py-6">
-      <LoveHoroscopeDaily />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const forecast = forecasts[selected];
+  const Icon = forecast.icon;
+  return <main className="min-h-dvh bg-[#ede9f6] px-5 py-12 text-[#2f2949] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-violet-900/15 pb-8"><div><p className="text-[10px] font-black uppercase tracking-[0.28em] text-violet-700">Abu’s private sky forecast</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Your forecast is full of us.</h1></div><p className="max-w-xs text-sm leading-7 text-[#675d89]">Not a prediction. A tiny daily reminder of the love Abu is already certain about.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-center"><nav className="grid gap-3" aria-label="Choose a forecast day">{forecasts.map((item, index) => <button key={item.day} type="button" onClick={() => setSelected(index)} className={`rounded-2xl border p-5 text-left transition ${selected === index ? 'border-violet-700 bg-white shadow-xl' : 'border-violet-900/10 bg-white/45 hover:bg-white/80'}`}><span className="flex items-center gap-3"><item.icon className="h-5 w-5 text-violet-700" /><span className="text-xl font-black">{item.day}</span></span><span className="mt-3 block text-[10px] font-black uppercase tracking-[0.18em] text-[#675d89]">Personal forecast 0{index + 1}</span></button>)}</nav><section className={`relative overflow-hidden rounded-[2rem] ${forecast.color} p-8 shadow-[15px_18px_0_rgba(47,41,73,.12)] sm:p-14`}><div className="absolute right-10 top-10 h-24 w-24 rounded-full border border-violet-700/15" /><Icon className="h-11 w-11 text-violet-700" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-violet-700">{forecast.day} · Samjhana’s sky</p><h2 className="mt-5 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-8xl">{forecast.title}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-[#675d89]">{forecast.copy}</p><div className="mt-10 flex items-center gap-3 border-t border-violet-900/15 pt-6 text-sm font-black text-violet-700"><Heart className="h-4 w-4 fill-current text-rose-400" /> Abu’s certainty: you are loved today.</div></section></div></div></main>;
 }

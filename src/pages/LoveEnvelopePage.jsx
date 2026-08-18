@@ -1,10 +1,14 @@
-import React from 'react';
-import LoveEnvelope from '../components/LoveEnvelope';
+import React, { useState } from 'react';
+import { ChevronRight, Heart, Mail, Paperclip } from 'lucide-react';
+
+const envelopes = [
+  { tab: 'When you miss me', title: 'Open this on a faraway evening.', copy: 'The distance is not proof that we are apart in the ways that matter. Abu is still in the little details: the next message, the remembered food, the promise to call.', color: 'bg-rose-50' },
+  { tab: 'When you doubt yourself', title: 'Open this before you forget how remarkable you are.', copy: 'You do not have to become louder to be worthy of being loved. Abu notices the quiet courage, the kindness, and the way you keep your heart soft.', color: 'bg-amber-50' },
+  { tab: 'When we are together', title: 'Open this when the future is finally ordinary.', copy: 'Keep one envelope for the day a light-blue scooter is parked outside, the tea is getting cold, and we are laughing about how far we once had to call.', color: 'bg-emerald-50' },
+];
 
 export default function LoveEnvelopePage() {
-  return (
-    <div className="min-h-dvh">
-      <LoveEnvelope />
-    </div>
-  );
+  const [selected, setSelected] = useState(0);
+  const envelope = envelopes[selected];
+  return <main className="min-h-dvh bg-[#e7edf1] px-5 py-12 text-[#23323a] sm:px-10 sm:py-16"><div className="mx-auto max-w-7xl"><header className="flex flex-wrap items-end justify-between gap-8 border-b border-slate-700/15 pb-8"><div><p className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.28em] text-slate-600"><Mail className="h-4 w-4" /> Abu’s open-when archive</p><h1 className="mt-5 max-w-3xl text-5xl font-black leading-[.9] tracking-[-0.08em] sm:text-8xl">Three envelopes for three versions of your day.</h1></div><p className="max-w-xs text-sm leading-7 text-slate-600">A small paper archive for the moments when a normal message is not enough.</p></header><div className="grid gap-10 py-12 lg:grid-cols-[.75fr_1.25fr] lg:items-start"><nav className="space-y-3" aria-label="Open-when envelopes">{envelopes.map((item, index) => <button key={item.tab} type="button" onClick={() => setSelected(index)} className={`flex w-full items-center justify-between rounded-2xl border p-5 text-left transition ${selected === index ? 'border-slate-700 bg-white shadow-xl' : 'border-slate-700/10 bg-white/45 hover:bg-white/80'}`}><span><span className="block text-[10px] font-black uppercase tracking-[0.18em] text-slate-500">Envelope 0{index + 1}</span><span className="mt-2 block text-xl font-black">{item.tab}</span></span><ChevronRight className="h-5 w-5 text-slate-500" /></button>)}</nav><article className={`relative overflow-hidden rounded-[2rem] ${envelope.color} p-8 shadow-[15px_18px_0_rgba(35,50,58,.12)] sm:p-14`}><Paperclip className="absolute right-10 top-10 h-10 w-10 rotate-12 text-slate-500/50" /><Heart className="h-10 w-10 fill-rose-400 text-rose-400" /><p className="mt-12 text-[10px] font-black uppercase tracking-[0.22em] text-slate-600">{envelope.tab} · for Samjhana</p><h2 className="mt-5 max-w-2xl text-5xl font-black leading-[.94] tracking-[-0.08em] sm:text-7xl">{envelope.title}</h2><p className="mt-7 max-w-xl text-xl leading-8 text-slate-600">{envelope.copy}</p><div className="mt-12 border-t border-slate-700/15 pt-6 text-sm font-black text-slate-600">Folded by Abu · saved for my Bhuntu</div></article></div></div></main>;
 }
