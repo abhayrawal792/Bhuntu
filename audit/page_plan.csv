@@ -111,7 +111,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 110,love-candle-light-dinner,SURPRISE,, ,Unique page idea: Love Candle Light Dinner,grow-or-assemble,horizontal-scroll,M-SEPIA,distinct,TYPE-A
 111,love-chimes,MILESTONE,, ,Unique page idea: Love Chimes,message-sequence,full-bleed-hero,M-ELECT,distinct,TYPE-A
 112,love-clock,SENSORY,, ,Unique page idea: Love Clock,guided-interaction,single-column,M-WINE,distinct,TYPE-A
-113,love-compass,MEMORY,, ,Unique page idea: Love Compass,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
+113,love-compass,MEMORY,, ,Unique page idea: Love Compass,audio,split-screen,M-PAPER,distinct,TYPE-A
 114,love-compatibility-matrix,LETTER,, ,Unique page idea: Love Compatibility Matrix,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
 115,love-constellation-connect,CHAT,, ,Unique page idea: Love Constellation Connect,spatial-exploration,ui-simulation,M-GREY,distinct,TYPE-A
 116,love-constellation-maker,WHY_I_LOVE,, ,Unique page idea: Love Constellation Maker,spatial-exploration,immersive-scroll,M-FOREST,distinct,TYPE-A
@@ -181,7 +181,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 180,love-pixel-art-creator,WHY_I_LOVE,, ,Unique page idea: Love Pixel Art Creator,guided-interaction,horizontal-scroll,M-AMBER,distinct,TYPE-A
 181,love-poetry-fridge,FUTURE,, ,Unique page idea: Love Poetry Fridge,guided-interaction,full-bleed-hero,M-GOLD,distinct,TYPE-A
 182,love-potion-brewery2,SURPRISE,, ,Unique page idea: Love Potion Brewery2,guided-interaction,single-column,M-NIGHT,distinct,TYPE-A
-183,love-potion-brewery,MILESTONE,, ,Unique page idea: Love Potion Brewery,guided-interaction,split-screen,M-BLUSH,distinct,TYPE-A
+183,love-potion-brewery,MILESTONE,, ,Unique page idea: Love Potion Brewery,grow-or-assemble,split-screen,M-BLUSH,distinct,TYPE-A
 184,love-potion-lab2,SENSORY,, ,Unique page idea: Love Potion Lab2,message-sequence,typography-first,M-MONO,distinct,TYPE-A
 185,love-potion-laboratory,MEMORY,, ,Unique page idea: Love Potion Laboratory,guided-interaction,ui-simulation,M-SEPIA,distinct,TYPE-A
 186,love-potion,LETTER,, ,Unique page idea: Love Potion,guided-interaction,immersive-scroll,M-ELECT,distinct,TYPE-A
@@ -277,7 +277,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 276,room7,WHY_I_LOVE,, ,Unique page idea: Room7,letter-or-paper,immersive-scroll,M-ELECT,distinct,TYPE-A
 277,room8,FUTURE,, ,Unique page idea: Room8,spatial-exploration,interactive-canvas,M-WINE,distinct,TYPE-A
 278,room9,SURPRISE,, ,Unique page idea: Room9,grow-or-assemble,masonry-grid,M-PAPER,distinct,TYPE-A
-279,royal-crown,MILESTONE,, ,Unique page idea: Royal Crown,guided-interaction,editorial-two-column,M-DAWN,distinct,TYPE-A
+279,royal-crown,MILESTONE,, ,Unique page idea: Royal Crown,audio,editorial-two-column,M-DAWN,distinct,TYPE-A
 280,sanzu-photo-gallery-grid,SENSORY,, ,Unique page idea: Sanzu Photo Gallery Grid,visual-collection,horizontal-scroll,M-GREY,distinct,TYPE-A
 281,scratch-memory,MEMORY,, ,Unique page idea: Scratch Memory,reveal,full-bleed-hero,M-FOREST,distinct,TYPE-A
 282,scratch-surprise,LETTER,, ,Unique page idea: Scratch Surprise,reveal,single-column,M-DUSK,distinct,TYPE-A

@@ -6,7 +6,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Current batch status
 
-- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, ten first-140 wrapper replacements, and one unsequenced alias replacement
+- **Batch:** emotional arc, composition families, milestone rail, route-sensitive keepsake layer, final-room climax, fifteen first-150 wrapper replacements, and one unsequenced alias replacement
 - **Source build:** passed with `npm run build`
 - **Experience-system audit:** passed
 - **Game policy:** passed — exactly 20 approved games, 20 detected in sequence, 0 errors
@@ -15,7 +15,7 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 - **Middle visual check:** passed — `/bento-box` rendered bespoke Bento content plus editorial keepsake variant
 - **Final visual check:** passed — `/room/12` rendered the three-chapter final keepsake and suppressed the global gift layer
 - **Interactive visual check:** passed on a museum-placard route; strict guard correctly rejected invalid local frontier tests
-- **Latest focused page batch:** Room 1, Quote Generator, Bucket List, Wax Sealer, Sound Wave, Star Namer, Sweet Compliments, Kiss Collector, Love Passport Stamps, Love Alarm, Cupid Archery, Love Envelope, Love Journal Prompt, Love Chimes, and Love Horoscope Daily now use bespoke non-game compositions
+- **Latest focused page batch:** the prior fifteen bespoke non-game compositions plus Origami Boat, Candle Blower, Royal Crown, Love Potion Brewery, and Love Compass now use distinct structures and personal content
 - **Privacy surface:** passed — source HTML has `noindex, nofollow`; generated `dist/robots.txt` contains `Disallow: /`
 - **Latest regression:** passed — build, exactly 20-game policy, 263-route sweep with 0 blanks and 0 errors, 5-route mobile smoke with 0 overflow, 0 missing alt, 0 empty controls, and 0 blank routes
 - **Latest resolved polish:** mobile smoke passed on 5 representative routes with 0 horizontal overflow, 0 missing alt attributes, 0 empty interactive controls, and 0 blank routes after adding explicit aria-labels to the global audio controls
@@ -49,4 +49,4 @@ Upgrade and maintain Samjhana’s first-birthday romantic journey as a coherent 
 
 ## Last saved status log
 
-The first upgraded batch, accessibility/mobile batch, three successive five-page replacement batches, and privacy/indexing protection are complete. The next action is the next thin-page batch after route 140; do not wait for approval.
+The first upgraded batch, accessibility/mobile batch, four successive five-page replacement batches, and privacy/indexing protection are complete. The next action is the next thin-page batch after route 200; do not wait for approval.

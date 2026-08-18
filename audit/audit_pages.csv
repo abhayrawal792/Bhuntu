@@ -24,7 +24,7 @@ bouquet-reasons,Bouquet Reasons,template_page-local,message-sequence,none,M-WINE
 bubble-pop,Bubble Pop,template_BubblePopGame,guided-interaction,none,M-PAPER
 bubble-wrap,Bubble Wrap,template_BubbleWrap,guided-interaction,none,M-DAWN
 bucket-list,Bucket List,template_page-local,visual-collection,none,M-GREY
-candle-blower,Candle Blower,template_CandleBlower,grow-or-assemble,none,M-FOREST
+candle-blower,Candle Blower,template_page-local,grow-or-assemble,none,M-FOREST
 catcher-game,Catcher Game,template_HeartCatcherGame,guided-interaction,none,M-DUSK
 cherry-blossom-wish-tree,Cherry Blossom Wish Tree,template_CherryBlossomWishTree,grow-or-assemble,none,M-FIELD
 cloud-skywriter,Cloud Skywriter,template_CloudSkywriter,spatial-exploration,none,M-FROST
@@ -111,7 +111,7 @@ love-calculator,Love Calculator,template_LoveCalculator,guided-interaction,none,
 love-candle-light-dinner,Love Candle Light Dinner,template_LoveCandleLightDinner,grow-or-assemble,none,M-SEPIA
 love-chimes,Love Chimes,template_page-local,message-sequence,none,M-ELECT
 love-clock,Love Clock,template_LoveClock,guided-interaction,none,M-WINE
-love-compass,Love Compass,template_LoveCompass,guided-interaction,none,M-PAPER
+love-compass,Love Compass,template_page-local,audio,none,M-PAPER
 love-compatibility-matrix,Love Compatibility Matrix,template_LoveCompatibilityMatrix,guided-interaction,none,M-DAWN
 love-constellation-connect,Love Constellation Connect,template_LoveConstellationConnect,spatial-exploration,none,M-GREY
 love-constellation-maker,Love Constellation Maker,template_LoveConstellationMaker,spatial-exploration,none,M-FOREST
@@ -181,7 +181,7 @@ love-piano,Love Piano,template_LovePiano,audio,none,M-FROST
 love-pixel-art-creator,Love Pixel Art Creator,template_LovePixelArtCreator,guided-interaction,none,M-AMBER
 love-poetry-fridge,Love Poetry Fridge,template_LovePoetryFridge,guided-interaction,none,M-GOLD
 love-potion-brewery2,Love Potion Brewery2,template_LovePotionBrewery2,guided-interaction,none,M-NIGHT
-love-potion-brewery,Love Potion Brewery,template_LovePotionBrewery,guided-interaction,none,M-BLUSH
+love-potion-brewery,Love Potion Brewery,template_page-local,grow-or-assemble,none,M-BLUSH
 love-potion-lab2,Love Potion Lab2,template_page-local,message-sequence,none,M-MONO
 love-potion-laboratory,Love Potion Laboratory,template_LovePotionLaboratory,guided-interaction,none,M-SEPIA
 love-potion,Love Potion,template_LovePotion,guided-interaction,none,M-ELECT
@@ -235,7 +235,7 @@ music-box,Music Box,template_LoveMusicBox,audio,none,M-PAPER
 mystery-gifts,Mystery Gifts,template_MysteryGiftBoxes,guided-interaction,none,M-DAWN
 nepalgunj-to-osaka-flight-sim,Nepalgunj To Osaka Flight Sim,template_page-local,audio,none,M-GREY
 new-year-love-fireworks,New Year Love Fireworks,template_NewYearLoveFireworks,grow-or-assemble,none,M-FOREST
-origami-boat,Origami Boat,template_OrigamiBoat,letter-or-paper,none,M-DUSK
+origami-boat,Origami Boat,template_page-local,letter-or-paper,none,M-DUSK
 origami-crane,Origami Crane,template_OrigamiCrane,letter-or-paper,none,M-FIELD
 origami,Origami,template_OrigamiHeart,letter-or-paper,none,M-FROST
 paper-airplane-messenger,Paper Airplane Messenger,template_PaperAirplaneMessenger,letter-or-paper,none,M-AMBER
@@ -277,7 +277,7 @@ room6,Room6,template_page-local,spatial-exploration,none,M-SEPIA
 room7,Room7,template_page-local,letter-or-paper,none,M-ELECT
 room8,Room8,template_page-local,spatial-exploration,none,M-WINE
 room9,Room9,template_page-local,grow-or-assemble,none,M-PAPER
-royal-crown,Royal Crown,template_RoyalCrown,guided-interaction,none,M-DAWN
+royal-crown,Royal Crown,template_page-local,audio,none,M-DAWN
 sanzu-photo-gallery-grid,Sanzu Photo Gallery Grid,template_SanzuPhotoGalleryGrid,visual-collection,none,M-GREY
 scratch-memory,Scratch Memory,template_ScratchMemory,reveal,none,M-FOREST
 scratch-surprise,Scratch Surprise,template_ScratchCard,reveal,none,M-DUSK
