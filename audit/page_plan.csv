@@ -14,7 +14,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 013,bhuntu-trivia-wheel,FUTURE,, ,Unique page idea: Bhuntu Trivia Wheel,randomized-choice,split-screen,M-FIELD,distinct,TYPE-A
 014,bhuntu-voice-note-archive,SURPRISE,, ,Unique page idea: Bhuntu Voice Note Archive,audio,typography-first,M-FROST,distinct,TYPE-A
 015,birthday-sky-letter,MILESTONE,, ,Unique page idea: Birthday Sky Letter,randomized-choice,ui-simulation,M-AMBER,distinct,TYPE-A
-016,birthday-time-capsule2,SENSORY,, ,Unique page idea: Birthday Time Capsule2,time-reveal,immersive-scroll,M-GOLD,distinct,TYPE-A
+016,birthday-time-capsule2,SENSORY,, ,Unique page idea: Birthday Time Capsule2,audio,immersive-scroll,M-GOLD,distinct,TYPE-A
 017,birthday-wish-letter,MEMORY,, ,Unique page idea: Birthday Wish Letter,reveal,interactive-canvas,M-NIGHT,distinct,TYPE-A
 018,blessing-tree,LETTER,, ,Unique page idea: Blessing Tree,grow-or-assemble,masonry-grid,M-BLUSH,distinct,TYPE-A
 019,bonus-arcade,CHAT,, ,Unique page idea: Bonus Arcade,audio,editorial-two-column,M-MONO,distinct,TYPE-A
@@ -22,7 +22,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 021,bouquet,FUTURE,, ,Unique page idea: Bouquet,grow-or-assemble,full-bleed-hero,M-ELECT,distinct,TYPE-A
 022,bouquet-reasons,SURPRISE,, ,Unique page idea: Bouquet Reasons,message-sequence,single-column,M-WINE,distinct,TYPE-A
 023,bubble-pop,MILESTONE,, ,Unique page idea: Bubble Pop,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
-024,bubble-wrap,SENSORY,, ,Unique page idea: Bubble Wrap,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
+024,bubble-wrap,SENSORY,, ,Unique page idea: Bubble Wrap,message-sequence,typography-first,M-DAWN,distinct,TYPE-A
 025,bucket-list,MEMORY,, ,Unique page idea: Bucket List,visual-collection,ui-simulation,M-GREY,distinct,TYPE-A
 026,candle-blower,LETTER,, ,Unique page idea: Candle Blower,grow-or-assemble,immersive-scroll,M-FOREST,distinct,TYPE-A
 027,catcher-game,CHAT,, ,Unique page idea: Catcher Game,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
@@ -57,7 +57,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 056,couple-travel-passport-stamps,SENSORY,, ,Unique page idea: Couple Travel Passport Stamps,visual-collection,immersive-scroll,M-FOREST,distinct,TYPE-A
 057,couple-yearbook,MEMORY,, ,Unique page idea: Couple Yearbook,spatial-exploration,interactive-canvas,M-DUSK,distinct,TYPE-A
 058,couples-secret-handshake,LETTER,, ,Unique page idea: Couples Secret Handshake,message-sequence,masonry-grid,M-FIELD,distinct,TYPE-A
-059,coupon-vault,CHAT,, ,Unique page idea: Coupon Vault,guided-interaction,editorial-two-column,M-FROST,distinct,TYPE-A
+059,coupon-vault,CHAT,, ,Unique page idea: Coupon Vault,visual-collection,editorial-two-column,M-FROST,distinct,TYPE-A
 060,cupcake-decorator,WHY_I_LOVE,, ,Unique page idea: Cupcake Decorator,guided-interaction,horizontal-scroll,M-AMBER,distinct,TYPE-A
 061,cupid-archery,FUTURE,, ,Unique page idea: Cupid Archery,audio,full-bleed-hero,M-GOLD,distinct,TYPE-A
 062,cupid-radio-djstation,SURPRISE,, ,Unique page idea: Cupid Radio DJStation,audio,single-column,M-NIGHT,distinct,TYPE-A
@@ -84,7 +84,7 @@ page_number,slug,category,primary_asset_id,secondary_assets,one_line_concept,mec
 083,grand-love-universe,CHAT,, ,Unique page idea: Grand Love Universe,guided-interaction,split-screen,M-PAPER,distinct,TYPE-A
 084,hall-of-fame,WHY_I_LOVE,, ,Unique page idea: Hall Of Fame,guided-interaction,typography-first,M-DAWN,distinct,TYPE-A
 085,heart-bubble-tea-maker,FUTURE,, ,Unique page idea: Heart Bubble Tea Maker,audio,ui-simulation,M-GREY,distinct,TYPE-A
-086,heart-mailbox,SURPRISE,, ,Unique page idea: Heart Mailbox,guided-interaction,immersive-scroll,M-FOREST,distinct,TYPE-A
+086,heart-mailbox,SURPRISE,, ,Unique page idea: Heart Mailbox,message-sequence,immersive-scroll,M-FOREST,distinct,TYPE-A
 087,heart-shape-tangram,MILESTONE,, ,Unique page idea: Heart Shape Tangram,guided-interaction,interactive-canvas,M-DUSK,distinct,TYPE-A
 088,heartbeat-drum-pad,SENSORY,, ,Unique page idea: Heartbeat Drum Pad,audio,masonry-grid,M-FIELD,distinct,TYPE-A
 089,home,MEMORY,, ,Unique page idea: Home,audio,editorial-two-column,M-FROST,distinct,TYPE-A
