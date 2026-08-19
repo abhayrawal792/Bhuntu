@@ -1,15 +1,15 @@
 # Full Page Experience Audit
 
-Scanned **311 registered routes** and mapped them to 311 page files. The audit is source-based and checks whether each page contains a meaningful mix of game, gift, romance, memory, and surprise language.
+Scanned **312 registered routes** and mapped them to 312 page files. The audit is source-based and checks whether each page contains a meaningful mix of game, gift, romance, memory, and surprise language.
 
 | Measure | Count |
 |---|---:|
-| Routes scanned | 311 |
-| Pages with game signals | 59 |
-| Pages with gift signals | 121 |
-| Pages with romantic/personal signals | 276 |
-| Pages with memory/story signals | 154 |
-| Pages with surprise/reveal signals | 170 |
+| Routes scanned | 312 |
+| Pages with game signals | 61 |
+| Pages with gift signals | 122 |
+| Pages with romantic/personal signals | 277 |
+| Pages with memory/story signals | 155 |
+| Pages with surprise/reveal signals | 171 |
 | Pages missing at least one core gift dimension | 219 |
 | Game-only pages needing rewrite | 5 |
 | Structural fingerprint groups with overlap | 4 |
@@ -18,14 +18,14 @@ Scanned **311 registered routes** and mapped them to 311 page files. The audit i
 
 | Mechanic | Pages detected |
 |---|---:|
-| memory-reveal | 125 |
-| decorator | 13 |
+| memory-reveal | 126 |
+| decorator | 14 |
 | choice-reveal | 20 |
-| quiz | 10 |
-| scratch | 6 |
-| puzzle | 15 |
+| quiz | 11 |
+| scratch | 7 |
+| puzzle | 16 |
 | photo-game | 7 |
-| audio-game | 12 |
+| audio-game | 13 |
 
 ## Rewrite priorities
 

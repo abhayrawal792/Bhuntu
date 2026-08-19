@@ -3,10 +3,10 @@
 | Measure | Result |
 |---|---:|
 | Curated sequence routes | 263 |
-| Detected game routes in curated sequence | 20 |
+| Detected game routes in curated sequence | 21 |
 | Approved game routes | 20 |
-| Removed game routes | 39 |
-| Errors | 0 |
+| Removed game routes | 40 |
+| Errors | 2 |
 
 ## Approved games
 
@@ -31,4 +31,7 @@
 19. /love-scratch-card
 20. /love-tetris
 
-The curated sequence contains exactly twenty approved games. All other detected game routes are excluded.
+## Errors
+
+- Curated sequence contains 21 detected game routes, expected 20.
+- Unapproved game remains in sequence: /

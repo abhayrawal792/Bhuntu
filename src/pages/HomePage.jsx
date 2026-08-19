@@ -42,6 +42,9 @@ export default function HomePage() {
               <button type="button" onClick={() => navigate(ROOM_SEQUENCE[1])} className="inline-flex items-center gap-2 rounded-full border border-rose-200 bg-white/60 px-5 py-4 text-sm font-bold text-rose-700 transition hover:bg-white active:scale-[.98]">
                 Follow Abu’s trail <ArrowRight className="h-4 w-4" />
               </button>
+              <button type="button" onClick={() => navigate('/games-arcade')} className="inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50/70 px-5 py-4 text-sm font-bold text-amber-800 transition hover:bg-amber-50 active:scale-[.98]">
+                Games shelf <Sparkles className="h-4 w-4" />
+              </button>
             </div>
             <div className="mt-12 flex items-center gap-4 text-sm text-[#9a6b7c]">
               <div className="h-px w-16 bg-rose-200" />

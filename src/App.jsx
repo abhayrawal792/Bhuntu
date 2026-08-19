@@ -87,6 +87,7 @@ const LovePotionPage = lazy(() => import('./pages/LovePotionPage'));
 const EmojiStoryPage = lazy(() => import('./pages/EmojiStoryPage'));
 const JigsawPage = lazy(() => import('./pages/JigsawPage'));
 const BonusArcadePage = lazy(() => import('./pages/BonusArcadePage'));
+const GamesArcadePage = lazy(() => import('./pages/GamesArcadePage'));
 const LoveDicePage = lazy(() => import('./pages/LoveDicePage'));
 const BalloonPopPage = lazy(() => import('./pages/BalloonPopPage'));
 const CoupleBingoPage = lazy(() => import('./pages/CoupleBingoPage'));
@@ -726,6 +727,7 @@ function MainAppContent() {
 
               {/* ---- Room routes (12 rooms + extras) ---- */}
               <Route path="/bonus-arcade" element={<BonusArcadePage />} />
+              <Route path="/games-arcade" element={<GamesArcadePage />} />
               <Route path="/room/1"   element={<Room1Page />} />
               <Route path="/room/2"   element={<Room2Page />} />
               <Route path="/room/3"   element={<Room3Page />} />
