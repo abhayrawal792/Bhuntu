@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Heart } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
@@ -6,44 +6,65 @@ import { playSparkle } from './AudioController';
 import { ROOM_SEQUENCE } from '../data/roomSequence';
 import { pageNameByRoute } from '../data/pageNames';
 
+/*
+ * The footer's Previous/Next buttons MUST always be relative to the page the
+ * visitor is actually looking at (the URL), never to a stale persisted index.
+ * Otherwise a store/URL drift makes taps feel dead ("nothing happens").
+ */
 export default function PageFooter() {
-  const { hasEntered, currentRoomIndex, setCurrentRoomIndex, triggerHaptic } = useAppStore();
+  const { triggerHaptic, unlockNextRoom, setCurrentRoomIndex } = useAppStore();
   const navigate = useNavigate();
   const location = useLocation();
 
   const totalRooms = ROOM_SEQUENCE.length;
+
+  // Source of truth = the URL. Room routes are unique, so indexOf never returns -1.
+  const activeIndex = Math.max(0, ROOM_SEQUENCE.indexOf(location.pathname));
   const activePage = pageNameByRoute[location.pathname];
 
-  // RouteGuard owns route validation; the footer never promotes a URL into progress state.
-  const activeIndex = currentRoomIndex;
+  // Advance both the current index and the unlock frontier whenever the
+  // visitor legitimately moves, so progress persists for later visits.
+  const unlockFromIndex = useCallback(
+    (index) => {
+      setCurrentRoomIndex(index);
+      unlockNextRoom();
+    },
+    [setCurrentRoomIndex, unlockNextRoom]
+  );
+
+  const safeAudio = (fn) => {
+    try {
+      fn();
+    } catch (_) {
+      // Never let a sound/haptic hiccup cancel a tap.
+    }
+  };
 
   const handlePrev = () => {
     if (activeIndex > 0) {
-      playSparkle();
-      triggerHaptic(15);
+      safeAudio(() => {
+        playSparkle();
+        triggerHaptic(15);
+      });
       const prevIdx = activeIndex - 1;
-      setCurrentRoomIndex(prevIdx);
+      unlockFromIndex(prevIdx);
       navigate(ROOM_SEQUENCE[prevIdx]);
     }
   };
 
   const handleNext = () => {
-    if (!hasEntered) {
-      navigate('/');
-      return;
-    }
     if (activeIndex < totalRooms - 1) {
-      playSparkle();
-      triggerHaptic(15);
+      safeAudio(() => {
+        playSparkle();
+        triggerHaptic(15);
+      });
       const nextIdx = activeIndex + 1;
-      setCurrentRoomIndex(nextIdx);
+      unlockFromIndex(nextIdx);
       navigate(ROOM_SEQUENCE[nextIdx]);
     }
   };
 
   const isHomePage = location.pathname === '/' || location.pathname === '/home';
-  const showContinueButton = !isHomePage;
-
   if (isHomePage) return null;
 
   return (
@@ -75,22 +96,18 @@ export default function PageFooter() {
         </div>
 
         {/* Next Button — always advances exactly one page in the canonical sequence */}
-        {showContinueButton ? (
-          <button
-            onClick={handleNext}
-            disabled={activeIndex === totalRooms - 1}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-extrabold transition-all cursor-pointer ${
-              activeIndex === totalRooms - 1
-                ? 'opacity-40 cursor-not-allowed text-gray-400 bg-gray-100'
-                : 'bg-gradient-to-r from-pink-500 to-rose-600 text-white shadow-md hover:scale-105 active:scale-95'
-            }`}
-          >
-            <span>{activeIndex === totalRooms - 1 ? 'Finished' : 'Next page'}</span>
-            <ChevronRight className="w-4 h-4" />
-          </button>
-        ) : (
-          <div className="w-20" />
-        )}
+        <button
+          onClick={handleNext}
+          disabled={activeIndex === totalRooms - 1}
+          className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-extrabold transition-all cursor-pointer ${
+            activeIndex === totalRooms - 1
+              ? 'opacity-40 cursor-not-allowed text-gray-400 bg-gray-100'
+              : 'bg-gradient-to-r from-pink-500 to-rose-600 text-white shadow-md hover:scale-105 active:scale-95'
+          }`}
+        >
+          <span>{activeIndex === totalRooms - 1 ? 'Finished' : 'Next page'}</span>
+          <ChevronRight className="w-4 h-4" />
+        </button>
       </div>
     </footer>
   );

@@ -38,10 +38,19 @@ export default function RouteGuard() {
       return;
     }
 
-    // The persisted unlock frontier is authoritative. A URL may open the current room
-    // or one next room only; arbitrary future routes are sent back to the current room.
-    if (requestedIndex > maxUnlockedIndex + 1 || Math.abs(requestedIndex - safeCurrentIndex) > 1) {
-      navigate(ROOM_SEQUENCE[Math.min(safeNextIndex, maxUnlockedIndex)], { replace: true });
+    // FORWARD DRIFT: if the visitor is already on this page or the URL moved one
+    // legitimate step ahead (e.g. a footer tap that beat the store update), sync
+    // the store and advance the unlock frontier instead of redirecting backwards
+    // — backwards redirects make "Next page" taps feel dead.
+    if (requestedIndex <= safeNextIndex) {
+      setCurrentRoomIndex(requestedIndex);
+      return;
+    }
+
+    // The persisted unlock frontier is authoritative. Arbitrary future routes
+    // are sent back to the last page the visitor actually reached.
+    if (requestedIndex > maxUnlockedIndex + 1) {
+      navigate(ROOM_SEQUENCE[maxUnlockedIndex], { replace: true });
       return;
     }
 
