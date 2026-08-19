@@ -2,8 +2,37 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Flower2, Heart, Sparkles, X, CheckCircle2, ArrowLeft } from 'lucide-react';
 import { birthdayData } from '../data/birthdayData';
+import { ALL_PHOTOS, getAssetUrl } from '../utils/mediaUtils';
 import { playSparkle, playPop } from './AudioController';
 import { useAppStore } from '../store/useAppStore';
+
+/**
+ * Fallback image for external hotlinked assets that fail to load on slow
+ * or restricted connections — never leaves a blank card.
+ */
+const getFlowerFallback = (seed) =>
+  getAssetUrl(ALL_PHOTOS[Math.abs(seed % ALL_PHOTOS.length)] || ALL_PHOTOS[0]);
+
+/**
+ * Image that silently swaps to a warm local fallback instead of rendering
+ * an empty/broken frame when an external source fails.
+ */
+function FallbackImage({ src, alt, className, style, seed = 0 }) {
+  const [resolved, setResolved] = useState(src);
+  return (
+    <img
+      src={resolved}
+      alt={alt}
+      loading="lazy"
+      decoding="async"
+      className={className}
+      style={style}
+      onError={(e) => {
+        if (e.target.src !== resolved) setResolved(getFlowerFallback(seed));
+      }}
+    />
+  );
+}
 
 export default function BouquetSection() {
   const [selectedFlower, setSelectedFlower] = useState(null);
@@ -51,11 +80,10 @@ export default function BouquetSection() {
               >
                 {/* Flower Image */}
                 <div className="relative overflow-hidden bg-pink-50" style={{ height: '220px' }}>
-                  <img
+                  <FallbackImage
                     src={flower.flowerImg}
                     alt={flower.name}
-                    loading="lazy"
-                    decoding="async"
+                    seed={flower.id}
                     className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex flex-col justify-end p-4 text-white">
@@ -112,7 +140,7 @@ export default function BouquetSection() {
                       : 'border-gray-200 opacity-40 grayscale'
                   }`}
                 >
-                  <img src={flower.flowerImg} alt={flower.name} className="w-full h-full object-contain" loading="lazy" />
+                  <FallbackImage src={flower.flowerImg} alt={flower.name} seed={flower.id + 100} className="w-full h-full object-contain" />
                 </div>
               );
             })}
@@ -154,13 +182,13 @@ export default function BouquetSection() {
               {/* Side-by-Side Images */}
               <div className="grid grid-cols-2 bg-pink-100" style={{ height: '200px' }}>
                 <div className="h-full relative overflow-hidden">
-                  <img src={selectedFlower.flowerImg} alt={selectedFlower.name} className="w-full h-full object-contain" />
+                  <FallbackImage src={selectedFlower.flowerImg} alt={selectedFlower.name} seed={selectedFlower.id + 200} className="w-full h-full object-contain" />
                   <span className="absolute bottom-2 left-2 bg-black/60 text-white text-[11px] px-2 py-0.5 rounded-full font-bold">
                     Luxury Bouquet
                   </span>
                 </div>
                 <div className="h-full relative overflow-hidden">
-                  <img src={selectedFlower.herImg} alt="Mero Bebo" className="w-full h-full object-contain" />
+                  <FallbackImage src={selectedFlower.herImg} alt="Mero Bebo" seed={selectedFlower.id + 300} className="w-full h-full object-contain" />
                   <span className="absolute bottom-2 left-2 bg-rose-500 text-white text-[11px] px-2 py-0.5 rounded-full font-bold">
                     Mero Bebo ❤️
                   </span>

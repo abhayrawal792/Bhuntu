@@ -1,5 +1,5 @@
 import React, { useState, lazy, Suspense } from 'react';
-import { HashRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import LoadingScreen from './components/LoadingScreen';
 import RouteGuard from './components/RouteGuard';
 import Navbar from './components/Navbar';
@@ -8,6 +8,20 @@ import EasterEggModal from './components/EasterEggModal';
 import PersonalGiftLayer from './components/PersonalGiftLayer';
 import IndependentPageStage from './components/IndependentPageStage';
 import JourneyPulse from './components/JourneyPulse';
+import RouteErrorBoundary from './components/RouteErrorBoundary';
+
+/**
+ * Feeds the current location into the route-level error boundary so that a
+ * failed lazy chunk can reload the exact page the visitor was on.
+ */
+function LocationAwareErrorBoundary({ children }) {
+  const { pathname } = useLocation();
+  return (
+    <RouteErrorBoundary key={pathname} currentPath={window.location.href}>
+      {children}
+    </RouteErrorBoundary>
+  );
+}
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const CuratedJourneyPage = lazy(() => import('./pages/CuratedJourneyPage'));
@@ -392,6 +406,7 @@ function MainAppContent() {
         </div>
       </div>
     }>
+                <LocationAwareErrorBoundary>
                 <IndependentPageStage>
                 <Routes>
               {/* -- Named routes -- */}
@@ -726,6 +741,7 @@ function MainAppContent() {
               </Routes>
                 </IndependentPageStage>
               <PersonalGiftLayer />
+              </LocationAwareErrorBoundary>
               </Suspense>
           </main>
 
