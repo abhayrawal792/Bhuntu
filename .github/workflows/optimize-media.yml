@@ -115,3 +115,22 @@ jobs:
           else
             echo "nothing to commit"
           fi
+
+  audit:
+    name: Static SEO & accessibility audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies & build
+        run: |
+          corepack enable 2>/dev/null || true
+          npm install -g pnpm
+          pnpm install --frozen-lockfile 2>/dev/null || pnpm install
+          pnpm build
+      - name: Run static SEO/a11y audit
+        run: node scripts/audit-seo-static.mjs
