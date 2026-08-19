@@ -95,7 +95,7 @@ if (/disallow:\s*\/\s*$/i.test(robots)) {
 const assetRefs = [...index.matchAll(/(src|href)="([^"]+(?:\.js|\.css|\.svg|\.png|\.ico))"/g)].map(([, , ref]) => ref);
 for (const ref of assetRefs) {
   // Strip the deployment base path (e.g. /runchii/) when resolving to disk.
-  const base = '/runchii/';
+  const base = '/Bhuntu/';
   let relative = ref.startsWith('/') ? ref.slice(1) : ref;
   if (relative.startsWith(base.slice(1))) relative = relative.slice(base.length - 1);
   const target = path.join(distDir, relative);
