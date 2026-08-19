@@ -31,4 +31,4 @@ if (fs.existsSync(path.join(dist, 'all_media'))) {
   fs.rmSync(path.join(root, 'all_media'), { recursive: true, force: true });
   fs.cpSync(path.join(dist, 'all_media'), path.join(root, 'all_media'), { recursive: true });
 }
-console.log('Production artifacts refreshed at repository root for legacy GitHub Pages.');
+fs.rmSync(path.join(root, '404.html'), { force: true }); fs.cpSync(path.join(dist, '404.html'), path.join(root, '404.html')); console.log('Production artifacts refreshed at repository root for legacy GitHub Pages.');
