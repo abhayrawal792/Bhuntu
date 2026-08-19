@@ -1,0 +1,98 @@
+name: Optimize newly uploaded media
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'all_media/**'
+      - 'public/all_media/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: optimize-media
+  cancel-in-progress: true
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image tooling
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+      - name: Compress changed media files
+        run: |
+          # Find files changed in this push (added or modified images/videos)
+          CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E '\.(jpe?g|png|mp4|webm)$' | grep -i 'all_media' || true)
+          echo "changed media files: $CHANGED"
+          if [ -z "$CHANGED" ]; then
+            # workflow_dispatch or no media changes: optimize everything once
+            CHANGED=$(git ls-files | grep -E 'all_media/.*\.(jpe?g|png|mp4|webm)$' || true)
+          fi
+          mkdir -p /tmp/changed_files
+          for f in $CHANGED; do
+            [ -f "$f" ] || continue
+            cp --parents "$f" /tmp/changed_files/ 2>/dev/null || cp "$f" /tmp/changed_files/
+          done
+          cat > /tmp/opt.py <<'PYEOF'
+          import os, sys, glob
+          from PIL import Image
+          base = sys.argv[1]
+          targets = []
+          for root, _, files in os.walk(base):
+              for name in files:
+                  if name.lower().endswith(('.jpg', '.jpeg', '.png')):
+                      targets.append(os.path.join(root, name))
+          print(f"optimizing {len(targets)} images")
+          for path in sorted(targets):
+              with Image.open(path) as im:
+                  im = im.convert('RGB')
+                  if max(im.size) > 1440:
+                      ratio = 1440 / max(im.size)
+                      im = im.resize((round(im.width * ratio), round(im.height * ratio)), Image.LANCZOS)
+                  tmp = path + '.opt'
+                  im.save(tmp, 'JPEG', quality=82, subsampling=2, optimize=True, progressive=True)
+              os.replace(tmp, path)
+          print("images done")
+          PYEOF
+          python /tmp/opt.py /tmp/changed_files
+          # Compress any mp4s (skip unchanged-size ones)
+          find /tmp/changed_files -iname '*.mp4' | while read -r f; do
+            before=$(stat -c%s "$f")
+            ffmpeg -y -loglevel error -i "$f" -c:v libx264 -preset slow -crf 28 \
+              -pix_fmt yuv420p -profile:v main -vf "scale='min(1280,iw)':-2" \
+              -c:a aac -b:a 64k -movflags +faststart "${f}.tmp.mp4"
+            after=$(stat -c%s "${f}.tmp.mp4")
+            [ "$after" -lt "$before" ] && mv "${f}.tmp.mp4" "$f" || rm -f "${f}.tmp.mp4"
+          done
+          echo "videos done"
+          # Copy optimized files back into BOTH locations so repo and public stay identical
+          for f in $(find /tmp/changed_files -type f | sed 's|/tmp/changed_files/||'); do
+            [ -e "$f" ] || continue
+            mkdir -p "$(dirname "$f")"
+            cp "/tmp/changed_files/$f" "$f"
+            alt="public/$f"
+            if [ -e "$alt" ]; then cp "/tmp/changed_files/$f" "$alt"; fi
+            alt2="dist/$f"
+            if [ -e "$alt2" ]; then cp "/tmp/changed_files/$f" "$alt2"; fi
+          done
+      - name: Commit and push optimized media
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "chore(actions): auto-optimize newly uploaded media files [skip ci]"
+            git push
+          else
+            echo "nothing to commit"
+          fi
