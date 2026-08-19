@@ -129,7 +129,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           corepack enable 2>/dev/null || true
-          npm install -g pnpm
+          npm install -g pnpm --force >/dev/null 2>&1 || npm install -g pnpm --force >/dev/null 2>&1 || true
           pnpm install --frozen-lockfile 2>/dev/null || pnpm install
           pnpm build
       - name: Run static SEO/a11y audit
