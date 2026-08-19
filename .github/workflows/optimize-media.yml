@@ -66,13 +66,13 @@ jobs:
           PYEOF
           python /tmp/opt.py /tmp/changed_files
           # Compress any mp4s (skip unchanged-size ones)
-          find /tmp/changed_files -iname '*.mp4' | while read -r f; do
+          find /tmp/changed_files -iname '*.mp4' -print0 | while IFS= read -r -d '' f; do
             before=$(stat -c%s "$f")
             ffmpeg -y -loglevel error -i "$f" -c:v libx264 -preset slow -crf 28 \
-              -pix_fmt yuv420p -profile:v main -vf "scale='min(1280,iw)':-2" \
+              -pix_fmt yuv420p -profile:v main -vf 'scale=w=min(iw\,1280):h=-2' \
               -c:a aac -b:a 64k -movflags +faststart "${f}.tmp.mp4"
             after=$(stat -c%s "${f}.tmp.mp4")
-            [ "$after" -lt "$before" ] && mv "${f}.tmp.mp4" "$f" || rm -f "${f}.tmp.mp4"
+            if [ "$after" -lt "$before" ]; then mv "${f}.tmp.mp4" "$f"; else rm -f "${f}.tmp.mp4"; fi
           done
           echo "videos done"
           # Copy optimized files back into BOTH locations so repo and public stay identical
