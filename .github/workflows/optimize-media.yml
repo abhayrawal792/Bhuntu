@@ -44,8 +44,9 @@ jobs:
             cp --parents "$f" /tmp/changed_files/ 2>/dev/null || cp "$f" /tmp/changed_files/
           done
           cat > /tmp/opt.py <<'PYEOF'
-          import os, sys, glob
-          from PIL import Image
+          import os, sys
+          from PIL import Image, ImageFile
+          ImageFile.LOAD_TRUNCATED_IMAGES = True
           base = sys.argv[1]
           targets = []
           for root, _, files in os.walk(base):
@@ -54,27 +55,45 @@ jobs:
                       targets.append(os.path.join(root, name))
           print(f"optimizing {len(targets)} images")
           for path in sorted(targets):
-              with Image.open(path) as im:
-                  im = im.convert('RGB')
-                  if max(im.size) > 1440:
-                      ratio = 1440 / max(im.size)
-                      im = im.resize((round(im.width * ratio), round(im.height * ratio)), Image.LANCZOS)
-                  tmp = path + '.opt'
-                  im.save(tmp, 'JPEG', quality=82, subsampling=2, optimize=True, progressive=True)
-              os.replace(tmp, path)
+              try:
+                  with Image.open(path) as im:
+                      im = im.convert('RGB')
+                      if max(im.size) > 1440:
+                          ratio = 1440 / max(im.size)
+                          im = im.resize((round(im.width * ratio), round(im.height * ratio)), Image.LANCZOS)
+                      tmp = path + '.opt'
+                      im.save(tmp, 'JPEG', quality=82, subsampling=2, optimize=True, progressive=True)
+                  os.replace(tmp, path)
+              except Exception as e:
+                  print(f"SKIP image {path}: {e}")
           print("images done")
           PYEOF
           python /tmp/opt.py /tmp/changed_files
-          # Compress any mp4s (skip unchanged-size ones)
+          # Compress any mp4s (skip unchanged-size ones); -nostdin + stats_periodic prevent CI hangs
+          cat > /tmp/opt_vid.sh <<'VDEOF'
+          set -u
           find /tmp/changed_files -iname '*.mp4' -print0 | while IFS= read -r -d '' f; do
             before=$(stat -c%s "$f")
-            ffmpeg -y -loglevel error -i "$f" -c:v libx264 -preset slow -crf 28 \
-              -pix_fmt yuv420p -profile:v main -vf 'scale=w=min(iw\,1280):h=-2' \
-              -c:a aac -b:a 64k -movflags +faststart "${f}.tmp.mp4"
-            after=$(stat -c%s "${f}.tmp.mp4")
-            if [ "$after" -lt "$before" ]; then mv "${f}.tmp.mp4" "$f"; else rm -f "${f}.tmp.mp4"; fi
+            echo "compressing: ${f#/tmp/changed_files/} (${before} bytes)"
+            if ffmpeg -nostdin -y -loglevel error -stats_periodic 15 \
+                -i "$f" -c:v libx264 -preset fast -crf 28 \
+                -pix_fmt yuv420p -profile:v main -vf 'scale=w=min(iw\,1280):h=-2' \
+                -c:a aac -b:a 64k -movflags +faststart "${f}.tmp.mp4"; then
+              after=$(stat -c%s "${f}.tmp.mp4" 2>/dev/null || echo 0)
+              if [ "$after" -gt 0 ] && [ "$after" -lt "$before" ]; then
+                mv "${f}.tmp.mp4" "$f"
+                echo "saved: ${f#/tmp/changed_files/} -> ${after} bytes"
+              else
+                rm -f "${f}.tmp.mp4"
+              fi
+            else
+              rm -f "${f}.tmp.mp4"
+              echo "SKIP (encode failed): ${f#/tmp/changed_files/}"
+            fi
           done
           echo "videos done"
+          VDEOF
+          bash /tmp/opt_vid.sh
           # Copy optimized files back into BOTH locations so repo and public stay identical
           for f in $(find /tmp/changed_files -type f | sed 's|/tmp/changed_files/||'); do
             [ -e "$f" ] || continue
