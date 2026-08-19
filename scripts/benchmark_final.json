@@ -1,0 +1,58 @@
+[
+ {
+  "page": "/",
+  "bytes": 308,
+  "reqs": 8,
+  "responseEnd": 5,
+  "render_ms": 816
+ },
+ {
+  "page": "/gallery",
+  "bytes": 36032289,
+  "reqs": 28,
+  "responseEnd": 4,
+  "render_ms": 402
+ },
+ {
+  "page": "/video",
+  "bytes": 1929910,
+  "reqs": 13,
+  "responseEnd": 13,
+  "render_ms": 402
+ },
+ {
+  "page": "/bouquet",
+  "bytes": 1307109,
+  "reqs": 11,
+  "responseEnd": 6,
+  "render_ms": 402
+ },
+ {
+  "page": "/letter",
+  "bytes": 527826,
+  "reqs": 8,
+  "responseEnd": 4,
+  "render_ms": 402
+ },
+ {
+  "page": "/gift",
+  "bytes": 406354,
+  "reqs": 9,
+  "responseEnd": 4,
+  "render_ms": 403
+ },
+ {
+  "page": "/room/1",
+  "bytes": 160834,
+  "reqs": 11,
+  "responseEnd": 6,
+  "render_ms": 401
+ },
+ {
+  "page": "/memory-wall",
+  "bytes": 809993,
+  "reqs": 9,
+  "responseEnd": 5,
+  "render_ms": 402
+ }
+]
