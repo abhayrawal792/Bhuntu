@@ -5,7 +5,7 @@ Scanned **312 registered routes** and mapped them to 312 page files. The audit i
 | Measure | Count |
 |---|---:|
 | Routes scanned | 312 |
-| Pages with game signals | 61 |
+| Pages with game signals | 55 |
 | Pages with gift signals | 122 |
 | Pages with romantic/personal signals | 277 |
 | Pages with memory/story signals | 155 |

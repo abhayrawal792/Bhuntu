@@ -7,6 +7,9 @@ const pageDir = path.join(root, 'src', 'pages');
 const auditDir = path.join(root, 'audit');
 fs.mkdirSync(auditDir, { recursive: true });
 
+// Landing and utility routes are never games, even if their text mentions one
+// (e.g. the home page links to the games shelf, the journey says "not game by game").
+const landingRoutes = new Set(['/', '/curated-journey', '/story', '/ring', '/bonus-arcade', '/games-arcade']);
 const routes = [...app.matchAll(/<Route\s+path="([^"]+)"\s+element={<([A-Za-z0-9_]+)\s*\/>}/g)].map(([, route, component]) => ({ route, component }));
 const pageFiles = new Map(fs.readdirSync(pageDir).filter((file) => file.endsWith('.jsx')).map((file) => [file.replace(/\.jsx$/, ''), file]));
 const categories = {
@@ -32,7 +35,7 @@ const rows = routes.map(({ route, component }, index) => {
   return {
     pageNumber: String(index + 1).padStart(3, '0'), route, component, file: file ?? '', sourceBytes: Buffer.byteLength(source),
     categories: categoriesFound.join('|'), mechanics: mechanics.join('|'), imports, fingerprint,
-    hasGame: categoriesFound.includes('game'), hasGift: categoriesFound.includes('gift'), hasRomance: categoriesFound.includes('romance'), hasMemory: categoriesFound.includes('memory'), hasSurprise: categoriesFound.includes('surprise'),
+    hasGame: !landingRoutes.has(route) && categoriesFound.includes('game'), hasGift: categoriesFound.includes('gift'), hasRomance: categoriesFound.includes('romance'), hasMemory: categoriesFound.includes('memory'), hasSurprise: categoriesFound.includes('surprise'),
   };
 });
 
